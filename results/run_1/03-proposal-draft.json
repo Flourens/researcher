@@ -1,0 +1,238 @@
+{
+  "proposalMetadata": {
+    "grantTitle": "Другий конкурс інноваційних досліджень для розробки генеративних AI моделей (FFplus)",
+    "organization": "Fortissimo Plus (FFplus), EuroHPC Joint Undertaking",
+    "applicant": "[To be determined - requires SME/startup status]",
+    "consortium": {
+      "leadBeneficiary": "[Ukrainian SME/Startup - to be identified]",
+      "partners": [
+        {
+          "organization": "[Research organization with HPC expertise]",
+          "role": "Technical partner - HPC and AI/ML expertise",
+          "contribution": "LLM model development, training on EuroHPC resources"
+        }
+      ],
+      "note": "Консорціум необхідний через вимогу МСП статусу"
+    },
+    "submissionDate": "2026-02-25T17:00:00+01:00",
+    "proposalVersion": "DRAFT v0.1",
+    "status": "Template/Placeholder - requires full development"
+  },
+  "executiveSummary": {
+    "title": "[Project Title - to be determined based on specific use case]",
+    "abstract": "Placeholder: Короткий опис проєкту (максимум 250 слів). Має включати: (1) проблему, яку вирішуємо, (2) інноваційне рішення на базі генеративного AI, (3) використання EuroHPC ресурсів, (4) очікувані результати, (5) комерційний потенціал.",
+    "keywords": ["generative AI", "LLM", "EuroHPC", "[domain-specific keywords]"],
+    "requestedFunding": {
+      "amount": 120000,
+      "currency": "EUR",
+      "note": "Середнє значення в діапазоні €60,000-€150,000"
+    },
+    "duration": "18 months",
+    "startDate": "[To be determined after approval]"
+  },
+  "projectDescription": {
+    "problemStatement": {
+      "description": "Placeholder: Детальний опис проблеми або opportunity. Що саме потребує вирішення? Чому існуючі рішення недостатні?",
+      "marketContext": "Placeholder: Контекст ринку, розмір, тренди, pain points клієнтів",
+      "currentLimitations": "Placeholder: Обмеження поточних підходів або рішень"
+    },
+    "proposedSolution": {
+      "overview": "Placeholder: Огляд запропонованого AI рішення",
+      "innovation": "Placeholder: Що інноваційного в цьому підході? Чим відрізняється від існуючого?",
+      "generativeAIComponent": {
+        "modelType": "Placeholder: LLM, foundation model, multimodal model, etc.",
+        "architecture": "Placeholder: Технічна архітектура (Transformer-based, specific architecture)",
+        "trainingApproach": "Placeholder: Pre-training, fine-tuning, RAG, instruction tuning, etc.",
+        "useOfEuroHPC": "Placeholder: Як саме будуть використані EuroHPC ресурси для training/inference"
+      }
+    },
+    "objectives": [
+      {
+        "objective": "Objective 1",
+        "description": "Placeholder: Специфічний, вимірний, досяжний objective",
+        "successCriteria": "Placeholder: Як будемо вимірювати успіх?"
+      },
+      {
+        "objective": "Objective 2",
+        "description": "Placeholder",
+        "successCriteria": "Placeholder"
+      },
+      {
+        "objective": "Objective 3",
+        "description": "Placeholder",
+        "successCriteria": "Placeholder"
+      }
+    ]
+  },
+  "technicalApproach": {
+    "methodology": {
+      "overview": "Placeholder: Загальна технічна методологія",
+      "phases": [
+        {
+          "phase": "Phase 1: Data preparation and infrastructure setup",
+          "duration": "Months 1-3",
+          "activities": "Placeholder: Dataset collection/curation, EuroHPC access setup, infrastructure preparation",
+          "deliverables": "Placeholder: Training dataset, development environment"
+        },
+        {
+          "phase": "Phase 2: Model development and training",
+          "duration": "Months 4-10",
+          "activities": "Placeholder: Model architecture selection, training on EuroHPC, iterative refinement",
+          "deliverables": "Placeholder: Trained model, performance benchmarks"
+        },
+        {
+          "phase": "Phase 3: Validation and optimization",
+          "duration": "Months 11-14",
+          "activities": "Placeholder: Model evaluation, fine-tuning, optimization for production",
+          "deliverables": "Placeholder: Validated model, optimization report"
+        },
+        {
+          "phase": "Phase 4: Pilot deployment and commercialization prep",
+          "duration": "Months 15-18",
+          "activities": "Placeholder: Pilot with customers, feedback integration, go-to-market preparation",
+          "deliverables": "Placeholder: Pilot results, commercial product, business metrics"
+        }
+      ]
+    },
+    "dataStrategy": {
+      "trainingData": "Placeholder: Опис навчальних даних - джерела, розмір, якість, licensing",
+      "dataPreparation": "Placeholder: Процес підготовки даних - cleaning, annotation, augmentation",
+      "dataManagement": "Placeholder: Управління даними - storage, version control, compliance with GDPR"
+    },
+    "computationalRequirements": {
+      "euroHPCResources": {
+        "system": "Placeholder: Specific EuroHPC system(s) to be used",
+        "computeHours": "Placeholder: Estimated GPU/CPU hours needed",
+        "justification": "Placeholder: Обґрунтування потреби в HPC resources"
+      },
+      "additionalResources": "Placeholder: Інші обчислювальні ресурси (local GPU clusters, cloud)"
+    },
+    "riskManagement": {
+      "technicalRisks": [
+        {
+          "risk": "Placeholder: Technical risk 1",
+          "probability": "medium/high/low",
+          "impact": "medium/high/low",
+          "mitigation": "Placeholder: Mitigation strategy"
+        }
+      ]
+    }
+  },
+  "businessCase": {
+    "marketAnalysis": {
+      "targetMarket": "Placeholder: Опис цільового ринку",
+      "marketSize": "Placeholder: Розмір ринку (TAM, SAM, SOM)",
+      "marketTrends": "Placeholder: Ключові тренди та drivers зростання",
+      "targetCustomers": "Placeholder: Профіль цільових клієнтів"
+    },
+    "competitiveAnalysis": {
+      "competitors": "Placeholder: Аналіз 3-5 головних конкурентів",
+      "competitiveAdvantage": "Placeholder: Унікальна value proposition, чим кращі за конкурентів"
+    },
+    "businessModel": {
+      "revenueStreams": "Placeholder: Моделі монетизації (SaaS, licensing, services, etc.)",
+      "pricingStrategy": "Placeholder: Цінова стратегія",
+      "goToMarket": "Placeholder: Стратегія виходу на ринок, sales channels"
+    },
+    "financialProjections": {
+      "year1": "Placeholder: Revenue, costs, customers",
+      "year2": "Placeholder",
+      "year3": "Placeholder",
+      "assumptions": "Placeholder: Key assumptions для financial model"
+    }
+  },
+  "impact": {
+    "economicImpact": "Placeholder: Очікуваний економічний вплив - створення робочих місць, revenue, contribution to GDP",
+    "socialImpact": "Placeholder: Соціальний вплив - як це benefits суспільству",
+    "environmentalImpact": "Placeholder: Екологічний вплив або sustainability considerations",
+    "scientificImpact": "Placeholder: Внесок у розвиток науки та технологій"
+  },
+  "team": {
+    "leadership": [
+      {
+        "name": "Placeholder",
+        "role": "Project Lead / CEO",
+        "expertise": "Placeholder: Релевантний досвід",
+        "cv": "Placeholder: Short CV or link to full CV"
+      }
+    ],
+    "technicalTeam": [
+      {
+        "name": "Placeholder",
+        "role": "AI/ML Lead",
+        "expertise": "Placeholder: Expertise in LLM, deep learning, etc.",
+        "cv": "Placeholder"
+      },
+      {
+        "name": "Placeholder",
+        "role": "HPC Engineer",
+        "expertise": "Placeholder: HPC expertise, experience with EuroHPC or similar",
+        "cv": "Placeholder"
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Placeholder",
+        "role": "Business Advisor",
+        "expertise": "Placeholder: Commercialization, go-to-market",
+        "cv": "Placeholder"
+      }
+    ]
+  },
+  "budget": {
+    "totalBudget": 120000,
+    "currency": "EUR",
+    "breakdown": [
+      {
+        "category": "Personnel costs",
+        "amount": 60000,
+        "justification": "Placeholder: Salaries для core team members"
+      },
+      {
+        "category": "EuroHPC computing costs",
+        "amount": 25000,
+        "justification": "Placeholder: GPU hours for model training"
+      },
+      {
+        "category": "Data acquisition and preparation",
+        "amount": 15000,
+        "justification": "Placeholder: Dataset licensing, annotation services"
+      },
+      {
+        "category": "Software licenses and tools",
+        "amount": 8000,
+        "justification": "Placeholder: Development tools, frameworks, libraries"
+      },
+      {
+        "category": "Travel and dissemination",
+        "amount": 5000,
+        "justification": "Placeholder: Conferences, meetings, marketing"
+      },
+      {
+        "category": "Other costs",
+        "amount": 7000,
+        "justification": "Placeholder: Contingency, miscellaneous"
+      }
+    ],
+    "coFinancing": {
+      "euContribution": 60000,
+      "percentage": 50,
+      "ownContribution": 60000,
+      "ownContributionSource": "Placeholder: Джерело co-financing"
+    }
+  },
+  "ethics": {
+    "aiEthics": "Placeholder: Як проєкт дотримується EU AI Act та етичних принципів AI",
+    "dataPrivacy": "Placeholder: GDPR compliance, data protection measures",
+    "transparency": "Placeholder: Прозорість AI systems, explainability",
+    "bias": "Placeholder: Управління bias в AI models, fairness considerations",
+    "safety": "Placeholder: Safety considerations для AI deployment"
+  },
+  "dissemination": {
+    "publications": "Placeholder: План наукових публікацій",
+    "conferences": "Placeholder: Participation в conferences, workshops",
+    "openSource": "Placeholder: Open-source contributions (якщо застосовно)",
+    "industrialOutreach": "Placeholder: Dissemination до індустрії, white papers, case studies"
+  },
+  "note": "ЦЕЙ ФАЙЛ Є ШАБЛОНОМ/PLACEHOLDER. Для реальної заявки необхідно:\n1. Визначити конкретний use case для генеративного AI\n2. Вирішити проблему МСП статусу (консорціум або спін-оф)\n3. Заповнити всі секції детальною інформацією\n4. Розробити realistic technical plan\n5. Створити compelling business case\n6. Prepare detailed budget\n7. Забезпечити відповідність всім evaluation criteria (Excellence, Impact, Implementation)\n\nРекомендується використати professional grant writer або consultant для фіналізації proposal."
+}

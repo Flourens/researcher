@@ -1,0 +1,547 @@
+{
+  "grantTitle": "Другий конкурс інноваційних досліджень для розробки генеративних AI моделей (FFplus)",
+  "organization": "Fortissimo Plus (FFplus), EuroHPC Joint Undertaking",
+  "evaluationDate": "2026-02-10",
+  "version": "CORRECTED - v2.0",
+  "correctionNote": "Виправлено критичну помилку щодо прийнятності України. Україна ОФІЦІЙНО є асоційованою країною Digital Europe Programme і українські організації МОЖУТЬ подавати заявки на EuroHPC гранти.",
+  "overallChance": 35,
+  "previousOverallChance": 15,
+  "changeReason": "Виправлено географічну прийнятність: Україна є асоційованою країною, що підвищує шанси з 15% до 35%. Основна проблема - відсутність статусу МСП/стартапу.",
+  "matchScore": 45,
+  "previousMatchScore": 35,
+  "feasibilityScore": 35,
+  "competitivenessScore": 30,
+  "shouldApply": false,
+  "shouldApplyReason": "НІ - але з іншої причини, ніж раніше. Географічна прийнятність ПІДТВЕРДЖЕНА (Україна є асоційованою країною). Однак організація НЕ є МСП або стартапом, що є КРИТИЧНОЮ вимогою гранту. МОЖЛИВЕ РІШЕННЯ: створення консорціуму з українським МСП як lead partner.",
+  "eligibilityCheck": {
+    "eligible": false,
+    "overallStatus": "ЧАСТКОВО ПРИЙНЯТНИЙ - потребує структурних змін",
+    "reasons": [
+      "✅ Географічна прийнятність: Україна є асоційованою країною Digital Europe Programme з 2023 року",
+      "✅ Офіційно підтверджено: Ukrainian organizations CAN apply for EuroHPC grants and FFplus innovation studies",
+      "✅ Доступ до програми: Україна має повний доступ до Digital Europe Programme, включаючи EuroHPC ініціативи",
+      "❌ КРИТИЧНА ПРОБЛЕМА: Організація НЕ є МСП або стартапом відповідно до визначення ЄС",
+      "❌ Вимога МСП: Обов'язковий критерій для FFplus innovation studies - заявник повинен бути МСП або стартапом",
+      "⚠️ МОЖЛИВЕ РІШЕННЯ: Створити консорціум з українським МСП як головним заявником (lead beneficiary)",
+      "⚠️ АЛЬТЕРНАТИВА: Розглянути створення спін-оф компанії зі статусом стартапу"
+    ],
+    "criticalIssues": [
+      {
+        "issue": "Відсутність статусу МСП/стартапу",
+        "severity": "CRITICAL",
+        "impact": "Блокує подання заявки від імені поточної організації",
+        "solution": "Партнерство з українським МСП або створення спін-оф",
+        "effort": "HIGH"
+      }
+    ],
+    "organizationalStatus": {
+      "isSME": false,
+      "isStartup": false,
+      "currentType": "Дослідницька/освітня організація або велике підприємство",
+      "requiredType": "МСП (менше 250 співробітників, оборот до €50 млн) або стартап",
+      "gap": "Невідповідність організаційно-правової форми"
+    },
+    "geographicStatus": {
+      "country": "Україна",
+      "isEligible": true,
+      "status": "Асоційована країна Digital Europe Programme",
+      "since": "2023",
+      "note": "Повний доступ до Digital Europe Programme, включаючи EuroHPC ініціативи"
+    }
+  },
+  "strengths": [
+    {
+      "area": "Географічна прийнятність",
+      "impact": "high",
+      "score": 10,
+      "description": "Україна офіційно є асоційованою країною Digital Europe Programme з 2023 року, що надає повний доступ до програми, включаючи EuroHPC гранти та FFplus innovation studies. Це усуває попередню критичну проблему з географічною неприйнятністю.",
+      "evidence": "Офіційна документація EuroHPC та Digital Europe Programme підтверджує прийнятність українських організацій"
+    },
+    {
+      "area": "Експертиза в High Performance Computing",
+      "impact": "high",
+      "score": 9,
+      "description": "Сильна експертиза в HPC є критично важливою для FFplus, оскільки проєкт ОБОВ'ЯЗКОВО повинен використовувати EuroHPC ресурси. Досвід роботи з NRFU та потужними обчислювальними кластерами є значною конкурентною перевагою.",
+      "technicalCapabilities": [
+        "Досвід роботи з HPC кластерами",
+        "Розуміння паралелізації обчислень",
+        "Знання оптимізації для GPU/TPU",
+        "Досвід з SLURM та іншими job schedulers"
+      ]
+    },
+    {
+      "area": "Наукова репутація та публікації",
+      "impact": "medium-high",
+      "score": 7,
+      "description": "Сильна наукова база з публікаціями в топових конференціях (NeurIPS, ICLR, ICML) демонструє технічну експертизу та якість досліджень, що важливо для критерію Excellence.",
+      "note": "Це є перевагою для технічної частини, хоча грант фокусується на комерціалізації"
+    },
+    {
+      "area": "Досвід з фундаментальними ML технологіями",
+      "impact": "medium",
+      "score": 6,
+      "description": "Експертиза в machine learning, deep learning, computer vision закладає хорошу базу для роботи з генеративними AI моделями. Знання архітектур (CNN, RNN, базові Transformers) полегшить освоєння сучасних LLM.",
+      "transferableSkills": [
+        "Розуміння neural network архітектур",
+        "Досвід з training pipelines",
+        "Знання evaluation metrics",
+        "Робота з великими датасетами"
+      ]
+    },
+    {
+      "area": "Потенціал для швидкого навчання",
+      "impact": "medium",
+      "score": 6,
+      "description": "Маючи фундаментальну ML експертизу та доступ до HPC ресурсів, команда має хороший потенціал для швидкого освоєння специфіки генеративних AI моделей (особливо LLM та foundation models).",
+      "learningPath": [
+        "Вивчення Transformer архітектури в деталях",
+        "Освоєння техніки pre-training та fine-tuning",
+        "Робота з frameworks (HuggingFace, PyTorch)",
+        "Вивчення RLHF та alignment методів"
+      ]
+    }
+  ],
+  "weaknesses": [
+    {
+      "area": "Організаційно-правова форма",
+      "severity": "critical",
+      "score": 0,
+      "description": "Організація НЕ є МСП або стартапом, що є обов'язковою вимогою для FFplus innovation studies. Це БЛОКУЮЧА проблема для подання заявки від імені поточної організації.",
+      "impact": "Без зміни структури (партнерство з МСП або створення спін-оф) подання заявки неможливе",
+      "solutions": [
+        {
+          "option": "Консорціум з українським МСП",
+          "description": "Знайти українське МСП зі статусом startup/SME як lead beneficiary, ваша організація - як partner",
+          "pros": "Швидке рішення, використання існуючої експертизи",
+          "cons": "МСП отримує грант, потрібна довіра та чіткі угоди",
+          "timeline": "1-2 місяці на пошук партнера та узгодження",
+          "feasibility": "medium-high"
+        },
+        {
+          "option": "Створення спін-оф компанії",
+          "description": "Створити стартап на базі вашої команди для комерціалізації AI технологій",
+          "pros": "Повний контроль, довгострокова перспектива комерціалізації",
+          "cons": "Потребує часу, юридичних процедур, може бути складно до дедлайну",
+          "timeline": "2-3 місяці для створення та реєстрації",
+          "feasibility": "medium (tight на дедлайн 25 лютого)"
+        }
+      ]
+    },
+    {
+      "area": "Відсутність досвіду з генеративним AI",
+      "severity": "critical",
+      "score": 2,
+      "description": "Немає практичного досвіду з LLM, foundation models, генеративними моделями, що є ЦЕНТРАЛЬНОЮ вимогою гранту. Досвід з класичним ML/DL недостатній для високої конкурентоспроможності.",
+      "gap": "Конкуренти мають реальний досвід тренування/fine-tuning LLM, роботи з моделями типу GPT, BERT, Llama, Stable Diffusion",
+      "mitigation": [
+        "Швидко реалізувати 2-3 пілотних проєкти з fine-tuning існуючих моделей",
+        "Пройти спеціалізовані курси (Hugging Face, DeepLearning.AI)",
+        "Залучити консультанта/співробітника з досвідом LLM",
+        "Створити демо проєкт для портфоліо"
+      ],
+      "timeToMitigate": "2-3 місяці інтенсивної роботи"
+    },
+    {
+      "area": "Відсутність комерційного досвіду",
+      "severity": "high",
+      "score": 3,
+      "description": "Немає досвіду комерціалізації технологій, роботи з клієнтами, виведення продуктів на ринок. Грант вимагає СИЛЬНОГО бізнес-кейсу з реалістичною стратегією комерціалізації (критерій Impact - 33.3%).",
+      "requiredForGrant": [
+        "Бізнес-план з аналізом ринку",
+        "Go-to-market стратегія",
+        "Ідентифікація цільових клієнтів",
+        "Pricing модель",
+        "Revenue прогнози",
+        "Competitive analysis"
+      ],
+      "mitigation": [
+        "Залучити бізнес-консультанта або ментора",
+        "Провести інтерв'ю з потенційними клієнтами",
+        "Вивчити успішні кейси комерціалізації AI",
+        "Знайти бізнес-партнера в консорціумі"
+      ]
+    },
+    {
+      "area": "Обмежена індустріальна мережа",
+      "severity": "medium-high",
+      "score": 4,
+      "description": "Відсутність усталених контактів з індустріальними партнерами, потенційними клієнтами B2B, що ускладнює демонстрацію ринкового попиту та шляхів комерціалізації.",
+      "impact": "Складність підтвердження market validation, отримання letters of intent від потенційних клієнтів",
+      "mitigation": [
+        "Активна участь в індустріальних events (AI conferences, startup events)",
+        "Networking з українським AI/tech спільнотою",
+        "Підключення до бізнес-інкубаторів",
+        "Пошук індустріальних партнерів через LinkedIn, conference"
+      ]
+    },
+    {
+      "area": "Відсутність попереднього досвіду з EuroHPC",
+      "severity": "medium",
+      "score": 5,
+      "description": "Немає попереднього досвіду подання заявок або роботи з EuroHPC JU, що може вплинути на якість заявки та розуміння специфічних очікувань.",
+      "mitigation": [
+        "Вивчити приклади успішних заявок (якщо доступні)",
+        "Проконсультуватися з українськими організаціями, що мають досвід з EuroHPC",
+        "Звернутися до National Competence Centre з HPC в Україні",
+        "Ознайомитися з evaluation guidelines детально"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "requirement": "Статус МСП або стартапу",
+      "status": "NOT MET - CRITICAL",
+      "severity": "blocking",
+      "description": "Організація не відповідає визначенню МСП ЄС (менше 250 співробітників, оборот до €50 млн) або стартапу",
+      "action": "ПОТРІБНО: створити консорціум з МСП або сформувати спін-оф компанію",
+      "priority": "HIGHEST",
+      "timeline": "1-2 місяці"
+    },
+    {
+      "requirement": "Досвід з генеративними AI моделями (LLM, foundation models)",
+      "status": "NOT MET - CRITICAL",
+      "severity": "high",
+      "description": "Відсутні практичні проєкти з LLM, досвід fine-tuning, роботи з prompt engineering, RLHF",
+      "action": "Терміново реалізувати 2-3 пілотних проєкти: fine-tuning LLM для українського NLP, створення domain-specific моделі, RAG систему",
+      "priority": "HIGHEST",
+      "timeline": "2-3 місяці",
+      "resources": "Доступ до GPU (можна локальні або cloud), HuggingFace resources, навчальні матеріали"
+    },
+    {
+      "requirement": "Бізнес-план та стратегія комерціалізації",
+      "status": "NOT MET",
+      "severity": "high",
+      "description": "Відсутній досвід створення бізнес-планів, market analysis, pricing strategy, go-to-market plan",
+      "action": "Розробити детальний бізнес-план для обраного AI use case з market research, competitive analysis, revenue model",
+      "priority": "HIGH",
+      "timeline": "1 місяць",
+      "resources": "Бізнес-консультант, ментор, шаблони бізнес-планів для tech startups"
+    },
+    {
+      "requirement": "Доступ до якісних training datasets",
+      "status": "PARTIALLY MET",
+      "severity": "medium",
+      "description": "Залежить від обраного use case. Для українського NLP - обмежена доступність великих якісних датасетів",
+      "action": "Ідентифікувати або створити plan збору/curation training data для конкретного використання",
+      "priority": "HIGH",
+      "timeline": "Залежить від use case",
+      "resources": "Час для data curation, можливо data labeling tools/services"
+    },
+    {
+      "requirement": "Contacts з індустріальними партнерами та потенційними клієнтами",
+      "status": "LIMITED",
+      "severity": "medium",
+      "description": "Обмежена мережа B2B контактів для validation market demand та отримання letters of support",
+      "action": "Активний networking, participation в AI events, establishing contacts з potential customers",
+      "priority": "MEDIUM-HIGH",
+      "timeline": "Ongoing, мінімум 1-2 місяці",
+      "resources": "Events registration, LinkedIn Premium, time для networking"
+    }
+  ],
+  "competitivenessAnalysis": {
+    "score": 30,
+    "explanation": "Конкурентоспроможність оцінюється як НИЗЬКА-СЕРЕДНЯ (30/100) через наступні фактори",
+    "advantages": [
+      "✅ Географічна прийнятність підтверджена (Україна - асоційована країна)",
+      "✅ Сильна HPC експертиза (критично для EuroHPC grants)",
+      "✅ Наукова репутація та публікації",
+      "✅ Фундаментальні ML/DL знання"
+    ],
+    "disadvantages": [
+      "❌ БЛОКЕР: Відсутність статусу МСП/стартапу",
+      "❌ Немає досвіду з генеративним AI (центральна вимога)",
+      "❌ Відсутність комерційного досвіду та track record",
+      "❌ Немає індустріальних партнерів та market validation",
+      "❌ Немає попереднього досвіду з EuroHPC grants"
+    ],
+    "typicalCompetitor": {
+      "profile": "Європейське AI стартап/МСП",
+      "characteristics": [
+        "Статус МСП/startup (обов'язково)",
+        "1-2 роки досвіду з LLM/генеративним AI",
+        "Наявні пілотні проєкти або MVP",
+        "Визначений use case з ринковою validation",
+        "Чітка target customer base",
+        "Індустріальні партнери або letters of support",
+        "Бізнес-план з realistic revenue projections",
+        "Можливо попередній досвід з EU grants"
+      ],
+      "howToCompete": "Необхідно швидко закрити gaps: сформувати МСП structure, набути практичний досвід з LLM, розробити strong business case, встановити індустріальні контакти"
+    },
+    "estimatedNumberOfApplicants": "50-100",
+    "estimatedFundingRate": "10-20% (5-20 проєктів)",
+    "successProbability": "15-20% якщо закрити критичні gaps (МСП статус, LLM досвід), інакше near 0%"
+  },
+  "recommendations": [
+    {
+      "priority": "CRITICAL - HIGHEST",
+      "category": "Організаційна структура",
+      "action": "ТЕРМІНОВО вирішити проблему статусу МСП",
+      "details": [
+        "ВАРІАНТ A (швидший): Знайти українське МСП/стартап партнера з AI/tech сфери для формування консорціуму",
+        "ВАРІАНТ B (довший): Створити спін-оф компанію зі статусом стартапу для комерціалізації AI технологій",
+        "Крок 1: Оцінити можливості обох варіантів за timeline (дедлайн 25 лютого)",
+        "Крок 2: Якщо консорціум - почати пошук партнерів НЕГАЙНО (Ukrainian AI community, startup hubs)",
+        "Крок 3: Якщо спін-оф - проконсультуватися з юристом щодо швидкого створення"
+      ],
+      "timeline": "1-2 тижні на прийняття рішення, потім 2-4 тижні на реалізацію",
+      "impact": "БЕЗ ЦЬОГО подання заявки неможливе"
+    },
+    {
+      "priority": "CRITICAL - HIGHEST",
+      "category": "Технічна експертиза",
+      "action": "ТЕРМІНОВО набути практичний досвід з LLM та генеративним AI",
+      "details": [
+        "Реалізувати 2-3 пілотних проєкти НЕГАЙНО (найближчі 1-1.5 місяці):",
+        "Проєкт 1: Fine-tune існуючу open-source LLM (Llama, Mistral) для українського тексту",
+        "Проєкт 2: Створити RAG (Retrieval-Augmented Generation) систему для domain-specific use case",
+        "Проєкт 3: Експериментувати з prompt engineering та instruction tuning",
+        "Документувати всі експерименти, результати, learnings - це буде частина proposal",
+        "Створити GitHub repo з кодом та документацією",
+        "Використати NRFU HPC ресурси для тренування"
+      ],
+      "timeline": "1-1.5 місяці інтенсивної роботи",
+      "impact": "Критично для демонстрації технічної спроможності в proposal",
+      "resources": "GPU доступ (NRFU або cloud credits), HuggingFace, frameworks"
+    },
+    {
+      "priority": "HIGH",
+      "category": "Бізнес-планування",
+      "action": "Розробити детальний бізнес-план та стратегію комерціалізації",
+      "details": [
+        "Обрати конкретний use case для генеративного AI з комерційним потенціалом (пріоритет українському контексту)",
+        "Провести market research: розмір ринку, зростання, конкуренти, ціноутворення",
+        "Ідентифікувати 3-5 потенційних клієнтів та провести інтерв'ю для validation",
+        "Розробити go-to-market strategy: sales channels, partnerships, pricing model",
+        "Створити фінансові прогнози: revenue, costs, break-even analysis",
+        "Залучити бізнес-ментора або консультанта для review та feedback"
+      ],
+      "timeline": "3-4 тижні",
+      "impact": "Критично для Impact критерію (33.3% evaluation)",
+      "resources": "Бізнес-консультант, market research tools, потенційні клієнти для інтерв'ю"
+    },
+    {
+      "priority": "HIGH",
+      "category": "Мережа та партнерства",
+      "action": "Встановити контакти з індустріальними партнерами та EuroHPC ecosystem",
+      "details": [
+        "З'єднатися з Ukrainian National Competence Centre для HPC (якщо існує)",
+        "Взяти участь в EuroHPC webinars, events для networking",
+        "Встановити контакти з українськими AI/ML стартапами та компаніями",
+        "Знайти потенційних індустріальних partners/clients для letters of support",
+        "Проконсультуватися з організаціями, що мають досвід з EuroHPC grants"
+      ],
+      "timeline": "Ongoing, мінімум 2-3 тижні active networking",
+      "impact": "Середньо-високий для strengthening proposal та market validation",
+      "resources": "Час для networking, participation в events"
+    },
+    {
+      "priority": "MEDIUM-HIGH",
+      "category": "Підготовка заявки",
+      "action": "Вивчити вимоги та evaluation criteria детально, підготувати proposal structure",
+      "details": [
+        "Детально вивчити FFplus call documentation та evaluation guidelines",
+        "Знайти та проаналізувати приклади успішних proposals (якщо доступні)",
+        "Створити outline proposal з усіма секціями",
+        "Зробити self-assessment за критеріями Excellence, Impact, Implementation",
+        "Identify weak points та розробити plan їх strengthening",
+        "Почати draft key sections (executive summary, technical approach, business case)"
+      ],
+      "timeline": "1-2 тижні для детального planning, потім ongoing writing",
+      "impact": "Високий для якості final proposal",
+      "resources": "Call documentation, evaluation guidelines, proposal templates"
+    }
+  ],
+  "risks": [
+    {
+      "risk": "Неможливість вирішити проблему статусу МСП до дедлайну",
+      "probability": "medium",
+      "impact": "critical",
+      "description": "Якщо не вдасться знайти МСП-партнера або створити спін-оф до дедлайну 25 лютого, подання заявки буде неможливим",
+      "mitigation": [
+        "НЕГАЙНО почати пошук потенційних МСП партнерів",
+        "Паралельно дослідити процес створення спін-оф компанії",
+        "Мати backup plan: відкласти подання на наступний call (якщо буде)",
+        "Розпочати підготовку вже зараз, щоб бути готовими до наступної можливості"
+      ]
+    },
+    {
+      "risk": "Недостатньо часу для набуття переконливого LLM досвіду",
+      "probability": "medium-high",
+      "impact": "high",
+      "description": "Дедлайн 25 лютого - це лише 2 тижні. Навіть з інтенсивною роботою складно продемонструвати глибокий LLM досвід",
+      "mitigation": [
+        "Фокус на якості, не кількості: 1-2 добре документовані проєкти краще за багато поверхневих",
+        "Використати існуючу HPC експертизу як differentiator",
+        "Можливо залучити external expert з LLM досвідом як консультанта/team member",
+        "Чесно визнати gaps, але показати strong learning plan та commitment"
+      ]
+    },
+    {
+      "risk": "Висока конкуренція з більш досвідченими AI стартапами",
+      "probability": "high",
+      "impact": "high",
+      "description": "Багато європейських AI startups мають роки досвіду з LLM, established products, customers",
+      "mitigation": [
+        "Знайти unique angle: українська мова NLP, specific domain expertise, novel application",
+        "Leverage HPC expertise як competitive advantage",
+        "Фокус на strong technical approach та realistic business plan",
+        "Визнати, що перша спроба може бути learning experience для майбутніх calls"
+      ]
+    }
+  ],
+  "reasoning": "ВИПРАВЛЕНА ОЦІНКА після correction географічної прийнятності:\n\nПОЗИТИВНІ ЗМІНИ:\n1. Україна ОФІЦІЙНО є асоційованою країною Digital Europe Programme, що робить українські організації ПРИЙНЯТНИМИ для EuroHPC grants\n2. Це усуває попередню блокуючу проблему географічної неприйнятності\n3. Наявність HPC досвіду стає significant advantage в контексті EuroHPC grants\n4. Overall chance підвищується з 15% до 35%, match score з 35% до 45%\n\nОДНАК ЗАЛИШАЄТЬСЯ КРИТИЧНА ПРОБЛЕМА:\n- Організація НЕ є МСП або стартапом - це ОБОВ'ЯЗКОВА вимога для FFplus innovation studies\n- Без зміни організаційної структури (консорціум з МСП або створення спін-оф) подання заявки неможливе\n\nЧОМУ 35% OVERALL CHANCE (не вище):\n1. Блокуюча проблема МСП статусу (можна вирішити через консорціум, але потребує часу та знайдення партнера)\n2. Відсутність практичного досвіду з генеративним AI/LLM (центральна вимога гранту)\n3. Немає комерційного досвіду та track record (Impact criteria - 33.3%)\n4. Обмежений час до дедлайну (25 лютого) для закриття критичних gaps\n5. Висока конкуренція з досвідченими AI startups\n\nЧОМУ НЕ НИЖЧЕ:\n1. Географічна прийнятність підтверджена (була critical blocker)\n2. Сильна HPC експертиза highly relevant для EuroHPC\n3. Solid science foundation та публікації\n4. Потенціал для швидкого освоєння LLM технологій\n5. Можливість сформувати консорціум з МСП (feasible solution)\n\nРЕКОМЕНДАЦІЯ: shouldApply = false ДЛЯ ЦЬОГО CALL, але з іншої причини ніж раніше:\n- НЕ через географію (Україна прийнятна!) \n- А через відсутність МСП статусу + insufficient time для якісної підготовки (2 тижні)\n\nАЛЬТЕРНАТИВНА СТРАТЕГІЯ:\n1. Використати наступні 2-3 місяці для:\n   - Вирішення проблеми МСП (консорціум або спін-оф)\n   - Набуття практичного LLM досвіду\n   - Розробки сильного бізнес-кейсу\n   - Встановлення індустріальних контактів\n2. Подати заявку на НАСТУПНИЙ call (якщо буде) з набагато вищими шансами (60-70%)\n3. Або подати на інші EuroHPC/EU AI grants, де вимоги МСП можуть бути іншими\n\nЦя виправлена оцінка значно більш оптимістична щодо довгострокових перспектив участі в EuroHPC програмах для української організації.",
+  "timeline": {
+    "deadline": "2026-02-25T17:00:00+01:00",
+    "daysRemaining": 15,
+    "feasibleForThisCall": false,
+    "reason": "Insufficient time для вирішення критичної проблеми МСП статусу та набуття необхідного LLM досвіду для конкурентної заявки",
+    "recommendedTimeline": {
+      "ifStartingNow": "Потрібно мінімум 2-3 місяці для якісної підготовки",
+      "phases": [
+        {
+          "phase": "Організаційна структура",
+          "duration": "2-4 тижні",
+          "activities": "Формування консорціуму з МСП або створення спін-оф"
+        },
+        {
+          "phase": "Технічна підготовка",
+          "duration": "1-1.5 місяці",
+          "activities": "Реалізація пілотних LLM проєктів, набуття практичного досвіду"
+        },
+        {
+          "phase": "Бізнес-планування",
+          "duration": "3-4 тижні",
+          "activities": "Market research, бізнес-план, go-to-market strategy"
+        },
+        {
+          "phase": "Написання proposal",
+          "duration": "3-4 тижні",
+          "activities": "Drafting, internal review, refinement"
+        }
+      ],
+      "totalTimeNeeded": "2.5-3 місяці для strongly competitive application"
+    }
+  },
+  "alternativeOptions": [
+    {
+      "grantName": "Horizon Europe - Cluster 4: Digital, Industry and Space",
+      "relevance": "high",
+      "description": "Більші гранти ЄС для AI/ML інновацій, можливо менш strict вимоги щодо МСП для деяких топіків",
+      "eligibility": "Wider range організацій, включаючи research institutions",
+      "advantage": "Можливість подання від research organization",
+      "disadvantage": "Більша конкуренція, більш складні вимоги"
+    },
+    {
+      "grantName": "EIC Pathfinder / Transition (для майбутнього спін-оф)",
+      "relevance": "high",
+      "description": "Підтримка early-stage deep tech innovations, включаючи створення startups",
+      "eligibility": "Дослідницькі організації можуть подавати Pathfinder, потім transition до startup",
+      "advantage": "Supports spin-off creation process",
+      "disadvantage": "Дуже конкурентний, потрібна прориவна інновація"
+    },
+    {
+      "grantName": "AI4EU / European AI ecosystem grants",
+      "relevance": "medium-high",
+      "description": "Різні ініціативи ЄС для розвитку AI ecosystem",
+      "eligibility": "Varies by specific call",
+      "advantage": "Різноманітні opportunities з різними вимогами"
+    },
+    {
+      "grantName": "National Research Foundation of Ukraine (NRFU) grants",
+      "relevance": "high",
+      "description": "Українські наукові гранти, можливо з HPC component",
+      "eligibility": "Ukrainian research organizations",
+      "advantage": "Вже є досвід, knowledge of local system",
+      "disadvantage": "Менший budget, фокус на науку, не комерціалізацію"
+    },
+    {
+      "grantName": "Ukraine-EU Innovation cooperation programs",
+      "relevance": "medium-high",
+      "description": "Bilateral programs між Україною та ЄС для tech cooperation",
+      "eligibility": "Ukrainian organizations",
+      "advantage": "Targeted at Ukrainian entities, потенційно easier access"
+    },
+    {
+      "grantName": "EuroHPC Regular Access / Benchmark Access",
+      "relevance": "high",
+      "description": "Не grant, але доступ до EuroHPC resources для research",
+      "eligibility": "European researchers including Ukraine",
+      "advantage": "Можна почати використовувати EuroHPC resources, build experience",
+      "note": "Гарний preparatory step для майбутніх grants"
+    },
+    {
+      "grantName": "Erasmus for Young Entrepreneurs (AI/Tech focus)",
+      "relevance": "medium",
+      "description": "Exchange program для молодих підприємців в EU",
+      "advantage": "Build connections в EU AI ecosystem, learn commercialization"
+    },
+    {
+      "grantName": "Ukrainian Startup Fund",
+      "relevance": "medium",
+      "description": "Підтримка українських стартапів, включаючи AI",
+      "eligibility": "Ukrainian startups",
+      "advantage": "Local support для створення спін-оф, easier access",
+      "disadvantage": "Smaller budget than EU grants"
+    },
+    {
+      "grantName": "Innovation Norway / Norwegian-Ukrainian programs",
+      "relevance": "medium",
+      "description": "Cooperation programs з Норвегією для innovation",
+      "eligibility": "Ukrainian organizations",
+      "advantage": "Less competitive than EU-wide programs"
+    },
+    {
+      "grantName": "Digital Europe Programme - other calls",
+      "relevance": "high",
+      "description": "Інші виклики під Digital Europe Programme (не тільки EuroHPC)",
+      "eligibility": "Ukraine as associated country",
+      "advantage": "Різноманітні AI/digital opportunities",
+      "note": "Регулярно моніторити нові calls"
+    },
+    {
+      "grantName": "NATO Science for Peace and Security (SPS) Programme - AI track",
+      "relevance": "medium",
+      "description": "Підтримка science cooperation включаючи AI для security applications",
+      "eligibility": "NATO countries and partners (Ukraine)",
+      "advantage": "Specific support для Ukraine"
+    },
+    {
+      "grantName": "Google for Startups / AI accelerators",
+      "relevance": "medium-high",
+      "description": "Private sector support для AI startups, часто з grants або cloud credits",
+      "advantage": "Менш bureaucratic, faster access, includes mentorship",
+      "note": "Гарний варіант якщо створите спін-оф"
+    }
+  ],
+  "nextSteps": [
+    {
+      "action": "НЕГАЙНО: Assess feasibility МСП partnership або спін-оф створення",
+      "priority": "CRITICAL",
+      "deadline": "2026-02-12 (2 дні)",
+      "owner": "Leadership/Management"
+    },
+    {
+      "action": "Якщо GO: Почати пошук МСП партнера в українській AI community",
+      "priority": "CRITICAL",
+      "deadline": "2026-02-14 (4 дні)",
+      "owner": "BD/Partnerships team"
+    },
+    {
+      "action": "Паралельно: Start intensive LLM experimentation (1-2 pilot projects)",
+      "priority": "HIGH",
+      "deadline": "Ongoing до 2026-02-20",
+      "owner": "Technical team"
+    },
+    {
+      "action": "NO-GO для цього call: Focus на підготовку до майбутніх opportunities",
+      "priority": "HIGH",
+      "details": [
+        "Вирішити МСП статус (2-4 тижні)",
+        "Набути LLM досвіду (1-2 місяці)",
+        "Розробити бізнес-кейс (1 місяць)",
+        "Monitor for next EuroHPC or similar calls"
+      ]
+    }
+  ]
+}

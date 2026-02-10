@@ -1,0 +1,516 @@
+{
+  "decisionMetadata": {
+    "grantTitle": "Другий конкурс інноваційних досліджень для розробки генеративних AI моделей (FFplus)",
+    "organization": "Fortissimo Plus (FFplus), EuroHPC Joint Undertaking",
+    "deadline": "2026-02-25T17:00:00+01:00",
+    "daysRemaining": 15,
+    "decisionDate": "2026-02-10",
+    "decisionMaker": "Project Leadership Team",
+    "analysisVersion": "Based on corrected eligibility assessment (Ukraine IS eligible)"
+  },
+  "finalDecision": {
+    "decision": "NO-GO",
+    "applyToThisCall": false,
+    "confidence": "95%",
+    "primaryReason": "Insufficient time to address critical eligibility issue (SME status) and major capability gaps",
+    "summary": "Після детального аналізу та коригування інформації щодо географічної прийнатності (Україна ОФІЦІЙНО є асоційованою країною Digital Europe Programme), рекомендується НЕ подавати заявку на поточний call з дедлайном 25 лютого 2026. Основна причина - недостатньо часу (15 днів) для вирішення критичної проблеми відсутності статусу МСП/стартапу та закриття інших значних gaps. Натомість, рекомендується використати наступні 2-3 місяці для якісної підготовки до майбутніх opportunities з значно вищими шансами на успіх (60-70% vs 15-20%)."
+  },
+  "keyFactors": {
+    "blockingIssues": [
+      {
+        "issue": "Відсутність статусу МСП або стартапу",
+        "severity": "CRITICAL - BLOCKING",
+        "impact": "Унеможливлює подання заявки від імені поточної організації",
+        "timeToResolve": "2-4 тижні (консорціум) або 2-3 місяці (спін-оф)",
+        "available": "15 днів до дедлайну",
+        "feasible": false,
+        "note": "Навіть за оптимістичного сценарію (консорціум за 2 тижні) залишається недостатньо часу для якісної підготовки інших компонентів заявки"
+      }
+    ],
+    "criticalGaps": [
+      {
+        "gap": "Відсутність практичного досвіду з генеративним AI/LLM",
+        "severity": "CRITICAL",
+        "impact": "Центральна вимога гранту. Weak technical credibility.",
+        "timeToResolve": "4-6 тижнів для базового portfolio (2-3 pilot projects)",
+        "available": "15 днів",
+        "feasible": false
+      },
+      {
+        "gap": "Відсутність комерційного досвіду та market validation",
+        "severity": "HIGH",
+        "impact": "33.3% оцінки (Impact criterion). Без business case шанси мінімальні.",
+        "timeToResolve": "3-4 тижні для адекватного business plan + customer interviews",
+        "available": "15 днів",
+        "feasible": false
+      },
+      {
+        "gap": "Якісна підготовка proposal",
+        "severity": "HIGH",
+        "impact": "Визначає загальне враження та переконливість заявки",
+        "timeToResolve": "4-6 тижнів (drafting + reviews + revisions)",
+        "available": "15 днів",
+        "feasible": "Технічно можливо написати, але якість буде низькою"
+      }
+    ],
+    "positiveFactors": [
+      {
+        "factor": "Географічна прийнятність ПІДТВЕРДЖЕНА",
+        "impact": "HIGH",
+        "note": "Критична помилка виправлена. Україна є асоційованою країною Digital Europe Programme. Українські організації CAN apply for EuroHPC grants."
+      },
+      {
+        "factor": "Сильна HPC експертиза",
+        "impact": "HIGH",
+        "note": "Genuine competitive advantage для EuroHPC grants. Багато AI teams не мають HPC досвіду."
+      },
+      {
+        "factor": "Наукова репутація",
+        "impact": "MEDIUM-HIGH",
+        "note": "Publications в top conferences демонструють technical excellence"
+      },
+      {
+        "factor": "Доступ до NRFU infrastructure",
+        "impact": "MEDIUM",
+        "note": "Можливість швидкого experimentation для pilot projects"
+      }
+    ]
+  },
+  "successProbabilityAnalysis": {
+    "currentState": {
+      "ifApplyNow": {
+        "probability": "15-20%",
+        "score": "Estimated 7.5-9.0 out of 15 (threshold ~10)",
+        "reasoning": [
+          "Eligibility issue unresolved or hastily resolved",
+          "Weak technical demonstration (no LLM projects)",
+          "Weak business case (no validation)",
+          "Rushed, low-quality proposal",
+          "Strong competition from better-prepared applicants"
+        ]
+      }
+    },
+    "withProperPreparation": {
+      "probability": "60-70%",
+      "score": "Estimated 10.5-12.0 out of 15",
+      "reasoning": [
+        "SME status properly resolved (consortium or spin-off)",
+        "Strong LLM portfolio (2-3 quality projects)",
+        "Validated business case (customer interviews, LOIs)",
+        "High-quality, compelling proposal",
+        "HPC expertise as differentiator"
+      ],
+      "timeNeeded": "2.5-3 months minimum",
+      "breakdown": {
+        "smeStructure": "2-4 weeks",
+        "llmExperience": "4-6 weeks",
+        "businessDevelopment": "3-4 weeks",
+        "proposalWriting": "4-6 weeks",
+        "note": "Деякі активності можуть йти паралельно, звідси 2.5-3 місяці total"
+      }
+    }
+  },
+  "riskBenefitAnalysis": {
+    "risksOfApplying": [
+      {
+        "risk": "Low success probability (~15%)",
+        "impact": "HIGH",
+        "description": "Витрата значних зусиль та ресурсів з малою ймовірністю успіху"
+      },
+      {
+        "risk": "Opportunity cost",
+        "impact": "HIGH",
+        "description": "15 днів інтенсивної роботи можуть бути краще використані для building capabilities"
+      },
+      {
+        "risk": "Низька якість заявки може негативно вплинути на репутацію",
+        "impact": "MEDIUM",
+        "description": "Reviewers можуть запам'ятати weak application, що може вплинути на майбутні спроби"
+      },
+      {
+        "risk": "Team burnout",
+        "impact": "MEDIUM",
+        "description": "Rushing може призвести до вигорання команди та зниження мотивації для future attempts"
+      },
+      {
+        "risk": "Неякісне вирішення SME issue",
+        "impact": "HIGH",
+        "description": "Спішне формування консорціуму може призвести до проблем з партнером у майбутньому"
+      }
+    ],
+    "benefitsOfApplying": [
+      {
+        "benefit": "Практика proposal writing",
+        "value": "MEDIUM",
+        "description": "Досвід підготовки EU grant application, навіть якщо не успішної"
+      },
+      {
+        "benefit": "Можливість feedback від reviewers",
+        "value": "LOW-MEDIUM",
+        "description": "Якщо grant надає reviewer comments (не всі надають для unfunded proposals)"
+      },
+      {
+        "benefit": "Мотивація для швидкого розвитку",
+        "value": "MEDIUM",
+        "description": "Дедлайн може стимулювати швидке освоєння LLM та business skills"
+      }
+    ],
+    "benefitsOfWaiting": [
+      {
+        "benefit": "Значно вища success probability (60-70% vs 15%)",
+        "value": "VERY HIGH",
+        "description": "З proper preparation шанси зростають в 3-4 рази"
+      },
+      {
+        "benefit": "Якісне вирішення SME structure",
+        "value": "HIGH",
+        "description": "Час для знаходження правильного партнера або properly створити spin-off"
+      },
+      {
+        "benefit": "Building genuine LLM expertise",
+        "value": "HIGH",
+        "description": "Не тільки для grant, але довгострокова capability для організації"
+      },
+      {
+        "benefit": "Розвиток business capabilities",
+        "value": "HIGH",
+        "description": "Customer development, market understanding - valuable beyond single grant"
+      },
+      {
+        "benefit": "High-quality proposal",
+        "value": "HIGH",
+        "description": "Compelling, well-researched proposal має набагато кращі шанси"
+      },
+      {
+        "benefit": "Reduced stress and better team morale",
+        "value": "MEDIUM",
+        "description": "Proper planning vs rushing зберігає team motivation для довгострокової перспективи"
+      },
+      {
+        "benefit": "Можливість знайти інші, potentially better-fit grants",
+        "value": "MEDIUM-HIGH",
+        "description": "З clear capabilities можна target кілька different opportunities"
+      }
+    ]
+  },
+  "alternativeStrategy": {
+    "recommended": "Підготовка до майбутніх opportunities",
+    "timeline": "Наступні 2-3 місяці",
+    "phases": [
+      {
+        "phase": "Phase 1: Foundation Building",
+        "duration": "Weeks 1-4",
+        "criticalPath": true,
+        "activities": [
+          {
+            "activity": "Resolve SME status",
+            "options": [
+              "Option A: Identify and form consortium with Ukrainian AI/tech SME",
+              "Option B: Initiate spin-off company creation process"
+            ],
+            "deadline": "Week 2-4",
+            "priority": "CRITICAL"
+          },
+          {
+            "activity": "Start LLM experimentation",
+            "tasks": [
+              "Set up development environment (HuggingFace, PyTorch)",
+              "Begin first pilot: Fine-tune open-source LLM",
+              "Document experiments and learnings"
+            ],
+            "deadline": "Ongoing through week 8",
+            "priority": "CRITICAL"
+          },
+          {
+            "activity": "Initial market research",
+            "tasks": [
+              "Identify 2-3 potential use cases",
+              "Initial market sizing",
+              "Identify potential customers to interview"
+            ],
+            "deadline": "Week 4",
+            "priority": "HIGH"
+          }
+        ]
+      },
+      {
+        "phase": "Phase 2: Capability Development",
+        "duration": "Weeks 5-8",
+        "activities": [
+          {
+            "activity": "Complete LLM pilot projects",
+            "deliverables": [
+              "2-3 completed pilot projects with documentation",
+              "GitHub repository with code",
+              "Technical blog posts or papers"
+            ],
+            "deadline": "Week 8",
+            "priority": "CRITICAL"
+          },
+          {
+            "activity": "Customer development",
+            "tasks": [
+              "Interview 15-20 potential customers",
+              "Validate problem and solution",
+              "Gauge willingness to pay",
+              "Secure 2-3 letters of intent"
+            ],
+            "deadline": "Week 8",
+            "priority": "HIGH"
+          },
+          {
+            "activity": "Team augmentation",
+            "tasks": [
+              "Identify and recruit LLM expert advisor",
+              "Identify business advisor/mentor",
+              "Establish industrial partnerships"
+            ],
+            "deadline": "Week 6-8",
+            "priority": "HIGH"
+          }
+        ]
+      },
+      {
+        "phase": "Phase 3: Grant Preparation",
+        "duration": "Weeks 9-12",
+        "activities": [
+          {
+            "activity": "Business plan development",
+            "deliverables": [
+              "Comprehensive market analysis",
+              "Competitive landscape",
+              "Business model and go-to-market strategy",
+              "Financial projections"
+            ],
+            "deadline": "Week 11",
+            "priority": "HIGH"
+          },
+          {
+            "activity": "Identify target grants",
+            "tasks": [
+              "Monitor for next FFplus call",
+              "Identify alternative EU/EuroHPC opportunities",
+              "Assess fit and requirements"
+            ],
+            "deadline": "Ongoing",
+            "priority": "MEDIUM-HIGH"
+          },
+          {
+            "activity": "Proposal preparation",
+            "tasks": [
+              "Develop detailed outline",
+              "Draft technical sections",
+              "Draft business sections",
+              "Internal review and refinement"
+            ],
+            "deadline": "Week 12 (draft ready)",
+            "priority": "HIGH"
+          }
+        ]
+      }
+    ],
+    "expectedOutcome": {
+      "byEndOfPhase3": "Ready to submit high-quality application to next suitable grant opportunity",
+      "capabilities": [
+        "✅ SME status resolved (consortium or spin-off operational)",
+        "✅ Demonstrated LLM expertise (portfolio of projects)",
+        "✅ Validated business case (customer research, LOIs)",
+        "✅ Strong team (technical + business expertise)",
+        "✅ Draft proposal ready for final adaptation"
+      ],
+      "successProbability": "60-70% for next application",
+      "additionalBenefits": [
+        "Real LLM capability useful beyond grants",
+        "Market knowledge and customer relationships",
+        "Potential for self-funded product development",
+        "Prepared for multiple grant opportunities"
+      ]
+    }
+  },
+  "targetOpportunities": {
+    "primary": [
+      {
+        "opportunity": "FFplus - Future calls (if announced)",
+        "fit": "EXCELLENT",
+        "note": "Same program, by then will be ideally prepared",
+        "monitoring": "Check FFplus website regularly"
+      },
+      {
+        "opportunity": "EuroHPC Regular Access / Extreme Scale Access",
+        "fit": "EXCELLENT",
+        "note": "Not funding, but access to compute resources. Good stepping stone.",
+        "timeline": "Can apply sooner while building other capabilities"
+      },
+      {
+        "opportunity": "Digital Europe Programme - AI calls",
+        "fit": "HIGH",
+        "note": "Various AI-related opportunities under Digital Europe",
+        "monitoring": "Regular monitoring of Digital Europe Programme calls"
+      },
+      {
+        "opportunity": "Horizon Europe Cluster 4 - Digital, Industry and Space",
+        "fit": "MEDIUM-HIGH",
+        "note": "Larger grants, potentially more flexibility on organization type for some topics",
+        "monitoring": "Check Horizon Europe portal"
+      }
+    ],
+    "alternative": [
+      {
+        "opportunity": "EIC Pathfinder (for breakthrough research)",
+        "fit": "MEDIUM",
+        "note": "For very innovative AI research, research organizations eligible"
+      },
+      {
+        "opportunity": "National grants (NRFU, Ukrainian Startup Fund)",
+        "fit": "MEDIUM",
+        "note": "Smaller budgets but potentially easier access, good for building track record"
+      },
+      {
+        "opportunity": "Industry partnerships",
+        "fit": "MEDIUM-HIGH",
+        "note": "Direct commercial partnerships може бути швидший path to resources than grants"
+      }
+    ]
+  },
+  "actionPlan": {
+    "immediate": {
+      "timeline": "Next 48 hours",
+      "actions": [
+        {
+          "action": "Formalize NO-GO decision for current call",
+          "owner": "Project Leadership",
+          "deadline": "2026-02-11"
+        },
+        {
+          "action": "Communicate decision to team with rationale",
+          "owner": "Project Lead",
+          "deadline": "2026-02-11"
+        },
+        {
+          "action": "Launch alternative strategy plan (2-3 month preparation)",
+          "owner": "Project Leadership",
+          "deadline": "2026-02-12"
+        }
+      ]
+    },
+    "week1": {
+      "timeline": "February 10-17",
+      "priorities": [
+        {
+          "priority": 1,
+          "action": "Assess SME partnership options",
+          "tasks": [
+            "List potential Ukrainian AI/tech SME partners",
+            "Initial outreach to 3-5 candidates",
+            "Evaluate spin-off creation process and timeline"
+          ]
+        },
+        {
+          "priority": 2,
+          "action": "Set up LLM development environment",
+          "tasks": [
+            "Choose specific LLM and use case for first pilot",
+            "Allocate team resources (who works on what)",
+            "Set up necessary tools and infrastructure"
+          ]
+        },
+        {
+          "priority": 3,
+          "action": "Initial market research",
+          "tasks": [
+            "Identify 2-3 promising AI use cases",
+            "Initial competitive research",
+            "Identify potential customers for interviews"
+          ]
+        }
+      ]
+    },
+    "monthlyMilestones": {
+      "month1": {
+        "milestone": "Foundation established",
+        "deliverables": [
+          "SME structure resolution path clear (partner identified or spin-off initiated)",
+          "First LLM pilot project launched",
+          "Target use case selected with market research initiated"
+        ]
+      },
+      "month2": {
+        "milestone": "Capabilities demonstrated",
+        "deliverables": [
+          "2-3 LLM pilot projects completed and documented",
+          "Customer interviews completed (15-20 interviews)",
+          "Business plan draft completed",
+          "Team augmented (advisors recruited)"
+        ]
+      },
+      "month3": {
+        "milestone": "Grant-ready",
+        "deliverables": [
+          "SME structure operational",
+          "Strong technical portfolio (GitHub, papers, demos)",
+          "Validated business case (market research, LOIs)",
+          "Proposal draft ready",
+          "Target grant opportunities identified"
+        ]
+      }
+    },
+    "resources": {
+      "personnel": "2-3 core team members (part-time, 30-50% allocation)",
+      "budget": "Minimal - mainly opportunity cost of time. Some budget for: cloud computing ($500-1000), software tools ($500), travel for networking ($1000-2000)",
+      "infrastructure": "NRFU access for computing, existing development tools",
+      "external": "Advisors/mentors (volunteer or modest compensation), business consultant (optional)"
+    }
+  },
+  "goNoGoCheckpoint": {
+    "note": "Checkpoint для reassessment якщо ситуація зміниться",
+    "conditions": [
+      {
+        "condition": "FFplus extends deadline by 4+ weeks",
+        "action": "REASSESS - може стати feasible з додатковим часом",
+        "probability": "Low (дедлайни рідко extended суттєво)"
+      },
+      {
+        "condition": "Знайдено ідеального SME партнера з existing LLM expertise",
+        "action": "REASSESS - може значно покращити шанси",
+        "probability": "Low-Medium",
+        "note": "Навіть тоді timeline залишається tight"
+      },
+      {
+        "condition": "Виявлено, що інші вимоги менш строгі ніж очікувалося",
+        "action": "REASSESS",
+        "probability": "Very Low"
+      }
+    ],
+    "hardDeadline": "February 18, 2026 - after this, insufficient time навіть для minimal application",
+    "recommendation": "Unless dramatic change in circumstances, maintain NO-GO decision"
+  },
+  "conclusion": {
+    "finalVerdict": "NO-GO для current call - YES-GO для future opportunities з proper preparation",
+    "keyMessage": "Виправлена інформація щодо географічної прийнятності (Україна ELIGIBLE) є дуже позитивною новиною і відкриває двері для participation в EuroHPC та Digital Europe Programme. Однак критична проблема SME статусу combined з insufficient time робить current call непридатним. Інвестиція 2-3 місяців у proper preparation трансформує situation з 15% до 60-70% success probability - це є значно кращою strategy ніж rushing с низькими шансами.",
+    "nextReview": "March 2026 - assess progress on preparation plan and identify next target opportunity",
+    "successMetrics": [
+      "SME structure resolved",
+      "2-3 LLM projects completed",
+      "15+ customer interviews completed",
+      "Business plan finalized",
+      "Proposal draft ready"
+    ]
+  },
+  "appendix": {
+    "lessonsLearned": [
+      "Critical importance of early grant monitoring (FFplus was discovered late)",
+      "Need for continuous capability building, not just grant-driven",
+      "Value of maintaining updated organizational status (SME certification if applicable)",
+      "Importance of accurate eligibility information (initial Ukraine ineligibility was incorrect)",
+      "Better to wait and prepare well than rush with low probability"
+    ],
+    "recommendations": [
+      "Set up systematic EU grant monitoring process",
+      "Build LLM capabilities proactively, not just for grants",
+      "Develop business/commercialization capabilities alongside technical",
+      "Consider strategic organizational structure (spin-off creation) for access to startup-focused programs",
+      "Build relationships in EU AI/HPC ecosystem",
+      "Maintain readiness for opportunistic grants (evergreen proposal components)"
+    ]
+  }
+}
