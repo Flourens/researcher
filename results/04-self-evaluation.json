@@ -1,0 +1,339 @@
+{
+  "evaluationMetadata": {
+    "proposalTitle": "[To be determined based on specific use case]",
+    "evaluationDate": "2026-02-10",
+    "evaluator": "Internal team / Self-assessment",
+    "status": "DRAFT - Requires full proposal to complete",
+    "note": "Це внутрішня оцінка proposal за офіційними критеріями FFplus/EuroHPC для ідентифікації сильних та слабких сторін перед подачею"
+  },
+  "overallScore": {
+    "totalScore": 0,
+    "maxScore": 15,
+    "percentage": 0,
+    "threshold": 10,
+    "passThreshold": false,
+    "note": "Scores будуть заповнені після написання повного proposal"
+  },
+  "criterionScores": [
+    {
+      "criterion": "Excellence",
+      "weight": 33.33,
+      "score": 0,
+      "maxScore": 5,
+      "percentage": 0,
+      "threshold": 3,
+      "evaluation": {
+        "strengths": [
+          "Placeholder: Strong HPC expertise - досвід роботи з NRFU та HPC кластерами є significant advantage для EuroHPC grant",
+          "Placeholder: Solid scientific background - publications в top-tier conferences демонструють research quality",
+          "Placeholder: [To be added based on actual proposal]"
+        ],
+        "weaknesses": [
+          "Placeholder: Limited generative AI experience - відсутність практичного досвіду з LLM може бути perceived як weakness",
+          "Placeholder: [To be identified from actual proposal]"
+        ],
+        "comments": "Placeholder: Детальні коментарі по technical excellence після написання proposal"
+      },
+      "subCriteria": [
+        {
+          "name": "Технічна інноваційність",
+          "score": 0,
+          "maxScore": 5,
+          "comments": "Placeholder: Оцінка інноваційності technical approach. Чи є це truly novel або incremental?"
+        },
+        {
+          "name": "Якість методології",
+          "score": 0,
+          "maxScore": 5,
+          "comments": "Placeholder: Наскільки rigorous та well-justified технічна методологія?"
+        },
+        {
+          "name": "Експертиза команди",
+          "score": 0,
+          "maxScore": 5,
+          "comments": "Placeholder: Чи має команда необхідну expertise? HPC - strong, LLM - needs strengthening"
+        },
+        {
+          "name": "Використання EuroHPC",
+          "score": 0,
+          "maxScore": 5,
+          "comments": "Placeholder: Наскільки well-justified та realistic use of EuroHPC resources?"
+        }
+      ]
+    },
+    {
+      "criterion": "Impact",
+      "weight": 33.33,
+      "score": 0,
+      "maxScore": 5,
+      "percentage": 0,
+      "threshold": 3,
+      "evaluation": {
+        "strengths": [
+          "Placeholder: [To be identified based on market analysis]",
+          "Placeholder: [Competitive advantages]"
+        ],
+        "weaknesses": [
+          "Placeholder: Limited commercialization experience - це буде weakness без strong business partner",
+          "Placeholder: No established customer base or market validation yet",
+          "Placeholder: [To be identified from business case]"
+        ],
+        "comments": "Placeholder: Impact criteria є particularly challenging через відсутність commercial track record"
+      },
+      "subCriteria": [
+        {
+          "name": "Комерційний потенціал",
+          "score": 0,
+          "maxScore": 5,
+          "comments": "Placeholder: Наскільки realistic та convincing бізнес-план та revenue projections?"
+        },
+        {
+          "name": "Розмір ринку та зростання",
+          "score": 0,
+          "maxScore": 5,
+          "comments": "Placeholder: Чи достатньо великий target market? Чи показані growth trends?"
+        },
+        {
+          "name": "Соціально-економічний вплив",
+          "score": 0,
+          "maxScore": 5,
+          "comments": "Placeholder: Який broader impact на economy та society?"
+        },
+        {
+          "name": "Конкурентні переваги",
+          "score": 0,
+          "maxScore": 5,
+          "comments": "Placeholder: Чи чітко articulated unique value proposition та competitive advantage?"
+        },
+        {
+          "name": "Масштабованість",
+          "score": 0,
+          "maxScore": 5,
+          "comments": "Placeholder: Наскільки scalable рішення? Potential для expansion?"
+        }
+      ]
+    },
+    {
+      "criterion": "Implementation",
+      "weight": 33.34,
+      "score": 0,
+      "maxScore": 5,
+      "percentage": 0,
+      "threshold": 3,
+      "evaluation": {
+        "strengths": [
+          "Placeholder: Experience managing research projects",
+          "Placeholder: [To be added based on project plan]"
+        ],
+        "weaknesses": [
+          "Placeholder: Tight timeline може бути ambitious для deliverables",
+          "Placeholder: [To be identified from implementation plan]"
+        ],
+        "comments": "Placeholder: Оцінка реалістичності implementation plan"
+      },
+      "subCriteria": [
+        {
+          "name": "Реалістичність плану",
+          "score": 0,
+          "maxScore": 5,
+          "comments": "Placeholder: Чи realistic timelines та milestones? Чи є buffer для unexpected issues?"
+        },
+        {
+          "name": "Управління ризиками",
+          "score": 0,
+          "maxScore": 5,
+          "comments": "Placeholder: Чи ідентифіковані key risks? Чи є credible mitigation strategies?"
+        },
+        {
+          "name": "Обґрунтованість бюджету",
+          "score": 0,
+          "maxScore": 5,
+          "comments": "Placeholder: Чи detailed та well-justified budget breakdown?"
+        },
+        {
+          "name": "Ресурси та інфраструктура",
+          "score": 0,
+          "maxScore": 5,
+          "comments": "Placeholder: Чи є access до necessary resources (data, infrastructure, partners)?"
+        },
+        {
+          "name": "План дисемінації",
+          "score": 0,
+          "maxScore": 5,
+          "comments": "Placeholder: Чи є realistic plan для dissemination та exploitation of results?"
+        }
+      ]
+    }
+  ],
+  "detailedFeedback": {
+    "majorStrengths": [
+      "Placeholder: Буде заповнено після аналізу full proposal",
+      "Strong HPC expertise (already identified)",
+      "Scientific reputation (already identified)"
+    ],
+    "majorWeaknesses": [
+      "Placeholder: Буде заповнено після аналізу full proposal",
+      "Limited generative AI experience (already identified)",
+      "Lack of commercialization track record (already identified)",
+      "SME status issue (already identified)"
+    ],
+    "criticalIssues": [
+      {
+        "issue": "SME status requirement not met",
+        "severity": "CRITICAL",
+        "impact": "Блокує подання заявки без consortium або spin-off",
+        "recommendation": "MUST resolve before submission - form consortium with SME partner"
+      },
+      {
+        "issue": "Limited LLM practical experience",
+        "severity": "HIGH",
+        "impact": "Weakens Excellence criterion, особливо Technical Innovation та Team Expertise",
+        "recommendation": "Demonstrate quick learning through pilot projects, consider adding LLM expert to team"
+      },
+      {
+        "issue": "No commercial track record",
+        "severity": "HIGH",
+        "impact": "Significantly weakens Impact criterion",
+        "recommendation": "Strong business partner in consortium, compelling market analysis, letters of support from potential customers"
+      }
+    ],
+    "improvementRecommendations": [
+      {
+        "area": "Excellence - Technical Approach",
+        "currentGap": "Placeholder: Needs specific LLM expertise demonstration",
+        "recommendation": "Include detailed technical plan showing: (1) specific LLM architecture chosen and why, (2) training strategy with clear milestones, (3) evaluation metrics, (4) pilot experiments demonstrating feasibility",
+        "expectedImpact": "+1.0 to +1.5 score points"
+      },
+      {
+        "area": "Excellence - Team",
+        "currentGap": "Missing LLM expert in core team",
+        "recommendation": "Add advisor or team member with proven LLM experience (publications, products), or secure consultant from established AI company/lab",
+        "expectedImpact": "+0.5 to +1.0 score points"
+      },
+      {
+        "area": "Impact - Market Validation",
+        "currentGap": "No customer validation or letters of support",
+        "recommendation": "Conduct 5-10 customer interviews, get 2-3 letters of intent from potential customers, include quotes/testimonials in proposal",
+        "expectedImpact": "+1.0 to +1.5 score points"
+      },
+      {
+        "area": "Impact - Business Model",
+        "currentGap": "Placeholder: TBD based on business case",
+        "recommendation": "Develop clear, realistic business model with: (1) well-researched pricing, (2) detailed customer acquisition strategy, (3) conservative but achievable revenue projections, (4) competitive analysis",
+        "expectedImpact": "+0.5 to +1.0 score points"
+      },
+      {
+        "area": "Implementation - Risk Management",
+        "currentGap": "Placeholder: TBD based on project plan",
+        "recommendation": "Identify 5-7 key risks (technical, market, team) with specific, credible mitigation strategies. Show contingency planning.",
+        "expectedImpact": "+0.5 score points"
+      }
+    ]
+  },
+  "competitivenessAssessment": {
+    "estimatedRanking": "Placeholder: Cannot estimate without full proposal",
+    "likelyOutcome": "UNCERTAIN - depends on quality of final proposal and gap closure",
+    "keyFactors": [
+      {
+        "factor": "HPC expertise",
+        "advantage": "STRONG - significant differentiator for EuroHPC grant",
+        "impact": "Positive"
+      },
+      {
+        "factor": "LLM experience",
+        "advantage": "WEAK - competitors likely stronger",
+        "impact": "Negative"
+      },
+      {
+        "factor": "Commercial readiness",
+        "advantage": "WEAK - limited business track record",
+        "impact": "Negative"
+      },
+      {
+        "factor": "SME status",
+        "advantage": "BLOCKING - requires consortium solution",
+        "impact": "Critical issue"
+      }
+    ],
+    "comparisonToTypicalWinner": {
+      "typicalWinnerProfile": {
+        "technicalReadiness": "TRL 3-4, demonstrated feasibility",
+        "teamExperience": "2+ years in generative AI, successful pilots",
+        "marketValidation": "Identified customers, some LOIs",
+        "businessReadiness": "Clear revenue model, realistic projections",
+        "proposalQuality": "Well-written, detailed, convincing",
+        "typicalScore": "11-13 out of 15"
+      },
+      "currentPositionEstimate": {
+        "technicalReadiness": "TRL 2-3, need to demonstrate feasibility through pilots",
+        "teamExperience": "Strong HPC, weak generative AI - needs strengthening",
+        "marketValidation": "Minimal - needs customer development",
+        "businessReadiness": "Needs development",
+        "proposalQuality": "TBD - depends on writing effort",
+        "estimatedScore": "Cannot estimate without full proposal - likely 8-10 range if gaps not addressed"
+      }
+    }
+  },
+  "goNoGoRecommendation": {
+    "recommendation": "NO-GO for current call (deadline Feb 25)",
+    "confidence": "HIGH",
+    "reasoning": [
+      "Insufficient time (15 days) to close critical gaps",
+      "SME status issue requires 2-4 weeks to resolve (consortium formation or spin-off)",
+      "Need 1-2 months for LLM experience building (pilot projects)",
+      "Business case development needs 3-4 weeks",
+      "High-quality proposal writing needs 3-4 weeks",
+      "TOTAL TIME NEEDED: 2.5-3 months minimum"
+    ],
+    "alternativeStrategy": {
+      "recommendation": "PREPARE for next call or alternative grants",
+      "timeline": "Use next 2-3 months to strengthen position",
+      "actions": [
+        "Resolve SME status (consortium or spin-off) - Priority: CRITICAL",
+        "Build LLM practical experience (2-3 pilot projects) - Priority: CRITICAL",
+        "Develop strong business case with market validation - Priority: HIGH",
+        "Establish industrial partnerships - Priority: MEDIUM-HIGH",
+        "Monitor for next EuroHPC call or similar opportunities - Priority: HIGH"
+      ],
+      "expectedOutcome": "Strong competitive position for future applications with 60-70% success probability"
+    }
+  },
+  "actionItems": [
+    {
+      "action": "Complete proposal draft (all sections)",
+      "status": "NOT STARTED",
+      "priority": "N/A for current call - CRITICAL for future",
+      "deadline": "If pursuing future call: 4 weeks before submission",
+      "owner": "Proposal team"
+    },
+    {
+      "action": "Conduct full self-evaluation with completed proposal",
+      "status": "PENDING proposal completion",
+      "priority": "HIGH for future applications",
+      "deadline": "2 weeks before submission",
+      "owner": "Internal review team"
+    },
+    {
+      "action": "External review by expert/mentor",
+      "status": "PENDING proposal completion",
+      "priority": "HIGH for quality assurance",
+      "deadline": "10 days before submission",
+      "owner": "Identified external reviewer"
+    },
+    {
+      "action": "Revisions based on feedback",
+      "status": "PENDING reviews",
+      "priority": "CRITICAL",
+      "deadline": "5 days before submission",
+      "owner": "Proposal team"
+    },
+    {
+      "action": "Final quality check and submission",
+      "status": "PENDING",
+      "priority": "CRITICAL",
+      "deadline": "2-3 days before deadline (buffer)",
+      "owner": "Project lead"
+    }
+  ],
+  "note": "ЦЕЙ ФАЙЛ є PLACEHOLDER для self-evaluation. Повноцінна самооцінка може бути проведена тільки після написання повного proposal draft. \n\nОднак вже зараз можна ідентифікувати критичні проблеми:\n1. SME status - MUST resolve\n2. Limited LLM experience - MUST strengthen\n3. No commercial track record - MUST develop strong business case\n4. Insufficient time for current call - RECOMMEND prepare for future\n\nДля майбутніх application рекомендується:\n1. Написати full proposal draft\n2. Провести internal evaluation using this template\n3. Score each criterion objectively\n4. Identify weaknesses and improve\n5. Get external review\n6. Iterate until achieving estimated score 11+ (out of 15)"
+}

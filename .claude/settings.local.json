@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(package.json << 'EOF'\n{\n  \"name\": \"@researcher/root\",\n  \"version\": \"0.1.0\",\n  \"private\": true,\n  \"workspaces\": [\n    \"packages/*\"\n  ],\n  \"scripts\": {\n    \"dev\": \"pnpm --filter @researcher/backend dev\",\n    \"build\": \"pnpm -r build\",\n    \"test\": \"pnpm -r test\",\n    \"lint\": \"pnpm -r lint\",\n    \"db:generate\": \"pnpm --filter @researcher/backend db:generate\",\n    \"db:push\": \"pnpm --filter @researcher/backend db:push\",\n    \"db:studio\": \"pnpm --filter @researcher/backend db:studio\"\n  },\n  \"devDependencies\": {\n    \"@types/node\": \"^20.10.0\",\n    \"typescript\": \"^5.3.3\"\n  },\n  \"engines\": {\n    \"node\": \">=18.0.0\",\n    \"pnpm\": \">=8.0.0\"\n  }\n}\nEOF)",
+      "Bash(.gitignore << 'EOF'\n# Dependencies\nnode_modules/\n.pnpm-store/\n\n# Build outputs\ndist/\nbuild/\n*.tsbuildinfo\n\n# Environment variables\n.env\n.env.local\n.env*.local\n\n# Database\n*.db\n*.db-journal\nprisma/migrations/\n\n# Logs\nlogs/\n*.log\nnpm-debug.log*\npnpm-debug.log*\n\n# OS files\n.DS_Store\nThumbs.db\n\n# IDE\n.vscode/\n.idea/\n*.swp\n*.swo\n\n# Sensitive data\npackages/backend/src/organization-profile.ts\n\n# Temporary files\n/tmp/\n*.tmp\nEOF)",
+      "Bash(pnpm-workspace.yaml << 'EOF'\npackages:\n  - 'packages/*'\nEOF)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: AI Grant Researcher system restored\n\n- 5 specialized AI agents \\(Grant Analysis, Feasibility, Scientific Writing, Reviewer, Application Package\\)\n- Monorepo structure with pnpm workspaces\n- Complete TypeScript type system\n- Ukraine eligibility fix in FeasibilityAgent\n- Iterative proposal improvement pipeline\n- Results saved to visible results/ folder\n- Full documentation and quick start guide\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}
