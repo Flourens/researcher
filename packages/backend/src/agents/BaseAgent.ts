@@ -75,6 +75,7 @@ export abstract class BaseAgent<TInput, TOutput> {
         executionTime,
         inputTokens: response.usage.input_tokens,
         outputTokens: response.usage.output_tokens,
+        stopReason: response.stop_reason,
       });
 
       const content = response.content[0];

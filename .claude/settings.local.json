@@ -8,7 +8,16 @@
       "Bash(git add:*)",
       "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: AI Grant Researcher system restored\n\n- 5 specialized AI agents \\(Grant Analysis, Feasibility, Scientific Writing, Reviewer, Application Package\\)\n- Monorepo structure with pnpm workspaces\n- Complete TypeScript type system\n- Ukraine eligibility fix in FeasibilityAgent\n- Iterative proposal improvement pipeline\n- Results saved to visible results/ folder\n- Full documentation and quick start guide\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
       "Bash(pnpm install:*)",
-      "Bash(pnpm db:generate:*)"
+      "Bash(pnpm db:generate:*)",
+      "Bash([ -f .env ])",
+      "Bash(/Users/evgeniyareshkin/Desktop/projects/researcher/packages/backend/.env << 'EOF'\n# Anthropic API Configuration\nANTHROPIC_API_KEY=your_anthropic_api_key_here\n\n# Database Configuration\nDATABASE_URL=\"file:./dev.db\"\nEOF)",
+      "Bash(curl:*)",
+      "Bash(node -e:*)",
+      "Bash(npx tsx -e:*)",
+      "Bash(pnpm debug:grant:*)",
+      "Bash(npx tsx:*)",
+      "Bash(pnpm exec tsx:*)",
+      "Bash(node -r dotenv/config:*)"
     ]
   }
 }

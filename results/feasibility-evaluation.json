@@ -1,0 +1,408 @@
+{
+  "overallChance": 35,
+  "recommendation": "proceed_with_caution",
+  "executiveSummary": "The organization has significant technical strengths in HPC and AI, and is geographically eligible as Ukraine is officially associated with the Digital Europe Programme since September 2022. However, there is a CRITICAL STRUCTURAL BARRIER: the laboratory is a university research unit, not an independent SME or startup. The grant explicitly requires the main participant to be an SME or startup with a PIC code, and natural persons or university departments typically do not qualify as independent legal entities eligible for SME status.\n\nTechnically, the team demonstrates strong capabilities in parallel computing, AI, and HPC infrastructure, with relevant ongoing projects and publications. Their expertise aligns well with the call's focus on generative AI model development using large-scale HPC resources. However, the team size (4 researchers) is small for managing a complex 10-month innovation study requiring generative AI proficiency, large-scale model development, and comprehensive data management.\n\nThe recommended path forward is to either: (1) establish a formal spin-off company from the university laboratory that can obtain independent SME status and PIC registration, or (2) partner as a supporting participant with an eligible SME that leads the consortium. Without resolving the legal entity/SME status issue, the application will likely be rejected at the eligibility stage regardless of technical merit.",
+  "matchScore": {
+    "overall": 45,
+    "breakdown": [
+      {
+        "category": "Geographic Eligibility",
+        "score": 100,
+        "maxScore": 100,
+        "explanation": "Ukraine is officially associated with Digital Europe Programme since September 2022 and is explicitly listed as eligible for EuroHPC JU programmes including FFplus. This is NOT a barrier."
+      },
+      {
+        "category": "Legal Entity Structure",
+        "score": 0,
+        "maxScore": 100,
+        "explanation": "CRITICAL GAP: The organization is a university laboratory/research unit, not an independent SME or startup. The grant requires main participants to be SMEs established as independent legal entities. University departments typically cannot register as SMEs with independent PIC codes. This is a fundamental eligibility barrier."
+      },
+      {
+        "category": "Technical Capability - HPC",
+        "score": 85,
+        "maxScore": 100,
+        "explanation": "Strong foundation in parallel and distributed computing with dedicated laboratory infrastructure and access to ZNU's 21 research labs. Demonstrated HPC expertise and ongoing projects. However, no specific evidence of experience with pre-exascale/exascale systems or EuroHPC infrastructure."
+      },
+      {
+        "category": "Technical Capability - Generative AI",
+        "score": 40,
+        "maxScore": 100,
+        "explanation": "General AI and machine learning expertise demonstrated, but no specific evidence of proficiency in generative AI, LLMs, or foundation models. Current projects focus on AI in logistics and defense, not generative AI model development. This is a significant gap for a call specifically targeting generative AI expertise."
+      },
+      {
+        "category": "Team Expertise and Size",
+        "score": 50,
+        "maxScore": 100,
+        "explanation": "Highly qualified team (1 PhD, 1 professor) but very small (4 researchers total). Managing development of generative AI models, data preparation, training, evaluation, and all administrative requirements within 10 months is challenging for this team size. Limited evidence of professional software development experience at scale."
+      },
+      {
+        "category": "Track Record in Grant Management",
+        "score": 60,
+        "maxScore": 100,
+        "explanation": "Successful execution of one national grant (3.59M UAH), but no demonstrated experience with EU funding mechanisms, EuroHPC JU reporting requirements, or international consortium management. No previous EU-funded projects documented."
+      },
+      {
+        "category": "Data Management Capability",
+        "score": 45,
+        "maxScore": 100,
+        "explanation": "Experience with databases and geoinformation systems, but no evidence of large-scale training dataset management, FAIR principles implementation, or handling sensitive AI training data. The call requires comprehensive data management plans."
+      },
+      {
+        "category": "Business/Commercial Focus",
+        "score": 25,
+        "maxScore": 100,
+        "explanation": "As a university research laboratory, limited evidence of commercial orientation, business model development, or market exploitation strategies. The call emphasizes innovation potential, commercial viability, and business value proposition - areas where academic units typically underperform."
+      },
+      {
+        "category": "Partnership Capacity",
+        "score": 70,
+        "maxScore": 100,
+        "explanation": "Strong partnerships with ZNU and international academic institutions (Durham, TU Freiberg), plus one industry connection. Could potentially leverage partnerships to form consortium, but currently lacks SME partnerships focused on generative AI commercialization."
+      },
+      {
+        "category": "Resource Availability",
+        "score": 55,
+        "maxScore": 100,
+        "explanation": "Access to HPC infrastructure through university partnership and own laboratory resources. Budget capacity demonstrated (3.6M UAH project). However, uncertain whether current infrastructure meets the 'large-to-extreme scale' requirements exceeding EuroHPC playground access allocations."
+      }
+    ]
+  },
+  "strengths": [
+    {
+      "area": "Geographic Eligibility - Ukraine Association",
+      "description": "Ukraine is officially associated with Digital Europe Programme since September 2022, making organizations eligible for EuroHPC JU calls including FFplus. This removes geographic barriers entirely.",
+      "impact": "high"
+    },
+    {
+      "area": "HPC Infrastructure and Expertise",
+      "description": "Dedicated laboratory for parallel and distributed computing with own computational infrastructure and access to ZNU's extensive research facilities (21 labs). Strong track record in HPC research and parallel computing methodologies.",
+      "impact": "high"
+    },
+    {
+      "area": "Academic Qualifications",
+      "description": "High-level expertise with 1 Doctor of Technical Sciences and 1 Professor. Strong publication record (25 publications, 8 in last year) in relevant venues including Scopus-indexed journals.",
+      "impact": "medium"
+    },
+    {
+      "area": "Current AI Research Portfolio",
+      "description": "Active national grant focused on AI technologies in logistics systems for national security and defense (3.59M UAH), demonstrating capability to manage substantial research funding and deliver AI solutions.",
+      "impact": "medium"
+    },
+    {
+      "area": "International Academic Networks",
+      "description": "Established partnerships with Durham University and TU Bergakademie Freiberg through ZNU, providing potential for international collaboration and knowledge exchange.",
+      "impact": "medium"
+    },
+    {
+      "area": "Multidisciplinary Technical Portfolio",
+      "description": "Diverse expertise spanning AI, HPC, geoinformation technologies, CAD systems, and logistics optimization - potentially applicable to various generative AI model development scenarios.",
+      "impact": "low"
+    }
+  ],
+  "weaknesses": [
+    {
+      "area": "Legal Entity Status - NOT AN INDEPENDENT SME",
+      "description": "CRITICAL BARRIER: The organization is a university research laboratory, not an independent legal entity qualifying as an SME or startup. The call explicitly requires main participants to be SMEs established as separate legal entities with PIC codes. University departments/laboratories typically cannot obtain independent SME status.",
+      "severity": "critical",
+      "mitigation": "OPTION 1: Establish a formal spin-off company from the laboratory that can register as an independent SME and obtain a PIC code. This requires legal incorporation, separate governance, and demonstration of SME status criteria (staff <250, turnover <€50M or balance sheet <€43M). OPTION 2: Partner with an existing eligible SME as the main participant, with the laboratory participating as a supporting participant (but note limitations on supporting participant activities and funding)."
+    },
+    {
+      "area": "Lack of Specific Generative AI Expertise",
+      "description": "No documented experience in developing, training, or customizing generative AI models, LLMs, or foundation models. Current AI work focuses on traditional ML applications in logistics, not the generative AI technologies central to this call. The call explicitly requires demonstrating proficiency in generative AI.",
+      "severity": "critical",
+      "mitigation": "Recruit or partner with experts who have demonstrated experience in LLM development, transformer architectures, and large-scale generative model training. Document any ongoing or planned work in generative AI. Consider collaborating with researchers from ZNU or international partners who have this specific expertise."
+    },
+    {
+      "area": "Small Team Size for Complex Requirements",
+      "description": "Only 4 researchers to manage: generative AI model development, professional software engineering, large-scale data preparation and management, HPC resource optimization, comprehensive documentation, trustworthy AI compliance, monthly reporting, and potential consortium coordination. The workload exceeds typical capacity for this team size.",
+      "severity": "major",
+      "mitigation": "Form a consortium with 1-2 supporting partners who can provide specialized expertise (e.g., generative AI development, data engineering, or HPC optimization). Clearly delineate responsibilities and ensure the main participant retains >50% of funding and project control."
+    },
+    {
+      "area": "Absence of Business/Commercial Orientation",
+      "description": "As an academic research laboratory, limited track record in commercial innovation, business model development, market exploitation, or value proposition creation. The grant evaluation heavily weights 'Impact' (33.33%) including commercial viability, business models, and exploitation plans - areas where academic units typically score poorly.",
+      "severity": "major",
+      "mitigation": "If forming a spin-off company, develop a clear business plan with commercial exploitation strategy. Partner with industry stakeholders who can provide market insights and commercialization pathways. Engage business development expertise to strengthen the business case and value proposition sections of the proposal."
+    },
+    {
+      "area": "No Demonstrated Experience with EU Funding",
+      "description": "No documented participation in EU-funded projects (Horizon, Digital Europe, EuroHPC JU, etc.). Unfamiliarity with EU proposal formats, evaluation criteria, consortium agreement processes, financial reporting requirements, and compliance frameworks could significantly disadvantage the application.",
+      "severity": "major",
+      "mitigation": "Engage consultants or mentors with EU grant experience. Study successful FFplus proposals if available. Carefully review all templates and guidance documents. Consider partnering with organizations experienced in EU projects. Attend any available webinars or information sessions on FFplus Call-2."
+    },
+    {
+      "area": "Limited Evidence of Large-Scale Data Management",
+      "description": "No documented experience managing the massive datasets required for training generative AI models (often terabytes to petabytes). The call requires comprehensive Data Management Plans covering FAIR principles, data access/usage/sharing, retention, disposal, and protection.",
+      "severity": "major",
+      "mitigation": "Partner with data science organizations or HPC centers experienced in large-scale data management. Develop a robust data management plan template aligned with FAIR principles. Identify specific datasets for the proposed model development and document their availability, licensing, and characteristics."
+    },
+    {
+      "area": "Unclear Justification for 'Large-Scale' HPC Requirements",
+      "description": "The call requires computational resource requirements that 'clearly exceed' EuroHPC AI Factories playground access allocations. Current documentation does not specify what scale of HPC resources the laboratory has used or requires. Without justification for extreme-scale computing, the proposal may be considered out of scope.",
+      "severity": "major",
+      "mitigation": "Develop a specific generative AI model development scenario that genuinely requires pre-exascale or exascale resources (e.g., training a multi-billion parameter model on massive proprietary datasets). Provide detailed computational resource estimates with clear justification for why smaller allocations are insufficient."
+    },
+    {
+      "area": "No Identified Training Dataset",
+      "description": "The call requires detailed description and demonstration of availability of suitable training datasets for the generative AI models to be developed. No specific datasets are mentioned in the organization documentation.",
+      "severity": "major",
+      "mitigation": "Identify a specific high-value proprietary or domain-specific dataset that justifies custom model development (rather than using existing public models). Document dataset size, characteristics, availability, licensing, and why existing generative AI models cannot effectively utilize this data. Consider datasets related to ongoing defense/logistics work."
+    },
+    {
+      "area": "Limited Professional Software Development Evidence",
+      "description": "The call requires proficiency in 'professional software development and data processing.' While technical expertise is evident, there's limited documentation of production-grade software engineering, MLOps practices, or deployment of enterprise-scale AI systems.",
+      "severity": "minor",
+      "mitigation": "Document any software development projects that demonstrate professional-grade engineering practices. Partner with software engineering organizations if this remains a gap. Emphasize software development aspects in the proposal and work plan."
+    }
+  ],
+  "gaps": [
+    {
+      "type": "administrative",
+      "description": "No PIC (Participant Identification Code) registration documented. All applicants must have a valid PIC code from the European Commission before submission. This is mandatory for eligibility.",
+      "severity": "critical",
+      "recommendation": "If establishing an independent SME entity, immediately register for a PIC code through the EU Participant Portal (requires 1-2 weeks for validation). Ensure all registration data is accurate and complete. Note: A university laboratory may not be able to obtain a separate PIC; this further emphasizes the need for either spin-off incorporation or partnership with an existing eligible SME."
+    },
+    {
+      "type": "administrative",
+      "description": "No documented SME status certification. The grant requires documentation of SME status in line with European Commission definitions before the funding agreement is signed.",
+      "severity": "critical",
+      "recommendation": "If pursuing spin-off route, prepare SME self-declaration forms according to EU Commission Recommendation 2003/361/EC. Document employee count (<250), annual turnover (<€50M), and balance sheet (<€43M). Ensure the entity meets SME criteria and is not controlled by larger organizations that would disqualify SME status."
+    },
+    {
+      "type": "technical",
+      "description": "No specific use case or business problem identified that requires development of a new generative AI model. The call requires clear justification for why existing models (GPT-4, Claude, Llama, etc.) cannot address the specific business problem.",
+      "severity": "critical",
+      "recommendation": "Develop a concrete use case, ideally leveraging the organization's ongoing work in defense/logistics or specialized domains. The use case must demonstrate why custom model development on proprietary/specialized data is imperative. Example: AI for Ukrainian military logistics using Ukrainian language and domain-specific data that public models cannot effectively handle."
+    },
+    {
+      "type": "technical",
+      "description": "No trustworthy AI compliance framework or self-assessment experience. The call requires documenting self-assessment of adherence to EU guidelines for trustworthy AI, identifying risks (bias, hallucinations, drift) and mitigation strategies.",
+      "severity": "major",
+      "recommendation": "Familiarize team with EU's Trustworthy AI guidelines and ALTAI assessment framework. Complete preliminary self-assessment for the proposed generative AI development project. Develop risk mitigation strategies for bias, hallucinations, model drift, transparency, accountability, and other trustworthy AI concerns."
+    },
+    {
+      "type": "technical",
+      "description": "No established performance metrics framework for evaluating generative AI models. The call requires detailed performance metrics, baseline establishment, and reproducibility plans.",
+      "severity": "major",
+      "recommendation": "Develop a comprehensive evaluation framework appropriate for the specific generative AI model type (e.g., perplexity, BLEU scores for language models; FID, IS for generative image models). Define clear baselines, benchmarking methodology, and reproducibility protocols including hyperparameter documentation and random seed management."
+    },
+    {
+      "type": "experience",
+      "description": "No documented experience accessing or using EuroHPC supercomputers. The call expects familiarity with EuroHPC access schemes (especially AI Factories) and requires justification if not using EuroHPC systems.",
+      "severity": "major",
+      "recommendation": "Contact EuroHPC National Competence Center (if Ukraine has established one post-association) or reach out to EuroHPC JU directly for guidance. Review EuroHPC AI Factories access procedures. Consider applying for playground access to gain familiarity with the systems and demonstrate need for larger allocations in the proposal."
+    },
+    {
+      "type": "team",
+      "description": "No identified consortium partners with complementary expertise in generative AI, professional software engineering, or commercial exploitation. A consortium of up to 3 partners is permitted and could significantly strengthen the proposal.",
+      "severity": "major",
+      "recommendation": "Identify 1-2 potential supporting partners: (1) An organization with proven generative AI/LLM development expertise, (2) A commercial entity or startup that can strengthen business viability and exploitation plans. Ensure partners can perform technical/engineering activities (not just consulting) and collectively enhance competitiveness."
+    },
+    {
+      "type": "resources",
+      "description": "No identified specialized datasets for model training. The call requires detailed description and demonstrated availability of suitable training datasets - this is fundamental to the entire proposal.",
+      "severity": "major",
+      "recommendation": "Prioritize identifying a high-value dataset that justifies custom model development. Options: (1) Proprietary data from defense/logistics projects, (2) Ukrainian language corpora for domain-specific LLMs, (3) Specialized technical/scientific datasets from ZNU research, (4) Partner with organizations that have unique datasets requiring custom AI models."
+    },
+    {
+      "type": "administrative",
+      "description": "No established relationship with EuroHPC National Competence Centre or HPC support infrastructure. The call mentions NCCs can assist with resource selection and application processes.",
+      "severity": "minor",
+      "recommendation": "Identify and contact the relevant National Competence Centre. Since Ukraine recently joined Digital Europe Programme, clarify what HPC support infrastructure is available to Ukrainian organizations. Establish relationships that can support the EuroHPC access application process."
+    },
+    {
+      "type": "experience",
+      "description": "No documented success stories or case studies demonstrating business impact from previous research. The call requires supporting FFplus in generating success stories including business benefits and impact.",
+      "severity": "minor",
+      "recommendation": "Begin documenting business impact and success stories from current projects (especially the defense/logistics AI project). Develop case study templates and practice articulating research outcomes in terms of business value, commercial potential, and societal impact."
+    }
+  ],
+  "risks": [
+    {
+      "category": "Eligibility - Legal Entity Structure",
+      "description": "HIGHEST RISK: The organization may be deemed ineligible because it is a university laboratory rather than an independent SME or startup legal entity. This would result in rejection at the admissibility/eligibility stage before evaluation.",
+      "probability": "high",
+      "impact": "high",
+      "mitigation": "IMMEDIATE ACTION REQUIRED: Consult with FFplus project coordinators (University of Stuttgart) or EuroHPC JU to clarify whether university laboratories can apply independently. If not, pursue spin-off incorporation or consortium partnership routes immediately. Do not invest significant proposal effort without resolving this fundamental question."
+    },
+    {
+      "category": "Eligibility - PIC Registration",
+      "description": "Without a valid PIC code registered in the EU Participant Portal, the proposal will be rejected as inadmissible regardless of quality. PIC registration for new entities can take 1-2 weeks and may encounter validation issues.",
+      "probability": "medium",
+      "impact": "high",
+      "mitigation": "Initiate PIC registration immediately if pursuing spin-off route. Allow sufficient time before the February 25, 2026 deadline. Ensure all registration data is accurate and complete. Have backup communication channels with EU Validation Services in case issues arise."
+    },
+    {
+      "category": "Competition - Proposal Volume",
+      "description": "The call will close when 250 proposals are received, potentially before the February 25, 2026 deadline. High-quality proposals submitted early have advantage. Additionally, competition from established European AI startups with proven generative AI expertise will be intense.",
+      "probability": "high",
+      "impact": "high",
+      "mitigation": "Do not delay proposal development. Aim for submission within the first 50-100 proposals to avoid early closure. Differentiate through unique use case, specialized datasets, or domain expertise (defense/logistics AI, Ukrainian language models) rather than competing on general generative AI capabilities."
+    },
+    {
+      "category": "Technical - Insufficient Generative AI Depth",
+      "description": "Evaluators may determine the organization lacks sufficient proficiency in generative AI, LLMs, and foundation models to execute the proposed innovation study successfully. This would result in low scores on Excellence criteria.",
+      "probability": "high",
+      "impact": "high",
+      "mitigation": "Either recruit/hire generative AI experts to the team before proposal submission, or form consortium with partners who have proven track record in LLM/foundation model development. Document any generative AI learning, experimentation, or pilot projects initiated. Do not overstate capabilities."
+    },
+    {
+      "category": "Evaluation - Weak Business Case",
+      "description": "As an academic laboratory with limited commercial orientation, the proposal may score poorly on 'Impact' criterion (33.33% weight) which emphasizes commercial viability, business models, and exploitation plans. This could result in failing to reach the 3-point minimum threshold per criterion.",
+      "probability": "high",
+      "impact": "high",
+      "mitigation": "If pursuing spin-off route, develop robust business plan with clear commercialization strategy, target market analysis, revenue model, and competitive positioning. Partner with commercial entities or business development experts. Study successful FFplus case studies to understand evaluator expectations for business impact."
+    },
+    {
+      "category": "Resource - Dataset Availability",
+      "description": "If a suitable training dataset cannot be identified, secured, and documented with appropriate licensing/access rights, the proposal will have a fundamental gap. Evaluators must see clear evidence of dataset availability.",
+      "probability": "medium",
+      "impact": "high",
+      "mitigation": "Prioritize dataset identification NOW. Options include proprietary organizational data, publicly available Ukrainian language corpora, domain-specific technical datasets, or partnering with dataset owners. Secure data access agreements or MOUs before proposal submission. Document dataset characteristics, size, quality, and availability."
+    },
+    {
+      "category": "Capacity - Team Bandwidth",
+      "description": "A 4-person team managing a complex 10-month generative AI model development project with extensive reporting requirements, consortium coordination (if applicable), and monthly deliverables faces significant execution risk. Overcommitment could lead to project failure.",
+      "probability": "medium",
+      "impact": "medium",
+      "mitigation": "Realistically assess team capacity. If team size is insufficient, either recruit additional staff before proposal submission or form consortium where partners handle specific technical components. Create detailed work plan with realistic time allocations and built-in contingencies."
+    },
+    {
+      "category": "Administrative - EU Compliance Complexity",
+      "description": "First-time EU grant recipients often underestimate the complexity of financial reporting, compliance documentation, data management plans, and administrative requirements. Non-compliance can lead to payment delays or funding recovery.",
+      "probability": "medium",
+      "impact": "medium",
+      "mitigation": "Allocate dedicated administrative capacity (at least 0.5 FTE). Engage consultants with EU grant management experience. Study all compliance requirements carefully. Build administrative costs realistically into budget. Attend any available training on FFplus financial and administrative procedures."
+    },
+    {
+      "category": "Technical - HPC Resource Underestimation",
+      "description": "Generative AI model training can require unexpectedly large computational resources. If EuroHPC access is not approved or resources are insufficient, the project could fail to deliver results, affecting Month 7 evaluation and extension eligibility.",
+      "probability": "medium",
+      "impact": "medium",
+      "mitigation": "Develop conservative computational resource estimates with safety margins. Have contingency plans for accessing commercial HPC resources if needed (ensure budget includes these costs). Consider hybrid approaches using smaller models or transfer learning if extreme-scale resources prove inadequate."
+    },
+    {
+      "category": "Geopolitical - Ukraine Conflict Impact",
+      "description": "Ongoing conflict in Ukraine could affect project execution through infrastructure disruptions, researcher safety concerns, or international collaboration challenges. Evaluators may perceive this as execution risk.",
+      "probability": "low",
+      "impact": "medium",
+      "mitigation": "Address this proactively in proposal with contingency plans: distributed team arrangements, partnerships with stable EU institutions, data backup strategies, and remote work capabilities. Emphasize resilience demonstrated through continued research output during conflict. Consider this a potential differentiator showing determination and impact potential."
+    },
+    {
+      "category": "Financial - Revenue During Project",
+      "description": "If the developed generative AI model generates any revenue through deployment during the 10-month funding phase, this must be reported and will impact final funding amount. Unexpected commercialization could create financial complications.",
+      "probability": "low",
+      "impact": "low",
+      "mitigation": "Plan innovation study to focus on model development and evaluation only, not deployment or commercialization (which are out of scope anyway). If spin-off company route is pursued, maintain clear separation between funded R&D activities and any commercial operations. Establish proper revenue tracking mechanisms."
+    }
+  ],
+  "requiredActions": [
+    {
+      "priority": "critical",
+      "action": "RESOLVE LEGAL ENTITY STATUS: Determine whether the laboratory can apply as an independent entity or must either (a) establish a spin-off SME company, or (b) partner with an existing eligible SME. Consult with FFplus coordinators and EU legal experts immediately.",
+      "timeline": "IMMEDIATE - before any further proposal development (within 2 weeks)"
+    },
+    {
+      "priority": "critical",
+      "action": "If spin-off route chosen: Initiate formal company incorporation process, register as SME, and obtain PIC code from EU Participant Portal. Ensure SME status compliance and independent legal entity requirements are met.",
+      "timeline": "Within 4 weeks (allow sufficient time before submission deadline)"
+    },
+    {
+      "priority": "critical",
+      "action": "IDENTIFY SPECIFIC GENERATIVE AI USE CASE: Develop concrete business problem/opportunity that requires custom generative AI model development and justify why existing public models (GPT-4, Claude, Llama 3, etc.) cannot address it. This is the foundation of the entire proposal.",
+      "timeline": "Within 2 weeks"
+    },
+    {
+      "priority": "critical",
+      "action": "SECURE TRAINING DATASET: Identify, document, and secure access to the specific dataset(s) that will be used for model training. Obtain necessary licenses, permissions, or data sharing agreements. Prepare detailed dataset description.",
+      "timeline": "Within 3 weeks"
+    },
+    {
+      "priority": "high",
+      "action": "ASSESS AND ADDRESS GENERATIVE AI EXPERTISE GAP: Either (a) recruit/hire experts with proven LLM/foundation model development experience, (b) identify consortium partners with this expertise, or (c) document intensive generative AI capability building already underway. Do not proceed without addressing this gap.",
+      "timeline": "Within 3 weeks"
+    },
+    {
+      "priority": "high",
+      "action": "FORM STRATEGIC CONSORTIUM: Identify 1-2 supporting partners that can: (1) provide generative AI/LLM expertise, (2) strengthen commercial/business aspects, (3) provide specialized technical capabilities (data engineering, HPC optimization). Draft consortium agreement terms.",
+      "timeline": "Within 4 weeks"
+    },
+    {
+      "priority": "high",
+      "action": "DEVELOP COMPREHENSIVE DATA MANAGEMENT PLAN: Create detailed plan covering FAIR principles, data lifecycle, access controls, retention policies, privacy/security measures, and disposal procedures aligned with EU requirements.",
+      "timeline": "Within 4 weeks"
+    },
+    {
+      "priority": "high",
+      "action": "COMPLETE TRUSTWORTHY AI SELF-ASSESSMENT: Study EU Trustworthy AI guidelines, complete ALTAI assessment framework, identify specific risks (bias, hallucinations, transparency) for proposed generative AI application, and develop mitigation strategies.",
+      "timeline": "Within 4 weeks"
+    },
+    {
+      "priority": "high",
+      "action": "DEVELOP BUSINESS CASE AND EXPLOITATION STRATEGY: Create comprehensive commercial viability analysis, business model, market opportunity assessment, value proposition, competitive positioning, and clear exploitation plan. This is essential for Impact criterion.",
+      "timeline": "Within 5 weeks"
+    },
+    {
+      "priority": "high",
+      "action": "ESTABLISH EUROHPC ACCESS STRATEGY: Contact EuroHPC National Competence Centre, review AI Factories access procedures, determine appropriate supercomputer systems, and prepare justification for computational resource requirements exceeding playground allocations.",
+      "timeline": "Within 3 weeks"
+    },
+    {
+      "priority": "medium",
+      "action": "DEFINE TECHNICAL SPECIFICATIONS: Detail model architecture, size (parameters), hyperparameters, training approach, performance metrics, evaluation benchmarks, baseline comparisons, and reproducibility methodology.",
+      "timeline": "Within 5 weeks"
+    },
+    {
+      "priority": "medium",
+      "action": "ENGAGE EU GRANT MANAGEMENT EXPERTISE: Hire consultant or advisor with FFplus/EuroHPC JU/Digital Europe Programme experience to review proposal, ensure compliance, and guide through submission process.",
+      "timeline": "Within 2 weeks"
+    },
+    {
+      "priority": "medium",
+      "action": "PREPARE COMPREHENSIVE BUDGET: Develop detailed budget breakdown covering personnel (with realistic effort allocations), equipment depreciation, travel, HPC compute resources, specialized software/datasets. Ensure >50% allocation to main participant and compliance with all funding rules.",
+      "timeline": "Within 5 weeks"
+    },
+    {
+      "priority": "medium",
+      "action": "CREATE DETAILED 10-MONTH WORKPLAN: Develop month-by-month plan covering data preparation, model development, training, evaluation, reporting milestones, and deliverables. Ensure realistic timelines and clear task assignments.",
+      "timeline": "Within 5 weeks"
+    },
+    {
+      "priority": "medium",
+      "action": "STUDY SUCCESSFUL FFPLUS PROJECTS: Research existing FFplus success stories and funded projects to understand evaluator expectations, competitive positioning, and best practices for proposal presentation.",
+      "timeline": "Within 1 week"
+    },
+    {
+      "priority": "low",
+      "action": "PREPARE SUPPORTING DOCUMENTATION: Gather CVs, publication lists, organizational credentials, partnership agreements, letters of support, SME status documentation, and any other supporting materials referenced in proposal.",
+      "timeline": "Within 6 weeks"
+    },
+    {
+      "priority": "low",
+      "action": "INTERNAL REVIEW AND ITERATION: Conduct multiple internal reviews of proposal draft, engage external reviewers if possible, refine based on feedback, ensure compliance with all formatting requirements (13-page limit, 11pt Arial, <5MB PDF).",
+      "timeline": "Weeks 6-8 (allow 2-3 review cycles)"
+    },
+    {
+      "priority": "low",
+      "action": "EARLY SUBMISSION STRATEGY: Aim to submit within first 100 proposals to avoid early call closure at 250 proposals. Do not wait until February 25, 2026 deadline.",
+      "timeline": "Target submission by mid-February 2026 or earlier if ready"
+    }
+  ],
+  "strategicRecommendations": [
+    "🚨 PRIORITY ONE: Immediately clarify legal entity eligibility. Do not invest significant effort in proposal development until confirming that either the laboratory can apply independently OR a viable spin-off/partnership structure is established. Contact FFplus coordinators directly with this question.",
+    "🎯 DIFFERENTIATION STRATEGY: Do not compete on general generative AI capabilities against well-established European AI startups. Instead, leverage unique positioning: (1) Ukrainian language/context-specific models for defense/logistics, (2) specialized domain expertise, (3) access to proprietary datasets from ongoing projects, (4) demonstrated resilience and innovation despite conflict conditions.",
+    "🤝 CONSORTIUM IS ESSENTIAL: With current gaps in generative AI expertise and limited team size, forming a strong consortium with 1-2 complementary partners is highly recommended. Seek partners who bring: proven LLM development experience, professional software engineering capabilities, and/or strong business/commercialization track record.",
+    "💼 BUSINESS CASE MUST BE COMPELLING: Academic proposals often fail on Impact criteria. If pursuing this opportunity, invest heavily in developing a robust commercial case: clear target market, quantified value proposition, realistic revenue model, competitive analysis, and concrete exploitation plan. Consider engaging business development consultants.",
+    "📊 USE CASE MUST JUSTIFY CUSTOM MODEL: The proposal will only succeed if evaluators are convinced that existing generative AI models (GPT-4, Claude, Llama 3, Mistral, etc.) genuinely cannot address the specific problem. The use case must involve: unique proprietary datasets, specialized domain requirements, specific language/cultural context, or regulatory/security constraints that necessitate custom model development.",
+    "🖥️ COMPUTATIONAL SCALE MUST BE JUSTIFIED: The call specifically requires HPC needs that 'clearly exceed' playground access allocations. Ensure the proposed model development genuinely requires pre-exascale or exascale resources (e.g., training multi-billion parameter models, massive datasets, extensive hyperparameter optimization). Smaller-scale experiments can use playground access and don't qualify.",
+    "📈 BUILD ON EXISTING STRENGTHS: Leverage the ongoing defense/logistics AI project as foundation. Position the generative AI work as next-generation capability building on proven expertise. This provides credibility and continuity that evaluators value.",
+    "🇪🇺 DEMONSTRATE EU ALIGNMENT: Emphasize contribution to European strategic autonomy in AI, strengthening EU generative AI capabilities, and addressing specific European needs. Ukraine's association with Digital Europe Programme represents strategic EU commitment - leverage this political dimension appropriately.",
+    "⚡ SPEED AND EARLY SUBMISSION: With 250-proposal cap and likely intense competition, aim for submission in the first third of the window (within first 80-100 proposals). Quality is essential, but early submission provides insurance against call closure and demonstrates readiness.",
+    "🔄 PLAN FOR EXTENSION OPPORTUNITY: Top 70% of successful innovation studies become eligible for extension funding in subsequent calls. Structure the 10-month study as Phase 1 of a larger vision, with clear Phase 2 possibilities if Month 7 evaluation is successful. This long-term perspective strengthens the proposal.",
+    "📚 INVEST IN EU GRANT CAPABILITY BUILDING: Regardless of this specific call outcome, developing EU funding capability is strategically valuable. Use this opportunity to build expertise in EU proposal development, compliance frameworks, and international collaboration that will benefit future opportunities.",
+    "🛡️ ADDRESS UKRAINE CONTEXT PROACTIVELY: Don't ignore the geopolitical situation. Instead, address it transparently with: (1) demonstrated continued research productivity despite conflict, (2) contingency plans for infrastructure/personnel risks, (3) positioning Ukrainian AI development as strategic European interest, (4) emphasis on remote work capability and distributed team resilience.",
+    "ALTERNATIVE PATH CONSIDERATION: If the legal entity barriers prove insurmountable and spin-off incorporation is not feasible in the available timeframe, consider pivoting to SUPPORTING PARTICIPANT role in another eligible SME's consortium. This would limit funding to €150K and restrict activities to technical/engineering tasks only, but would provide entry point to FFplus ecosystem and EU funding experience.",
+    "REALISTIC ASSESSMENT: With the critical gaps identified - especially legal entity structure, generative AI expertise, and business orientation - achieving success in this highly competitive call is challenging. If these gaps cannot be adequately addressed within 8-10 weeks, it may be more strategic to: (1) use this deadline to prepare capabilities, (2) target FFplus Call-3 or subsequent iterations, (3) meanwhile pursue EuroHPC playground access to build track record, or (4) focus on other more aligned funding opportunities.",
+    "LONG-TERM POSITIONING: Even if this specific call is not viable, the organization should pursue: (1) building authentic generative AI capabilities through pilot projects, (2) establishing formal SME entity structure if serious about EU funding, (3) developing EuroHPC infrastructure familiarity, (4) creating success stories with commercial impact from existing projects, (5) expanding international partnerships focused on AI commercialization. These investments will strengthen competitiveness for future opportunities."
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "name": "Навчально-наукова лабораторія паралельних і розподілених обчислень ЗНУ",
+  "type": "research_institute",
+  "country": "Ukraine",
+  "researchAreas": [
+    "Artificial Intelligence",
+    "Machine Learning",
+    "High Performance Computing",
+    "Parallel and Distributed Computing",
+    "Distributed Databases",
+    "Geoinformation Technologies",
+    "Computer Modeling and Forecasting",
+    "Digital Cartography",
+    "Logistics Systems",
+    "CAD Systems"
+  ],
+  "teamInfo": {
+    "totalResearchers": 4,
+    "phds": 1,
+    "professors": 1,
+    "expertise": [
+      "High-Performance Computing",
+      "Parallel and Distributed Computing",
+      "Machine Learning and AI",
+      "Distributed Database Systems",
+      "Geoinformation Technologies and Digital Cartography",
+      "Computer-Aided Design (CAD)",
+      "Logistics Systems Optimization",
+      "AI in Defense and Security",
+      "Computational Modeling"
+    ]
+  },
+  "resources": {
+    "hpcAccess": true,
+    "hpcDetails": "Учебно-научная лаборатория параллельных и распределённых вычислений с собственной вычислительной инфраструктурой",
+    "gpuClusters": "Доступ к GPU кластерам через партнерство с ЗНУ",
+    "computingResources": "Собственная лаборатория параллельных вычислений + доступ к 21 НИЛ ЗНУ",
+    "laboratories": [
+      "Лаборатория параллельных и распределённых вычислений",
+      "Доступ к лаборатории виртуальной реальности ЗНУ (через партнерство)"
+    ],
+    "equipment": [
+      "Высокопроизводительные вычислительные системы",
+      "Специализированное ПО для параллельных вычислений",
+      "Геоинформационные системы и картографическое ПО",
+      "САПР системы"
+    ]
+  },
+  "financialCapacity": {
+    "annualBudget": 3589768,
+    "coFundingAvailable": true,
+    "maxProjectBudget": 3600000
+  },
+  "trackRecord": {
+    "previousGrants": [
+      {
+        "title": "Технології штучного інтелекту в логістичних системах національної безпеки та оборони",
+        "funder": "Основний конкурс (держбюджет)",
+        "amount": 3589768,
+        "year": 2024,
+        "outcome": "ongoing"
+      }
+    ],
+    "publications": {
+      "total": 25,
+      "lastYear": 8,
+      "topVenues": [
+        "Scopus",
+        "Computer Science and Applied Mathematics (ЗНУ)",
+        "Conferences on Parallel Computing"
+      ]
+    },
+    "patents": 1
+  },
+  "partnerships": [
+    {
+      "organization": "Запорізький національний університет (ЗНУ)",
+      "type": "academic",
+      "active": true
+    },
+    {
+      "organization": "Durham University (через ЗНУ)",
+      "type": "academic",
+      "active": true
+    },
+    {
+      "organization": "TU Bergakademie Freiberg (через ЗНУ)",
+      "type": "academic",
+      "active": true
+    },
+    {
+      "organization": "ТОВ \"Запорізький ливарно-механічний завод\"",
+      "type": "industry",
+      "active": true
+    }
+  ],
+  "additionalInfo": "Навчально-наукова лабораторія паралельних і розподілених обчислень - спеціалізована дослідницька група при Запорізькому національному університеті.\n\nКЛЮЧОВІ ПЕРЕВАГИ:\n✅ Відповідає критеріям МСП (4 співробітники)\n✅ Високий науковий рівень (1 д.т.н., 1 к.н.)\n✅ Досвід виконання державних проектів\n✅ Спеціалізація в AI та HPC\n✅ Доступ до ресурсів ЗНУ як партнера\n\nКерівник: Шило Галина Миколаївна\n- Доктор технічних наук, доцент\n- В.о. завідувача кафедри комп'ютерних наук ЗНУ\n- Email: shilo.gn@gmail.com\n- Tel: (061) 289-12-57\n\nМісцезнаходження:\n69063, м. Запоріжжя, вул. Жуковського, 66 (ЗНУ, I корп., к. 19)\n\nОСНОВНІ НАПРЯМКИ ДІЯЛЬНОСТІ:\n1. Паралельні та розподілені обчислення\n2. Технології штучного інтелекту\n3. Розподілені бази даних\n4. Геоінформаційні технології та цифрова картографія\n5. Комп'ютерне моделювання та прогнозування\n6. AI в логістичних системах\n7. Системи автоматизованого проектування (САПР)\n\nПОТОЧНІ ПРОЕКТИ:\n- \"Технології штучного інтелекту в логістичних системах національної безпеки та оборони\" (3.59 млн грн)\n\nПАРТНЕРСТВО З ЗНУ НАДАЄ ДОСТУП ДО:\n- 21 науково-дослідна лабораторія\n- 9 навчально-науково-виробничих центрів\n- H-index університету: 28 (Scopus), 24 (WoS)\n- 37 міжнародних договорів про співпрацю\n- Проекти Erasmus+ та Horizon Europe",
+  "supportingDocuments": [
+    {
+      "url": "https://digital-strategy.ec.europa.eu/en/news/solidarity-ukraine-digital-europe-programme-open-ukraine-access-calls-funding",
+      "type": "html",
+      "description": "🇺🇦 ОФІЦІЙНЕ ПІДТВЕРДЖЕННЯ ЄС: Ukraine officially associated with Digital Europe Programme for supercomputing, AI, and digital skills.",
+      "priority": "high"
+    },
+    {
+      "url": "https://www.eurohpc-ju.europa.eu/supercomputers/supercomputers-access-policy-and-faq_en",
+      "type": "html",
+      "description": "🇺🇦 ОФІЦІЙНЕ ПІДТВЕРДЖЕННЯ EuroHPC JU: Ukraine listed among eligible countries for EuroHPC supercomputers access.",
+      "priority": "high"
+    },
+    {
+      "url": "https://cascadefunding.eu/open-call/ffplus-second-call-for-innovation-studies-for-the-development-of-generative-ai-models/",
+      "type": "html",
+      "description": "🇺🇦 ОФІЦІЙНЕ ПІДТВЕРДЖЕННЯ FFplus: Eligibility - organizations in EU Member States OR countries associated with Digital Europe Programme (Ukraine included).",
+      "priority": "high"
+    }
+  ]
+}

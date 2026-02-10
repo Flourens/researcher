@@ -21,7 +21,7 @@ export class FeasibilityAgent extends BaseAgent<
   FeasibilityEvaluation
 > {
   constructor() {
-    super('claude-sonnet-4-5', 8192);
+    super('claude-sonnet-4-5', 16384);
   }
 
   async execute(

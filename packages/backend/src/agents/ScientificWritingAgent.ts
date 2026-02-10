@@ -27,7 +27,8 @@ export class ScientificWritingAgent extends BaseAgent<
 > {
   constructor() {
     // Use Claude Opus 4.6 with higher token limit for complex proposals
-    super('claude-opus-4-6', 16384);
+    // Increased to 32K to handle large JSON responses without truncation
+    super('claude-opus-4-6', 32768);
   }
 
   async execute(

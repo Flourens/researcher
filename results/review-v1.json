@@ -1,0 +1,255 @@
+{
+  "overallScore": 13.2,
+  "maxScore": 15,
+  "readyToSubmit": true,
+  "executiveSummary": "BUILDGEN-UA is an exceptionally well-crafted proposal that demonstrates deep understanding of both the technical challenge and the grant requirements. The proposal presents a compelling case for developing a domain-specific generative AI system for Ukrainian construction cost estimation, combining a fine-tuned LLM with a sophisticated RAG architecture. The writing is precise, the methodology is rigorous with clear ablation studies and baselines, the work plan is realistic and well-structured, and the impact narrative convincingly connects technical outputs to business value and broader societal needs (Ukraine reconstruction). The proposal addresses virtually all mandatory requirements of the FFplus Call-2-Type-2 with thoroughness that should score highly across all three evaluation criteria.\n\nThe primary strengths lie in the crystal-clear justification for why existing models cannot solve this problem, the detailed technical architecture with specific hyperparameters and training configurations, the comprehensive evaluation framework with six baseline comparisons, and the persuasive commercial exploitation pathway. The proposal also excels in its trustworthy AI risk assessment and data management plan, both of which are well-integrated rather than appearing as afterthoughts.\n\nThe main areas for improvement are: (1) the eligibility of the Zaporizhzhia-based partners needs careful verification given Ukraine's association status with the Digital Europe Programme and the conflict situation, (2) the HPC resource justification, while present, could more explicitly demonstrate why the requested compute exceeds playground access thresholds, (3) the budget allocation gives only 55% to the main participant (barely above the 50% threshold) and should be more explicitly justified, and (4) certain risks related to data access from a conflict zone and potential delays in EuroHPC resource allocation deserve more attention. Despite these concerns, this is a highly competitive proposal that, with minor refinements, should score well above the acceptance threshold of 10 points.",
+  "sectionScores": [
+    {
+      "section": "Excellence",
+      "score": 4.5,
+      "maxScore": 5,
+      "feedback": "The proposal demonstrates outstanding conceptual and technical excellence. The gap analysis in Section 2 (State of the Art) is thorough and convincingly establishes that no existing model can address Ukrainian construction cost estimation—supported by specific evidence of >40% cost deviations from general-purpose LLMs. The three-tier architecture (domain-adapted LLM + hybrid RAG + evaluation framework) is technically sound and well-justified. The choice of Qwen-2.5-14B is supported by concrete benchmark scores and architectural advantages. The fine-tuning strategy (continued pre-training → SFT with LoRA → DPO alignment) follows established best practices with appropriate hyperparameter specifications. The evaluation framework is exemplary: six baselines (B1-B6) enabling clean ablation, quantitative metrics with specific targets, qualitative expert evaluation, and statistical significance testing. Performance metrics are clearly defined with ambitious but realistic targets (MAPE <8%, F1 >0.85, compliance >95%). The reproducibility plan (MLflow tracking, versioned code, checkpoint archiving) is comprehensive. Minor deductions: (1) The claim that 1,200 GPU-hours 'substantially exceeds' playground access is not strongly argued—the proposal notes playground access is 1,000-10,000 GPU-hours, placing the request at the lower end of this range rather than clearly exceeding it. (2) The secondary model candidate (Llama-3.1-13B) is mentioned for ablation but not deeply justified as a contingency if Qwen-2.5 proves problematic. (3) Some training estimates (e.g., 256 GPU-hours for continued pre-training on 280M tokens × 3 epochs for a 14B model) may be optimistic and should be validated with preliminary calculations."
+    },
+    {
+      "section": "Impact",
+      "score": 4.5,
+      "maxScore": 5,
+      "feedback": "The impact narrative is one of the proposal's strongest elements. The innovation potential is clearly articulated across three dimensions (technical, market, and process innovation), and the commercial viability analysis is specific and credible: 12,000 Ukrainian construction SMEs as initial addressable market, €50-150/month SaaS pricing, €7-22M annual recurring revenue at maturity. The phased exploitation strategy (beta in Zaporizhzhia → national Ukraine → Eastern European expansion) is realistic. The societal relevance is compelling—directly linking to Ukraine's $500B+ reconstruction challenge and connecting to EU policy objectives around Ukraine's digital integration. The alignment with FFplus objectives is explicit and well-argued: the proposal directly demonstrates HPC business value for SMEs, contributes to European AI sovereignty, and supports SME digital transformation. The project creates a first-of-its-kind product category (construction estimation AI for non-English European languages), giving it strong innovation differentiation. The connection to the extension opportunity (top 70% eligibility) is strategically incorporated. Minor deductions: (1) Revenue projections in the exploitation roadmap could benefit from sensitivity analysis and more conservative scenarios. (2) The expansion to Moldova, Georgia, and Baltic states (Phase 3) assumes regulatory similarity that is asserted but not substantiated. (3) Letters of interest from 10 early adopter SMEs are planned but not yet secured—having even preliminary evidence of market demand would strengthen the proposal significantly."
+    },
+    {
+      "section": "Implementation",
+      "score": 4.2,
+      "maxScore": 5,
+      "feedback": "The work plan is well-structured with five clearly defined work packages, logical task sequencing, and appropriate milestones. The 10-month timeline is realistic with reasonable buffer time, and the critical path (data ready by M3 → model training M3-M7 → evaluation M7-M9) is achievable. The data management plan comprehensively addresses FAIR principles with specific technical implementations. Resource allocation across partners is logical: AI SME leads model development and evaluation, university lab leads RAG engineering and HPC infrastructure, construction SME provides data and domain validation. However, several implementation concerns warrant attention: (1) The budget allocates only 55% to the main participant, barely exceeding the 50% guideline—while the proposal justifies this implicitly through the work distribution, an explicit justification for the deviation is expected by the call text and is missing. (2) The capacity of the applicants is not sufficiently demonstrated—the proposal describes partner roles but provides no CVs, track records, prior publications, or specific evidence of existing expertise in generative AI, HPC, or construction estimation AI. Section 4 of the proposal template should contain this evidence per grant requirements. (3) P2 is described as a university laboratory, raising questions about whether it qualifies as a 'supporting participant' under the call rules (the call mentions SMEs and startups as main participants, with supporting participants that can be any organization, so this should be fine, but the nature of P2's involvement should be clarified). (4) The HPC resource justification states 1,200 GPU-hours but the call requires resources that 'clearly exceed' EuroHPC AI Factories playground access, which offers up to 10,000 GPU-hours—the proposal's request is actually within playground range, potentially undermining the large-scale HPC justification. (5) Travel costs are not mentioned or justified. (6) The contingency plan for EuroHPC access delays or denial is not addressed."
+    }
+  ],
+  "strengths": [
+    "Exceptionally clear and convincing justification for why existing generative AI models cannot address Ukrainian construction cost estimation, with specific evidence (>40% cost deviation from GPT-4, Claude, etc.)",
+    "Rigorous evaluation framework with six baselines (B1-B6) enabling clean ablation studies, quantitative metrics with specific numeric targets, expert blind evaluation, and controlled time-efficiency studies with statistical significance testing",
+    "Well-designed three-tier technical architecture (domain-adapted LLM + hybrid RAG with structured database integration + symbolic calculation verification) that addresses the specific challenges of regulated professional document generation",
+    "Compelling and specific commercial exploitation pathway with realistic market sizing (12,000 Ukrainian construction SMEs), phased go-to-market strategy, and clear SaaS business model with revenue projections",
+    "Strong societal impact narrative connecting to Ukraine's reconstruction needs ($500B+), workforce displacement challenges, and EU digital integration policy objectives",
+    "Comprehensive trustworthy AI risk assessment using ALTAI framework with specific mitigation strategies for hallucination, bias, drift, transparency, human agency, data privacy, and robustness",
+    "Thorough data management plan addressing FAIR principles with specific technical implementations (DOIs via Zenodo, JSONL/Parquet formats, CC-BY-SA 4.0 licensing, 5-year retention)",
+    "Detailed technical specifications throughout: model hyperparameters, training configurations (DeepSpeed ZeRO Stage 3, LoRA rank/alpha, learning rates), dataset sizes (280M tokens, 15,000 documents, 240,000 price records), and concrete architecture choices",
+    "Substantial domain-specific training dataset (15,000+ historical estimates, 240,000 unit price records, 2,400 regulatory documents, 5,000 instruction pairs) with clear provenance and preprocessing pipeline",
+    "Strong open-science commitment: public benchmark dataset release, evaluation script publication, methodology documentation for community replication",
+    "Excellent alignment with all FFplus call objectives, explicitly articulated throughout the proposal",
+    "Well-structured writing with clear section organization, consistent terminology, and professional presentation quality"
+  ],
+  "weaknesses": [
+    {
+      "section": "Implementation",
+      "issue": "No evidence of applicant capacity or track record is provided. The proposal describes partner roles but includes no CVs, prior publications, relevant project experience, or specific evidence of existing expertise in generative AI, HPC, professional software development, or construction estimation. This is a mandatory requirement ('Demonstrate proficiency in generative AI, professional software development, and data processing' in proposal Section 4).",
+      "severity": "critical",
+      "suggestion": "Add a dedicated 'Consortium Expertise and Track Record' section (as required in Section 4 of the proposal template) with: (1) brief CVs of key personnel at each partner, (2) relevant prior projects and publications in AI/ML, HPC, and construction domain, (3) specific technical capabilities (GPU cluster experience, distributed training experience, construction data processing), and (4) evidence of the AI SME's existing products or services demonstrating software development proficiency."
+    },
+    {
+      "section": "Implementation",
+      "issue": "HPC resource requirements (1,200 GPU-hours) may not 'clearly exceed' EuroHPC AI Factories playground access allocations. The proposal itself notes playground access provides 1,000-10,000 GPU-hours, placing the request at the very bottom of the playground range rather than clearly exceeding it. This undermines the mandatory requirement that 'computing resource requirements should clearly exceed EuroHPC AI Factories playground access allocation.'",
+      "severity": "major",
+      "suggestion": "Either: (1) Revise the compute estimate upward by including more extensive hyperparameter searches, additional ablation experiments, multiple base model comparisons (not just Qwen vs. Llama but also Mistral, etc.), embedding model training, and RAG index construction compute—likely bringing total to 3,000-5,000 GPU-hours; or (2) Provide a more detailed argument for why the specific nature of the workload (sustained multi-node training runs, large memory requirements, etc.) requires pre-exascale access even at 1,200 GPU-hours; or (3) Clarify the playground access thresholds more precisely with reference to specific AI Factory access schemes and explain why your workload pattern (sustained training vs. interactive experimentation) differentiates it from playground use."
+    },
+    {
+      "section": "Implementation",
+      "issue": "Budget allocation justification is missing. The main participant receives 55% (€165,000) while the two supporting participants receive 30% (€90,000) and 15% (€45,000). While this exceeds the 50% minimum guideline, the call states 'deviations must be justified' and P2 receives a substantial €90,000 for engineering/technical activities. No explicit justification for the budget distribution is provided.",
+      "severity": "major",
+      "suggestion": "Add an explicit budget justification paragraph explaining: (1) why the 55/30/15 split is appropriate given the work distribution, (2) a breakdown of P1's €165,000 into personnel, equipment (if any), travel, and materials, (3) similar breakdowns for P2 and P3, (4) confirmation that P2 and P3 perform only engineering/technical activities (no business consultancy, marketing, or administrative tasks), and (5) explicit statement that the main participant allocation exceeds 50% as required."
+    },
+    {
+      "section": "Eligibility",
+      "issue": "Ukraine's eligibility status under the Digital Europe Programme association agreement is not explicitly confirmed. The call requires establishment in 'EU Member State, EEA country, or country associated to Digital Europe Programme where association agreement entered into force before submission deadline.' Ukraine's association status should be explicitly verified and stated.",
+      "severity": "major",
+      "suggestion": "Add an explicit statement confirming Ukraine's association to the Digital Europe Programme with the date the agreement entered into force. If the association agreement has not yet entered into force by the submission deadline (February 25, 2026), the entire proposal becomes ineligible. This must be verified before submission. If there is uncertainty, consider establishing the main participant SME (P1) in an EU Member State with operations in Ukraine, or restructuring the consortium accordingly."
+    },
+    {
+      "section": "Implementation",
+      "issue": "Data availability from a conflict zone presents significant risk that is insufficiently addressed. The proposal relies on 15,000+ historical cost estimates from a construction SME in the Zaporizhzhia region—an active conflict zone. Risks of data loss, partner unavailability, infrastructure disruption, and internet connectivity issues could derail the project.",
+      "severity": "major",
+      "suggestion": "Add a dedicated risk mitigation plan for conflict-related operational challenges: (1) confirm data is already digitised and stored in secure, geographically distributed backups (not solely in Zaporizhzhia), (2) establish contingency communication and collaboration plans, (3) identify backup data sources (ProZorro public data, other regional partners), (4) consider whether key personnel from P2 and P3 can work remotely from safer locations, and (5) include a force majeure clause discussion."
+    },
+    {
+      "section": "Excellence",
+      "issue": "The compute budget calculations appear optimistic. Continued pre-training of a 14B model on 280M tokens for 3 epochs with DeepSpeed ZeRO Stage 3 at BF16 typically requires more than 256 GPU-hours on A100s, especially considering data loading, checkpointing, and evaluation overhead. The 3× hyperparameter search multiplier may also be insufficient for the grid search described.",
+      "severity": "minor",
+      "suggestion": "Provide a transparent calculation showing: tokens per second throughput on target hardware × total tokens (280M × 3 epochs = 840M tokens for Stage 1) = estimated wall-clock time × number of GPUs = GPU-hours. Include overhead factors (20-30% for checkpointing, evaluation, restarts). For hyperparameter search, enumerate all configurations: 3 learning rates × 2 batch sizes = 6 configurations × base cost, plus LoRA ablation (4 ranks × N module combinations). Present a realistic total that may be higher than 1,200 GPU-hours."
+    },
+    {
+      "section": "Impact",
+      "issue": "Revenue projections lack sensitivity analysis and conservative scenario planning. The exploitation roadmap presents optimistic figures (€100,000/month by Month 36) without addressing potential barriers: slow adoption in a war-affected economy, regulatory changes, competition from international providers, or technical limitations discovered during evaluation.",
+      "severity": "minor",
+      "suggestion": "Include at least three scenarios (optimistic, baseline, conservative) for revenue projections. Address key assumptions and their sensitivity: customer acquisition cost, churn rate, average revenue per user, market penetration rate. Acknowledge that war conditions may delay the Ukrainian market timeline and identify de-risking strategies."
+    },
+    {
+      "section": "Implementation",
+      "issue": "No travel budget is mentioned or justified, and no equipment costs are discussed. While the call requires travel to be justified as necessary, the complete absence of any travel allocation (for consortium meetings, EuroHPC center visits, conference presentations) seems like an oversight.",
+      "severity": "minor",
+      "suggestion": "Include a modest travel budget for: (1) consortium kickoff and key milestone meetings, (2) at least one visit to the allocated EuroHPC center for infrastructure setup, (3) one conference presentation as described in WP5 dissemination activities. Even if travel is minimal due to remote collaboration, explicitly state this and justify the approach."
+    }
+  ],
+  "missingElements": [
+    "Consortium expertise and track record section (mandatory Section 4 content): CVs of key personnel, prior relevant projects, publications, and demonstrated proficiency in generative AI, HPC, and software development",
+    "Explicit confirmation of Ukraine's Digital Europe Programme association status and eligibility verification for all partners",
+    "Detailed budget breakdown by cost category (personnel, equipment, travel, materials, other direct costs) for each partner",
+    "Explicit justification for budget distribution between main and supporting participants",
+    "PIC (Participant Identification Code) numbers for all consortium members (required in Part A)",
+    "Declaration of non-participation as FFplus beneficiary",
+    "Confirmation of non-participation in Type-1 sub-projects (mutual exclusivity requirement)",
+    "Travel budget allocation and justification",
+    "Contingency plan for EuroHPC resource allocation delays or denial",
+    "Explicit statement that no subcontracting is included (subcontracting costs are ineligible)",
+    "Revenue reporting mechanism commitment (required for any revenue generated during funding phase)",
+    "Confirmation that work plan is limited to ML lifecycle activities and excludes model deployment/operation"
+  ],
+  "improvementPriorities": [
+    {
+      "priority": "critical",
+      "area": "Consortium Expertise and Track Record",
+      "recommendation": "This is the single most important improvement needed. Add a comprehensive Section 4 with CVs of key personnel (AI/ML lead, HPC specialist, domain expert), descriptions of 3-5 relevant prior projects per partner, publication lists, and specific evidence of proficiency in generative AI model training, distributed HPC computing, and professional software development. Without this, evaluators cannot assess the 'capacity of applicants to carry out proposed work' criterion under Implementation."
+    },
+    {
+      "priority": "critical",
+      "area": "Eligibility Verification",
+      "recommendation": "Before any further work on the proposal, verify that Ukraine's Digital Europe Programme association agreement will have entered into force before February 25, 2026. Contact the FFplus helpdesk or the Digital Europe Programme office for confirmation. If there is any risk the association is not in force by the deadline, restructure the consortium with P1 (main participant SME) established in an EU Member State. This is a binary eligibility gate."
+    },
+    {
+      "priority": "high",
+      "area": "HPC Resource Justification",
+      "recommendation": "Strengthen the HPC resource justification to clearly demonstrate that computational requirements exceed playground access allocations. Recalculate total GPU-hours with transparent methodology, expand the experimental plan to include more comprehensive ablation studies and model comparisons, and provide a clear technical argument for why pre-exascale resources (multi-node training, high-bandwidth interconnects) are necessary rather than single-node GPU access."
+    },
+    {
+      "priority": "high",
+      "area": "Budget Breakdown and Justification",
+      "recommendation": "Provide a detailed budget table breaking down each partner's allocation by cost category (personnel with FTE rates, equipment depreciation if any, travel, materials/licenses, other direct costs). Explicitly justify the 55/30/15 split with reference to effort distribution across work packages. Confirm that supporting participants perform only eligible technical/engineering activities."
+    },
+    {
+      "priority": "high",
+      "area": "Conflict Zone Risk Mitigation",
+      "recommendation": "Add a dedicated subsection addressing operational risks related to working with partners in the Zaporizhzhia region. Confirm data backup and distribution strategy, establish contingency plans for partner unavailability, and demonstrate that the project can continue even under adverse conditions. This will reassure evaluators about implementation feasibility."
+    },
+    {
+      "priority": "medium",
+      "area": "Administrative Compliance",
+      "recommendation": "Add all missing administrative declarations and confirmations: FFplus beneficiary non-participation, Type-1 mutual exclusivity, subcontracting exclusion, revenue reporting commitment, and SME status documentation plan. While some of these go in Part A, reference them in Part B for completeness."
+    },
+    {
+      "priority": "medium",
+      "area": "Page Count Management",
+      "recommendation": "The current Part B content, if formatted at 11-point Arial with appropriate spacing, may exceed the 13-page limit. Carefully estimate the formatted page count and identify sections that can be condensed. The State of the Art section (currently very detailed) and the Work Plan (comprehensive but verbose in places) are the most likely candidates for condensation. Prioritize adding the missing consortium expertise section over retaining all current detail."
+    },
+    {
+      "priority": "low",
+      "area": "Exploitation Scenario Analysis",
+      "recommendation": "Add conservative and baseline scenarios to the revenue projections alongside the optimistic case. Acknowledge conflict-related market uncertainty and include de-risking strategies such as early pivot to other Eastern European markets if Ukrainian market adoption is slower than projected."
+    }
+  ],
+  "detailedFeedback": [
+    {
+      "section": "Abstract",
+      "comments": [
+        "Excellent abstract that clearly communicates the problem, solution approach, consortium composition, and expected outcomes within a concise format.",
+        "The three fundamental obstacles to using existing LLMs are crisply articulated and immediately establish the need for a new model.",
+        "Specific quantitative targets (60-70% time reduction, <8% MAPE) give evaluators concrete expectations.",
+        "Good inclusion of EuroHPC resource mention, directly connecting to call objectives.",
+        "Minor: Consider adding one sentence about the broader European relevance beyond Ukraine to strengthen the EU dimension."
+      ]
+    },
+    {
+      "section": "Introduction and Objectives",
+      "comments": [
+        "The problem statement is exceptionally well-constructed, moving from European-level context (9% GDP, 25M workers) to Ukraine-specific challenges to the precise technical gaps.",
+        "The four bullet points on Ukrainian construction estimation complexity (regulatory specificity, dynamic pricing, language/terminology, document compliance) are highly effective at demonstrating domain expertise.",
+        "The preliminary analysis showing >40% cost deviation from GPT-4/Claude/Llama/Mistral provides compelling empirical evidence for the need.",
+        "Objectives O1-O6 are SMART (Specific, Measurable, Achievable, Relevant, Time-bound) and map well to the grant evaluation criteria.",
+        "O6 explicitly addresses EuroHPC value demonstration, which is strategically important for the FFplus call.",
+        "Suggestion: O5 mentions 'Ukrainian and broader Eastern European construction SME market'—be careful not to overextend scope beyond what can be delivered in 10 months. The Eastern European expansion should be positioned as a post-project exploitation outcome rather than a project objective."
+      ]
+    },
+    {
+      "section": "State of the Art",
+      "comments": [
+        "Comprehensive and well-structured literature review covering four key dimensions: general LLM limitations, RAG advances, domain-specific fine-tuning, and construction industry AI.",
+        "The gap identification in Section 2.5 is particularly strong, clearly positioning BUILDGEN-UA at a unique convergence of four unmet needs.",
+        "References are recent and relevant (2023-2024), demonstrating current awareness of the field.",
+        "Good use of specific benchmark numbers (e.g., GPT-4 <35% accuracy on quantity takeoff from Prieto et al.) to quantify the gap.",
+        "The three specific challenges for construction-domain RAG (hybrid data modality, calculation grounding, temporal sensitivity) demonstrate deep technical understanding.",
+        "Minor concern: Reference [3] (Prieto et al., 2024) is cited for scheduling, not cost estimation—verify this is the correct citation for the claimed findings about cost estimation accuracy.",
+        "Minor concern: Some references appear to be preprints (arXiv). While acceptable, note that these may be updated or superseded by submission time. Consider updating to published versions where available.",
+        "This section may be longer than necessary given the 13-page limit—consider condensing Sections 2.1 and 2.2 to make room for the missing consortium expertise section."
+      ]
+    },
+    {
+      "section": "Methodology",
+      "comments": [
+        "Outstanding technical depth across all subsections. The three-tier architecture is well-motivated and clearly described.",
+        "Foundation model selection (Qwen-2.5-14B) is thoroughly justified with specific benchmark scores and architectural advantages. The open-weight requirement for commercial exploitation is an important consideration.",
+        "The four-category training dataset is well-defined with specific volumes, sources, and preprocessing procedures. The 280M token training corpus is substantial for domain adaptation.",
+        "The three-stage fine-tuning pipeline (continued pre-training → LoRA SFT → DPO alignment) follows state-of-the-art practices with appropriate hyperparameter specifications.",
+        "The RAG pipeline design is sophisticated: hybrid BM25 + dense retrieval with RRF scoring, structured SQL generation for price lookups, calculation verification module, and format enforcer with constrained decoding. This addresses the specific challenges identified in the state of the art.",
+        "The evaluation framework with six baselines (B1-B6) is exemplary for an innovation study proposal—it enables clean attribution of performance to each system component.",
+        "The Data Management Plan is comprehensive and addresses all FAIR principles with specific technical implementations.",
+        "The Trustworthy AI risk assessment table is well-structured with appropriate severity ratings and concrete mitigation strategies.",
+        "Concern: The tokeniser vocabulary augmentation (2,500 construction-specific terms) may require careful handling to avoid degrading model performance on general tasks. Consider discussing this trade-off.",
+        "Concern: The calculation verification module is described as a 'lightweight symbolic calculator' but construction cost calculations can be complex (nested coefficients, conditional indices, cumulative overhead chains). More detail on how this module handles complex calculation chains would strengthen the proposal.",
+        "Concern: The embedding model fine-tuning (multilingual-e5-large-instruct) is mentioned but the training data for this component is not clearly specified. How will similarity pairs for construction document retrieval be generated?",
+        "Concern: Dataset D (5,000 instruction-tuning pairs) created by 'expert estimators'—at 0.5 FTE for P3, creating 5,000 high-quality instruction pairs in 3 months is ambitious. This requires approximately 25 pairs per working day, which may compromise quality."
+      ]
+    },
+    {
+      "section": "Work Plan",
+      "comments": [
+        "Well-structured with five work packages, clear task descriptions, partner responsibilities, deliverables, and milestones.",
+        "The timeline is realistic with appropriate overlap between WPs (e.g., WP3 RAG engineering starting at M3 in parallel with WP2 model training).",
+        "The critical path is sound: data preparation (M1-3) → model training (M3-7) → evaluation (M7-9), with WP3 developing RAG infrastructure in parallel.",
+        "Month 7 milestone and pre-final results report are correctly positioned per FFplus requirements.",
+        "Resource allocation across partners is logical and proportional to work package responsibilities.",
+        "WP5 appropriately includes FFplus success story contribution and extension proposal preparation.",
+        "Concern: WP1 Task 1.1 requires collecting and digitising 15,000+ documents in Month 1—this seems extremely aggressive. Even if P3 has existing digital archives, quality verification and OCR correction for scanned documents is time-intensive.",
+        "Concern: WP2 begins EuroHPC environment setup at M3—but EuroHPC resource allocation may take 2-4 months from application. Has the timeline accounted for the access application process? The proposal should either (1) confirm that EuroHPC access will be applied for before project start, (2) use the first 2 months for application while working on data preparation, or (3) have a backup compute plan.",
+        "Concern: WP4 evaluation (M7-M9) depends on WP2 model completion (M7) and WP3 RAG integration (M7)—there is zero buffer. Any delay in model training or RAG integration cascades directly to insufficient evaluation time.",
+        "Missing: No explicit mention of equipment depreciation costs or whether any specialized hardware is needed beyond EuroHPC access.",
+        "The FTE allocations (P1: 2.5 FTE, P2: 1.5 FTE, P3: 0.5 FTE over 10 months) are reasonable for the proposed scope."
+      ]
+    },
+    {
+      "section": "Expected Results",
+      "comments": [
+        "Comprehensive and well-quantified results across technical outputs (R1-R4), business impact (R5-R6), and scientific contributions (R7-R9).",
+        "The success criteria summary table is an excellent addition that enables clear evaluation at project end.",
+        "The business impact metrics are specific and credible: €15,000-25,000 annual cost saving per SME, backed by transparent calculation (50 estimates/year × 3 hours saved × €30/hour).",
+        "The benchmark dataset release (R3) is a valuable community contribution that adds to the proposal's broader impact.",
+        "The knowledge transfer dimension (R9) showing methodology transferability to other regulated estimation domains strengthens the European relevance.",
+        "Concern: The target of '≥2 publications submitted by M10, at least 1 accepted within 12 months post-project' is realistic but the venues mentioned (ACL/EMNLP workshop, NeurIPS workshop) may not be the most impactful for this work. Consider also targeting domain-specific venues (Automation in Construction, ASCE Journal of Computing in Civil Engineering) where the audience is more relevant for exploitation.",
+        "Concern: The '10 letters of interest' from early adopter SMEs should ideally be collected before or during proposal preparation to demonstrate market pull. Consider whether any preliminary market validation has been conducted."
+      ]
+    },
+    {
+      "section": "Impact",
+      "comments": [
+        "Excellent three-dimensional innovation analysis (technical, market, process) that clearly differentiates BUILDGEN-UA from existing solutions.",
+        "The market sizing is specific and credible: 12,000 Ukrainian construction SMEs → 50,000+ Eastern European expansion, with €7-22M TAM at maturity.",
+        "The phased exploitation strategy (beta → national → international) is realistic and well-timed relative to the project and potential extension.",
+        "The societal impact narrative is powerful: direct connection to Ukraine's $500B+ reconstruction challenge, SME empowerment, workforce development, and public procurement transparency.",
+        "Strong alignment with FFplus strategic objectives: HPC business value demonstration, European AI sovereignty, SME digital transformation, and Ukraine's digital integration.",
+        "The sustainability argument (RAG supports continuous updates without retraining, SaaS revenue funds continued development) is convincing.",
+        "Concern: The expansion to 'Moldova, Georgia, and Baltic states' in Phase 3 assumes regulatory framework similarity that should be substantiated. Baltic states (EU members) use different construction standards from post-Soviet DBN frameworks.",
+        "Concern: The proposal positions Ukraine's EU integration and Digital Europe Programme association as strengths, but should acknowledge that the conflict situation creates uncertainty about market development timelines.",
+        "The estimated commercial cloud equivalent cost (€35,000-60,000 = 12-20% of budget) effectively demonstrates why EuroHPC access is essential for SME-led AI development.",
+        "Consider explicitly mentioning the potential for the model and methodology to be adapted for other European languages as part of broader EU impact—this would strengthen the pan-European relevance."
+      ]
+    },
+    {
+      "section": "Bibliography",
+      "comments": [
+        "20 references of generally high quality, predominantly from 2022-2024, demonstrating current field awareness.",
+        "Good mix of foundational works (Lewis et al. 2020 on RAG, Hu et al. 2022 on LoRA) and recent advances (Gao et al. 2024, Liu et al. 2024).",
+        "Relevant domain-specific references included (construction AI, multilingual fine-tuning, domain-adapted LLMs).",
+        "The World Bank RDNA3 report [19] effectively supports the reconstruction needs argument.",
+        "Concern: Reference [3] (Prieto et al., 2024) appears to be about ChatGPT for scheduling, but is cited for findings about cost estimation accuracy. Verify the citation is correct.",
+        "Concern: Several references are arXiv preprints—check for published versions that may be available by submission time.",
+        "Suggestion: Consider adding references for: (1) Ukrainian language NLP resources and challenges, (2) specific DeepSpeed ZeRO Stage 3 methodology (Rajbhandari et al., 2020), (3) DPO methodology (Rafailov et al., 2023), (4) construction cost estimation state-of-the-art beyond AI (to demonstrate deep domain knowledge).",
+        "The bibliography size is appropriate for a 13-page proposal and provides adequate coverage."
+      ]
+    }
+  ]
+}

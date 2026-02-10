@@ -1,0 +1,395 @@
+{
+  "grantTitle": "Second call for innovation studies for the development of generative AI models",
+  "grantingOrganization": "Fortissimo Plus (FFplus) Project - EuroHPC Joint Undertaking",
+  "programName": "DIGITAL-EUROHPC-JU-2023-SME-01 Supporting the competitiveness and innovation potential of SMEs",
+  "deadline": "2026-02-25T17:00:00+01:00",
+  "summary": "FFplus Call-2-Type-2 provides €4M in funding for innovation studies focused on developing generative AI models using large-scale European HPC resources. The call targets SMEs and startups proficient in generative AI and HPC, supporting 10-month innovation studies with up to €300K per consortium to develop and customize foundation models, LLMs, and other generative AI models for business applications.",
+  "objectives": [
+    "Support SMEs and startups proficient in generative AI and HPC in accessing large-to extreme-scale computing resources",
+    "Facilitate and strengthen technological development of European SMEs in generative AI",
+    "Enable SMEs to enhance innovation potential by leveraging new generative AI models (LLMs, foundation models)",
+    "Demonstrate business benefits of adopting HPC for generative AI model development",
+    "Support development and customization of generative AI models using pre-exascale and exascale supercomputers"
+  ],
+  "requirements": [
+    {
+      "category": "eligibility",
+      "description": "Main participant must be an SME or Start-up established in EU Member State, EEA country, or country associated to Digital Europe Programme",
+      "mandatory": true,
+      "evidence": "PIC (Participant Identification Code) issued by European Commission, valid address and contact data"
+    },
+    {
+      "category": "eligibility",
+      "description": "Maximum consortium size of 3 partners (1 main participant + up to 2 supporting participants)",
+      "mandatory": true,
+      "evidence": "Consortium composition in Part A of proposal"
+    },
+    {
+      "category": "eligibility",
+      "description": "FFplus beneficiaries are ineligible to participate as main or supporting participants",
+      "mandatory": true,
+      "evidence": "Declaration of non-participation as FFplus beneficiary"
+    },
+    {
+      "category": "eligibility",
+      "description": "SME participation in business experiments (Type-1) and innovation studies (Type-2) is mutually exclusive",
+      "mandatory": true,
+      "evidence": "Confirmation of non-participation in Type-1 sub-projects"
+    },
+    {
+      "category": "eligibility",
+      "description": "Natural persons (individuals) are not eligible to receive funding",
+      "mandatory": true,
+      "evidence": "Organization registration documentation"
+    },
+    {
+      "category": "technical",
+      "description": "Demonstrate proficiency in generative AI, professional software development, and data processing",
+      "mandatory": true,
+      "evidence": "Description of existing expertise in proposal Section 4"
+    },
+    {
+      "category": "technical",
+      "description": "Justify why development of new generative AI model is imperative and why existing models cannot address the business problem",
+      "mandatory": true,
+      "evidence": "Detailed justification in proposal addressing obstacles to using existing models"
+    },
+    {
+      "category": "technical",
+      "description": "Provide detailed description and demonstrate availability of suitable training dataset",
+      "mandatory": true,
+      "evidence": "Dataset description and availability confirmation in work plan"
+    },
+    {
+      "category": "technical",
+      "description": "Detail characteristics of models to be developed (type, size, hyperparameters, architecture)",
+      "mandatory": true,
+      "evidence": "Technical specifications in proposal Section 3"
+    },
+    {
+      "category": "technical",
+      "description": "Establish performance metrics and reproducibility plan with benchmarks and baselines",
+      "mandatory": true,
+      "evidence": "Metrics definition and reproducibility methodology in work plan"
+    },
+    {
+      "category": "technical",
+      "description": "Identify potential risks per EU trustworthy AI guidelines (bias, hallucinations, drift) and mitigation strategies",
+      "mandatory": true,
+      "evidence": "Risk assessment and mitigation plan in proposal"
+    },
+    {
+      "category": "technical",
+      "description": "Submit comprehensive Data Management Plan covering FAIR principles, data access, usage, sharing, retention, disposal, and protection",
+      "mandatory": true,
+      "evidence": "Complete data management plan in proposal Section 3"
+    },
+    {
+      "category": "technical",
+      "description": "Computing resource requirements should clearly exceed EuroHPC AI Factories 'playground access' allocation",
+      "mandatory": true,
+      "evidence": "Justified HPC resource requirements in proposal Section 5"
+    },
+    {
+      "category": "administrative",
+      "description": "Proposal must be submitted in English using provided templates with Part A (administrative) and Part B (max 13 pages excluding cover)",
+      "mandatory": true,
+      "evidence": "Completed proposal templates in required format"
+    },
+    {
+      "category": "administrative",
+      "description": "Proposal Part B must not exceed 13 pages (excluding cover page), minimum 11-point Arial font",
+      "mandatory": true,
+      "evidence": "Compliant PDF document ≤5.0 MB"
+    },
+    {
+      "category": "administrative",
+      "description": "Consistent information must be provided in Part A and Part B regarding budget and other details",
+      "mandatory": true,
+      "evidence": "Cross-verification of data between proposal parts"
+    },
+    {
+      "category": "administrative",
+      "description": "Submit Month 7 pre-final results and potential impact report",
+      "mandatory": true,
+      "evidence": "Report delivered by end of 7th month addressing questionnaire"
+    },
+    {
+      "category": "administrative",
+      "description": "Support FFplus project in generating success stories for publication including business benefits and impact",
+      "mandatory": true,
+      "evidence": "Participation in success story development activities"
+    },
+    {
+      "category": "administrative",
+      "description": "Document self-assessment of adherence to EU guidelines for trustworthy AI before funding agreement",
+      "mandatory": true,
+      "evidence": "Completed trustworthy AI self-assessment"
+    },
+    {
+      "category": "administrative",
+      "description": "Document SME status in line with European Commission definitions before funding agreement",
+      "mandatory": true,
+      "evidence": "SME status documentation"
+    },
+    {
+      "category": "financial",
+      "description": "At least 50% of funding should be allocated to main participant (deviations must be justified)",
+      "mandatory": false,
+      "evidence": "Budget breakdown showing allocation rationale"
+    },
+    {
+      "category": "financial",
+      "description": "Supporting participants may only perform engineering/technical activities (no business consultancy, marketing, administrative tasks)",
+      "mandatory": true,
+      "evidence": "Work plan showing only eligible technical activities for supporting participants"
+    },
+    {
+      "category": "technical",
+      "description": "Model exploitation, deployment, or operation are out of scope and ineligible for funding",
+      "mandatory": true,
+      "evidence": "Work plan limited to ML lifecycle: data preparation, model development/engineering, and evaluation"
+    },
+    {
+      "category": "financial",
+      "description": "Revenue generated through deployment during funding phase must be reported and impacts final funding",
+      "mandatory": true,
+      "evidence": "Revenue reporting mechanism in place"
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "name": "Impact",
+      "description": "Prospects for innovation, commercial viability, societal relevance, vision of success, value creation/proposition considering SME's business models and exploitation plans, alignment with call objectives",
+      "weight": 33.33,
+      "maxScore": 5,
+      "keyIndicators": [
+        "Innovation potential",
+        "Commercial viability",
+        "Societal relevance",
+        "Vision of success and value proposition",
+        "Business model alignment",
+        "Exploitation plans",
+        "Alignment with FFplus call objectives"
+      ]
+    },
+    {
+      "name": "Excellence",
+      "description": "Conceptual and technical excellence including conceptual soundness, cohesiveness, gap-bridging plans, clear technical requirements, justification of technology choices, performance metrics, baseline establishment, and reproducibility",
+      "weight": 33.33,
+      "maxScore": 5,
+      "keyIndicators": [
+        "Conceptual soundness and cohesiveness",
+        "Plans for bridging gaps to ensure implementation",
+        "Clear definition of technical requirements",
+        "Justification of technology choices",
+        "Performance metrics for model evaluation, scaling, and optimization",
+        "Baseline performance establishment",
+        "Experiment reproducibility measures"
+      ]
+    },
+    {
+      "name": "Implementation",
+      "description": "Quality of workplan and data management plan, distribution of resources to additional organizations (if applicable), capacity of applicants to carry out proposed work, justification for computational resources required",
+      "weight": 33.33,
+      "maxScore": 5,
+      "keyIndicators": [
+        "Quality of project workplan",
+        "Data management plan quality",
+        "Resource distribution justification",
+        "Applicant capacity and competence",
+        "Justification for computation resources"
+      ]
+    }
+  ],
+  "budget": {
+    "totalAmount": "€4,000,000 (total indicative for all sub-projects in this call)",
+    "categories": [
+      {
+        "category": "Personnel",
+        "description": "Personnel costs commensurate with work to be performed",
+        "minAmount": null,
+        "maxAmount": null,
+        "rules": [
+          "Costs must be commensurate with work performed",
+          "100% funding of eligible direct costs",
+          "No indirect costs or overheads funded"
+        ]
+      },
+      {
+        "category": "Equipment",
+        "description": "Depreciation costs only for specialized equipment necessary for innovation study",
+        "minAmount": null,
+        "maxAmount": null,
+        "rules": [
+          "Only depreciation costs eligible",
+          "Only specialized equipment necessary for study permitted",
+          "Common-use equipment (laptops, monitors) not eligible"
+        ]
+      },
+      {
+        "category": "Travel",
+        "description": "Travel justified as necessary for performance of innovation study work plan",
+        "minAmount": null,
+        "maxAmount": null,
+        "rules": [
+          "Must be justified for work plan necessity"
+        ]
+      },
+      {
+        "category": "HPC Compute Capacity",
+        "description": "Computing resources, ideally using EuroHPC systems",
+        "minAmount": null,
+        "maxAmount": null,
+        "rules": [
+          "Compute resources need to be justified",
+          "Ideally EuroHPC systems will be used",
+          "Decision not to apply for EuroHPC access must be justified",
+          "Commercial 3rd party HPC resources permitted when justified (costs included in budget)",
+          "Supporting partner HPC resources must be based on actual costs not commercial rates",
+          "Included as 'other direct cost' if provided by supporting partner"
+        ]
+      },
+      {
+        "category": "Material",
+        "description": "Specialized software licenses and datasets",
+        "minAmount": null,
+        "maxAmount": null,
+        "rules": [
+          "Costs for specialized SW licenses for conducting study (general office software not eligible)",
+          "Costs for acquiring or using datasets/collections needed for study"
+        ]
+      },
+      {
+        "category": "Main Participant SME",
+        "description": "Maximum funding for main SME participant",
+        "minAmount": null,
+        "maxAmount": 200000,
+        "rules": [
+          "Maximum €200K per main participant SME",
+          "At least 50% of total funding should be allocated to main participant (deviations must be justified)"
+        ]
+      },
+      {
+        "category": "Total Consortium Funding",
+        "description": "Maximum total funding per innovation study consortium",
+        "minAmount": null,
+        "maxAmount": 300000,
+        "rules": [
+          "Maximum €300K for innovation study with multiple partners",
+          "Maximum €200K for innovation study without supporting partners"
+        ]
+      },
+      {
+        "category": "Supporting Participant",
+        "description": "Maximum funding for supporting participant organizations",
+        "minAmount": null,
+        "maxAmount": 150000,
+        "rules": [
+          "Maximum €150K per supporting participant under this call (FFplus_Call-2-Type-2)",
+          "Maximum €300K over all FFplus innovation studies if participating in multiple studies",
+          "Only engineering/technical activities eligible",
+          "Business consultancy, marketing, administrative tasks not eligible"
+        ]
+      }
+    ],
+    "coFundingRequired": false,
+    "coFundingPercentage": 100
+  },
+  "timeline": [
+    {
+      "phase": "Proposal Submission Period",
+      "duration": "February 3, 2026 09:00 Brussels time - February 25, 2026 17:00 Brussels time (or when 250 proposals received, whichever earlier)",
+      "deliverables": [
+        "Complete proposal submission (Part A and Part B)"
+      ]
+    },
+    {
+      "phase": "Evaluation Process",
+      "duration": "Following submission deadline",
+      "deliverables": [
+        "Admissibility/eligibility check",
+        "First-stage evaluation (if >100 admissible proposals)",
+        "Final selection (second-stage evaluation)",
+        "Funding decision"
+      ]
+    },
+    {
+      "phase": "Innovation Study Execution",
+      "duration": "10 months, with targeted commencement September 1, 2026",
+      "deliverables": [
+        "Advance payment at start",
+        "Interim reports linked to payment tranches",
+        "Month 7 pre-final results and potential impact report",
+        "Success stories for publication",
+        "Final outputs per workplan"
+      ]
+    },
+    {
+      "phase": "Month 7 Evaluation",
+      "duration": "End of 7th month",
+      "deliverables": [
+        "Pre-final results and potential impact report",
+        "Responses to questionnaire",
+        "Evaluation by two independent external experts",
+        "Consensus meeting for overall numerical score"
+      ]
+    },
+    {
+      "phase": "Extension Eligibility",
+      "duration": "After Month 7 evaluation",
+      "deliverables": [
+        "Top 70% of successful studies eligible to submit extension proposal to subsequent open call"
+      ]
+    }
+  ],
+  "targetBeneficiaries": [
+    "Small and Medium-sized Enterprises (SMEs)",
+    "Start-ups",
+    "Organizations proficient in generative AI and HPC",
+    "SMEs/Start-ups with expertise in professional software development and data processing",
+    "European SMEs seeking to develop and customize generative AI models"
+  ],
+  "geographicScope": "European Union, EEA countries, and countries associated to Digital Europe Programme",
+  "eligibleCountries": [
+    "EU Member States",
+    "EEA countries (Iceland, Liechtenstein, Norway)",
+    "Countries associated to Digital Europe Programme where association agreement entered into force before submission deadline"
+  ],
+  "keyThemes": [
+    "Generative Artificial Intelligence",
+    "Large Language Models (LLMs)",
+    "Foundation Models",
+    "High-Performance Computing (HPC)",
+    "Pre-exascale and Exascale Supercomputers",
+    "Machine Learning Lifecycle",
+    "Data Management and FAIR Principles",
+    "Trustworthy AI",
+    "SME Innovation and Competitiveness",
+    "Digital Transformation",
+    "Model Development and Customization",
+    "AI Model Training and Evaluation",
+    "EuroHPC AI Factories"
+  ],
+  "additionalNotes": [
+    "Call will close early when 250 proposals are received (before February 25, 2026 deadline)",
+    "Sub-contracting costs are not included and thus ineligible for funding",
+    "Proposals exceeding 13 pages (Part B excluding cover) or 5.0 MB will be rejected without evaluation",
+    "Two-stage evaluation process will be applied if more than 100 admissible/eligible proposals received",
+    "Overall acceptance threshold is 10 points (sum of all criteria); minimum 3 points required per criterion",
+    "All evaluation criteria are equally weighted (33.33% each)",
+    "Tie-breaking priority order: Impact, Excellence, Implementation, then total requested funding",
+    "EuroHPC JU access schemes provide free HPC computing resources (AI Factories access scheme most appropriate)",
+    "Innovation studies should exceed 'playground access' resource allocations for large-scale HPC designation",
+    "HPC National Competence Centres may assist with resource selection and application process",
+    "Funding agreement with University of Stuttgart (FFplus Coordinator) is non-negotiable",
+    "Payment in multiple tranches with advance payment at start",
+    "Top 70% of successful innovation studies eligible to submit extension proposal to subsequent call",
+    "Extension proposals evaluated together with all other proposals to subsequent open call",
+    "No appeals process provided; evaluation decisions are final",
+    "Evaluation by two independent external experts per proposal with consensus review process",
+    "Month 7 report evaluation determines eligibility for extension funding",
+    "Main SME participants from first tranche already informed of extension eligibility",
+    "Digital Europe Programme regulations and eligibility rules apply for direct costs"
+  ]
+}
