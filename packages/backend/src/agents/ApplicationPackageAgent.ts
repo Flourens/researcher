@@ -64,11 +64,27 @@ export class ApplicationPackageAgent extends BaseAgent<
         checklistItemsCount: packageResult.documentChecklist.length,
       });
 
+      await this.logRun({
+        agentName: this.constructor.name,
+        grantTitle: input.grantAnalysis.grantTitle,
+        success: true,
+        executionTimeMs: executionTime,
+        summary: `Package: ${packageResult.generatedDocuments.length} docs generated, ${packageResult.manualDocuments.length} manual docs required`,
+      });
+
       return this.createSuccessResult(packageResult, {
         executionTime,
         modelUsed: this.model,
       });
     } catch (error) {
+      const executionTime = Date.now() - startTime;
+      await this.logRun({
+        agentName: this.constructor.name,
+        grantTitle: input.grantAnalysis.grantTitle,
+        success: false,
+        executionTimeMs: executionTime,
+        errorMessage: error instanceof Error ? error.message : String(error),
+      });
       this.logger.error('Application package generation failed', { error });
       return this.createErrorResult(
         error instanceof Error ? error : new Error(String(error)),

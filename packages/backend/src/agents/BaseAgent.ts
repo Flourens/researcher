@@ -1,12 +1,18 @@
 import Anthropic from '@anthropic-ai/sdk';
 import winston from 'winston';
 import type { AgentContext, AgentResult } from '@researcher/shared';
+import { RunLogger, type RunLogEntry } from '../database/RunLogger';
 
 export abstract class BaseAgent<TInput, TOutput> {
   protected client: Anthropic;
   protected logger: winston.Logger;
   protected model: string;
   protected maxTokens: number;
+
+  // Last API call metrics (populated by callClaude)
+  protected lastInputTokens?: number;
+  protected lastOutputTokens?: number;
+  protected lastStopReason?: string;
 
   constructor(
     model: string = 'claude-sonnet-4-5',
@@ -71,6 +77,10 @@ export abstract class BaseAgent<TInput, TOutput> {
       });
 
       const executionTime = Date.now() - startTime;
+      this.lastInputTokens = response.usage.input_tokens;
+      this.lastOutputTokens = response.usage.output_tokens;
+      this.lastStopReason = response.stop_reason;
+
       this.logger.info('Claude API call successful', {
         executionTime,
         inputTokens: response.usage.input_tokens,
@@ -111,6 +121,20 @@ export abstract class BaseAgent<TInput, TOutput> {
       });
       throw new Error('Failed to parse JSON response from Claude');
     }
+  }
+
+  protected async logRun(entry: RunLogEntry): Promise<void> {
+    await RunLogger.log({
+      ...entry,
+      inputTokens: entry.inputTokens ?? this.lastInputTokens,
+      outputTokens: entry.outputTokens ?? this.lastOutputTokens,
+      model: entry.model ?? this.model,
+      stopReason: entry.stopReason ?? this.lastStopReason,
+    });
+  }
+
+  protected async getMemory(grantTitle?: string): Promise<string> {
+    return RunLogger.getMemoryContext(this.constructor.name, grantTitle);
   }
 
   protected createSuccessResult<T>(

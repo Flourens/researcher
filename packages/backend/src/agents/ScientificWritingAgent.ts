@@ -46,12 +46,18 @@ export class ScientificWritingAgent extends BaseAgent<
         context,
       });
 
+      const memory = await this.getMemory(input.grantAnalysis.grantTitle);
+      if (memory) {
+        this.logger.info('Loaded memory context', { memoryLength: memory.length });
+      }
+
       const userPrompt = createScientificWritingPrompt(
         JSON.stringify(input.grantAnalysis, null, 2),
         JSON.stringify(input.organizationInfo, null, 2),
         JSON.stringify(input.feasibilityEvaluation, null, 2),
         input.language || 'en',
-        input.businessContext
+        input.businessContext,
+        memory || undefined
       );
 
       const response = await this.callClaude(
@@ -70,12 +76,28 @@ export class ScientificWritingAgent extends BaseAgent<
         bibliographyCount: proposalContent.bibliography.length,
       });
 
+      await this.logRun({
+        agentName: this.constructor.name,
+        grantTitle: input.grantAnalysis.grantTitle,
+        success: true,
+        executionTimeMs: executionTime,
+        summary: `Proposal generated: ${proposalContent.abstract.substring(0, 100)}...`,
+      });
+
       return this.createSuccessResult(proposalContent, {
         executionTime,
         modelUsed: this.model,
         language: input.language || 'en',
       });
     } catch (error) {
+      const executionTime = Date.now() - startTime;
+      await this.logRun({
+        agentName: this.constructor.name,
+        grantTitle: input.grantAnalysis.grantTitle,
+        success: false,
+        executionTimeMs: executionTime,
+        errorMessage: error instanceof Error ? error.message : String(error),
+      });
       this.logger.error('Scientific proposal generation failed', { error });
       return this.createErrorResult(
         error instanceof Error ? error : new Error(String(error)),

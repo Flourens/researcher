@@ -17,7 +17,9 @@
       "Bash(pnpm debug:grant:*)",
       "Bash(npx tsx:*)",
       "Bash(pnpm exec tsx:*)",
-      "Bash(node -r dotenv/config:*)"
+      "Bash(node -r dotenv/config:*)",
+      "Bash(git -C /Users/evgeniyareshkin/Desktop/projects/researcher log --oneline -10)",
+      "Bash(npx tsc:*)"
     ]
   }
 }

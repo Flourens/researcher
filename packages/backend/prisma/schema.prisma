@@ -44,3 +44,22 @@ model Grant {
   createdAt             DateTime  @default(now())
   updatedAt             DateTime  @updatedAt
 }
+
+model AgentRun {
+  id              String   @id @default(cuid())
+  agentName       String
+  grantTitle      String?
+  iteration       Int      @default(1)
+  success         Boolean
+  score           Float?
+  maxScore        Float?
+  inputTokens     Int?
+  outputTokens    Int?
+  executionTimeMs Int?
+  model           String?
+  stopReason      String?
+  errorMessage    String?
+  summary         String?
+  feedback        String?
+  createdAt       DateTime @default(now())
+}

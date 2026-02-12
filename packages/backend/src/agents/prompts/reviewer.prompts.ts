@@ -14,10 +14,18 @@ Always respond with valid JSON matching the specified schema.`;
 
 export const createReviewerPrompt = (
   grantAnalysis: string,
-  scientificProposal: string
+  scientificProposal: string,
+  memoryContext?: string
 ): string => {
-  return `Review this scientific proposal against the grant requirements and provide detailed evaluation.
+  const memorySection = memoryContext
+    ? `\n=== PREVIOUS REVIEW HISTORY ===
+${memoryContext}
+Consider how the proposal has evolved since previous reviews. Note improvements and remaining issues.
+===\n`
+    : '';
 
+  return `Review this scientific proposal against the grant requirements and provide detailed evaluation.
+${memorySection}
 GRANT ANALYSIS (Evaluation Criteria):
 ${grantAnalysis}
 

@@ -60,11 +60,29 @@ export class FeasibilityAgent extends BaseAgent<
         gapsCount: feasibilityResult.gaps.length,
       });
 
+      await this.logRun({
+        agentName: this.constructor.name,
+        grantTitle: input.grantAnalysis.grantTitle,
+        success: true,
+        executionTimeMs: executionTime,
+        score: feasibilityResult.overallChance,
+        maxScore: 100,
+        summary: `Feasibility: ${feasibilityResult.overallChance}%, recommendation: ${feasibilityResult.recommendation}`,
+      });
+
       return this.createSuccessResult(feasibilityResult, {
         executionTime,
         modelUsed: this.model,
       });
     } catch (error) {
+      const executionTime = Date.now() - startTime;
+      await this.logRun({
+        agentName: this.constructor.name,
+        grantTitle: input.grantAnalysis.grantTitle,
+        success: false,
+        executionTimeMs: executionTime,
+        errorMessage: error instanceof Error ? error.message : String(error),
+      });
       this.logger.error('Feasibility evaluation failed', { error });
       return this.createErrorResult(
         error instanceof Error ? error : new Error(String(error)),

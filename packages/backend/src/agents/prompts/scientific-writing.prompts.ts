@@ -16,7 +16,8 @@ export const createScientificWritingPrompt = (
   organizationInfo: string,
   feasibilityEvaluation: string,
   language: string = 'en',
-  businessContext?: string
+  businessContext?: string,
+  memoryContext?: string
 ): string => {
   const languageInstructions = {
     en: 'Write in English',
@@ -29,6 +30,13 @@ export const createScientificWritingPrompt = (
 ${businessContext}
 
 Use this context to tailor the proposal. Show how the project aligns with real business needs and practical applications.`
+    : '';
+
+  const memorySection = memoryContext
+    ? `\n=== PREVIOUS RUN HISTORY ===
+${memoryContext}
+Use this information to avoid repeating mistakes from previous iterations. Pay special attention to reviewer feedback.
+===`
     : '';
 
   return `Generate a comprehensive scientific proposal for this grant application.
@@ -44,6 +52,7 @@ ${organizationInfo}
 FEASIBILITY EVALUATION:
 ${feasibilityEvaluation}
 ${contextSection}
+${memorySection}
 
 Generate the proposal in the following JSON format:
 {

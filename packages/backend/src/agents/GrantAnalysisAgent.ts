@@ -51,11 +51,26 @@ export class GrantAnalysisAgent extends BaseAgent<
         criteriaCount: analysisResult.evaluationCriteria.length,
       });
 
+      await this.logRun({
+        agentName: this.constructor.name,
+        grantTitle: analysisResult.grantTitle,
+        success: true,
+        executionTimeMs: executionTime,
+        summary: `Analyzed grant: ${analysisResult.grantTitle}, ${analysisResult.requirements.length} requirements, ${analysisResult.evaluationCriteria.length} criteria`,
+      });
+
       return this.createSuccessResult(analysisResult, {
         executionTime,
         modelUsed: this.model,
       });
     } catch (error) {
+      const executionTime = Date.now() - startTime;
+      await this.logRun({
+        agentName: this.constructor.name,
+        success: false,
+        executionTimeMs: executionTime,
+        errorMessage: error instanceof Error ? error.message : String(error),
+      });
       this.logger.error('Grant analysis failed', { error });
       return this.createErrorResult(
         error instanceof Error ? error : new Error(String(error)),
