@@ -199,14 +199,20 @@ export interface FeasibilityEvaluation {
 // ============================================================================
 
 export interface ScientificContent {
-  abstract: string;
-  introduction: string;
-  stateOfTheArt: string;
-  methodology: string;
+  // FFplus Part B structure (5 sections + bibliography)
+  summary: string;
+  industrialRelevance: string;
   workPlan: string;
-  expectedResults: string;
-  impact: string;
+  consortiumQuality: string;
+  costJustification: string;
   bibliography: string[];
+  // Legacy fields (kept for backward compatibility during transition)
+  abstract?: string;
+  introduction?: string;
+  stateOfTheArt?: string;
+  methodology?: string;
+  expectedResults?: string;
+  impact?: string;
 }
 
 // ============================================================================
@@ -232,10 +238,30 @@ export interface ReviewOutput {
   maxScore: number;
   readyToSubmit: boolean;
   executiveSummary: string;
+  complianceCheck?: {
+    passed: boolean;
+    issues: string[];
+  };
   sectionScores: SectionScore[];
   strengths: string[];
   weaknesses: ReviewIssue[];
   missingElements: string[];
+  structureCompliance?: {
+    hasSummary: boolean;
+    hasIndustrialRelevance: boolean;
+    hasWorkPlan: boolean;
+    hasWorkPlanTable: boolean;
+    hasParticipantsEffortTable: boolean;
+    hasConsortiumQuality: boolean;
+    hasCostJustification: boolean;
+    hasCostBreakdownTable: boolean;
+    hasDataManagementPlan: boolean;
+    hasTrustworthyAIRisks: boolean;
+    hasMonth7Report: boolean;
+    hasReferences: boolean;
+    estimatedPageCount: number;
+    withinPageLimit: boolean;
+  };
   improvementPriorities: {
     priority: 'critical' | 'high' | 'medium' | 'low';
     area: string;

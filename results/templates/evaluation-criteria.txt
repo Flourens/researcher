@@ -1,0 +1,231 @@
+FFplus Call-2-Type-2: Evaluation Criteria & Proposal Requirements
+Source: Proposers Guide (Version 21/11/2025)
+Extracted for use by AI reviewer agent.
+
+Call: Second call for innovation studies for the development
+      of generative AI models
+Deadline: Feb 25, 2026 17:00 Brussels time (or when 250 proposals received)
+Duration: 10 months (targeted start September 1, 2026)
+Total budget: EUR 4M indicative
+
+======================================================================
+1. EVALUATION CRITERIA
+======================================================================
+
+--- 1.1 Impact ---
+- Innovation prospects of the proposed study
+- Commercial viability
+- Societal relevance (where applicable)
+- Vision of success and value creation/proposition
+- Alignment with the SME's business models and exploitation plans
+- Alignment with the objectives of the call (generative AI + HPC)
+
+--- 1.2 Excellence ---
+  Covers BOTH conceptual and technical excellence:
+
+  (a) Conceptual Excellence:
+  - Conceptual soundness
+  - Cohesiveness of the proposal
+  - Articulation of plans for bridging gaps to ensure successful
+      implementation and impact
+
+  (b) Technical Excellence:
+  - Clear definition of technical requirements
+  - Justification of technology choices
+  - Articulation of performance metrics for model evaluation,
+      scaling, and optimization
+  - Activities for establishing baseline performance
+  - Ensuring experiment reproducibility
+
+--- 1.3 Implementation ---
+- Quality of the project's workplan
+- Quality of the data management plan
+- Distribution of resources to additional organisations (where applicable)
+- Capacity of the applicant(s) to carry out the proposed work
+- Justification for computation resources required
+
+======================================================================
+2. SCORING SYSTEM
+======================================================================
+- Each criterion is scored on a scale of 0 to 5.
+- All three criteria are EQUALLY WEIGHTED.
+- Maximum possible total score: 15 (3 criteria x 5 points each).
+
+======================================================================
+3. THRESHOLDS
+======================================================================
+- Overall acceptance threshold: 10 (sum of all three criteria scores).
+- Minimum per-criterion threshold: 3 (each criterion must score >= 3).
+- A proposal scoring below 3 on ANY single criterion is rejected,
+    even if the total exceeds 10.
+
+======================================================================
+4. TIE-BREAKING RULES
+======================================================================
+  When proposals have the same overall score, they are ranked by
+  individual criterion scores in the following priority order:
+
+- Priority 1: Impact score (higher is better)
+- Priority 2: Excellence score (higher is better)
+- Priority 3: Implementation score (higher is better)
+- Priority 4: Total requested funding (lower is better)
+
+======================================================================
+5. BUDGET REQUIREMENTS AND LIMITS
+======================================================================
+
+--- 5.1 Overall Funding ---
+- Total indicative budget for all sub-projects: EUR 4 million
+- 100% funding of incurred, eligible DIRECT costs
+- No indirect costs or overheads are funded
+- Sub-contracting costs are NOT eligible
+
+--- 5.2 Per-Proposal Limits ---
+- Maximum funding for main participant (SME): EUR 200,000
+- Maximum total funding for multi-partner consortium: EUR 300,000
+- Maximum total funding for single-partner (no supporting partners): EUR 200,000
+- At least 50% of requested funding must be allocated to the main participant
+    (deviations must be duly justified)
+
+--- 5.3 Supporting Participant Limits ---
+- Maximum EUR 150,000 per supporting participant under this call
+- Maximum EUR 300,000 cumulative across ALL FFplus innovation studies
+- Only engineering/technical activities are eligible for supporting participants
+- Business consultancy, marketing, admin tasks are NOT eligible
+
+--- 5.4 Eligible Budget Modules ---
+- Personnel: costs commensurate with work to be performed
+- Equipment: depreciation costs only; specialized equipment only
+    (no laptops, monitors, common-use equipment)
+- Travel: must be justified as necessary for the workplan
+- HPC compute capacity: must be justified; EuroHPC systems preferred
+    (decision not to use EuroHPC must be justified)
+- Material: specialized SW licenses; data sets/collections
+    (general office software licenses not eligible)
+
+--- 5.5 HPC Resources ---
+- FFplus does NOT provide HPC resources itself
+- Sub-projects expected to use EuroHPC JU access schemes (free of charge)
+- AI Factories access scheme is the recommended option
+- Requirements should clearly exceed 'playground access' allocations
+- 3rd-party commercial HPC allowed if justified; costs in budget
+- HPC from supporting partner must be at actual cost, not commercial rates
+
+======================================================================
+6. PAGE LIMITS AND FORMATTING RULES
+======================================================================
+
+--- 6.1 Proposal Structure ---
+- Proposal has two parts: Part A (spreadsheet) and Part B (PDF)
+- Part B PDF must not exceed 5.0 MB
+- Submission language: English
+
+--- 6.2 Part B Page Limit ---
+- Maximum 13 pages (including references and appendices)
+- The cover page is EXCLUDED from the 13-page count
+- EXCEEDING 13 PAGES => IMMEDIATE REJECTION without evaluation
+
+--- 6.3 Font and Formatting ---
+- Minimum font size: 11-point Arial
+- This applies also to images containing textual information
+
+--- 6.4 Part B Recommended Structure (with indicative lengths) ---
+- Section 1: Summary (0.5 pages)
+- Section 2: Industrial relevance, potential impact (incl. societal),
+    exploitation plans (3.5 pages)
+- Section 3: Work plan, technological/algorithmic approach,
+    software development strategy (5 pages)
+- Section 4: Quality of the consortium and individual proposers (1-2 pages)
+- Section 5: Justification of costs and resources (1-2 pages)
+
+--- 6.5 Part A Requirements ---
+- Use the provided template spreadsheet exactly
+- Do NOT delete or rename worksheets, rows, or columns
+- Include only requested information; extraneous data will be deleted
+- Major deviations from the template => rejection without evaluation
+
+--- 6.6 Consistency Requirement ---
+- Part A and Part B must provide CONSISTENT information
+- Inconsistent information (e.g., budget figures) => rejection without evaluation
+
+======================================================================
+7. ELIGIBILITY AND CONSORTIUM RULES (ADMINISTRATIVE CHECK)
+======================================================================
+- Main participant must be an SME or Start-up
+- Maximum 2 supporting participants (total consortium <= 3 partners)
+- Each partner needs a clearly defined role
+- Organisations must be established in an EU Member State, or listed
+    EEA / Digital Europe Programme associated countries
+- Natural persons (individuals) are NOT eligible
+- FFplus beneficiaries are ineligible as main or supporting participants
+- Participation in Type-1 (business experiments) and Type-2 (innovation
+    studies) is mutually exclusive for main SME participants
+- Must document SME status and self-assessment of EU trustworthy AI guidelines
+
+  NOTE: Proposals violating items 1-8 of the eligibility criteria are rejected
+  WITHOUT technical evaluation.
+
+======================================================================
+8. EVALUATION PROCEDURE
+======================================================================
+
+--- 8.1 Steps ---
+- Step 1: Proposal submission
+- Step 2: Admissibility/eligibility check
+- Step 3: First-stage evaluation (initial ranking) -- if > 100 eligible proposals
+- Step 4: Final selection (second-stage evaluation, consensus review)
+- Step 5: Funding decision (final, no appeals)
+
+--- 8.2 First-Stage Evaluation (if applicable) ---
+- Applied when admissible/eligible proposals exceed 100
+- Individual assessments by 2 independent external experts per proposal
+- Top proposals up to 3x the fundable number advance to second stage
+- Rejected proposers receive a short evaluation summary report
+
+--- 8.3 Second-Stage / Final Evaluation ---
+- Consensus review process between the 2 expert evaluators
+- Moderator facilitates consensus assessment report
+- Consensus report becomes the evaluation summary report shared with proposers
+
+--- 8.4 Evaluators ---
+- Two independent external experts per proposal
+- Experts have demonstrated competency in the proposal's field
+- Assessments are done independently of one another
+
+======================================================================
+9. KEY EXPECTATIONS FOR PROPOSALS (REVIEWER CHECKLIST)
+======================================================================
+  The proposal should demonstrate ALL of the following:
+
+- Full alignment with FFplus call objectives (generative AI + HPC for SMEs)
+- Justification for why generative AI is needed and why a new model is
+    imperative (not solvable by few-shot prompting, existing models, etc.)
+- Vision of success: how large-scale HPC leads to positive business impact
+- Specific objectives with action plan covering the ML lifecycle:
+    data preparation, model development/engineering, model evaluation
+- Detailed training dataset description and demonstrated availability
+- Model characteristics: type, size, hyperparameters, architecture
+- Performance metrics and reproducibility plan with baselines/benchmarks
+- Risk identification per EU trustworthy AI guidelines
+    (unfairness, bias, hallucinations, model drift)
+- Justified resource allocation (personnel, IT/computing, other)
+- Comprehensive data management plan (FAIR principles)
+- Proficiency in generative AI and HPC MUST be documented
+    (failure = misalignment with FFplus objectives)
+
+  NOTE: Model exploitation, deployment, or operation are OUT OF SCOPE.
+  NOTE: Revenue generated during funding phase must be reported and
+  impacts final funding.
+
+======================================================================
+10. MONTH 7 REPORT REQUIREMENT
+======================================================================
+- All innovation studies must deliver an intermediate report by end of Month 7
+- Reports cover results achieved and potential impact
+- Evaluated by 2 independent external experts + consensus meeting
+- Top 70% of innovation studies (by ranking) become eligible to submit
+    extension proposals in the subsequent open call
+
+======================================================================
+END OF EVALUATION CRITERIA DOCUMENT
+======================================================================

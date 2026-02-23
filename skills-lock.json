@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "react-pdf": {
+      "source": "molefrog/skills",
+      "sourceType": "github",
+      "computedHash": "0d67e5cb5f4b6cff7e4f167dc519c1d2444c7580709b18b460a858606d06f652"
+    }
+  }
+}

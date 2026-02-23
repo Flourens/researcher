@@ -69,9 +69,10 @@ export class ScientificWritingAgent extends BaseAgent<
       const proposalContent = this.parseJsonResponse<ScientificContent>(response);
 
       const executionTime = Date.now() - startTime;
+      const summaryText = proposalContent.summary || proposalContent.abstract || '';
       this.logger.info('Scientific proposal generation completed', {
         executionTime,
-        abstractLength: proposalContent.abstract.length,
+        summaryLength: summaryText.length,
         sectionsGenerated: Object.keys(proposalContent).length,
         bibliographyCount: proposalContent.bibliography.length,
       });
@@ -81,7 +82,7 @@ export class ScientificWritingAgent extends BaseAgent<
         grantTitle: input.grantAnalysis.grantTitle,
         success: true,
         executionTimeMs: executionTime,
-        summary: `Proposal generated: ${proposalContent.abstract.substring(0, 100)}...`,
+        summary: `Proposal generated: ${summaryText.substring(0, 100)}...`,
       });
 
       return this.createSuccessResult(proposalContent, {

@@ -1,0 +1,91 @@
+======================================================================
+ERC PART B TEMPLATE — EXTRACTED STRUCTURE & INSTRUCTIONS
+======================================================================
+
+Legend:
+  [ITALIC]...[/ITALIC]  = Template instructions / guidance text (italic in original)
+  [TABLE START]...[TABLE END] = Table structure
+  #, ##, ### = Heading levels
+
+----------------------------------------------------------------------
+
+Proposal to FFplus Project Call-2 – Type-2: Innovation Studies for the Development of Generative AI Models
+Part B
+Call Information:
+Identifier: FFplus_Call-2-Type-2
+Call title: Second call for innovation studies for the development of generative AI models
+Project full name: Fortissimo Plus
+Acronym: FFplus
+EuroHPC Project 101163317
+Deadline: February 25th, 2026, at 17:00 Brussels local time
+
+Innovation Study Title
+
+Name of the coordinating person:Title First Name, Last Name, Partner Organisation
+E-mail:
+
+[ITALIC]This cover page may not be extended with any additional text/information.[/ITALIC]
+[ITALIC]This cover page will be ignored when the page count of the proposal is checked.[/ITALIC]
+Summary
+(Recommendation: ca. 0.5 pages – please note that the total page limit from the call announcement is mandatory and the recommended page lengths here are only suggestions)
+
+Industrial relevance, potential impact and exploitation plans
+(Recommendation: ca. 3.5 pages – please note that the total page limit from the call announcement is mandatory and the recommended page lengths here are only suggestions)
+[ITALIC]FFplus_Call-2-Type-2 targets proposals for “innovation studies” driven by the business needs of SMEs and Start-ups highly competent in generative AI, professional software development, and data processing. The innovation studies must use large-scale European HPC resources (e.g., pre-exascale and exascale supercomputers) to develop and customise generative AI models such as foundation and large language models. [/ITALIC]
+[ITALIC]Specify if the SME (main participant) has an existing business model that significantly benefits from the development of generative AI models, HPC awareness or experience.[/ITALIC]
+[ITALIC]Clearly define the business problem at hand and explain how generative AI serves as a solution to the business problem or business prospect, if and why the development of a new model is imperative and why this could not be addressed sooner. [/ITALIC]
+[ITALIC]Explain the expected business impact and potential value propositions and the process of value creation.[/ITALIC]
+
+Description of the work plan, technological/algorithmic approach and software development strategy
+(Recommendation: ca. 5 pages – please note that the total page limit from the call announcement is mandatory and the recommended page lengths here are only suggestions)
+[ITALIC]Define specific objectives that must be achieved to successfully address the business problem and the accompanying action plan described in terms of an ML lifecycle.[/ITALIC]
+[ITALIC]Provide a detailed description and demonstrate the availability of a suitable training data set.[/ITALIC]
+[ITALIC]Detail the characteristics of the models to be developed and outline their repercussions to training and exploitation.[/ITALIC]
+[ITALIC]Explain performance metrics, describe benchmarks to establish baselines and specify methods to ensure experiment reproducibility.[/ITALIC]
+[ITALIC]Identify potential risks considering EU guidelines for trustworthy AI and present means to address and mitigate them.[/ITALIC]
+[ITALIC]For the work plan:[/ITALIC]
+[ITALIC]Include the delivery of a pre-final results and potential impact report: It is a requirement of all innovation studies that they deliver an intermediate report on the results achieved (and those expected by the end of the study) and the potential impact of those results on the SME’s business model and potentially by third parties using the results. This report is to be delivered by the end of the 7th month. It will be used to evaluate the eligibility to submit a proposal for extension/continuation of the innovation study to a subsequent open call for proposals.[/ITALIC]
+[ITALIC]Present a data management plan that covers policies for data access, usage, sharing, retention, and disposal; outlines methods for protecting sensitive or personal data; and incorporates FAIR principles and their implementation when applicable[/ITALIC]
+
+
+[TABLE START]
+Innovation Study Title
+------------------------------------------------------------
+Participant short name |  |  |  |  | 
+Role |  |  |  |  | 
+Description:
+Task 1: <Task Name> [ITALIC](Add or delete tasks as appropriate for your workplan)[/ITALIC] / Duration: <Start Month of Task 1> to <End Month of Task 1>, / Participants: participant short name and respective effort for this task / Deliverable: Name of deliverable, due in which month / Technical description of Task 1: / Computational resources for Task 1: description of model sizes, data sets used and resulting cpu/gpu node hours, memory specifications
+Task 2: <Task Name> [ITALIC](Add or delete tasks as appropriate for your workplan)[/ITALIC] / Duration: <Start Month of Task 2> to <End Month of Task 2>, / Participants: participant short name and respective effort for this task / Deliverable: Name of deliverable, due in which month / Technical description of Task 2: / Computational resources for Task 2: description of model sizes, data sets used and resulting cpu/gpu node hours, memory specifications
+Task 3: <Task Name> [ITALIC](Add or delete tasks as appropriate for your workplan)[/ITALIC] / Duration: <Start Month of Task 3> to <End Month of Task 3>, / Participants: participant short name and respective effort for this task / Deliverable: Name of deliverable, due in which month / Technical description of Task 3: / Computational resources for Task 3: description of model sizes, data sets used and resulting cpu/gpu node hours, memory specifications
+
+General information about Computational Resources: / Total required cpu/gpu node hours: [sum over all tasks] / [ITALIC]Information about EuroHPC JU access: did you already apply for access? Are you planning to apply? When and to which machine?[/ITALIC] / [ITALIC]If use of EuroHPC JU access is not planned: how will you get access to the necessary resources?[/ITALIC] / [ITALIC]Other specifics: e.g, which software installations are required on the computing machines, which data sets will be used, …[/ITALIC] / [ITALIC]Depending on the access to the resources: what are the associated costs? (The costs should then be included as “other direct costs” in the table in the section “Justification of costs and resources”)[/ITALIC]
+Impact and Outputs / [ITALIC](Output = concrete results from the innovation studies, such as, but not limited to, business case analyses/reports, software releases, user workflows, experience reports,..[/ITALIC] / [ITALIC]Impact = explanation of the use of innovation study results and the related business impact, enhanced capabilities or potential for service offerings, etc.)[/ITALIC] / The output of the innovation study will be: / The results of the innovation study will be …
+[TABLE END]
+
+
+[TABLE START]
+Participants and effort
+------------------------------------------------------------
+Participant |  |  |  |  |  | TOTAL
+Effort (PM) |  |  |  |  |  | 
+[TABLE END]
+
+[ITALIC]PM = Person Months[/ITALIC]
+
+Quality of the consortium as a whole and of the individual proposers
+(Recommendation: ca. 2 pages – please note that the total page limit from the call announcement is mandatory and the recommended page lengths here are only suggestions)
+
+[ITALIC]A main participant is an SME or a Start-up and supporting participants are organisations assisting the main participant to complete activities foreseen for the innovation study. Proposals are to be submitted by the main participant who must provide a business case/challenge and optionally (if well justified) up to two supporting participants. Each consortium partner needs to have a clearly defined role.[/ITALIC]
+[ITALIC]The descriptions of the individual proposers should explain each proposer’s capability – both as an organisation and also in terms of the key staff to be assigned to the innovation study - to carry out the proposed activities. This explanation of capability should consider strategic and operational processes and the specific assigned tasks per proposer. The description of the consortium (for the innovation study) as a whole should provide evidence that the consortium includes the necessary and sufficient set of complementary capabilities (i.e. no unnecessary overlap of capabilities nor omission of required capabilities). Specify if the SME (main participant) has qualified staff with the necessary expertise in generative AI, software development, technical project management, and data processing[/ITALIC]
+[ITALIC]For supporting participants, only technical/engineering activities are eligible for funding. Activities such as business consultancy, marketing initiatives, administrative tasks, and other non-engineering activities are not eligible for funding.[/ITALIC]
+
+Justification of costs and resources
+(Recommendation: ca. 1 page – please note that the total page limit from the call announcement is mandatory and the recommended page lengths here are only suggestions)
+[ITALIC]Clearly explain the HPC resources (hardware, software, frameworks, and compute volumes) appropriate for the execution of the innovation study. Define the HPC resources needed, possibly using computing resources provided directly (free of charge) by the EuroHPC JU, e.g. through the AI Factories Access Modes.[/ITALIC]
+[ITALIC]Demonstrate how the allocated resources (personnel, IT/computing and any other resources) address and fill current gaps in the processes needed to implement the proposed action.[/ITALIC]
+[ITALIC]Cost breakdown and Requested Funding per Participant [/ITALIC]
+[ITALIC](The table below is an embedded spread-sheet, please use it, by double-clicking the table, to input your data. The data in the spread-sheet is purely for illustration purposes)[/ITALIC]
+
+[ITALIC]Other direct costs should include the computing costs which were described in the previous section describing the workplan.[/ITALIC]
+[ITALIC]All other direct costs need to be clearly explained and justified: for example, software costs: the necessary software product(s) need to be named explicitly and licenses must be suitable for the performance of the work foreseen in the proposed workplan.[/ITALIC]
+[ITALIC]Indirect costs are not eligible for funding for the innovation study participants (who will be Third Parties to the FFPlus project).[/ITALIC]

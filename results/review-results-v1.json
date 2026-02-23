@@ -1,0 +1,193 @@
+{
+  "overallScore": 14,
+  "maxScore": 15,
+  "readyToSubmit": true,
+  "executiveSummary": "CosTERRA is an exceptionally well-crafted proposal that has clearly benefited from iterative refinement across multiple review cycles. The proposal presents a compelling case for developing a domain-specific generative AI model for Ukrainian construction cost estimation documentation, grounded in a genuine business need with a large proprietary dataset. The consortium of ALD (main SME) and ZNU (supporting academic partner) is well-structured with clear complementarity. The proposal addresses virtually all mandatory elements of the FFplus Call-2-Type-2 framework with notable thoroughness, including explicit eligibility declarations, a detailed budget breakdown, rigorous performance baselines, and a comprehensive trustworthy AI risk assessment.\n\nCompared to earlier review iterations, this version has resolved the most critical issues: Ukraine's eligibility under the Digital Europe Programme is now explicitly cited with references, the budget breakdown is detailed and transparent, the expert evaluation panel is clarified as using internal ALD employees (avoiding sub-contracting concerns), and mandatory eligibility declarations regarding FFplus beneficiary status and Type-1 non-participation are explicitly stated. The technical approach — fine-tuning a 7-8B parameter open-source model with a custom RAG pipeline on EuroHPC infrastructure — is well-justified and appropriately scoped for a 10-month innovation study.\n\nThe proposal scores highly across all three criteria. Minor areas for potential improvement include: providing slightly more granular evidence of ZNU's specific experience with LLM-scale training (as opposed to general GPU/parallel computing), strengthening the contingency plan if EuroHPC access is significantly delayed, and providing more detail on how the model handles the transition from structured SQL data to natural-language-embedded numerical outputs. However, these are refinements rather than deficiencies, and the proposal comfortably exceeds all scoring thresholds.",
+  "complianceCheck": {
+    "passed": true,
+    "issues": []
+  },
+  "sectionScores": [
+    {
+      "section": "Impact",
+      "score": 5,
+      "maxScore": 5,
+      "feedback": "The proposal excels on Impact. The innovation prospects are outstanding: no competing solution exists for automated generation of Ukrainian construction cost estimation documents compliant with DBN/DSTU standards, and the proprietary 6-year dataset represents a genuine and defensible competitive moat. Commercial viability is convincingly demonstrated through concrete revenue projections (€500K–€1.2M additional annual revenue), a clear value chain from innovation study → SaaS integration → premium service → market expansion, and a well-defined addressable market (€2.4 billion Ukrainian construction services, with expansion to post-Soviet and EU markets). Societal relevance is compelling, directly linking to Ukraine's €400+ billion reconstruction effort and the need to scale documentation capacity by 300–500%. The vision of success is specific and measurable: ≥85% structural accuracy at Month 10, production deployment at Month 24, 50+ active clients. Call alignment is excellent — the proposal checks every FFplus objective: an SME proficient in AI accessing EuroHPC, developing a new generative AI model, with demonstrable business benefits. The five-point justification for why existing models are inadequate is rigorous and supported by quantitative preliminary testing results (e.g., GPT-4 achieving only 28% numerical consistency). The only minor observation is that the post-study exploitation pathway (SaaS integration, market expansion) could benefit from a brief mention of potential barriers to adoption (e.g., regulatory acceptance of AI-generated documents in Ukrainian construction)."
+    },
+    {
+      "section": "Excellence",
+      "score": 4.5,
+      "maxScore": 5,
+      "feedback": "Conceptual and technical excellence are both strong. The proposal is highly cohesive: the business problem (manual cost estimation bottleneck) maps cleanly to the technical solution (domain-adapted LLM + RAG), which maps to measurable outcomes. The ML lifecycle is well-structured across five objectives covering data engineering, model development, evaluation, trustworthy AI, and commercialisation. Technical requirements are clearly defined: model architecture (decoder-only transformer, 7-8B parameters), training strategy (two-phase: domain adaptation then task-specific SFT), hyperparameters, RAG components, and software stack. Technology choices are well-justified — the selection of Mistral-7B as primary candidate with Llama-3-8B and Qwen2.5-7B as fallbacks is sensible, and the 7-8B parameter size is justified by reference to emergent abilities research. Performance metrics are excellent: six distinct metrics with quantitative baselines from GPT-4 zero-shot evaluation and concrete targets. The baselines are rigorous (tested on 500 held-out tasks) and the metrics cover structural, numerical, regulatory, linguistic, completeness, and human preference dimensions. Reproducibility measures are comprehensive (version control, fixed seeds, MLflow tracking, containerised environments, frozen test sets). Two areas prevent a perfect score: (1) The proposal mentions full-parameter fine-tuning for both phases but does not discuss why parameter-efficient methods (LoRA, QLoRA) were rejected, despite citing LoRA in the bibliography [15] — a brief justification would strengthen the technical rationale and address potential reviewer questions about computational efficiency. (2) The mechanism by which the RAG pipeline integrates structured SQL query results into the generation process could be described in slightly more technical detail — specifically, how retrieved price/material data is formatted and injected into the model's context window alongside the generation prompt."
+    },
+    {
+      "section": "Implementation",
+      "score": 4.5,
+      "maxScore": 5,
+      "feedback": "The workplan is well-structured with clear task dependencies, realistic timelines, and appropriate parallelism (e.g., T2 overlapping with T1 to enable infrastructure readiness). The Work Plan Table includes all required elements: tasks, durations, participant effort, deliverables with due months, technical descriptions, and computational resources per task. The Gantt-style temporal layout shows good task sequencing. The Month 7 pre-final results report is explicitly addressed with defined content. The Data Management Plan covers all FAIR principles with appropriate detail for the proposal stage. The cost breakdown is transparent and well-justified: personnel rates are realistic for Ukrainian salary levels (€8,000–€8,444/PM for senior technical staff), other direct costs are itemised and justified, and the budget respects all FFplus caps (ALD at 64.3% > 50% threshold, total €280,000 < €300,000 cap). The clarification that expert evaluators are ALD employees resolves the previous sub-contracting concern elegantly. HPC resource justification is detailed and convincing, with 6,500 GPU-node-hours broken down by activity and clearly exceeding playground access levels. Two minor areas for improvement: (1) The contingency for EuroHPC access delays (€15,000 for commercial cloud) may be insufficient for the full 6,500 GPU-node-hours if access is significantly delayed — a brief statement about how work would be reprioritised in such a scenario would add robustness. (2) While ZNU's publications in parallel computing and distributed AI are cited, the specific evidence of experience with LLM-scale training (models >1B parameters) versus smaller models (BERT, GPT-2 class mentioned for Mr. Kravchenko) could be strengthened — this was flagged in earlier reviews and while improved, remains the weakest link in consortium competence documentation."
+    }
+  ],
+  "strengths": [
+    "Compelling and well-quantified business case with a genuine market need amplified by Ukraine's reconstruction requirements",
+    "Unique proprietary dataset (6 years, 24K document sets, 12M price records) that represents a defensible competitive advantage and is demonstrably available",
+    "Rigorous five-point justification for why existing LLMs cannot solve the problem, supported by quantitative preliminary testing results",
+    "Excellent performance metrics framework with six distinct metrics, concrete baselines from GPT-4 zero-shot testing, and ambitious but realistic targets",
+    "Thorough trustworthy AI risk assessment with specific, practical mitigation strategies (e.g., post-generation arithmetic verification, RAG-only standard retrieval)",
+    "Clean budget structure respecting all FFplus caps with transparent cost breakdown and no indirect costs or sub-contracting",
+    "Explicit and well-referenced eligibility declarations (Ukraine's Digital Europe Programme association, non-FFplus beneficiary status, non-Type-1 participation)",
+    "Clear consortium complementarity with no unnecessary overlap and complete ML lifecycle coverage",
+    "Well-designed RAG architecture addressing the critical real-time pricing requirement",
+    "Comprehensive reproducibility plan including containerised environments, MLflow tracking, and frozen test sets",
+    "Strong alignment with every stated FFplus Call-2-Type-2 objective, demonstrated through a clear mapping table",
+    "Iterative improvement across review cycles has resolved all previously identified critical issues"
+  ],
+  "weaknesses": [
+    {
+      "section": "Excellence",
+      "issue": "Full-parameter fine-tuning chosen for both training phases without justification for rejecting parameter-efficient methods (LoRA/QLoRA), despite citing LoRA in bibliography",
+      "severity": "minor",
+      "suggestion": "Add a brief paragraph explaining why full-parameter fine-tuning is preferred over LoRA for this specific use case (e.g., structured output generation requiring deeper weight modifications, domain adaptation phase requiring full model plasticity). This would preempt reviewer questions and demonstrate thorough technical consideration."
+    },
+    {
+      "section": "Excellence",
+      "issue": "RAG pipeline integration mechanism between structured SQL data and the generative model's context window is described at a high level but lacks technical specificity",
+      "severity": "minor",
+      "suggestion": "Add 2-3 sentences describing the specific prompt template or encoding strategy for injecting retrieved structured data (prices, standards) into the model's input context. For example: 'Retrieved price records are formatted as structured key-value pairs and prepended to the generation prompt within a designated context section, enabling the model to condition its output on current market data without memorising prices in its weights.'"
+    },
+    {
+      "section": "Implementation",
+      "issue": "Contingency plan for EuroHPC access delays is limited to €15,000 commercial cloud budget, which would cover only a fraction of the 6,500 GPU-node-hours required",
+      "severity": "minor",
+      "suggestion": "Add a brief contingency statement explaining how work would be reprioritised if EuroHPC access is delayed by more than 1-2 months. For example: 'In the event of significant EuroHPC access delays, the consortium will prioritise data engineering and baseline evaluation tasks, conduct reduced-scale prototype training on commercial cloud, and compress the main training phase once HPC access is secured.'"
+    },
+    {
+      "section": "Implementation",
+      "issue": "ZNU's demonstrated experience with LLM-scale training (>1B parameters) remains somewhat thin — publications are on distributed training and GPU-accelerated computing generally, and the hands-on LLM experience cited is for smaller models (BERT, GPT-2 class)",
+      "severity": "minor",
+      "suggestion": "If available, add a sentence citing any ZNU experience with models in the multi-billion parameter range, or explicitly state that the lab's distributed training expertise (DeepSpeed, FSDP, multi-node GPU) is directly transferable to LLM-scale workloads and that the step from GPT-2-class to 7B models is primarily an infrastructure scaling challenge that their parallel computing expertise is specifically designed to address."
+    },
+    {
+      "section": "Impact",
+      "issue": "Potential regulatory barriers to adoption of AI-generated construction documents (e.g., whether Ukrainian authorities will accept AI-generated cost estimates) are not discussed",
+      "severity": "minor",
+      "suggestion": "Add a brief note in the commercialisation section acknowledging that AI-generated documents will require human expert validation and signature under current Ukrainian regulations, and that the tool is positioned as an expert assistance system rather than a replacement for certified estimators."
+    }
+  ],
+  "missingElements": [
+    "Brief justification for choosing full-parameter fine-tuning over parameter-efficient methods (LoRA/QLoRA) — not strictly required but expected given the bibliography reference",
+    "Discussion of regulatory acceptance of AI-generated construction documents — minor gap in exploitation planning"
+  ],
+  "structureCompliance": {
+    "hasSummary": true,
+    "hasIndustrialRelevance": true,
+    "hasWorkPlan": true,
+    "hasWorkPlanTable": true,
+    "hasParticipantsEffortTable": true,
+    "hasConsortiumQuality": true,
+    "hasCostJustification": true,
+    "hasCostBreakdownTable": true,
+    "hasDataManagementPlan": true,
+    "hasTrustworthyAIRisks": true,
+    "hasMonth7Report": true,
+    "hasReferences": true,
+    "estimatedPageCount": 12.5,
+    "withinPageLimit": true
+  },
+  "improvementPriorities": [
+    {
+      "priority": "medium",
+      "area": "Excellence — Technology Choice Justification",
+      "recommendation": "Add 3-4 sentences justifying full-parameter fine-tuning over LoRA/QLoRA. This is a natural reviewer question given the computational cost implications, and addressing it proactively strengthens the technical narrative."
+    },
+    {
+      "priority": "medium",
+      "area": "Excellence — RAG Technical Detail",
+      "recommendation": "Provide slightly more technical specificity on how structured SQL data is encoded and injected into the model's generation context. This is the most novel architectural component and deserves proportional technical depth."
+    },
+    {
+      "priority": "low",
+      "area": "Implementation — EuroHPC Contingency",
+      "recommendation": "Strengthen the contingency plan for EuroHPC access delays with a brief work reprioritisation strategy, not just a small commercial cloud budget."
+    },
+    {
+      "priority": "low",
+      "area": "Implementation — ZNU LLM Experience",
+      "recommendation": "Explicitly bridge ZNU's parallel/distributed computing expertise to LLM-scale training requirements, acknowledging that their hands-on LLM experience is with smaller models but that multi-node GPU training at scale is their core competency."
+    },
+    {
+      "priority": "low",
+      "area": "Impact — Regulatory Acceptance",
+      "recommendation": "Briefly acknowledge the regulatory context for AI-generated construction documents and position the tool as an expert assistance system within the current regulatory framework."
+    }
+  ],
+  "detailedFeedback": [
+    {
+      "section": "Summary",
+      "comments": [
+        "Excellent summary that hits all key points within a concise format: problem, solution, consortium, technical approach, expected outcomes, call alignment, eligibility declarations, and budget.",
+        "The explicit inclusion of eligibility declarations (Ukraine's Digital Europe Programme association, non-FFplus beneficiary status, non-Type-1 participation) directly in the summary is a smart improvement from earlier versions — reviewers see these critical compliance points immediately.",
+        "Budget split (ALD: €180K / ZNU: €100K) is clearly stated and compliant.",
+        "The quantitative targets (≥85% structural accuracy, ≥90% numerical consistency) provide immediate credibility."
+      ]
+    },
+    {
+      "section": "IndustrialRelevance",
+      "comments": [
+        "Section 2.1 effectively establishes ALD's credibility as an operational SME with a mature ERP/SaaS business. The throughput figures (4,000 document sets/year, 150+ clients) demonstrate market traction.",
+        "Section 2.2 provides an excellent problem definition with specific pain points (3-5 days per document, 12% error rate) that make the business case tangible and quantifiable.",
+        "Section 2.3 is outstanding — the five-point justification for why existing models are inadequate is thorough, specific, and supported by preliminary testing data. The acknowledgment of why the problem could not be addressed sooner (open-source model availability, dataset maturity) is a nice touch.",
+        "Section 2.4 provides credible revenue projections with explicit assumptions (current customer base, pricing per document set).",
+        "Section 2.5 effectively leverages Ukraine's reconstruction context for societal relevance without overplaying it.",
+        "The alignment table (Section 2.6) provides a clear, scannable demonstration of call alignment.",
+        "Minor suggestion: Add one sentence on regulatory acceptance of AI-generated cost estimation documents in Section 2.4 or 2.5."
+      ]
+    },
+    {
+      "section": "WorkPlan",
+      "comments": [
+        "The five measurable objectives (O1-O5) with explicit success criteria provide excellent structure and evaluability.",
+        "Training dataset description (Section 3.2) is exemplary — the table format clearly shows volume, format, and coverage for each data component. The five-step preparation pipeline is specific and practical.",
+        "Model characteristics (Section 3.3) are well-specified with appropriate detail on architecture, fine-tuning strategy, hyperparameters, and RAG components. The two-phase training approach (domain adaptation → task-specific SFT) is well-reasoned.",
+        "Performance metrics table (Section 3.4) is a major strength — six metrics with quantitative baselines from actual preliminary testing. The GPT-4 zero-shot baselines (42% SA, 28% NC, 15% RC) make the need for a new model undeniable.",
+        "Reproducibility plan (Section 3.5) is comprehensive and covers all expected elements.",
+        "Trustworthy AI risk assessment (Section 3.6) is thorough with practical mitigations. The classification as limited-risk under the AI Act is appropriate.",
+        "DMP (Section 3.7) addresses all FAIR principles adequately. The distinction between proprietary training data (restricted) and evaluation methodology (open) is appropriate.",
+        "Work Plan Table (Section 3.9) is well-structured with all required columns. Task dependencies are logical (T1→T2→T3→T4→T5 with appropriate overlaps).",
+        "Consider adding a brief justification for full-parameter fine-tuning vs. LoRA in Section 3.3, and more technical detail on the RAG integration mechanism."
+      ]
+    },
+    {
+      "section": "ConsortiumQuality",
+      "comments": [
+        "ALD's team is well-described with named individuals, specific roles, relevant experience, and allocated person-months. The combination of software engineering, data engineering, and domain expertise is exactly right.",
+        "The clarification that ALD has completed internal R&D including systematic LLM benchmarking strengthens the GenAI proficiency claim significantly.",
+        "ZNU's academic credentials are solid (25 publications, 8 in last year, active state-funded project, international collaborations). Dr. Shylo's profile with 12 papers on GPU-accelerated ML is credible.",
+        "The complementarity table (Section 4.3) is an excellent addition that makes clear there is no redundancy and no capability gap.",
+        "ZNU's role is explicitly limited to engineering/technical activities — compliant with FFplus requirements.",
+        "The one remaining area for strengthening is ZNU's specific experience with LLM-scale (>1B parameter) training. Mr. Kravchenko's experience with BERT/GPT-2 class models is mentioned, but the gap to 7-8B models should be explicitly bridged."
+      ]
+    },
+    {
+      "section": "CostJustification",
+      "comments": [
+        "Budget breakdown is exemplary — detailed, transparent, and fully compliant with all FFplus caps and rules.",
+        "Personnel rates (€8,000-€8,444/PM) are realistic for Ukrainian senior technical staff and will not raise reviewer concerns.",
+        "The itemisation of other direct costs is specific and justified: travel (with trip count and purpose), software licences (named tools), equipment depreciation (specific hardware), and contingency cloud access.",
+        "The explicit statement that expert evaluation uses ALD employees (not sub-contractors) cleanly resolves the sub-contracting concern from the previous review.",
+        "The statement that no indirect costs are claimed is clear.",
+        "HPC resource justification (Section 5.1) is detailed and convincing, with the 6,500 GPU-node-hour total broken down by activity type.",
+        "The EuroHPC access strategy (Development Access mode) is appropriately identified and referenced.",
+        "Minor point: The €15,000 contingency for commercial cloud is prudent but would only cover a small fraction of the needed compute if EuroHPC access is significantly delayed."
+      ]
+    },
+    {
+      "section": "Bibliography",
+      "comments": [
+        "17 references covering all claimed facts: eligibility (refs 1-2), EuroHPC access (ref 3), ZNU publications (refs 4-5), market data (refs 6, 10), internal testing (ref 7), model options (refs 8-9, 12), trustworthy AI (refs 11, 14), and technical foundations (refs 13, 15-17).",
+        "Good mix of institutional sources (European Commission, World Bank, EuroHPC JU), peer-reviewed publications, and technical reports.",
+        "The inclusion of the internal technical report (ref 7) supporting the baseline claims adds credibility — even as unpublished, it signals systematic preliminary work.",
+        "References to LoRA (ref 15), RAG (ref 16), and ZeRO (ref 17) demonstrate awareness of the broader technical landscape."
+      ]
+    }
+  ]
+}

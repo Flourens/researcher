@@ -1,0 +1,118 @@
+PROJECT: CosTERRA — Cognitive System for Technical Engineering, Research & Architectural documentation
+
+DESCRIPTION: A domain-specific generative AI model for automated generation of construction cost estimation documents.
+
+=== CONSORTIUM ===
+
+MAIN PARTICIPANT (SME): ALD Engineering & Construction LLC (ТОВ «АЛД ІНЖИНІРИНГ ТА БУДІВНИЦТВО»)
+- Country: Ukraine (associated with Digital Europe Programme since September 2022)
+- Legal form: LLC (ТОВ), qualifies as SME (<250 employees)
+- Employees: 219
+- Core business: Construction engineering, cost estimation, procurement management
+- Proprietary ERP system with 6 years of historical procurement data
+- SaaS business model for construction documentation services
+- Requested funding: up to €200K (main participant cap)
+
+SUPPORTING PARTICIPANT: Zaporizhzhia National University (ZNU) — Laboratory of Parallel and Distributed Computing
+- Head: Dr. Halyna Shylo, Doctor of Technical Sciences
+- Team: 4 researchers specialized in HPC, AI/ML, parallel computing
+- Role: AI model architecture, HPC training pipeline, model evaluation, performance optimization
+- Requested funding: up to €100K (engineering/technical activities only)
+
+Total consortium funding: up to €300K (10-month innovation study)
+
+=== BUSINESS PROBLEM ===
+
+Construction cost estimation in Ukraine requires generating detailed technical documents that comply with national building standards (DBN — Державні будівельні норми, DSTU — Державні стандарти України). These documents include:
+- Bills of Quantities (BOQs) with material specifications and pricing
+- Cost estimate summaries (кошторисна документація)
+- Resource statements with labor, materials, and equipment breakdowns
+- Technical specifications referencing current standards and norms
+
+Currently, creating these documents is manual, time-consuming, and error-prone. Each document requires:
+- Knowledge of current material prices across regions
+- Understanding of applicable building standards and norms
+- Correct application of pricing coefficients and overhead calculations
+- Proper formatting according to construction documentation standards
+
+ALD's ERP system processes thousands of such documents annually. The company has accumulated 6 years of structured procurement data covering the entire lifecycle of cost estimation.
+
+=== WHY A NEW GENERATIVE AI MODEL IS IMPERATIVE ===
+
+1. DOMAIN-SPECIFIC LANGUAGE: Construction cost estimation uses highly specialized terminology, codes, and formats that general-purpose LLMs do not understand. Ukrainian construction norms (DBN, DSTU) are not represented in public training corpora.
+
+2. STRUCTURED OUTPUT REQUIREMENTS: Cost estimation documents must contain precise numerical calculations, material quantities, unit prices, and totals that are internally consistent. General-purpose models cannot reliably generate such structured, computation-dependent documents.
+
+3. REGULATORY COMPLIANCE: Documents must strictly comply with Ukrainian building standards. Incorrect references to standards or wrong pricing coefficients can invalidate entire estimates. No existing model has this knowledge.
+
+4. PROPRIETARY DATA: ALD's 6-year dataset of real procurement transactions, supplier prices, regional cost variations, and project outcomes represents unique domain knowledge. Training a custom model on this data will produce capabilities unavailable from any public model.
+
+5. REAL-TIME PRICING INTEGRATION: The model must incorporate current market prices from ALD's ERP database. This requires custom architecture that can condition generation on structured database inputs, not just text prompts.
+
+=== TRAINING DATA ===
+
+Primary dataset: ALD's proprietary procurement database (6 years)
+- Thousands of completed cost estimation documents
+- Material specifications with pricing history
+- Supplier databases with regional coverage
+- Project templates and standardized formats
+- Quality-validated records from production use
+
+Data characteristics:
+- Structured (SQL/relational database) + semi-structured (document templates)
+- Domain-specific Ukrainian construction terminology
+- Temporal dimension (price dynamics over 6 years)
+- Estimated total volume: requires conversion to training format (text pairs, instruction-output pairs)
+
+Data preparation pipeline:
+- Extract structured records from ERP database
+- Convert to instruction-output training pairs (prompt: project parameters → output: cost estimation document)
+- Augment with construction standards references
+- Validate and clean data for model training
+- Estimated training corpus: multi-GB after conversion
+
+=== PROPOSED MODEL ARCHITECTURE ===
+
+CosTERRA will be based on a transformer architecture, fine-tuned/trained specifically for construction cost estimation document generation:
+
+- Base: Open-source foundation model (e.g., Llama, Mistral, or domain-appropriate multilingual model)
+- Fine-tuning approach: Supervised fine-tuning on instruction-output pairs derived from ALD's historical data
+- Custom components: Structured data encoder for integrating ERP database inputs (prices, materials, standards)
+- Output format: Structured cost estimation documents compliant with Ukrainian building standards
+- Model size: Multi-billion parameters (justifying HPC resources beyond playground access)
+- Training: Full fine-tuning on EuroHPC pre-exascale GPU clusters (thousands of GPU-hours)
+
+=== HPC RESOURCE JUSTIFICATION ===
+
+The proposed model training requires computational resources significantly exceeding EuroHPC AI Factories playground access because:
+
+1. Full fine-tuning of multi-billion parameter model (not just LoRA/adapter training)
+2. Large training corpus requiring multiple training epochs
+3. Hyperparameter optimization across model configurations
+4. Evaluation and benchmarking against baseline models
+5. Iterative refinement cycles for document quality optimization
+
+Estimated requirements:
+- GPU-hours: 5,000-10,000 on A100/H100 equivalent
+- Storage: Multi-TB for training data and model checkpoints
+- Training duration: Multiple weeks of continuous computation
+
+Will apply for EuroHPC AI Factories access (most appropriate scheme for generative AI development).
+
+=== BUSINESS IMPACT ===
+
+1. PRODUCTIVITY: Automate 70-80% of cost estimation document generation, reducing creation time from days to hours
+2. ACCURACY: Reduce human errors in calculations and standard references
+3. SCALABILITY: Enable ALD to process significantly more projects without proportional staff increase
+4. SaaS REVENUE: Integrate model into existing SaaS platform, offering AI-powered cost estimation as a premium service
+5. MARKET EXPANSION: Applicable to construction markets in other post-Soviet countries with similar building standards
+6. EUROPEAN CONSTRUCTION SECTOR: Potential adaptation to EU building standards in future phases
+
+=== ALIGNMENT WITH FFPLUS CALL OBJECTIVES ===
+
+1. ✅ SME proficient in AI — ALD has proprietary ERP with data analytics, partnering with ZNU's AI expertise
+2. ✅ Access large-scale HPC — will use EuroHPC for model training
+3. ✅ Develop generative AI model — domain-specific model for document generation
+4. ✅ Business application — direct integration into SaaS platform
+5. ✅ Innovation potential — no existing solution for AI-powered construction cost estimation in Ukrainian market
+6. ✅ ML lifecycle scope — data preparation, model development, evaluation (no deployment/operation)

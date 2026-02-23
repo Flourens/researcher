@@ -1,117 +1,82 @@
 {
-  "name": "Навчально-наукова лабораторія паралельних і розподілених обчислень ЗНУ",
-  "type": "research_institute",
+  "name": "ALD Engineering & Construction LLC (ТОВ «АЛД ІНЖИНІРИНГ ТА БУДІВНИЦТВО»)",
+  "type": "sme",
   "country": "Ukraine",
   "researchAreas": [
-    "Artificial Intelligence",
-    "Machine Learning",
-    "High Performance Computing",
-    "Parallel and Distributed Computing",
-    "Distributed Databases",
-    "Geoinformation Technologies",
-    "Computer Modeling and Forecasting",
-    "Digital Cartography",
-    "Logistics Systems",
-    "CAD Systems"
+    "Construction Cost Estimation",
+    "Procurement Data Analytics",
+    "Enterprise Resource Planning (ERP)",
+    "Building Information Modeling",
+    "Construction Project Management",
+    "AI-Powered Document Generation",
+    "Risk Assessment in Construction"
   ],
   "teamInfo": {
-    "totalResearchers": 4,
-    "phds": 1,
-    "professors": 1,
+    "totalResearchers": 219,
+    "phds": 0,
+    "professors": 0,
     "expertise": [
-      "High-Performance Computing",
-      "Parallel and Distributed Computing",
-      "Machine Learning and AI",
-      "Distributed Database Systems",
-      "Geoinformation Technologies and Digital Cartography",
-      "Computer-Aided Design (CAD)",
-      "Logistics Systems Optimization",
-      "AI in Defense and Security",
-      "Computational Modeling"
+      "Construction Engineering and Project Management",
+      "Cost Estimation and Procurement",
+      "Enterprise Software Development (proprietary ERP)",
+      "Database Management and Data Analytics",
+      "SaaS Platform Development and Operations",
+      "Construction Documentation Standards",
+      "Supply Chain Management in Construction",
+      "Risk Analysis for Construction Projects"
     ]
   },
   "resources": {
-    "hpcAccess": true,
-    "hpcDetails": "Учебно-научная лаборатория параллельных и распределённых вычислений с собственной вычислительной инфраструктурой",
-    "gpuClusters": "Доступ к GPU кластерам через партнерство с ЗНУ",
-    "computingResources": "Собственная лаборатория параллельных вычислений + доступ к 21 НИЛ ЗНУ",
-    "laboratories": [
-      "Лаборатория параллельных и распределённых вычислений",
-      "Доступ к лаборатории виртуальной реальности ЗНУ (через партнерство)"
-    ],
+    "hpcAccess": false,
+    "hpcDetails": "Will apply for EuroHPC AI Factories access for model training",
+    "gpuClusters": "To be provisioned via EuroHPC pre-exascale/exascale systems",
+    "computingResources": "Proprietary ERP infrastructure, cloud-based SaaS platform, development servers",
+    "laboratories": [],
     "equipment": [
-      "Высокопроизводительные вычислительные системы",
-      "Специализированное ПО для параллельных вычислений",
-      "Геоинформационные системы и картографическое ПО",
-      "САПР системы"
+      "Proprietary ERP system with 6 years of historical data",
+      "SaaS platform infrastructure",
+      "Development and staging environments"
     ]
   },
   "financialCapacity": {
-    "annualBudget": 3589768,
-    "coFundingAvailable": true,
-    "maxProjectBudget": 3600000
+    "annualBudget": null,
+    "coFundingAvailable": false,
+    "maxProjectBudget": 200000
   },
   "trackRecord": {
-    "previousGrants": [
-      {
-        "title": "Технології штучного інтелекту в логістичних системах національної безпеки та оборони",
-        "funder": "Основний конкурс (держбюджет)",
-        "amount": 3589768,
-        "year": 2024,
-        "outcome": "ongoing"
-      }
-    ],
+    "previousGrants": [],
     "publications": {
-      "total": 25,
-      "lastYear": 8,
-      "topVenues": [
-        "Scopus",
-        "Computer Science and Applied Mathematics (ЗНУ)",
-        "Conferences on Parallel Computing"
-      ]
+      "total": 0,
+      "lastYear": 0,
+      "topVenues": []
     },
-    "patents": 1
+    "patents": 0
   },
   "partnerships": [
     {
-      "organization": "Запорізький національний університет (ЗНУ)",
+      "organization": "Zaporizhzhia National University - Laboratory of Parallel and Distributed Computing (Supporting Participant)",
       "type": "academic",
-      "active": true
-    },
-    {
-      "organization": "Durham University (через ЗНУ)",
-      "type": "academic",
-      "active": true
-    },
-    {
-      "organization": "TU Bergakademie Freiberg (через ЗНУ)",
-      "type": "academic",
-      "active": true
-    },
-    {
-      "organization": "ТОВ \"Запорізький ливарно-механічний завод\"",
-      "type": "industry",
       "active": true
     }
   ],
-  "additionalInfo": "Навчально-наукова лабораторія паралельних і розподілених обчислень - спеціалізована дослідницька група при Запорізькому національному університеті.\n\nКЛЮЧОВІ ПЕРЕВАГИ:\n✅ Відповідає критеріям МСП (4 співробітники)\n✅ Високий науковий рівень (1 д.т.н., 1 к.н.)\n✅ Досвід виконання державних проектів\n✅ Спеціалізація в AI та HPC\n✅ Доступ до ресурсів ЗНУ як партнера\n\nКерівник: Шило Галина Миколаївна\n- Доктор технічних наук, доцент\n- В.о. завідувача кафедри комп'ютерних наук ЗНУ\n- Email: shilo.gn@gmail.com\n- Tel: (061) 289-12-57\n\nМісцезнаходження:\n69063, м. Запоріжжя, вул. Жуковського, 66 (ЗНУ, I корп., к. 19)\n\nОСНОВНІ НАПРЯМКИ ДІЯЛЬНОСТІ:\n1. Паралельні та розподілені обчислення\n2. Технології штучного інтелекту\n3. Розподілені бази даних\n4. Геоінформаційні технології та цифрова картографія\n5. Комп'ютерне моделювання та прогнозування\n6. AI в логістичних системах\n7. Системи автоматизованого проектування (САПР)\n\nПОТОЧНІ ПРОЕКТИ:\n- \"Технології штучного інтелекту в логістичних системах національної безпеки та оборони\" (3.59 млн грн)\n\nПАРТНЕРСТВО З ЗНУ НАДАЄ ДОСТУП ДО:\n- 21 науково-дослідна лабораторія\n- 9 навчально-науково-виробничих центрів\n- H-index університету: 28 (Scopus), 24 (WoS)\n- 37 міжнародних договорів про співпрацю\n- Проекти Erasmus+ та Horizon Europe",
+  "additionalInfo": "CONSORTIUM STRUCTURE:\n\nMAIN PARTICIPANT (SME): ALD Engineering & Construction LLC\n- Legal form: Limited Liability Company (ТОВ), registered in Ukraine\n- Employees: 219 (qualifies as SME under EU definition: <250 employees)\n- Core business: Construction engineering, cost estimation, procurement management\n- Proprietary ERP system serving construction industry\n- SaaS business model for construction documentation services\n- 6 YEARS OF PROPRIETARY PROCUREMENT DATA: structured database covering cost estimates, material prices, supplier data, technical specifications, project documentation across Ukrainian construction market\n- PIC code: REGISTRATION REQUIRED (urgent, deadline Feb 25, 2026)\n\nSUPPORTING PARTICIPANT: Zaporizhzhia National University (ZNU) - Laboratory of Parallel and Distributed Computing\n- Head: Dr. Halyna Shylo, Doctor of Technical Sciences\n- Team: 4 researchers (1 PhD, 1 Professor)\n- Expertise: HPC, Parallel Computing, AI/ML, Distributed Systems\n- Role: AI model architecture design, HPC optimization, training pipeline engineering, model evaluation\n- Publications: 25 total (8 in last year), Scopus-indexed\n- Current project: AI in logistics systems for national security (3.59M UAH state budget)\n- International partnerships: Durham University, TU Bergakademie Freiberg\n\nPROJECT: CosTERRA — Cognitive System for Technical Engineering, Research & Architectural documentation\nA domain-specific generative AI model for automated generation of construction cost estimation documents.\n\nKEY DATA ASSET:\n- 6 years of structured procurement data (cost estimates, BOQs, material specifications)\n- Thousands of completed cost estimation documents\n- Domain-specific terminology and standards (Ukrainian construction norms: DBN, DSTU)\n- Price dynamics, supplier databases, regional cost variations\n- Project templates and standardized documentation formats\n\nWHY CUSTOM GENERATIVE MODEL IS NECESSARY:\n1. Construction cost estimation documents follow strict domain-specific formats and standards\n2. General-purpose LLMs lack knowledge of Ukrainian construction norms (DBN, DSTU)\n3. Accurate cost estimation requires understanding of regional price dynamics and material specifications\n4. Existing models cannot generate compliant technical documentation with correct calculations\n5. Proprietary data contains unique patterns and domain knowledge not available in public training corpora",
   "supportingDocuments": [
     {
       "url": "https://digital-strategy.ec.europa.eu/en/news/solidarity-ukraine-digital-europe-programme-open-ukraine-access-calls-funding",
       "type": "html",
-      "description": "🇺🇦 ОФІЦІЙНЕ ПІДТВЕРДЖЕННЯ ЄС: Ukraine officially associated with Digital Europe Programme for supercomputing, AI, and digital skills.",
+      "description": "Ukraine officially associated with Digital Europe Programme for supercomputing, AI, and digital skills.",
       "priority": "high"
     },
     {
       "url": "https://www.eurohpc-ju.europa.eu/supercomputers/supercomputers-access-policy-and-faq_en",
       "type": "html",
-      "description": "🇺🇦 ОФІЦІЙНЕ ПІДТВЕРДЖЕННЯ EuroHPC JU: Ukraine listed among eligible countries for EuroHPC supercomputers access.",
+      "description": "Ukraine listed among eligible countries for EuroHPC supercomputers access.",
       "priority": "high"
     },
     {
       "url": "https://cascadefunding.eu/open-call/ffplus-second-call-for-innovation-studies-for-the-development-of-generative-ai-models/",
       "type": "html",
-      "description": "🇺🇦 ОФІЦІЙНЕ ПІДТВЕРДЖЕННЯ FFplus: Eligibility - organizations in EU Member States OR countries associated with Digital Europe Programme (Ukraine included).",
+      "description": "FFplus eligibility: organizations in EU Member States OR countries associated with Digital Europe Programme (Ukraine included).",
       "priority": "high"
     }
   ]
