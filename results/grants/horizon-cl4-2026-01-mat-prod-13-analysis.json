@@ -1,0 +1,280 @@
+{
+  "grantTitle": "Monitoring of secondary raw materials (CSA)",
+  "grantingOrganization": "European Commission",
+  "programName": "Horizon Europe - HORIZON-CL4-2026-01 (Digital, Industry and Space)",
+  "deadline": "2026-04-21",
+  "summary": "This Coordination and Support Action aims to enhance EU knowledge and strategic capacity for secondary raw materials through comprehensive monitoring, data collection, and analysis across multiple waste streams. The action will develop classification systems, monitor secondary raw materials flows within and beyond the EU, and create reports on future trends to strengthen EU autonomy in raw materials supply and support the transition to a climate-neutral, circular economy.",
+  "objectives": [
+    "Enhance knowledge base of secondary raw materials in the EU and third countries, including their potential, resource estimation, production, refining processes and biodiversity footprint",
+    "Accelerate development of projects leading to commercial exploitation of secondary raw materials in the EU",
+    "Develop reports analyzing future trends in raw materials markets and identify supply and demand bottlenecks",
+    "Improve EU raw materials intelligence, strategic planning and foresight capacity",
+    "Develop transparent and objective classification approach for secondary raw materials using UNFC format",
+    "Create proposal for EU statistics for secondary raw materials",
+    "Monitor waste flows between Member States and wastes exported from Europe",
+    "Include biodiversity footprint assessments using natural capital accounting frameworks"
+  ],
+  "requirements": [
+    {
+      "category": "eligibility",
+      "description": "Legal entities must be established in Member States, associated countries, OECD countries, African Union Member States, MERCOSUR, CARIFORUM, Andean Community, or countries with EU strategic partnerships on raw materials or trade agreements containing raw materials cooperation provisions",
+      "mandatory": true,
+      "evidence": "Legal establishment in eligible country"
+    },
+    {
+      "category": "eligibility",
+      "description": "Proposals including legal entities not established in eligible countries will be ineligible",
+      "mandatory": true,
+      "evidence": "Documentation of legal establishment location"
+    },
+    {
+      "category": "eligibility",
+      "description": "Entities directly or indirectly controlled by non-eligible countries or entities from non-eligible countries shall not participate",
+      "mandatory": true,
+      "evidence": "Control and ownership documentation"
+    },
+    {
+      "category": "technical",
+      "description": "Actions must be based on common understanding of relevant terms and codes for anthropogenic resources classification",
+      "mandatory": true,
+      "evidence": "Methodology documentation"
+    },
+    {
+      "category": "technical",
+      "description": "Acquire new data via in situ sampling from different regions across the EU and collect existing data in harmonized UNFC format",
+      "mandatory": true,
+      "evidence": "Data collection and sampling protocols"
+    },
+    {
+      "category": "technical",
+      "description": "Focus on specific secondary raw materials streams: waste batteries, WEEE, mining waste, slags and ashes, and construction and demolition waste, with particular attention to critical raw materials",
+      "mandatory": true,
+      "evidence": "Workplan covering all specified streams"
+    },
+    {
+      "category": "technical",
+      "description": "Include biodiversity footprint assessments using natural capital accounting frameworks",
+      "mandatory": true,
+      "evidence": "Biodiversity impact assessment methodology"
+    },
+    {
+      "category": "technical",
+      "description": "Monitor waste flows between Member States and wastes exported from Europe, focusing on countries where waste goes into European recycling industrial ecosystems",
+      "mandatory": true,
+      "evidence": "Monitoring and tracking system design"
+    },
+    {
+      "category": "technical",
+      "description": "Anticipate the evolution of WEEE directive",
+      "mandatory": true,
+      "evidence": "Policy analysis and foresight documentation"
+    },
+    {
+      "category": "administrative",
+      "description": "Share all data and information in open formats on a free of charge basis with the European Commission",
+      "mandatory": true,
+      "evidence": "Data sharing agreement and protocols"
+    },
+    {
+      "category": "administrative",
+      "description": "Include dedicated work package/task for clustering activities with other relevant projects and earmark appropriate resources",
+      "mandatory": true,
+      "evidence": "Work package dedicated to clustering activities"
+    },
+    {
+      "category": "administrative",
+      "description": "Comply with proposal page limits and layout requirements as described in Annex A, E, and Part B of Application Form",
+      "mandatory": true,
+      "evidence": "Compliant proposal submission"
+    },
+    {
+      "category": "financial",
+      "description": "Demonstrate operational and financial capacity as per Annex C of Work Programme General Annexes",
+      "mandatory": true,
+      "evidence": "Financial statements and capacity documentation"
+    },
+    {
+      "category": "other",
+      "description": "International cooperation encouraged with countries with EU Strategic Partnerships on raw materials, especially Ukraine",
+      "mandatory": false,
+      "evidence": "Partnership agreements or letters of support"
+    },
+    {
+      "category": "other",
+      "description": "Could build on work of UNECE-UNFC expert group on Anthropogenic resources and Horizon Europe project FUTURAM",
+      "mandatory": false,
+      "evidence": "Linkages to existing initiatives"
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "name": "Excellence",
+      "description": "Quality and credibility of the proposed action, including quality of objectives, methodology, and work plan. Alignment with topic scope and expected outcomes.",
+      "weight": 33,
+      "maxScore": 5,
+      "keyIndicators": [
+        "Soundness of methodology for classification and monitoring",
+        "Quality of data collection and harmonization approach",
+        "Credibility of biodiversity footprint assessment framework",
+        "Innovation in addressing secondary raw materials intelligence"
+      ]
+    },
+    {
+      "name": "Impact",
+      "description": "Credibility of pathway to impact, contribution to expected outcomes, and measures to maximize impact including dissemination, exploitation, and communication.",
+      "weight": 33,
+      "maxScore": 5,
+      "keyIndicators": [
+        "Contribution to EU raw materials intelligence and strategic autonomy",
+        "Potential to accelerate commercial exploitation of secondary raw materials",
+        "Quality of dissemination and communication plan",
+        "Open data sharing approach",
+        "Contribution to EU policy development and statistics"
+      ]
+    },
+    {
+      "name": "Implementation",
+      "description": "Quality and effectiveness of work plan, resources, and consortium composition. Appropriateness of management structures and procedures.",
+      "weight": 34,
+      "maxScore": 5,
+      "keyIndicators": [
+        "Quality of consortium composition and complementarity",
+        "Appropriateness of resource allocation",
+        "Quality of clustering and cooperation strategy",
+        "Effectiveness of management and coordination structures",
+        "Geographic coverage across EU regions"
+      ]
+    }
+  ],
+  "budget": {
+    "totalAmount": "EUR 4,000,000",
+    "categories": [
+      {
+        "category": "Total Grant Contribution",
+        "description": "Lump sum grant for coordination and support action",
+        "minAmount": 4000000,
+        "maxAmount": 4000000,
+        "rules": [
+          "Eligible costs will take the form of a lump sum as defined in the Decision of 7 July 2021",
+          "Standard lump sum model for Horizon Europe CSA applies"
+        ]
+      },
+      {
+        "category": "Clustering Activities",
+        "description": "Dedicated resources for cross-project cooperation, consultations, joint activities, meetings and communication events",
+        "minAmount": null,
+        "maxAmount": null,
+        "rules": [
+          "Must be earmarked in dedicated work package and/or task",
+          "Appropriate resources must be allocated"
+        ]
+      }
+    ],
+    "coFundingRequired": false,
+    "coFundingPercentage": null
+  },
+  "timeline": [
+    {
+      "phase": "Submission Period",
+      "duration": "Until 2026-04-21",
+      "deliverables": [
+        "Complete proposal submission"
+      ]
+    },
+    {
+      "phase": "Evaluation",
+      "duration": "As per indicative timeline in Annex F",
+      "deliverables": [
+        "Evaluation results"
+      ]
+    },
+    {
+      "phase": "Grant Agreement",
+      "duration": "As per indicative timeline in Annex F",
+      "deliverables": [
+        "Signed grant agreement"
+      ]
+    },
+    {
+      "phase": "Project Implementation",
+      "duration": "To be defined in proposal",
+      "deliverables": [
+        "Data collection from in situ sampling across EU regions",
+        "Harmonized UNFC format database",
+        "Classification framework for secondary raw materials",
+        "Biodiversity footprint reports",
+        "Future trends analysis reports",
+        "Supply and demand bottleneck identification",
+        "Proposal for EU statistics for secondary raw materials",
+        "Open format data sharing with European Commission",
+        "Clustering activities reports"
+      ]
+    },
+    {
+      "phase": "Post-Action Period",
+      "duration": "Up to 4 years after end of action",
+      "deliverables": [
+        "Granting authority may object to transfer of ownership or exclusive licensing of results"
+      ]
+    }
+  ],
+  "targetBeneficiaries": [
+    "Research institutions and universities",
+    "Industry organizations and recycling companies",
+    "Raw materials sector stakeholders",
+    "Policy makers and statistical offices",
+    "EU Member States authorities",
+    "International partners with strategic partnerships",
+    "Waste management and circular economy actors"
+  ],
+  "geographicScope": "European Union with international cooperation components",
+  "eligibleCountries": [
+    "EU Member States",
+    "Associated countries to Horizon Europe",
+    "OECD countries",
+    "African Union Member States",
+    "MERCOSUR countries",
+    "CARIFORUM countries",
+    "Andean Community countries",
+    "Countries with EU strategic partnerships on raw materials (including Ukraine)",
+    "Countries with trade agreements containing raw materials cooperation provisions"
+  ],
+  "keyThemes": [
+    "Secondary raw materials",
+    "Critical raw materials",
+    "Circular economy",
+    "Resource classification and monitoring",
+    "Waste batteries",
+    "WEEE (Waste Electrical and Electronic Equipment)",
+    "Mining waste",
+    "Slags and ashes",
+    "Construction and demolition waste",
+    "Biodiversity footprint",
+    "Natural capital accounting",
+    "Strategic autonomy",
+    "Raw materials intelligence",
+    "Climate neutrality",
+    "Digital transition",
+    "UNFC (United Nations Framework Classification)",
+    "Open data",
+    "Foresight and strategic planning"
+  ],
+  "additionalNotes": [
+    "Single-stage submission process with deadline on 2026-04-21",
+    "Expected to fund 1 grant under this specific topic (HORIZON-CL4-2026-01-MAT-PROD-13)",
+    "Type of action: HORIZON Coordination and Support Actions (CSA)",
+    "Lump sum grant model applies - see Decision of 7 July 2021 for details",
+    "Destination: Achieving technological leadership for Europe's open strategic autonomy in raw materials, chemicals and innovative materials (2026-27)",
+    "Strong emphasis on data sharing and open access - all generated data must be shared free of charge with European Commission",
+    "Must align with Critical Raw Materials Act (Regulation EU 2024/1252)",
+    "Should build on UNECE-UNFC expert group work and Horizon Europe project FUTURAM",
+    "Could leverage knowledge from projects funded under HORIZON-CL6-2021-BIODIV-01-15",
+    "Special attention to avoiding reinforcement of existing over-dependencies",
+    "Security provision: entities controlled by non-eligible countries cannot participate even if established in eligible country",
+    "International cooperation particularly encouraged with Ukraine and countries with strategic raw materials partnerships",
+    "Must use UN WCMC natural capital accounting frameworks for biodiversity assessments",
+    "Planning opening date: 2026-01-06",
+    "Application form: Standard HE CSA form available in Submission System",
+    "Model Grant Agreement: Lump Sum MGA applies"
+  ]
+}

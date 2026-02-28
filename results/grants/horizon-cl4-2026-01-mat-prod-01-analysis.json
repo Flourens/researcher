@@ -1,0 +1,233 @@
+{
+  "grantTitle": "Advanced manufacturing for key products (IA) (Made in Europe partnership)",
+  "grantingOrganization": "European Commission",
+  "programName": "Horizon Europe - Cluster 4: Digital, Industry and Space",
+  "deadline": "2026-04-21",
+  "summary": "This Innovation Action supports the development of advanced manufacturing technologies and machinery for key and high-performance products in Europe. The focus is on manufacturing excellence, increasing circularity through reuse of secondary raw materials and innovative materials, while reducing dependency on critical raw materials and imported components. Projects should achieve TRL 7 by completion, with emphasis on enhancing Europe's technological leadership and industrial resilience.",
+  "objectives": [
+    "Make advanced manufacturing technology and machinery available in Europe for manufacturing key and high-performance products",
+    "Increase production circularity through reuse of secondary raw materials and incorporation of innovative advanced materials",
+    "Significantly increase resource efficiency in terms of materials and energy",
+    "Enhance circularity, productivity, competitiveness and resilience of European industry",
+    "Reduce dependency on critical raw materials and imported materials/parts",
+    "Develop technologies for manufacturing components with minimal use of critical raw materials",
+    "Ensure at least one funded proposal focuses on the automotive industry"
+  ],
+  "requirements": [
+    {
+      "category": "technical",
+      "description": "Activities must start at TRL 5 and achieve TRL 7 by end of project",
+      "mandatory": true,
+      "evidence": "Technical development plan and TRL assessment methodology"
+    },
+    {
+      "category": "technical",
+      "description": "Focus on advanced manufacturing technologies including innovative additive manufacturing, hybrid manufacturing, photonics, advanced joining, polymer composite manufacturing, surface treatment, lightweight materials manufacturing, and in-line testing",
+      "mandatory": true,
+      "evidence": "Technical description of manufacturing technologies to be developed"
+    },
+    {
+      "category": "technical",
+      "description": "Target minimal use of critical raw materials or imported materials, with increased use of secondary raw materials, biobased materials or revalorised components",
+      "mandatory": true,
+      "evidence": "Materials strategy and circular economy approach"
+    },
+    {
+      "category": "technical",
+      "description": "Where appropriate, incorporate innovative advanced materials (lightweight, functionalised, self-healing) to enhance performance and quality",
+      "mandatory": false,
+      "evidence": "Materials development and integration plan including SSbD-design steps and digital twins if applicable"
+    },
+    {
+      "category": "administrative",
+      "description": "Include a business case and exploitation strategy as outlined in the Destination introduction",
+      "mandatory": true,
+      "evidence": "Business case and exploitation strategy documentation (3 additional pages allowed in Part B)"
+    },
+    {
+      "category": "administrative",
+      "description": "Single-stage submission process",
+      "mandatory": true,
+      "evidence": "Complete application through Submission System by deadline"
+    },
+    {
+      "category": "eligibility",
+      "description": "Eligible countries as described in Annex B of Work Programme General Annexes (EU member states and associated countries)",
+      "mandatory": true,
+      "evidence": "Legal entity validation"
+    },
+    {
+      "category": "financial",
+      "description": "Financial and operational capacity requirements as per Annex C",
+      "mandatory": true,
+      "evidence": "Financial capacity assessment documentation"
+    },
+    {
+      "category": "other",
+      "description": "Battery production is explicitly excluded from this topic scope",
+      "mandatory": true,
+      "evidence": "N/A - exclusion criterion"
+    },
+    {
+      "category": "technical",
+      "description": "International cooperation is encouraged, especially with Japan or Taiwan",
+      "mandatory": false,
+      "evidence": "Letters of commitment from international partners if applicable"
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "name": "Excellence",
+      "description": "Quality and credibility of the proposed approach, technological innovation, advancement beyond state-of-art",
+      "weight": 33.33,
+      "maxScore": 5,
+      "keyIndicators": [
+        "Soundness of proposed manufacturing technologies",
+        "Innovation level and advancement of TRL from 5 to 7",
+        "Quality of materials strategy (secondary, biobased, innovative advanced materials)",
+        "Technical feasibility and risk management"
+      ]
+    },
+    {
+      "name": "Impact",
+      "description": "Contribution to expected outcomes including technological leadership, circularity, resource efficiency, and European industrial competitiveness",
+      "weight": 33.33,
+      "maxScore": 5,
+      "keyIndicators": [
+        "Enhanced European manufacturing competitiveness and strategic autonomy",
+        "Reduction in critical raw materials dependency",
+        "Increased circularity and resource efficiency",
+        "Quality of business case and exploitation strategy",
+        "Contribution to European industrial resilience",
+        "Market potential and scalability"
+      ]
+    },
+    {
+      "name": "Quality and efficiency of implementation",
+      "description": "Quality of work plan, consortium composition, resource allocation and project management",
+      "weight": 33.33,
+      "maxScore": 5,
+      "keyIndicators": [
+        "Appropriateness of consortium composition and expertise",
+        "Quality of work plan and resource allocation",
+        "Project management and coordination approach",
+        "Risk management and contingency planning",
+        "Compliance with Made in Europe partnership implementation"
+      ]
+    }
+  ],
+  "budget": {
+    "totalAmount": "38,000,000 EUR for 2026",
+    "categories": [
+      {
+        "category": "Project Grant",
+        "description": "Direct costs for Innovation Actions under HORIZON-CL4-2026-01-MAT-PROD-01",
+        "minAmount": 6000000,
+        "maxAmount": 8000000,
+        "rules": [
+          "EU contribution follows standard Horizon Europe funding rates",
+          "6 grants expected to be awarded",
+          "Lump sum contributions may be authorized under specific conditions",
+          "Granting authority may object to transfer of ownership or exclusive licensing of results up to 4 years after action end"
+        ]
+      }
+    ],
+    "coFundingRequired": true,
+    "coFundingPercentage": null
+  },
+  "timeline": [
+    {
+      "phase": "Call Opening",
+      "duration": "2026-01-06",
+      "deliverables": [
+        "Call announcement and documentation published"
+      ]
+    },
+    {
+      "phase": "Application Submission",
+      "duration": "Until 2026-04-21",
+      "deliverables": [
+        "Complete application submission through Funding & Tenders Portal"
+      ]
+    },
+    {
+      "phase": "Evaluation",
+      "duration": "As per Annex F timelines (typically 5 months)",
+      "deliverables": [
+        "Evaluation reports",
+        "Ranking of proposals",
+        "Award decisions"
+      ]
+    },
+    {
+      "phase": "Grant Agreement Preparation",
+      "duration": "As per Annex F timelines (typically 8 months from deadline)",
+      "deliverables": [
+        "Signed grant agreements"
+      ]
+    },
+    {
+      "phase": "Project Implementation",
+      "duration": "Project-specific (TRL 5 to TRL 7 achievement required)",
+      "deliverables": [
+        "Advanced manufacturing technologies and machinery",
+        "Demonstration of key products manufacturing",
+        "Business case validation",
+        "Exploitation strategy implementation"
+      ]
+    }
+  ],
+  "targetBeneficiaries": [
+    "Manufacturing companies",
+    "Technology developers",
+    "Research and Technology Organizations (RTOs)",
+    "Universities and research institutions",
+    "Automotive industry (portfolio approach ensures at least one automotive-focused project)",
+    "Advanced materials developers",
+    "Machinery manufacturers",
+    "Industrial end-users of key components"
+  ],
+  "geographicScope": "European Union and Associated Countries",
+  "eligibleCountries": [
+    "EU Member States",
+    "Associated Countries to Horizon Europe",
+    "Specific non-EU/non-Associated Countries with bilateral funding arrangements (see Horizon Europe Programme Guide)",
+    "International cooperation encouraged with Japan and Taiwan"
+  ],
+  "keyThemes": [
+    "Advanced manufacturing",
+    "Manufacturing excellence",
+    "Circular economy",
+    "Secondary raw materials",
+    "Innovative advanced materials",
+    "Critical raw materials reduction",
+    "Resource efficiency",
+    "Additive manufacturing",
+    "Hybrid manufacturing",
+    "Photonics",
+    "Polymer composites",
+    "Lightweight materials",
+    "Surface treatment and structuring",
+    "Strategic autonomy",
+    "Industrial competitiveness",
+    "Automotive industry",
+    "Technology readiness (TRL 5 to 7)",
+    "Digital twins for materials",
+    "Safe and Sustainable by Design (SSbD)"
+  ],
+  "additionalNotes": [
+    "This topic implements the co-programmed European Partnership 'Made in Europe'",
+    "Portfolio approach ensures at least one automotive industry-focused proposal is funded (provided it meets all thresholds)",
+    "Battery production is explicitly excluded and addressed in separate topic HORIZON-CL5-2026-05-D2-03",
+    "Proposal page limit in Part B exceptionally extended by 3 pages to accommodate business case and exploitation strategy",
+    "International cooperation particularly encouraged with Japan and Taiwan",
+    "Development of advanced materials should not be the main focus, but adaptation steps for manufacturing applications should be included",
+    "Proposals should include digital twins for materials and SSbD-design steps where appropriate",
+    "Grants awarded not only by ranking but also to ensure portfolio balance (automotive industry coverage)",
+    "Results ownership transfers and exclusive licensing subject to granting authority objection rights for up to 4 years post-project",
+    "Type of Action: HORIZON Innovation Actions (IA)",
+    "Call identifier: HORIZON-CL4-2026-01",
+    "Topic identifier: HORIZON-CL4-2026-01-MAT-PROD-01",
+    "Destination: Achieving technological leadership for Europe's open strategic autonomy in raw materials, chemicals and innovative materials (2026-27)"
+  ]
+}

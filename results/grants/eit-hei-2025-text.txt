@@ -1,0 +1,119 @@
+GRANT CALL: EIT Higher Education Initiative — Call for Proposals 2025
+Organization: European Institute of Innovation and Technology (EIT), via EIT Manufacturing and other KICs
+Programme: EIT Higher Education Initiative (EIT HEI)
+Deadline: 4 March 2026, 17:00 CET
+Budget: Up to EUR 70 million total; up to EUR 2 million per project
+Duration: 24 months (1 September 2026 — 31 August 2028)
+Submission Portal: https://seedbook.eitrawmaterials.eu/AddHeiInitiativeProject.aspx?CallId=58006
+
+=== DESCRIPTION ===
+
+The EIT Higher Education Initiative has launched a new call to boost STEM education, strengthen innovation capacity and support Europe's future workforce. The 2025 Call for Proposals aims to reinforce Europe's innovation and entrepreneurship capacity in STEM, supporting the EU's Union of Skills and the STEM Education Strategic Plan. The initiative will train 200,000 students, academics and non-academic staff in innovation, entrepreneurship and intellectual property management by 2028.
+
+Projects can apply under one of two topics:
+
+Topic 1: Boosting the innovation and entrepreneurship capacity of Europe's STEM talent pipeline
+- Focuses on developing innovation and entrepreneurial capacity in STEM education
+- Integrating entrepreneurship, IP management, and research commercialization into curricula
+- Requires at least 3 HEIs from 3 different Horizon Europe eligible countries
+
+Topic 2: Strengthening synergies across the European higher education and innovation area
+- Building strategic synergies between European university alliances and EIT Knowledge and Innovation Communities
+- Uniting multiple university alliances with research and business community involvement
+- Requires all 3 HEIs to be members of the same European Universities alliance established under the European Universities Initiative, or members after 1 January 2019
+
+=== ELIGIBILITY ===
+
+Consortium Composition (Minimum Requirements):
+- At least 5 partner organizations total
+- Minimum 3 higher education institutions (HEIs) from 3 different Horizon Europe-eligible countries
+- At least 1 business partner (any size — SME, corporate, investor)
+- At least 1 additional non-HEI partner (research organization, civil society, public body)
+
+Topic 2 Special Requirement:
+- The three HEIs must be members of the same European Universities alliance (established under European Universities Initiative, or were members of the same alliance after 1 January 2019)
+
+Eligible Partner Types:
+- Higher education institutions
+- Businesses (SMEs, corporates, investors)
+- Research organizations
+- Technology/knowledge transfer offices
+- Public bodies and networks
+- Intermediary organizations
+- Social enterprises and NGOs
+
+All partners must be legally registered in Horizon Europe eligible countries.
+
+=== FUNDING ===
+
+- Total call budget: Approximately EUR 70 million
+- Expected: 35-40 projects funded
+- Maximum per project: EUR 2 million over 24 months
+- Funding covers: Innovation action plan development and implementation, entrepreneurship program design and delivery, training and mentoring activities, new innovation structure establishment, partnership and ecosystem building, technology transfer and startup support
+
+=== APPLICATION REQUIREMENTS ===
+
+Key Documents:
+- Innovation Vision Action Plan (IVAP) using the provided Part B template
+- HEInnovate self-assessment completion by each participating university
+- Confirmation letters from university leadership and business partners
+- Institutional accreditation documents for each HEI
+- Financial plan and Key Performance Indicators (KPIs)
+- Participant Identification Codes (PIC) for all organizations
+- Budget template (Excel format)
+
+Application Process (11 Steps):
+1. Review Call Text documentation thoroughly
+2. Form eligible consortium using matchmaking platform
+3. Complete HEInnovate self-assessment (each HEI)
+4. Draft Innovation Vision Action Plan (IVAP) using Part B template
+5. Register all partners in EU Participant Portal with PIC codes
+6. Access Application Portal
+7. Complete Part A (online forms by tabs)
+8. Upload Part B, budget template, commitment letters, HEInnovate results, and required annexes
+9. Conduct quality review and internal consistency check
+10. Submit before deadline
+11. Join EIT HEI community post-selection
+
+=== EVALUATION ===
+
+Evaluation Process:
+- Admissibility check (first stage)
+- Eligibility check (second stage)
+- External evaluation (third stage, if previous checks pass)
+- Results announced: July 2026
+- Selected projects receive evaluation reports plus project launch instructions
+- Non-selected projects receive feedback reports
+
+=== SPECIAL CONDITIONS ===
+
+HEI Leadership: Top management commitment required, evidenced by signed commitment letter listing participating faculties/departments.
+
+Accreditation: Each HEI must provide national accreditation proof.
+
+Previous participants (Cohorts 1-4): Encouraged to apply as "Innovation & Entrepreneurship Pioneers," mentoring new partners and transferring proven approaches.
+
+Double funding: Applications must explain complementarity with other EU funding (HORIZON-WIDERA, Erasmus+); duplication risks automatic exclusion.
+
+=== TIMELINE ===
+
+- Call launch: 3 December 2025
+- Application deadline: 4 March 2026, 17:00 CET
+- Evaluation: March-June 2026
+- Results announcement: July 2026
+- Project start: 1 September 2026
+- Project end: 31 August 2028
+
+=== KEY RESOURCES ===
+
+- Full Call Text (updated 10 December 2025)
+- Part B Templates (separate for Topic 1 and Topic 2)
+- Budget template (Excel format)
+- KIC Synergies overviews (8 documents for each KIC)
+- FAQs document
+- Interactive eligibility guide
+- 7 recorded info sessions with slides
+
+Source: https://www.eitmanufacturing.eu/calls/eit-higher-education-initiative-call-for-proposals-2025/
+Source: https://eit-hei.eu/funding-support/funding-opportunities/open-calls/call-for-proposals-2025/
+Source: https://getgrant.eu/eit-hei-initiative-2025-eligibility-and-tips/

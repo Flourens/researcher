@@ -1,0 +1,94 @@
+COMPETITIVE CALL: ROB4GREEN Open Call #1
+Parent Project: ROB4GREEN — Robotics and AI as Enablers for Greener Dismantling, Remanufacturing and Recycling
+Original Topic: HORIZON-CL4-2024-DIGITAL-EMERGING-01-04
+Deadline: 2026-04-08T17:00:00.000+0000
+Total Budget: 2400000
+Duration: 10 months
+
+=== CALL DETAILS ===
+Timeline of the OC
+
+Submission to Open Call #1 will be enabled on Wednesday, February 4th, 2026, and will end on Wednesday, April 8th, 2026, at 17:00CET time (Brussels time). Selected projects are expected to start on June 1st, 2026.
+
+Scope of the Open Call
+
+Open Call #1 targets European technology adopters who, in collaboration with technology developers, providers, or integrators, will pilot new solutions for one of the specified challenges. These pilots must integrate at least one tool (maximum two) from the ROB4GREEN framework, as described in the list of Annex 2: Technical Description, to enhance the overall value of their proposed solution.
+
+Types of consortia
+
+Open Call #1 will finance minimum 2 entities (maximum of 3):
+
+- Mandatory: (x1) one SME/Startupthat will be responsible for the technical developments (serving as Technology Integrator/Provider/Developer) and acts as the pilot leader.
+- Mandatory: (x1) one Industrial end-user, providing the external pilot scenario and it is responsible to validate the technical developments (serving as Technology Adopter)
+- Optional: 1 organization providing technology and/or expertisefor supporting the project implementation, which can be either mid-cap, SME or research organization (RTO or academia)
+Eligibility
+
+For all applicants, the following eligibility rules apply:
+
+- The applicants cannot be members or associated partners of the ROB4GREEN consortium (refer toAnnex 2 Section 4.2.4).
+- Applicants must be legal entities established and based in an EU Member State or a Horizon Europe Associated Country. For the purposes of this Open Call, eligibility is determined according to the “List of Participating Countries in Horizon Europe” (V3.2, published on 12/11/2024), which identifies third countries that have signed an association agreement with the EU. This version (V3.2) corresponds to the regulatory framework active at the time of the ROB4GREEN Grant Agreement signature and serves as the definitive reference for this call. Association to Horizon Europe is governed by the Horizon Europe Regulation (EU) 2021/695. 3.SMEs and Start-ups will be considered eligible only in the case that they have been established at least one year (12 months) before the submission of the application.
+- The applicants must have a valid VAT.
+- The applicants must provide a PIC number. If no PIC number is available, participants can register in Funding and Tenders portal.
+- The applicants should be able to prove their financial stability and capacity and pass any financial check required by the European Commission, including financial capacity assessment. Therefore, applicants must not be a) bankrupt, b) in the process of bankruptcy, or c) in a situation of significant tax or social security debt.
+- The applicants should not have been convicted for fraudulent behaviors, other financial irregularities, unethical or illegal business practices (e.g., fraud, corruption, money laundering, etc.) and subject to EU restrictive measures (sanctions lists).
+- The applicants should not be enterprises under liquidation or under difficulty according to the Commission Regulation No 651/2014 art. 2.18.
+- The applicants should submit a signed version ofAnnex 5andAnnex 6.
+In addition to the criteria above the eligibility check will verify that:
+
+- Submissions are madeonlythrough the F6S platformhttps://www.f6s.com/rob4green-open-call-1/apply/within the defined deadline.
+- The application as well as the requested documents are providedonlyin English language.
+- The proposal description is submitted according to the Guidelines for Applicants and provided templates.
+- Minimum 2 and maximum 3 entities per submitted project are accepted.
+- The proposals should not exceed by any means the maximum budget available.
+- Complete application with all required information and annexes.
+Proposal Preparation
+
+The proposals to be submitted will have to tackleoneof the following challenges:
+
+- AI, Data and Robotics for Life Extension
+- AI, Data and Robotics for Value Retention
+- AI, Data and Robotics for Parts Harvesting
+- AI, Data and Robotics for Decommissioning and Recycling
+Proposal Submission
+
+All associated Annexes should be read prior to the submission of a Proposal:
+
+- Annex 1: Guide for Applicants →describes eligibility criteria, funding conditions, necessary documentation, etc.
+- Annex 2: ROB4GREEN Technical Description →describes: a) the ROB4GREEN objectives and consortium, b) OC1 challenges and KPIs, c) the ROB4GREEN tools and support to be available.
+- Annex 3: F6S Application Form →required to be filled inhttps://www.f6s.com/rob4green-open-call-1/apply/
+- Annex 4: ROB4GREEN Proposal Template →required to be uploaded in the F6S application form.
+- Annex 5: ROB4GREEN Consortium Declaration of Honor →required to be uploaded
+- Annex 6: SME Declaration →required to be uploaded.
+- Annex 7: ROB4GREEN Sub-Grant Agreement →required to filled and signed upon acceptance.
+- Annex 8: Banking information form →required to filled upon acceptance.
+For the application, the preparation ofAnnex 3, Annex 4, Annex 5 and Annex 6 are mandatory.
+
+Proposals must be submittedelectronically in English, using the ROB4GREEN Online Submission Service accessible via the F6S platform athttps://www.f6s.com/rob4green-open-call-1/apply/
+
+Proposals submitted by any other means or language are not eligible and will not be evaluated. 
+
+Proposals Evaluation
+
+Each proposal will be assigned to two external evaluators. They will individually evaluate each proposal based on the criteria listed below:
+
+- Criterion 1: Concept and Innovation
+- Criterion 2: Technology Implementation Approach
+- Criterion 3: Impact
+- Criterion 4: Applicant Entity/Team
+Financial Support
+
+The selected 8 projects will become part of ROB4GREEN activities for the 10 months period composed of 3 Phases. For the ten (10) month period of the lump sum, funding will be performed in two (x2) payments, linked with the project’s sprints. More specifically:
+
+- 50% prefinancing at the start of the project (liquidity tool linked to Sprint 1 and Sprint 2)
+- 50% final payment after the successful completion of Sprint 3, and successfully delivery of results.
+Each proposal may receive a maximum lump sum of€300,000,with a limit of €200,000 per individual partner. The €200,000 limit is acumulative ceilingper legal entity across all ROB4GREEN open calls; therefore, the total financial support a single partner receives throughout the entire duration of the ROB4GREEN project (for Open Call #1 and Open Call #2) cannot exceed this threshold.
+
+=== FURTHER INFORMATION ===
+Applicants may find support by the ROB4GREEN consortium via the following contacts and links:
+
+- F6S Online Q&A: https://www.f6s.com/rob4green-open-call-1/discuss/
+- Contact e-mail, and Open Call Management Team:oc@rob4green-project.eu
+- Contact e-mail for submission platform(technical support, resubmission or issues):support@f6s.com
+- Open Call 1 Documents:https://rob4green-project.eu/open-calls/
+- OC information:https://rob4green-project.eu/open-calls/
+- Submission platform:https://www.f6s.com/rob4green-open-call-1/apply/
