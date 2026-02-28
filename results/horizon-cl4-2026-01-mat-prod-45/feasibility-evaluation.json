@@ -1,0 +1,238 @@
+{
+  "overallChance": 15,
+  "recommendation": "not_recommended",
+  "executiveSummary": "ALD Engineering & Construction LLC faces severe structural misalignment with this grant opportunity. This is a Coordination and Support Action (CSA) designed for consortia that operate or coordinate networks of Technology Infrastructures (research facilities, test beds, pilot lines) to provide physical access to SMEs—NOT for SMEs developing their own AI products. ALD is positioned as a beneficiary of such infrastructures (needing AI/HPC resources), not as an infrastructure operator. The grant requires coordinating multiple existing Technology Infrastructure facilities across the EU in sectors like advanced materials, clean energy, or health/biotechnology—none of which relate to ALD's construction software business. While Ukraine's geographic eligibility is confirmed, the fundamental mismatch in applicant type (infrastructure coordinator vs. end-user SME) and sector focus (physical test facilities vs. software development) makes this opportunity inappropriate. The 1.5-2.5M EUR budget scale and requirement to manage transnational physical access schemes is far beyond ALD's operational scope and experience. This grant is designed for organizations like CERN, Fraunhofer Institutes, or European research infrastructure networks—not for individual SMEs seeking to develop products.",
+  "matchScore": {
+    "overall": 22,
+    "breakdown": [
+      {
+        "category": "Geographic Eligibility",
+        "score": 100,
+        "maxScore": 100,
+        "explanation": "Ukraine is an Associated Country to Digital Europe Programme and Horizon Europe. Geographic eligibility is fully confirmed and NOT a barrier."
+      },
+      {
+        "category": "Applicant Type Alignment",
+        "score": 5,
+        "maxScore": 100,
+        "explanation": "CRITICAL MISMATCH: Grant seeks Technology Infrastructure operators/coordinators who provide access to physical facilities. ALD is an SME end-user that would BENEFIT from such infrastructures, not operate them. This is like a restaurant applying for a grant meant for food distribution networks."
+      },
+      {
+        "category": "Sector/Domain Alignment",
+        "score": 10,
+        "maxScore": 100,
+        "explanation": "Grant focuses on advanced materials, clean energy, health/biotechnology test facilities. ALD operates in construction software/ERP—completely different industrial domain with no overlap."
+      },
+      {
+        "category": "Technical Capability Match",
+        "score": 15,
+        "maxScore": 100,
+        "explanation": "Grant requires managing multi-site physical infrastructure access programs, standardizing access protocols across EU facilities, and coordinating Technology Infrastructure operators. ALD has zero experience in infrastructure coordination, facility management, or transnational access program administration."
+      },
+      {
+        "category": "Consortium Composition",
+        "score": 10,
+        "maxScore": 100,
+        "explanation": "Grant requires 'critical mass of Technology Infrastructure operators' as consortium partners. ALD has one academic partner (ZNU) with no infrastructure operation experience. No infrastructure facilities, test beds, or pilot lines in consortium."
+      },
+      {
+        "category": "Track Record & Experience",
+        "score": 5,
+        "maxScore": 100,
+        "explanation": "Zero experience in EU grants, infrastructure coordination, multi-country program management, or CSA actions. No publications, no patents, no demonstrated capacity for this type of coordination role."
+      },
+      {
+        "category": "Financial & Administrative Capacity",
+        "score": 20,
+        "maxScore": 100,
+        "explanation": "Max project budget of €200K is insufficient for €1.5-2.5M grant size. No co-funding available. No experience with Horizon Europe lump sum grants or managing large-scale coordination actions. PIC registration not yet completed."
+      },
+      {
+        "category": "Resource Infrastructure",
+        "score": 30,
+        "maxScore": 100,
+        "explanation": "ALD has software infrastructure (ERP, SaaS platform) but grant requires coordinating physical Technology Infrastructures (labs, test beds, pilot facilities) that ALD does not possess or operate."
+      }
+    ]
+  },
+  "strengths": [
+    {
+      "area": "Geographic Eligibility",
+      "description": "Ukraine's association with Digital Europe Programme and Horizon Europe confirms full eligibility. This is NOT a barrier despite location.",
+      "impact": "high"
+    },
+    {
+      "area": "SME Status",
+      "description": "With 219 employees, ALD qualifies as SME under EU definition (<250 employees), which could be relevant if applying as end-user rather than coordinator.",
+      "impact": "low"
+    },
+    {
+      "area": "Domain Data Asset",
+      "description": "6 years of construction procurement data represents valuable proprietary asset, though not relevant to this specific grant's infrastructure coordination focus.",
+      "impact": "low"
+    }
+  ],
+  "weaknesses": [
+    {
+      "area": "Fundamental Applicant Type Mismatch",
+      "description": "ALD is an SME that NEEDS infrastructure access (end-user), not an organization that PROVIDES infrastructure access (operator/coordinator). The grant explicitly seeks Technology Infrastructure operators to coordinate access for companies like ALD.",
+      "severity": "critical",
+      "mitigation": "CANNOT BE MITIGATED. This is a structural mismatch. ALD should instead look for grants where SMEs are beneficiaries, not coordinators (e.g., EIC Accelerator, SME Instrument, Digital Europe AI testing calls)."
+    },
+    {
+      "area": "Sector Incompatibility",
+      "description": "Grant targets advanced materials, clean energy, health/biotechnology infrastructure. ALD operates in construction software—completely different sector with no physical testing facilities.",
+      "severity": "critical",
+      "mitigation": "CANNOT BE MITIGATED without completely changing business model and sector focus."
+    },
+    {
+      "area": "Missing Infrastructure Assets",
+      "description": "Grant requires coordinating multiple Technology Infrastructures (physical labs, test facilities, pilot lines). ALD operates no such facilities and has no consortium partners who do.",
+      "severity": "critical",
+      "mitigation": "Would require recruiting 5-10+ major European research infrastructure facilities as consortium partners—unrealistic given timeline and relationships."
+    },
+    {
+      "area": "No Coordination Experience",
+      "description": "Zero track record in managing transnational access programs, coordinating multi-site facilities, or administering EU-wide infrastructure schemes. CSA requires proven coordination capability.",
+      "severity": "critical",
+      "mitigation": "Cannot build 5+ years of coordination experience by April 2026 deadline."
+    },
+    {
+      "area": "Insufficient Budget Capacity",
+      "description": "Max project budget of €200K vs. required €1.5-2.5M grant size represents 7-12x gap. No co-funding available to bridge difference.",
+      "severity": "critical",
+      "mitigation": "Would need to secure €1.3-2.3M in co-funding—unrealistic for project that doesn't align with core business."
+    },
+    {
+      "area": "No Prior EU Grant Experience",
+      "description": "Zero experience with Horizon Europe, CSA actions, lump sum grants, or EU administrative procedures. Steep learning curve for complex coordination action.",
+      "severity": "major",
+      "mitigation": "Could hire grant consultant, but cannot overcome fundamental applicant type mismatch."
+    },
+    {
+      "area": "Weak Consortium",
+      "description": "Two-partner consortium (ALD + ZNU) insufficient for grant requiring 'critical mass of Technology Infrastructure operators' across multiple EU countries and priority sectors.",
+      "severity": "critical",
+      "mitigation": "Would need to recruit 8-15 major infrastructure partners across EU—impossible timeline."
+    },
+    {
+      "area": "Administrative Gaps",
+      "description": "PIC registration incomplete, no experience with HE submission systems, lump sum budgeting methodology unfamiliar, consortium agreement templates not prepared.",
+      "severity": "major",
+      "mitigation": "Addressable with effort, but secondary to fundamental eligibility issues."
+    }
+  ],
+  "gaps": [
+    {
+      "type": "experience",
+      "description": "No track record in operating, managing, or coordinating Technology Infrastructures or multi-site access programs.",
+      "severity": "critical",
+      "recommendation": "Cannot be filled. This type of experience requires 5-10 years of infrastructure operation and coordination work."
+    },
+    {
+      "type": "resources",
+      "description": "No physical Technology Infrastructure facilities (labs, test beds, pilot lines) to coordinate access to. Grant assumes applicant operates or directly coordinates such facilities.",
+      "severity": "critical",
+      "recommendation": "Would require acquiring or partnering with 5-10+ major European research infrastructures—unrealistic for April 2026 deadline."
+    },
+    {
+      "type": "team",
+      "description": "No staff with expertise in research infrastructure management, transnational access program administration, multi-country facility coordination, or CSA project management.",
+      "severity": "critical",
+      "recommendation": "Would need to hire 3-5 senior infrastructure coordination specialists with EU program experience—not feasible in available timeframe."
+    },
+    {
+      "type": "technical",
+      "description": "No existing single access point, no integrated network of facilities, no Open Innovation Test Bed experience as referenced in grant requirements.",
+      "severity": "critical",
+      "recommendation": "Grant expects building on existing initiatives. ALD has no relevant existing infrastructure programs to build upon."
+    },
+    {
+      "type": "administrative",
+      "description": "No experience with Horizon Europe lump sum grants, consortium agreements for multi-partner coordination actions, or managing EU-wide access programs with standardized conditions.",
+      "severity": "major",
+      "recommendation": "Could be learned with consultant support, but not sufficient to overcome fundamental applicant mismatch."
+    }
+  ],
+  "risks": [
+    {
+      "category": "Fundamental Ineligibility Risk",
+      "description": "High probability that proposal would be rejected at admissibility/eligibility stage for not meeting implicit requirement that applicants operate Technology Infrastructures. Evaluators expect infrastructure coordinator applicants, not end-user SMEs.",
+      "probability": "high",
+      "impact": "high",
+      "mitigation": "CANNOT BE MITIGATED. ALD is structurally wrong type of applicant for this call."
+    },
+    {
+      "category": "Wasted Resources Risk",
+      "description": "Significant time and resources (100-200 hours) would be invested in preparing proposal with <5% realistic success chance due to fundamental mismatch.",
+      "probability": "high",
+      "impact": "high",
+      "mitigation": "DO NOT PROCEED. Invest effort in appropriate SME-focused calls where ALD is target beneficiary, not infrastructure coordinator."
+    },
+    {
+      "category": "Competitive Disadvantage",
+      "description": "Expected competitors are established European research infrastructure networks, Fraunhofer Institutes, national lab consortia, and existing Open Innovation Test Beds with 10-20 year track records and hundreds of millions in infrastructure assets.",
+      "probability": "high",
+      "impact": "high",
+      "mitigation": "Competition is insurmountable. This is not a call where innovative newcomers can compete—established infrastructure operators will dominate."
+    },
+    {
+      "category": "Budget Execution Risk",
+      "description": "Even if awarded (extremely unlikely), ALD cannot execute €1.5-2.5M coordination action with current €200K max budget capacity and zero infrastructure coordination experience.",
+      "probability": "medium",
+      "impact": "high",
+      "mitigation": "Financial incapacity makes this grant operationally impossible regardless of eligibility."
+    },
+    {
+      "category": "Reputation Risk",
+      "description": "Submitting fundamentally misaligned proposal could damage credibility with EU grant evaluators for future appropriate applications.",
+      "probability": "medium",
+      "impact": "medium",
+      "mitigation": "Preserve reputation capital for genuinely appropriate opportunities (EIC Accelerator, AI testing facilities user calls, Digital Europe AI vouchers)."
+    }
+  ],
+  "requiredActions": [
+    {
+      "priority": "critical",
+      "action": "DO NOT APPLY for this grant. Fundamental mismatch between grant objectives (coordinating Technology Infrastructure access) and ALD's role (SME end-user needing infrastructure access).",
+      "timeline": "Immediate decision"
+    },
+    {
+      "priority": "critical",
+      "action": "Redirect effort toward appropriate opportunities where ALD is TARGET BENEFICIARY: (1) EIC Accelerator for SME innovation, (2) Digital Europe Programme AI testing/experimentation facilities USER calls, (3) EuroHPC Access for computing resources, (4) Horizon Europe SME-specific instruments in Cluster 4.",
+      "timeline": "Within 2 weeks"
+    },
+    {
+      "priority": "high",
+      "action": "Research upcoming Horizon Europe calls in Cluster 4 (Digital, Industry and Space) specifically targeting SMEs as PRIMARY APPLICANTS for technology development, not as infrastructure coordinators.",
+      "timeline": "January-February 2026"
+    },
+    {
+      "priority": "high",
+      "action": "Consider applying to Technology Infrastructure access programs AS A USER (via existing Open Innovation Test Beds, AI testing facilities, HPC access schemes) rather than trying to coordinate such programs.",
+      "timeline": "Q1 2026"
+    },
+    {
+      "priority": "medium",
+      "action": "If interested in coordination roles in future, build 3-5 year track record in smaller-scale coordination activities (national programs, regional innovation networks) before attempting EU-level infrastructure coordination.",
+      "timeline": "2026-2030 strategic planning"
+    }
+  ],
+  "strategicRecommendations": [
+    "FUNDAMENTAL RECOMMENDATION: This grant opportunity is structurally inappropriate for ALD. It is designed for organizations that OPERATE Technology Infrastructures (research facilities, labs, test beds), not for SMEs that NEED such infrastructures. ALD is on the wrong side of the access equation for this call.",
+    "ROLE CLARITY: In the Technology Infrastructure ecosystem, ALD should position as END-USER/BENEFICIARY (startups/scaleups needing access to AI/HPC facilities), not as INFRASTRUCTURE OPERATOR/COORDINATOR. This grant funds the organizations that would provide access TO companies like ALD.",
+    "APPROPRIATE OPPORTUNITIES: Focus on grants where SMEs are PRIMARY TARGETS: EIC Accelerator (€500K-€2.5M for breakthrough innovation), Digital Europe AI/Data testing facilities (user access vouchers), EuroHPC Regular Access or Benchmark Access (computing time for AI model training), Horizon Europe Innovation Actions in Cluster 4 where SMEs lead technology development.",
+    "SECTOR ALIGNMENT: This grant's focus on advanced materials, clean energy, and health/biotechnology physical infrastructure has zero overlap with ALD's construction software domain. Even if applicant type were correct, sector mismatch would be disqualifying.",
+    "SCALE MISMATCH: €1.5-2.5M coordination action requiring management of transnational, multi-site infrastructure networks is 7-12x beyond ALD's stated max project budget capacity (€200K). Financial capacity gap is insurmountable.",
+    "CONSORTIUM REQUIREMENTS: Grant requires 'critical mass of Technology Infrastructure operators' as core partners—meaning 5-10+ major European research facilities, national labs, or Open Innovation Test Beds. ALD's two-partner consortium (SME + one university lab) cannot fulfill this requirement.",
+    "TRACK RECORD DEFICIT: Competitive proposals will come from established infrastructure networks with 10-20 year operational histories, hundreds of previous user projects, and proven transnational coordination experience. ALD's zero EU grant experience and no infrastructure operation background make competition impossible.",
+    "TIMING CONSIDERATION: Even if ALD wanted to pivot toward infrastructure coordination (not recommended), building necessary partnerships, infrastructure assets, and coordination experience would require 3-5 years minimum—far beyond April 2026 deadline.",
+    "BETTER FIT EXAMPLES: Look for calls with language like 'innovative SMEs developing AI solutions,' 'startups/scaleups needing access to testing facilities,' 'support for technology validation and upscaling in SMEs'—these position SMEs as BENEFICIARIES. Current call positions infrastructure operators as applicants and SMEs as end-users of the funded program.",
+    "PRESERVE RESOURCES: Preparing competitive CSA proposal for this call would consume 150-200 hours with <5% success probability due to fundamental mismatch. Redirect this effort toward 3-4 genuinely appropriate SME-focused opportunities with 30-40% success probability each.",
+    "UKRAINE ADVANTAGE: While Ukraine eligibility is confirmed and strong, it cannot overcome fundamental applicant type mismatch. However, Ukrainian SME status could be SIGNIFICANT ADVANTAGE in appropriate calls focused on supporting innovation in Associated Countries, digital transformation, or AI adoption in underserved markets.",
+    "ALTERNATIVE PATH TO OBJECTIVE: If ALD's underlying goal is accessing AI/HPC infrastructure for CosTERRA model training, the correct approach is: (1) Apply for EuroHPC user access directly (Extreme Scale Access, Regular Access programs), (2) Apply to AI testing facilities/Digital Innovation Hubs as USER, (3) Seek SME innovation grants that include infrastructure access as project component, (4) Join existing Open Innovation Test Beds as industrial user. Do NOT try to coordinate infrastructure programs.",
+    "LONG-TERM STRATEGY: If ALD eventually wants to coordinate innovation programs, start smaller: lead regional innovation clusters, coordinate national industry-academia partnerships, manage local SME support programs. After 5+ years building coordination track record, then consider EU-level coordination actions.",
+    "IMMEDIATE NEXT STEP: Conduct systematic scan of Horizon Europe Work Programme 2025-2027 for calls explicitly targeting 'SMEs,' 'startups,' 'scaleups' as PRIMARY APPLICANTS for technology development (not as infrastructure coordinators). Focus on Cluster 4 (Digital, Industry and Space), Cluster 5 (Climate, Energy, Mobility), and EIC programmes. This will identify 10-15 genuinely appropriate opportunities.",
+    "FINAL ASSESSMENT: With 15% overall chance (driven entirely by geographic eligibility and SME status, offset by critical mismatches in all other dimensions), pursuing this grant would be strategic error. The 15% represents theoretical possibility, not practical viability. Realistic success probability considering competition and structural mismatch is <5%. STRONG RECOMMENDATION: Do not apply. Focus on appropriate SME-focused opportunities where ALD's construction AI innovation is the primary value proposition, not infrastructure coordination capability."
+  ]
+}

@@ -1,0 +1,381 @@
+GRANT CALL: Pilot access schemes to Technology Infrastructures for European startups, scaleups and innovative SMEs (CSA)
+Identifier: HORIZON-CL4-2026-01-MAT-PROD-45
+Call: HORIZON-CL4-2026-01 — INDUSTRY
+Type of Action: HORIZON Coordination and Support Actions
+Deadline: 2026-04-21T00:00:00.000+0000
+Submission: single-stage
+
+=== BUDGET ===
+{
+  "budgetYearsColumns": [
+    "2026"
+  ],
+  "budgetTopicActionMap": {
+    "112841": [
+      {
+        "action": "HORIZON-CL4-2026-01-MAT-PROD-24 - HORIZON-CSA HORIZON Coordination and Support Actions",
+        "expectedGrants": 1,
+        "minContribution": 800000,
+        "maxContribution": 800000,
+        "budgetYearMap": {
+          "2026": "800000"
+        },
+        "plannedOpeningDate": "2026-01-06",
+        "deadlineModel": "single-stage",
+        "deadlineDates": [
+          "2026-04-21"
+        ]
+      }
+    ],
+    "112843": [
+      {
+        "action": "HORIZON-CL4-2026-01-MAT-PROD-13 - HORIZON-CSA HORIZON Coordination and Support Actions",
+        "expectedGrants": 1,
+        "minContribution": 4000000,
+        "maxContribution": 4000000,
+        "budgetYearMap": {
+          "2026": "4000000"
+        },
+        "plannedOpeningDate": "2026-01-06",
+        "deadlineModel": "single-stage",
+        "deadlineDates": [
+          "2026-04-21"
+        ]
+      }
+    ],
+    "112842": [
+      {
+        "action": "HORIZON-CL4-2026-01-MAT-PROD-46 - HORIZON-CSA HORIZON Coordination and Support Actions",
+        "expectedGrants": 1,
+        "minContribution": 2000000,
+        "maxContribution": 2000000,
+        "budgetYearMap": {
+          "2026": "2000000"
+        },
+        "plannedOpeningDate": "2026-01-06",
+        "deadlineModel": "single-stage",
+        "deadlineDates": [
+          "2026-04-21"
+        ]
+      }
+    ],
+    "112845": [
+      {
+        "action": "HORIZON-CL4-2026-01-MAT-PROD-45 - HORIZON-CSA HORIZON Coordination and Support Actions",
+        "expectedGrants": 2,
+        "minContribution": 1500000,
+        "maxContribution": 2500000,
+        "budgetYearMap": {
+          "2026": "5000000"
+        },
+        "plannedOpeningDate": "2026-01-06",
+        "deadlineModel": "single-stage",
+        "deadlineDates": [
+          "2026-04-21"
+        ]
+      }
+    ],
+    "112844": [
+      {
+        "action": "HORIZON-CL4-2026-01-MAT-PROD-01 - HORIZON-IA HORIZON Innovation Actions",
+        "expectedGrants": 6,
+        "minContribution": 6000000,
+        "maxContribution": 8000000,
+        "budgetYearMap": {
+          "2026": "38000000"
+        },
+        "plannedOpeningDate": "2026-01-06",
+        "deadlineModel": "single-stage",
+        "deadlineDates": [
+          "2026-04-21"
+        ]
+      }
+    ],
+    "112847": [
+      {
+        "action": "HORIZON-CL4-2026-01-MAT-PROD-12 - HORIZON-RIA HORIZON  Research and Innovation Actions",
+        "expectedGrants": 3,
+        "minContribution": 5000000,
+        "maxContribution": 7000000,
+        "budgetYearMap": {
+          "2026": "19000000"
+        },
+        "plannedOpeningDate": "2026-01-06",
+        "deadlineModel": "single-stage",
+        "deadlineDates": [
+          "2026-04-21"
+        ]
+      }
+    ],
+    "112846": [
+      {
+        "action": "HORIZON-CL4-2026-01-MAT-PROD-05 - HORIZON-RIA HORIZON  Research and Innovation Actions",
+        "expectedGrants": 7,
+        "minContribution": 5000000,
+        "maxContribution": 6500000,
+        "budgetYearMap": {
+          "2026": "37000000"
+        },
+        "plannedOpeningDate": "2026-01-06",
+        "deadlineModel": "single-stage",
+        "deadlineDates": [
+          "2026-04-21"
+        ]
+      }
+    ],
+    "112849": [
+      {
+        "action": "HORIZON-CL4-2026-01-MAT-PROD-11 - HORIZON-RIA HORIZON  Research and Innovation Actions",
+        "expectedGrants": 3,
+        "minContribution": 5000000,
+        "maxContribution": 7000000,
+        "budgetYearMap": {
+          "2026": "18500000"
+        },
+        "plannedOpeningDate": "2026-01-06",
+        "deadlineModel": "single-stage",
+        "deadlineDates": [
+          "2026-04-21"
+        ]
+      }
+    ],
+    "112848": [
+      {
+        "action": "HORIZON-CL4-2026-01-MAT-PROD-41 - HORIZON-CSA HORIZON Coordination and Support Actions",
+        "expectedGrants": 2,
+        "minContribution": 1000000,
+        "maxContribution": 1000000,
+        "budgetYearMap": {
+          "2026": "2000000"
+        },
+        "plannedOpeningDate": "2026-01-06",
+        "deadlineModel": "single-stage",
+        "deadlineDates": [
+          "2026-04-21"
+        ]
+      }
+    ],
+    "112851": [
+      {
+        "action": "HORIZON-CL4-2026-01-MAT-PROD-04 - HORIZON-RIA HORIZON  Research and Innovation Actions",
+        "expectedGrants": 9,
+        "minContribution": 5000000,
+        "maxContribution": 8000000,
+        "budgetYearMap": {
+          "2026": "64000000"
+        },
+        "plannedOpeningDate": "2026-01-06",
+        "deadlineModel": "single-stage",
+        "deadlineDates": [
+          "2026-04-21"
+        ]
+      }
+    ],
+    "112850": [
+      {
+        "action": "HORIZON-CL4-2026-01-MAT-PROD-14 - HORIZON-IA HORIZON Innovation Actions",
+        "expectedGrants": 4,
+        "minContribution": 7500000,
+        "maxContribution": 7500000,
+        "budgetYearMap": {
+          "2026": "28000000"
+        },
+        "plannedOpeningDate": "2026-01-06",
+        "deadlineModel": "single-stage",
+        "deadlineDates": [
+          "2026-04-21"
+        ]
+      }
+    ],
+    "112853": [
+      {
+        "action": "HORIZON-CL4-2026-01-MAT-PROD-44 - HORIZON-CSA HORIZON Coordination and Support Actions",
+        "expectedGrants": 1,
+        "minContribution": 2500000,
+        "maxContribution": 2500000,
+        "budgetYearMap": {
+          "2026": "2500000"
+        },
+        "plannedOpeningDate": "2026-01-06",
+        "deadlineModel": "single-stage",
+        "deadlineDates": [
+          "2026-04-21"
+        ]
+      }
+    ],
+    "112852": [
+      {
+        "action": "HORIZON-CL4-2026-01-MAT-PROD-31 - HORIZON-RIA HORIZON  Research and Innovation Actions",
+        "expectedGrants": 7,
+        "minContribution": 5000000,
+        "maxContribution": 7000000,
+        "budgetYearMap": {
+          "2026": "43800000"
+        },
+        "plannedOpeningDate": "2026-01-06",
+        "deadlineModel": "single-stage",
+        "deadlineDates": [
+          "2026-04-21"
+        ]
+      }
+    ],
+    "112855": [
+      {
+        "action": "HORIZON-CL4-2026-01-MAT-PROD-48 - HORIZON-IA HORIZON Innovation Actions",
+        "expectedGrants": 25,
+        "minContribution": 200000,
+        "maxContribution": 200000,
+        "budgetYearMap": {
+          "2026": "5000000"
+        },
+        "plannedOpeningDate": "2026-01-06",
+        "deadlineModel": "single-stage",
+        "deadlineDates": [
+          "2026-04-21"
+        ]
+      }
+    ],
+    "112854": [
+      {
+        "action": "HORIZON-CL4-2026-01-MAT-PROD-23 - HORIZON-IA HORIZON Innovation Actions",
+        "expectedGrants": 4,
+        "minContribution": 13000000,
+        "maxContribution": 13000000,
+        "budgetYearMap": {
+          "2026": "50000000"
+        },
+        "plannedOpeningDate": "2026-01-06",
+        "deadlineModel": "single-stage",
+        "deadlineDates": [
+          "2026-04-21"
+        ]
+      }
+    ]
+  }
+}
+
+=== DESTINATION ===
+Achieving technological leadership for Europe’s open strategic autonomy in raw materials, chemicals and innovative materials (2026-27)
+
+=== DESCRIPTION (Expected Outcome & Scope) ===
+Expected Outcome:
+
+Proposals should demonstrate the following expected outcomes:
+
+- A sound understanding of the specific needs of industrial users (including but not limited to innovative SMEs, startups and scaleups) for Technology infrastructure services in specific priority areas including but not limited to advanced materials, clean energy, or health and biotechnology;
+- Increased opportunities for industrial users for development, testing, up-scaling and deployment of new technologies via the use of services offered by Technology Infrastructures;
+- Strengthened innovation and technology development capacity of European SMEs, startups and scaleups via improved access to Technology Infrastructures;
+- Attractiveness and effectiveness of the developed access schemes for broadening the range of Technology Infrastructures users, especially for startups and scaleups, including with transnational access.
+ Scope:
+
+Startups, scaleups and other innovative SMEs require access to state-of-the-art research and technology facilities, equipment and expertise to test, upscale, validate new products and technologies, shortening the time-to-market and increasing the chances for a successful commercialisation. Access mechanisms to Technology Infrastructures as well as access contracts and collaboration or service provision agreements are often complex, while the costs of using such infrastructures can significantly surpass the financial capacities of growing innovative companies.
+
+The action will develop and test pilot multi-site access schemes for startups, scaleups and other innovative SMEs, involving a critical mass of Technology Infrastructures operators and users in priority areas (including but not limited to advanced materials, clean energy, or health and biotechnology). It should build on existing initiatives with already developed single access points to a comprehensive set of facilities and services in a selected technology area, like for example Open Innovation Test Beds or other integrated networks, that allow for a quick deployment of a common access scheme.
+
+The action should include setting-up a pilot centrally managed and funded access programme, allowing companies quick access to the needed services, with simplified and standardised access conditions applicable across the EU, to be coordinated and in line with the work on the envisaged European Charter of access for industrial users to research and technology infrastructures. While the focus shall be the provision of access and support services to companies, the action can also include enhancing the accessibility and usability of technology infrastructure services to ensure that they meet the evolving needs of users.
+
+The action should aim at significant broadening of the user base of the technology infrastructures to address the needs of startups and scaleups that do not have access to such facilities in their local ecosystems. To this end, proposals should include the development and implementation of activities to increase the visibility and promote and demonstrate the uptake of technology infrastructures services provided to users across the EU.
+
+Furthermore, proposals should aim to enhance transnational and multisite collaboration among Technology Infrastructures fostering the building of technology infrastructures ecosystems, the sharing of experience, resources, and best practices in management, service offer, staff exchange and networking. Proposals may also benefit, especially for communication and dissemination activities, from sharing best practices and taking stock of what other relevant projects are developing in the field of Technology Infrastructures.
+
+=== CONDITIONS (Eligibility & Evaluation) ===
+">
+### General conditions
+
+### 1. Admissibility Conditions: Proposal page limit and layout
+﻿described in Annex A and Annex E of the Horizon Europe Work Programme General Annexes.
+
+Proposal page limits and layout: described in Part B of the Application Form available in the Submission System.
+
+### 2. Eligible Countries
+described in Annex B of the Work Programme General Annexes.
+
+A number of non-EU/non-Associated Countries that are not automatically eligible for funding have made specific provisions for making funding available for their participants in Horizon Europe projects. See the information in the Horizon Europe Programme Guide.
+
+### 3. Other Eligible Conditions
+described in Annex B of the Work Programme General Annexes.
+
+### 4. Financial and operational capacity and exclusion
+described in Annex C of the Work Programme General Annexes.
+
+### 5a. Evaluation and award: Award criteria, scoring and thresholds
+are described in Annex D of the Work Programme General Annexes.
+
+### 5b. Evaluation and award: Submission and evaluation processes
+are described in Annex F of the Work Programme General Annexes and the Online Manual.
+
+### 5c. Evaluation and award: Indicative timeline for evaluation and grant agreement
+described in Annex F of the Work Programme General Annexes.
+
+### 6. Legal and financial set-up of the grants
+The granting authority may, up to 4 years after the end of the action, object to a transfer of ownership or to the exclusive licensing of results, as set out in the specific provision of Annex 5.
+
+Eligible costs will take the form of a lump sum as defined in the Decision of 7 July 2021 authorising the use of lump sum contributions under the Horizon Europe Programme – the Framework Programme for Research and Innovation (2021-2027) – and in actions under the Research and Training Programme of the European Atomic Energy Community (2021-2025) [[This decision is available on the Funding and Tenders Portal, in the reference documents section for Horizon Europe, under ‘Simplified costs decisions’ or through this link: https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/ls-decision_he_en.pdf]].
+
+described in Annex G of the Work Programme General Annexes.
+
+### Specific conditions
+ described in the [specific topic of the Work Programme]
+
+### Application and evaluation forms and model grant agreement (MGA):
+ Application form templates — the application form specific to this call is available in the Submission System
+
+Standard application form (HE CSA) 
+
+Evaluation form templates — will be used with the necessary adaptations
+
+Standard evaluation form (HE CSA)
+
+Guidance
+
+HE Programme Guide
+
+Model Grant Agreements (MGA)
+
+Lump Sum MGA
+
+Operating Grants MGA
+
+Framework Partnership Agreement FPA
+
+Call-specific instructions
+
+Detailed budget table (HE LS)
+
+Information on financial support to third parties (HE)
+
+Information on clinical studies (HE)
+
+Guidance: "Lump sums - what do I need to know?"
+
+### Additional documents:
+ HE Main Work Programme 2026-2027 – 1. General Introduction
+
+HE Main Work Programme 2026-2027 – 7. Digital, Industry and Space
+
+HE Main Work Programme 2026-2027 – 14. Horizontal Activities
+
+HE Main Work Programme 2026-2027 – 15. General Annexes
+
+HE Programme Guide
+
+HE Framework Programme 2021/695
+
+HE Specific Programme Decision 2021/764
+
+EU Financial Regulation 2024/2509
+
+Decision authorising the use of lump sum contributions under the Horizon Europe Programme
+
+Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment
+
+EU Grants AGA — Annotated Model Grant Agreement 
+
+Funding & Tenders Portal Online Manual
+
+Funding & Tenders Portal Terms and Conditions
+
+Funding & Tenders Portal Privacy Statement
+
+=== DOCUMENT LINKS ===
+- HORIZON Coordination and Support Actions: https://ec.europa.eu/research/participants/submission/manage/screen/submission/create-draft/43086?topic=HORIZON-CL4-2026-01-MAT-PROD-45

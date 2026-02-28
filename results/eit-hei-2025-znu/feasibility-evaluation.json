@@ -1,0 +1,347 @@
+{
+  "overallChance": 45,
+  "recommendation": "proceed_with_caution",
+  "executiveSummary": "Zaporizhzhia National University (ZNU) meets basic eligibility requirements as a Ukrainian HEI for the EIT HEI 2025 Call (Ukraine is Horizon Europe associated). ZNU possesses strong foundational capabilities: comprehensive STEM education infrastructure across 18 faculties, proven HPC/AI research expertise, active international partnerships, and a track record of managing state-funded research projects. However, the application faces significant critical challenges that substantially reduce competitiveness.\n\nThe most severe weakness is the MANDATORY consortium requirement: ZNU must form a 5-partner consortium including at least 3 HEIs from 3 different countries, 1 business partner, and 1 additional non-HEI partner. Currently, ZNU has only academic partnerships (Durham UK, TU Freiberg Germany) and one industry partner (ALD Engineering Ukraine). This consortium must be built from scratch within tight timelines. For Topic 2 (university alliances), ZNU appears ineligible as there's no evidence of membership in a European Universities Initiative alliance. Topic 1 is the only viable pathway.\n\nAdditional major concerns include: limited international grant experience (only Ukrainian state funding documented), no evidence of existing entrepreneurship/innovation infrastructure (critical for EIT HEI's focus), absence of technology transfer offices or startup support mechanisms, and the operational challenges of coordinating a complex multi-country consortium under current circumstances. Success probability of 45% reflects that while ZNU CAN apply, winning against Western European consortia with established innovation ecosystems, extensive EU grant experience, and existing entrepreneurship programs will be extremely challenging. Recommendation: Proceed only if consortium can be secured within 2-3 months AND significant preparation invested in innovation capacity building narrative.",
+  "matchScore": {
+    "overall": 58,
+    "breakdown": [
+      {
+        "category": "Geographic Eligibility",
+        "score": 100,
+        "maxScore": 100,
+        "explanation": "Ukraine is fully associated with Horizon Europe since 2021. Ukrainian HEIs are explicitly eligible for EIT initiatives. ZNU is nationally accredited. No geographic barriers exist."
+      },
+      {
+        "category": "Institutional Type Match",
+        "score": 100,
+        "maxScore": 100,
+        "explanation": "ZNU is a comprehensive Higher Education Institution—the primary target beneficiary. With 18 faculties, Engineering Institute, and 4 colleges, ZNU perfectly matches the HEI institutional type required."
+      },
+      {
+        "category": "STEM Education Capacity",
+        "score": 85,
+        "maxScore": 100,
+        "explanation": "Strong STEM foundation: faculties in Computer Science, Mathematics, Physics, Engineering Institute, Biology. Multiple STEM-related journals. Active research in HPC, AI/ML. Student body available for training programs. Minor gap: no evidence of integrated entrepreneurship curriculum."
+      },
+      {
+        "category": "Innovation & Entrepreneurship Infrastructure",
+        "score": 25,
+        "maxScore": 100,
+        "explanation": "CRITICAL GAP: No evidence of technology transfer offices, startup incubators, entrepreneurship centers, IP management units, or innovation hubs. EIT HEI specifically targets developing these capacities, but competitive applications typically demonstrate existing foundation. ZNU would be building from near-zero baseline."
+      },
+      {
+        "category": "Consortium Formation Capability",
+        "score": 40,
+        "maxScore": 100,
+        "explanation": "MAJOR WEAKNESS: Consortium requirement is MANDATORY (5 partners: 3 HEIs from 3 countries, 1 business, 1 non-HEI). ZNU has partnerships with Durham (UK) and TU Freiberg (Germany)—potential HEI partners. Has one Ukrainian industry partner (ALD Engineering). Still needs: commitment from these partners to join consortium, additional business/research partners, formal consortium agreement. No evidence of established consortium-building experience."
+      },
+      {
+        "category": "International Grant Experience",
+        "score": 30,
+        "maxScore": 100,
+        "explanation": "LIMITED: Only documented grant is Ukrainian state budget (3.59M UAH for AI logistics). No evidence of EU framework program participation (Horizon, Erasmus+, previous EIT programs). No documented experience with consortium-based international applications. This creates significant competitive disadvantage vs. experienced applicants."
+      },
+      {
+        "category": "Research Track Record",
+        "score": 60,
+        "maxScore": 100,
+        "explanation": "MODERATE: 25 publications (8 recent, Scopus-indexed) demonstrate research activity. Active state-funded project shows project management capability. However, publication volume is modest for 500 researchers. No patents or commercialization evidence. Research focus (HPC/AI) is relevant but not directly aligned with entrepreneurship education."
+      },
+      {
+        "category": "Partnership Ecosystem",
+        "score": 50,
+        "maxScore": 100,
+        "explanation": "Basic partnerships exist (Durham UK, TU Freiberg Germany, ALD Engineering Ukraine) but ecosystem is underdeveloped. No evidence of connections to investors, startup accelerators, industry clusters, or innovation networks. EIT HEI emphasizes business-academic integration—ZNU's ecosystem is primarily academic."
+      },
+      {
+        "category": "Administrative Capacity",
+        "score": 55,
+        "maxScore": 100,
+        "explanation": "Large university (18 faculties, multiple buildings) suggests administrative infrastructure. However, no evidence of EU grant management experience, PIC registration, or familiarity with EU reporting requirements. HEInnovate self-assessment will likely reveal gaps. Top management commitment letters are obtainable but require internal mobilization."
+      },
+      {
+        "category": "Financial Capacity",
+        "score": 60,
+        "maxScore": 100,
+        "explanation": "Maximum project budget €500K stated, but EIT HEI allows up to €2M per project. No co-funding required (100% EU funding), which helps. Experience managing 3.59M UAH project demonstrates some financial management capability. However, managing multi-partner EU budgets with different cost categories is more complex."
+      },
+      {
+        "category": "Topic Alignment",
+        "score": 65,
+        "maxScore": 100,
+        "explanation": "Topic 1 (innovation/entrepreneurship capacity building) is suitable—ZNU could position as institution needing capacity development. Topic 2 (university alliances + EIT KICs) appears INELIGIBLE—no evidence ZNU is member of European Universities Initiative alliance. Topic 1 focus on 'developing' capacity actually fits ZNU's profile, but competition from more developed institutions is fierce."
+      }
+    ]
+  },
+  "strengths": [
+    {
+      "area": "Geographic Eligibility & HEI Status",
+      "description": "Ukraine is fully associated with Horizon Europe. ZNU is a nationally accredited comprehensive university—the exact institutional type targeted by this call. No geographic barriers to participation exist.",
+      "impact": "high"
+    },
+    {
+      "area": "Comprehensive STEM Education Infrastructure",
+      "description": "18 faculties including Computer Science, Mathematics, Physics, Engineering Institute, and Biology provide broad STEM education base. Multiple STEM-focused academic journals (Bulletin of ZNU series). Large student body (thousands) available for training programs targeting the 200,000 student goal.",
+      "impact": "high"
+    },
+    {
+      "area": "Relevant Technical Research Expertise",
+      "description": "Laboratory of Parallel and Distributed Computing with HPC, AI/ML expertise. Active state-funded research project (AI in logistics, 3.59M UAH). 25 Scopus-indexed publications demonstrate research capability. Aligns with modern STEM skills emphasized in call (AI, computing, data science).",
+      "impact": "medium"
+    },
+    {
+      "area": "Existing International Academic Partnerships",
+      "description": "Active partnerships with Durham University (UK) and TU Bergakademie Freiberg (Germany) provide foundation for consortium formation. Both partners are from Horizon Europe eligible countries and could potentially serve as the required HEI consortium members.",
+      "impact": "high"
+    },
+    {
+      "area": "Multi-disciplinary University Structure",
+      "description": "Beyond STEM, ZNU has faculties in Economics, Law, Pedagogy, and Humanities. This enables cross-disciplinary approaches to entrepreneurship education (business skills, legal aspects of innovation, teaching methods) valued in EIT HEI proposals.",
+      "impact": "medium"
+    },
+    {
+      "area": "Project Management Experience",
+      "description": "Currently managing state-funded research project demonstrates basic project management, budgeting, and reporting capabilities. Large institutional structure suggests administrative capacity exists.",
+      "impact": "medium"
+    },
+    {
+      "area": "Motivation Alignment",
+      "description": "As Ukrainian institution rebuilding during/post-conflict, ZNU has strong motivation to develop innovation capacity, integrate with European higher education systems, and strengthen STEM education—narrative aligns with EU solidarity and development objectives.",
+      "impact": "medium"
+    },
+    {
+      "area": "Pioneer Opportunity",
+      "description": "Call explicitly welcomes institutions developing innovation capacity (not just those with established systems). ZNU can position as 'Innovation & Entrepreneurship Pioneer' building from foundational level, potentially appealing to evaluators seeking geographic diversity and impact potential.",
+      "impact": "low"
+    }
+  ],
+  "weaknesses": [
+    {
+      "area": "Mandatory Consortium Formation - CRITICAL BARRIER",
+      "description": "MANDATORY requirement: minimum 5 partners (3 HEIs from 3 countries + 1 business + 1 non-HEI). ZNU currently has partnerships but NO confirmed consortium. Must secure formal commitments from Durham, TU Freiberg (or other HEIs), business partner(s), and research organization/public body. Consortium agreement, roles definition, and commitment letters needed by March 4, 2026 deadline. No evidence of consortium-building experience.",
+      "severity": "critical",
+      "mitigation": "IMMEDIATE ACTION (within 4-6 weeks): Contact Durham and TU Freiberg to gauge interest and secure preliminary commitment. Identify and approach business partners (technology companies, innovation agencies, investors) in partner countries. Seek research organization (e.g., Ukrainian Academy of Sciences institute, innovation centers) or public body (ministry, regional development agency). Draft consortium MoU. Consider hiring EU grant consultant experienced in consortium building. Timeline is EXTREMELY tight—consortium formation typically takes 3-6 months; only ~3 months until deadline."
+    },
+    {
+      "area": "Absence of Innovation/Entrepreneurship Infrastructure",
+      "description": "No documented technology transfer office, startup incubator, entrepreneurship center, IP management unit, or innovation hub. EIT HEI targets institutions developing these, BUT competitive proposals typically show existing foundation or pilot initiatives. ZNU appears to lack even basic structures, putting it at disadvantage vs. Western European universities with established innovation ecosystems.",
+      "severity": "critical",
+      "mitigation": "Build narrative around 'development from foundation' positioning—emphasize WHY ZNU needs this capacity (post-conflict reconstruction, brain drain prevention, economic development). Conduct HEInnovate self-assessment immediately to identify specific gaps and frame honest baseline. Partner with institutions that DO have these structures (Durham, TU Freiberg) and position them as mentors/knowledge transfer sources. Consider if university has ANY entrepreneurship activities (student business clubs, innovation competitions) to build upon."
+    },
+    {
+      "area": "Limited International/EU Grant Experience",
+      "description": "Only documented grant funding is Ukrainian state budget. No evidence of participation in Horizon Europe, Erasmus+, previous EIT programs, or other EU framework programs. This creates competitive disadvantage—experienced applicants understand EU expectations, reporting, consortium management, and proposal writing style. First-time applicants face steep learning curve and lower success rates.",
+      "severity": "major",
+      "mitigation": "Strongly consider hiring professional EU grant consultant/writer with EIT HEI experience. Study successful EIT HEI Cohort 1-4 projects (publicly available) to understand winning formula. Engage with EIT Regional Innovation Scheme (RIS) contacts or EIT KIC representatives for guidance. Attend ALL available info sessions. Allocate significant time (100+ hours) for learning EU proposal requirements. Partner with experienced institution as lead coordinator if possible."
+    },
+    {
+      "area": "Weak Business Partnership Ecosystem",
+      "description": "Only one documented industry partner (ALD Engineering, Ukraine). EIT HEI strongly emphasizes business-academic collaboration, startup support, and industry engagement. Consortium requires at least 1 business partner, but competitive proposals typically show multiple industry connections, investor networks, and entrepreneurship ecosystem engagement. ZNU's business ecosystem appears underdeveloped.",
+      "severity": "major",
+      "mitigation": "Rapidly expand business network: engage with Ukrainian IT companies (strong sector despite war), international corporations with Ukrainian operations, venture capital funds, business associations. Leverage partner universities' industry connections—Durham and TU Freiberg likely have corporate partnerships. Consider joining consortium with existing business-academic networks rather than leading. Explore connections through EIT KICs (Digital, Manufacturing) that may have business members."
+    },
+    {
+      "area": "No Evidence of European Universities Alliance Membership",
+      "description": "Topic 2 (synergies between university alliances and EIT KICs) requires all 3 HEIs to be members of SAME European Universities Initiative alliance. No evidence ZNU is member of any European Universities alliance. This makes Topic 2 INELIGIBLE, limiting to Topic 1 only.",
+      "severity": "major",
+      "mitigation": "Focus exclusively on Topic 1 (innovation/entrepreneurship capacity development). DO NOT attempt Topic 2 application. Research whether Durham or TU Freiberg partners are in European Universities alliances—if yes, explore if ZNU could eventually join their alliance as future step (mention as sustainability plan). This limitation reduces options but Topic 1 is more suitable for ZNU's development stage anyway."
+    },
+    {
+      "area": "Modest Research Output Relative to Institution Size",
+      "description": "500 researchers but only 25 documented publications (8 in last year), primarily in local/regional journals with some Scopus-indexed. No patents or commercialization. For institution of ZNU's size, research output appears modest, suggesting limited research intensity or documentation gaps. Competitive applicants typically demonstrate stronger research commercialization trajectory.",
+      "severity": "minor",
+      "mitigation": "Focus on QUALITY of research group (HPC/AI lab) rather than quantity. Highlight active state-funded project and Scopus publications. Emphasize that EIT HEI targets EDUCATION innovation, not just research excellence—teaching quality, curriculum development, and student outcomes matter more. Frame research as foundation for teaching entrepreneurial STEM skills. Consider if publication count reflects documentation gap rather than activity gap—compile comprehensive CV of all research activities."
+    },
+    {
+      "area": "Unclear Administrative Capacity for EU Programs",
+      "description": "No evidence of EU Participant Portal registration, PIC numbers for organization, or experience with EU administrative requirements (reporting cycles, deliverables, audits, consortium agreements). Large university suggests infrastructure exists, but EU grant administration is specialized skill set. Administrative failures can lead to project termination.",
+      "severity": "major",
+      "mitigation": "Establish dedicated EU projects office or hire experienced EU grant administrator IMMEDIATELY. Register organization in EU Participant Portal and obtain PIC number (required for application). Contact National Contact Point for EIT in Ukraine for administrative guidance. Identify staff member to become EU grants specialist. Budget for external administrative support if internal capacity lacking. Ensure financial department understands EU cost categories and reporting."
+    },
+    {
+      "area": "Operational Context - Ukraine Conflict",
+      "description": "While not disqualifying, ongoing conflict creates legitimate operational challenges: potential disruptions to project activities, partner concerns about stability/safety, difficulties in hosting consortium meetings, student/staff displacement, infrastructure damage risks. Evaluators may (unfairly but realistically) view this as project risk.",
+      "severity": "minor",
+      "mitigation": "Address proactively in proposal: highlight ZNU's continued operations, emphasize resilience and commitment, include contingency plans (online delivery alternatives, flexible implementation timelines, partner country activity hosting if needed). Frame positively: EU solidarity with Ukraine, importance of supporting Ukrainian HEIs, contribution to post-war reconstruction. Some evaluators may view supporting Ukrainian institution as positive impact factor. Ensure consortium partners are committed despite context."
+    }
+  ],
+  "gaps": [
+    {
+      "type": "team",
+      "description": "No identified entrepreneurship educators, innovation management specialists, IP/technology transfer professionals, or startup mentors on staff. EIT HEI requires delivering entrepreneurship training—need qualified instructors.",
+      "severity": "major",
+      "recommendation": "Identify if Economics or Business faculty have entrepreneurship teaching experience. Plan to hire or train staff in innovation pedagogy. Include capacity building for STAFF in proposal (EIT HEI funds this). Partner universities (Durham, TU Freiberg) could provide initial training/mentoring to ZNU staff. Consider engaging external entrepreneurship trainers. Make staff development explicit part of Innovation Vision Action Plan."
+    },
+    {
+      "type": "resources",
+      "description": "No dedicated spaces for innovation activities: incubator space, maker spaces, co-working areas for student startups, entrepreneurship labs. Physical infrastructure for innovation ecosystem lacking.",
+      "severity": "major",
+      "recommendation": "Proposal can include establishing these facilities (budget category: 'New Innovation Structure Establishment'). Identify potential university spaces that could be converted. Plan modest but functional startup support infrastructure. Partner institutions could provide design templates/best practices. Focus on 'starter' infrastructure appropriate to development stage rather than world-class facilities."
+    },
+    {
+      "type": "experience",
+      "description": "No documented experience with entrepreneurship curriculum design, IP management training, startup acceleration programs, or technology commercialization activities—core activities of EIT HEI projects.",
+      "severity": "major",
+      "recommendation": "Position as LEARNING opportunity—explicitly state ZNU seeks to develop these capabilities through EIT HEI. Study successful EIT HEI Cohort projects to understand curriculum models. Plan to adapt proven approaches from partner institutions. Include study visits/knowledge transfer from experienced partners in work plan. Engage with EIT KICs who have curriculum materials available. Frame lack of experience as HIGH IMPACT POTENTIAL—developing capability where none exists maximizes additionality."
+    },
+    {
+      "type": "administrative",
+      "description": "HEInnovate self-assessment not yet completed (mandatory). Top management commitment letters not secured. No PIC registration evident. No familiarity with EU application portal or Innovation Vision Action Plan template format.",
+      "severity": "critical",
+      "recommendation": "IMMEDIATE ACTIONS (next 2-4 weeks): 1) All participating HEIs complete HEInnovate self-assessment at www.heinnovate.eu, 2) Prepare draft commitment letter for university leadership signature (template in call docs), 3) Register in EU Participant Portal and obtain PIC, 4) Download Part B template and study structure, 5) Review all call documentation thoroughly, 6) Attend recorded info sessions. These are MANDATORY prerequisites—cannot apply without them."
+    },
+    {
+      "type": "technical",
+      "description": "No demonstrated integration of entrepreneurship, IP management, or innovation skills into existing STEM curriculum. Call requires showing how these will be embedded in education programs.",
+      "severity": "major",
+      "recommendation": "Conduct rapid curriculum review: identify where entrepreneurship/innovation topics could be integrated into CS, Engineering, Math programs. Consult with faculty on willingness to adapt curricula. Research existing models (e.g., MIT, Stanford entrepreneurship courses) that could be adapted. Plan pilot courses or modules. Include curriculum development workshops in project work plan. Partner universities can share their curriculum integration approaches. Make curriculum change strategy central to Innovation Vision Action Plan."
+    },
+    {
+      "type": "resources",
+      "description": "Limited stated financial capacity (max project €500K) vs. available funding (up to €2M per project). Unclear if this reflects actual constraint or conservative estimate. Larger budgets enable more comprehensive programs and stronger competitiveness.",
+      "severity": "minor",
+      "recommendation": "Clarify actual financial capacity—can ZNU manage larger project if awarded? No co-funding required (100% EU funded), so main concern is administrative capacity to manage larger budget. Consider if consortium approach with experienced partners allows scaling up to €1-1.5M budget. Larger budget enables hiring dedicated staff, establishing proper infrastructure, reaching more students—all increasing impact and competitiveness. Consult with finance department on realistic capacity."
+    }
+  ],
+  "risks": [
+    {
+      "category": "Consortium Formation Failure",
+      "description": "Highest risk: Unable to secure commitments from required partners (3 HEIs, 1 business, 1 non-HEI) within extremely tight 3-month timeline. Partners may be already committed to other consortia, uninterested, or unable to respond quickly. Without complete consortium, application is INELIGIBLE regardless of quality.",
+      "probability": "high",
+      "impact": "high",
+      "mitigation": "Start consortium building IMMEDIATELY (within 1 week). Contact all potential partners simultaneously. Be flexible on consortium roles—if partner wants to lead, consider joining as partner rather than coordinator. Prepare compelling value proposition for partners (access to Ukrainian market, EU solidarity angle, specific expertise ZNU brings). Have backup options for each consortium role. Consider if joining EXISTING consortium being formed by another institution is more realistic than building own. Set internal deadline of January 15, 2026 for consortium confirmation—if not achieved, abort application to avoid wasted effort."
+    },
+    {
+      "category": "Competitive Disadvantage",
+      "description": "Competing against Western European universities with established innovation ecosystems, extensive EU grant experience, existing entrepreneurship programs, and proven track records. These institutions can demonstrate immediate impact, whereas ZNU must convince evaluators of development potential. First-time applicants have historically lower success rates (~20-30%) vs. experienced applicants (~40-60%).",
+      "probability": "high",
+      "impact": "high",
+      "mitigation": "Differentiate through UNIQUE VALUE: post-conflict reconstruction angle, high impact potential in underserved region, contribution to European educational equity, brain drain prevention in Ukraine. Emphasize LEARNING capacity rather than existing capacity. Seek experienced partner as coordinator if possible. Invest heavily in proposal quality—hire professional writer, get multiple expert reviews. Target evaluator priorities: geographic balance, inclusion, development impact. Study evaluation criteria deeply and address each explicitly. Consider applying for smaller budget (€1-1.2M) to appear more realistic for development-stage institution."
+    },
+    {
+      "category": "Administrative/Compliance Failure",
+      "description": "Risk of administrative errors leading to ineligibility or low scores: incomplete HEInnovate assessments, missing commitment letters, incorrect budget format, PIC registration issues, failing to demonstrate complementarity with other EU programs, missing mandatory sections in IVAP. First-time EU applicants commonly make procedural errors that experienced applicants avoid.",
+      "probability": "medium",
+      "impact": "high",
+      "mitigation": "Create detailed compliance checklist from call documentation. Assign dedicated project manager to oversee application process. Use professional EU grant consultant for compliance review. Submit all administrative prerequisites EARLY (January 2026) rather than waiting until March deadline. Have external expert review draft application against eligibility criteria. Attend ALL info sessions and ask questions. Request feedback from EIT HEI contact points. Build in 2-week buffer before deadline for final compliance check and corrections."
+    },
+    {
+      "category": "Operational Disruption (Ukraine Context)",
+      "description": "Ongoing conflict could disrupt application process (power outages affecting deadline compliance, staff displacement, communication difficulties with partners) or raise concerns among consortium partners about project viability. While Ukrainian institutions are eligible, practical challenges exist.",
+      "probability": "low",
+      "impact": "medium",
+      "mitigation": "Establish backup communication channels and power sources for critical application period. Submit application 48+ hours before deadline to account for technical issues. Address stability proactively with partners—share university's continuity plans. Prepare emergency response plans for potential scenarios. Consider having partner institution serve as technical coordinator to reduce operational dependency on Ukraine-based operations. Frame resilience positively in proposal. Have contingency plans for online/hybrid activity delivery. Ensure key staff have relocation options if needed."
+    },
+    {
+      "category": "Resource Overcommitment",
+      "description": "Risk of overextending limited resources: Laboratory of Parallel and Distributed Computing has only 4 core staff already managing state-funded project. Adding complex international consortium project could strain capacity, leading to poor performance on both projects. Administrative burden of EU grant (reporting, consortium coordination, deliverables) is substantial.",
+      "probability": "medium",
+      "impact": "medium",
+      "mitigation": "Realistically assess staff capacity—can current team manage both projects? Plan to hire additional dedicated staff using EIT HEI budget (explicitly allowed). Consider if broader university resources (other faculty, administration) can support. Ensure project management role is clearly assigned and adequately resourced. Build realistic work plan with feasible timelines. Consider phased approach rather than trying to do everything simultaneously. Partner institutions should take substantial work packages to distribute load. Budget for external support (consultants, trainers) where gaps exist."
+    },
+    {
+      "category": "Weak Impact Demonstration",
+      "description": "Risk that proposal fails to convincingly demonstrate how ZNU will achieve meaningful impact on innovation capacity, student outcomes, and STEM entrepreneurship education. Without existing baseline or proven model, evaluators may doubt feasibility of proposed transformation. Vague or unrealistic KPIs could undermine credibility.",
+      "probability": "medium",
+      "impact": "medium",
+      "mitigation": "Develop concrete, measurable, achievable KPIs based on HEInnovate assessment baseline and realistic targets. Study successful EIT HEI projects for evidence-based implementation models. Include proven approaches from partner institutions adapted to ZNU context. Demonstrate clear pathway from activities to outcomes. Include monitoring/evaluation framework. Propose pilot programs with clear success metrics before scaling. Show quick wins (e.g., entrepreneurship courses in Semester 1) alongside longer-term goals. Connect to specific student/faculty numbers and programs. Make theory of change explicit and evidence-based."
+    }
+  ],
+  "requiredActions": [
+    {
+      "priority": "critical",
+      "action": "Initiate consortium formation immediately: Contact Durham University and TU Bergakademie Freiberg within 7 days to gauge interest, share call information, and request preliminary commitment. Simultaneously identify and approach at least 2-3 potential business partners and 2-3 potential non-HEI partners (research orgs, public bodies).",
+      "timeline": "Start within 7 days; secure preliminary commitments by January 15, 2026 (6 weeks)"
+    },
+    {
+      "priority": "critical",
+      "action": "Complete mandatory HEInnovate self-assessment for ZNU. This assessment is REQUIRED for application and will reveal specific gaps in innovation capacity that must inform the Innovation Vision Action Plan. Allocate 15-20 hours for thorough completion by team with university-wide input.",
+      "timeline": "Complete by December 20, 2025 (2 weeks)"
+    },
+    {
+      "priority": "critical",
+      "action": "Register organization in EU Participant Portal (https://ec.europa.eu/info/funding-tenders/opportunities/portal) and obtain Participant Identification Code (PIC). This is MANDATORY for application submission. Process can take 1-2 weeks.",
+      "timeline": "Initiate immediately; complete by January 10, 2026 (4 weeks)"
+    },
+    {
+      "priority": "critical",
+      "action": "Secure top management commitment: Schedule meeting with university president/rector to present EIT HEI opportunity, obtain strategic buy-in, and secure commitment letter listing participating faculties/departments. This signed letter is MANDATORY requirement.",
+      "timeline": "Meeting by December 20, 2025; signed letter by January 15, 2026 (4-6 weeks)"
+    },
+    {
+      "priority": "high",
+      "action": "Decide on consortium coordinator role: Determine whether ZNU will lead consortium or join as partner in consortium led by more experienced institution (Durham or TU Freiberg). Leading provides control but requires more capacity; partnering reduces burden but less ownership. Decision affects entire application strategy.",
+      "timeline": "Decide by December 20, 2025 based on partner discussions (2 weeks)"
+    },
+    {
+      "priority": "high",
+      "action": "Engage EU grant consultant/writer with EIT HEI experience: Given lack of international grant experience, professional support is highly advisable. Consultant can guide consortium formation, compliance, proposal writing, and budget development. Budget €10-20K for consulting support.",
+      "timeline": "Hire by January 1, 2026 to allow 8-9 weeks for application development"
+    },
+    {
+      "priority": "high",
+      "action": "Download and study all call documentation: Call text, Part B template (Innovation Vision Action Plan), budget template, FAQ document, eligibility interactive guide, recorded info sessions. Assign team members to thoroughly review all materials and create internal summary/checklist.",
+      "timeline": "Complete within 10 days; ongoing reference throughout application period"
+    },
+    {
+      "priority": "high",
+      "action": "Conduct rapid internal assessment of entrepreneurship/innovation activities: Survey all 18 faculties to identify ANY existing activities related to entrepreneurship education, innovation, startups, IP, or industry collaboration. Even modest activities provide foundation to build upon in proposal. Document all findings.",
+      "timeline": "Complete by January 10, 2026 (4 weeks)"
+    },
+    {
+      "priority": "high",
+      "action": "Develop draft Innovation Vision Action Plan outline: Based on HEInnovate results and call requirements, create preliminary structure showing: current baseline, 3-year vision, key activities, expected outcomes, sustainability plan. This forms core of application and guides consortium discussions.",
+      "timeline": "Draft outline by January 20, 2026 (6 weeks); full draft by February 15, 2026"
+    },
+    {
+      "priority": "medium",
+      "action": "Establish internal project team: Assign clear roles for consortium coordinator, proposal writer, budget manager, technical content lead, administrative support. Team should include representatives from Computer Science, Engineering, Economics (for entrepreneurship perspective), and international office. Allocate minimum 20 hours/week per person for next 10 weeks.",
+      "timeline": "Team formation by December 15, 2025 (1 week); full capacity mobilization by January 1, 2026"
+    },
+    {
+      "priority": "medium",
+      "action": "Draft formal consortium agreement and partner commitment letters: Prepare templates defining roles, responsibilities, budget allocation, IP arrangements, and governance. Circulate to partners for review and signature. These documents are REQUIRED with application.",
+      "timeline": "Templates prepared by January 20, 2026; signed by all partners by February 20, 2026"
+    },
+    {
+      "priority": "medium",
+      "action": "Develop preliminary budget aligned with activities: Using EIT HEI budget template, create realistic cost estimates for proposed activities across eligible categories. Ensure budget justification is clear and costs are reasonable. Plan for €1-1.5M total budget (competitive range for development-stage institution).",
+      "timeline": "Draft budget by February 1, 2026; final by February 25, 2026"
+    },
+    {
+      "priority": "medium",
+      "action": "Prepare complementarity statement: Document how proposed project differs from/complements other EU funding ZNU may have (HORIZON-WIDERA, Erasmus+, other). Overlap risks automatic exclusion. Show clear additionality and non-duplication.",
+      "timeline": "Complete by February 15, 2026"
+    },
+    {
+      "priority": "medium",
+      "action": "Identify and plan student/staff target groups: Define specific STEM programs, student cohorts, faculty members, and administrative staff who will participate. Quantify numbers contributing to 200,000 target. Make concrete and realistic.",
+      "timeline": "Complete by February 1, 2026"
+    },
+    {
+      "priority": "low",
+      "action": "Attend recorded EIT HEI info sessions and engage with EIT contacts: Seven recorded sessions are available. Watch all relevant sessions to understand evaluator expectations. Submit questions to EIT HEI helpdesk for clarification. Join EIT HEI community activities if available.",
+      "timeline": "Ongoing throughout application period"
+    },
+    {
+      "priority": "low",
+      "action": "Develop communication and dissemination strategy: Plan how project results will be shared with broader higher education community. Include publications, conferences, online platforms, network building. Strengthens sustainability and impact narrative.",
+      "timeline": "Complete by February 15, 2026"
+    }
+  ],
+  "strategicRecommendations": [
+    "STRATEGIC POSITIONING: Frame ZNU as 'high-potential development case' rather than competing on established capacity. Emphasize IMPACT POTENTIAL: developing innovation capacity where limited foundation exists creates higher additionality than incrementally improving already-strong programs. Leverage EU solidarity with Ukraine and post-conflict reconstruction narrative—but balance this with demonstrating operational viability and concrete plans.",
+    "CONSORTIUM STRATEGY: Prioritize securing experienced HEI partner willing to serve as coordinator (Durham or TU Freiberg), allowing ZNU to focus on content rather than complex project management. If ZNU must coordinate, invest heavily in administrative support. Seek business partners from partner countries (UK, Germany) rather than only Ukraine—diversifies consortium and reduces perceived risk. Target businesses already engaged in Ukrainian market or with corporate social responsibility commitments.",
+    "TOPIC SELECTION: Focus EXCLUSIVELY on Topic 1 (innovation and entrepreneurship capacity development). Do not attempt Topic 2 (university alliances) without confirmed European Universities Initiative membership. Topic 1 better matches ZNU's development stage and provides clearer value proposition.",
+    "BUDGET REALISM: Request €1-1.5M (mid-range) rather than maximum €2M. Demonstrates realistic assessment of capacity for first major EU project. Allocate substantial budget to capacity building: staff training (20-25%), infrastructure establishment (15-20%), external expertise/consulting (10-15%), partner institution knowledge transfer (15-20%), direct student programming (30-40%). Show money goes toward building sustainable capacity, not just activity delivery.",
+    "DIFFERENTIATION STRATEGY: Identify unique value ZNU brings to consortium: Ukrainian market knowledge, specific technical expertise (HPC/AI), connection to regional industry clusters, post-conflict innovation challenges, diversity of consortium. Make clear why evaluators should fund THIS consortium rather than Western European alternatives. Consider focus on specific STEM domain (computing/AI entrepreneurship) where ZNU has strongest credentials rather than generic approach.",
+    "RISK MITIGATION IN PROPOSAL: Address operational context proactively. Include contingency plans: online/hybrid delivery models, activity hosting in partner countries if needed, flexible implementation timelines, distributed coordination model. Demonstrate ZNU's resilience: continued operations during conflict, active research projects, international partnerships maintained. Frame as strength (adaptability, determination) rather than liability.",
+    "SUSTAINABILITY PLANNING: Evaluators will assess long-term viability beyond 24-month funding. Develop clear sustainability plan: how will innovation structures continue post-project? Integration into university strategy? Co-funding from other sources (Ukrainian government, regional funds, student fees)? Ongoing partnership with EIT KICs? Show innovation capacity becomes permanent, not dependent on continued EU funding.",
+    "PARTNERSHIP WITH EIT KICs: Study EIT Knowledge and Innovation Communities (particularly EIT Digital, EIT Manufacturing) and identify synergy opportunities. Contact KIC representatives to explore collaboration. Including KIC connection strengthens proposal competitiveness and provides access to broader innovation ecosystem, mentoring, and networks. Attend KIC events or webinars to build relationships.",
+    "QUICK WINS STRATEGY: Include activities with rapid visible results in months 1-6: pilot entrepreneurship course, startup weekend event, industry speaker series, innovation challenge competition. Early successes build momentum, demonstrate capacity, and provide evidence for scaling up. Balance ambitious long-term vision with achievable short-term milestones.",
+    "LEARNING FROM PREDECESSORS: Access publicly available information on EIT HEI Cohorts 1-4 successful projects (likely available on EIT website or through contact with EIT). Analyze their approaches, activities, partnership models, and innovation plans. Adapt proven models to ZNU context rather than inventing from scratch. Reference successful practices in proposal to show evidence-based approach.",
+    "ALTERNATIVE PATH CONSIDERATION: If consortium formation proves impossible within timeline, consider JOINING existing consortium being formed by another institution rather than abandoning opportunity entirely. Many consortia seek additional partners to strengthen geographic coverage or bring specific expertise. ZNU could contribute as specialized partner (AI/HPC expertise, Ukrainian context, specific STEM programs) without coordination burden. Monitor EIT HEI partner search channels for opportunities.",
+    "CAPACITY BUILDING INVESTMENT: Whether application succeeds or not, use this process to build ZNU's capacity for future EU opportunities: establish EU projects office, train staff in grant writing, develop consortium networks, create innovation infrastructure plans. These investments have value beyond single application. Consider this a learning opportunity preparing ZNU for future Horizon Europe, EIT, Erasmus+, and other EU programs.",
+    "POLITICAL/STRATEGIC ALIGNMENT: Emphasize alignment with EU priorities beyond call objectives: supporting Ukraine's European integration, contributing to EU-Ukraine Association Agreement, strengthening European Research and Education Area, brain drain prevention. Connect to broader EU policy context to strengthen strategic relevance beyond technical evaluation criteria."
+  ]
+}

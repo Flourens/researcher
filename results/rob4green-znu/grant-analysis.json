@@ -1,0 +1,284 @@
+{
+  "grantTitle": "ROB4GREEN Open Call #1",
+  "grantingOrganization": "ROB4GREEN Consortium",
+  "programName": "ROB4GREEN — Robotics and AI as Enablers for Greener Dismantling, Remanufacturing and Recycling",
+  "deadline": "2026-04-08T17:00:00.000Z",
+  "summary": "ROB4GREEN Open Call #1 targets European technology adopters and developers to pilot innovative AI, robotics, and data solutions for circular economy applications. The call funds consortia of 2-3 entities to integrate ROB4GREEN framework tools into pilots addressing challenges in life extension, value retention, parts harvesting, or decommissioning and recycling. Eight projects will receive up to €300,000 each over a 10-month period starting June 2026.",
+  "objectives": [
+    "Pilot new AI, robotics, and data solutions for greener dismantling, remanufacturing, and recycling",
+    "Integrate at least one (maximum two) tools from the ROB4GREEN framework into industrial pilot scenarios",
+    "Address specific circular economy challenges in life extension, value retention, parts harvesting, or decommissioning and recycling",
+    "Facilitate collaboration between technology developers/providers and industrial end-users",
+    "Validate technical developments in real-world industrial environments"
+  ],
+  "requirements": [
+    {
+      "category": "eligibility",
+      "description": "Applicants cannot be members or associated partners of the ROB4GREEN consortium",
+      "mandatory": true,
+      "evidence": "Declaration confirming non-membership in ROB4GREEN consortium"
+    },
+    {
+      "category": "eligibility",
+      "description": "Applicants must be legal entities established and based in an EU Member State or Horizon Europe Associated Country (V3.2 list, published 12/11/2024)",
+      "mandatory": true,
+      "evidence": "Legal entity documentation showing establishment in eligible country"
+    },
+    {
+      "category": "eligibility",
+      "description": "SMEs and Start-ups must have been established at least one year (12 months) before application submission",
+      "mandatory": true,
+      "evidence": "Company registration documentation showing establishment date"
+    },
+    {
+      "category": "eligibility",
+      "description": "Applicants must have a valid VAT number",
+      "mandatory": true,
+      "evidence": "Valid VAT registration number"
+    },
+    {
+      "category": "eligibility",
+      "description": "Applicants must provide a PIC number (can register via Funding and Tenders portal if not available)",
+      "mandatory": true,
+      "evidence": "PIC number from EU Funding and Tenders portal"
+    },
+    {
+      "category": "financial",
+      "description": "Applicants must prove financial stability and capacity, not be bankrupt, in bankruptcy process, or have significant tax/social security debt",
+      "mandatory": true,
+      "evidence": "Financial statements and declarations of financial standing"
+    },
+    {
+      "category": "eligibility",
+      "description": "Applicants must not have been convicted for fraud, corruption, money laundering, or other unethical/illegal practices, and not be subject to EU sanctions",
+      "mandatory": true,
+      "evidence": "Declaration of honor and background checks"
+    },
+    {
+      "category": "eligibility",
+      "description": "Applicants must not be enterprises under liquidation or under difficulty (Commission Regulation No 651/2014 art. 2.18)",
+      "mandatory": true,
+      "evidence": "Declaration of company status"
+    },
+    {
+      "category": "administrative",
+      "description": "Submissions must be made only through F6S platform within the deadline",
+      "mandatory": true,
+      "evidence": "F6S platform submission confirmation"
+    },
+    {
+      "category": "administrative",
+      "description": "Application and all requested documents must be provided only in English language",
+      "mandatory": true,
+      "evidence": "All documentation in English"
+    },
+    {
+      "category": "administrative",
+      "description": "Proposal must be submitted according to Guidelines for Applicants and provided templates (Annexes 3, 4, 5, and 6)",
+      "mandatory": true,
+      "evidence": "Completed Annexes 3, 4, 5, and 6"
+    },
+    {
+      "category": "technical",
+      "description": "Consortium must consist of minimum 2 and maximum 3 entities",
+      "mandatory": true,
+      "evidence": "Consortium composition declaration"
+    },
+    {
+      "category": "technical",
+      "description": "Consortium must include one SME/Startup as Technology Integrator/Provider/Developer and pilot leader",
+      "mandatory": true,
+      "evidence": "SME/Startup registration and role declaration"
+    },
+    {
+      "category": "technical",
+      "description": "Consortium must include one Industrial end-user as Technology Adopter providing external pilot scenario",
+      "mandatory": true,
+      "evidence": "Industrial end-user confirmation and pilot scenario description"
+    },
+    {
+      "category": "technical",
+      "description": "Optional third partner providing technology and/or expertise (mid-cap, SME, or research organization)",
+      "mandatory": false,
+      "evidence": "Partner description if included"
+    },
+    {
+      "category": "technical",
+      "description": "Proposal must integrate at least one (maximum two) tools from the ROB4GREEN framework",
+      "mandatory": true,
+      "evidence": "Description of ROB4GREEN tool integration in proposal"
+    },
+    {
+      "category": "technical",
+      "description": "Proposal must address one of the four specified challenges: Life Extension, Value Retention, Parts Harvesting, or Decommissioning and Recycling",
+      "mandatory": true,
+      "evidence": "Clear challenge selection and alignment in proposal"
+    },
+    {
+      "category": "financial",
+      "description": "Proposal must not exceed maximum budget available",
+      "mandatory": true,
+      "evidence": "Budget breakdown within limits"
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "name": "Criterion 1: Concept and Innovation",
+      "description": "Evaluation of the novelty, originality, and innovative aspects of the proposed solution and its approach to addressing the selected challenge",
+      "weight": 25,
+      "maxScore": null,
+      "keyIndicators": [
+        "Novelty of the concept",
+        "Innovation level",
+        "Originality of approach",
+        "Relevance to selected challenge"
+      ]
+    },
+    {
+      "name": "Criterion 2: Technology Implementation Approach",
+      "description": "Assessment of the technical feasibility, methodology, and integration approach of ROB4GREEN tools into the pilot scenario",
+      "weight": 25,
+      "maxScore": null,
+      "keyIndicators": [
+        "Technical feasibility",
+        "Implementation methodology",
+        "ROB4GREEN tool integration strategy",
+        "Pilot scenario design",
+        "Technical risk management"
+      ]
+    },
+    {
+      "name": "Criterion 3: Impact",
+      "description": "Evaluation of the expected impact of the project on circular economy, sustainability, and potential for scalability and market uptake",
+      "weight": 25,
+      "maxScore": null,
+      "keyIndicators": [
+        "Environmental impact",
+        "Circular economy contribution",
+        "Scalability potential",
+        "Market uptake prospects",
+        "Economic impact",
+        "Alignment with project KPIs"
+      ]
+    },
+    {
+      "name": "Criterion 4: Applicant Entity/Team",
+      "description": "Assessment of the consortium's capability, expertise, and capacity to successfully implement the proposed project",
+      "weight": 25,
+      "maxScore": null,
+      "keyIndicators": [
+        "Team expertise and qualifications",
+        "Relevant experience",
+        "Consortium composition and complementarity",
+        "Capacity to deliver",
+        "Track record"
+      ]
+    }
+  ],
+  "budget": {
+    "totalAmount": "€2,400,000 (for 8 projects)",
+    "categories": [
+      {
+        "category": "Project Lump Sum",
+        "description": "Maximum lump sum per project covering all activities over 10 months",
+        "minAmount": null,
+        "maxAmount": 300000,
+        "rules": [
+          "Each proposal may receive a maximum lump sum of €300,000",
+          "Limit of €200,000 per individual partner",
+          "The €200,000 limit is a cumulative ceiling per legal entity across all ROB4GREEN open calls",
+          "Total financial support a single partner receives throughout Open Call #1 and Open Call #2 cannot exceed €200,000"
+        ]
+      }
+    ],
+    "coFundingRequired": false,
+    "coFundingPercentage": null
+  },
+  "timeline": [
+    {
+      "phase": "Submission Period",
+      "duration": "February 4, 2026 to April 8, 2026 (17:00 CET)",
+      "deliverables": [
+        "Complete application via F6S platform",
+        "Completed Annexes 3, 4, 5, and 6"
+      ]
+    },
+    {
+      "phase": "Project Start",
+      "duration": "Expected June 1, 2026",
+      "deliverables": [
+        "Signed Sub-Grant Agreement (Annex 7)",
+        "Banking information form (Annex 8)"
+      ]
+    },
+    {
+      "phase": "Sprint 1 and Sprint 2",
+      "duration": "Part of 10-month project period",
+      "deliverables": [
+        "Initial project implementation",
+        "50% prefinancing payment trigger"
+      ]
+    },
+    {
+      "phase": "Sprint 3",
+      "duration": "Final phase of 10-month project period",
+      "deliverables": [
+        "Successful completion of Sprint 3",
+        "Delivery of final results",
+        "50% final payment trigger"
+      ]
+    },
+    {
+      "phase": "Overall Project Duration",
+      "duration": "10 months",
+      "deliverables": [
+        "Pilot implementation with ROB4GREEN tools",
+        "Technical validation results",
+        "Project outcomes and impact assessment"
+      ]
+    }
+  ],
+  "targetBeneficiaries": [
+    "SMEs and Startups (Technology Integrators/Providers/Developers)",
+    "Industrial end-users (Technology Adopters)",
+    "Mid-caps",
+    "Research and Technology Organizations (RTOs)",
+    "Academic institutions",
+    "European entities working in circular economy, robotics, AI, and sustainability"
+  ],
+  "geographicScope": "European Union and Horizon Europe Associated Countries",
+  "eligibleCountries": [
+    "All EU Member States",
+    "Horizon Europe Associated Countries as per List V3.2 published on 12/11/2024"
+  ],
+  "keyThemes": [
+    "Robotics",
+    "Artificial Intelligence (AI)",
+    "Data Analytics",
+    "Circular Economy",
+    "Green Technology",
+    "Dismantling",
+    "Remanufacturing",
+    "Recycling",
+    "Life Extension",
+    "Value Retention",
+    "Parts Harvesting",
+    "Decommissioning",
+    "Digital Transformation",
+    "Sustainability"
+  ],
+  "additionalNotes": [
+    "Original parent project topic: HORIZON-CL4-2024-DIGITAL-EMERGING-01-04",
+    "Eight projects will be selected for funding",
+    "Two external evaluators will independently assess each proposal",
+    "Funding is provided as a lump sum with 50% prefinancing and 50% final payment",
+    "Payment is linked to successful completion of sprints",
+    "Applicants can receive support via F6S Q&A forum and email: oc@rob4green-project.eu",
+    "Technical support for F6S platform available at: support@f6s.com",
+    "All documentation and guidelines available at: https://rob4green-project.eu/open-calls/",
+    "Submission platform: https://www.f6s.com/rob4green-open-call-1/apply/",
+    "A second open call (Open Call #2) is planned as part of the ROB4GREEN project",
+    "Financial capacity assessment by European Commission is required",
+    "The cumulative €200,000 ceiling per entity applies across both Open Call #1 and Open Call #2"
+  ]
+}

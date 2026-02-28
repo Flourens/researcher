@@ -1,0 +1,224 @@
+{
+  "grantTitle": "Pilot access schemes to Technology Infrastructures for European startups, scaleups and innovative SMEs",
+  "grantingOrganization": "European Commission",
+  "programName": "HORIZON-CL4-2026-01 — INDUSTRY (Cluster 4: Digital, Industry and Space)",
+  "deadline": "2026-04-21",
+  "summary": "This Coordination and Support Action aims to develop and test pilot multi-site access schemes that enable startups, scaleups, and innovative SMEs to access Technology Infrastructures for testing, upscaling, and validating new products and technologies. The action will establish a centrally managed and funded access programme with simplified and standardised conditions across the EU, focusing on priority areas including advanced materials, clean energy, and health/biotechnology.",
+  "objectives": [
+    "Develop a sound understanding of specific needs of industrial users (innovative SMEs, startups, scaleups) for Technology Infrastructure services in priority areas",
+    "Increase opportunities for industrial users to develop, test, upscale and deploy new technologies via Technology Infrastructure services",
+    "Strengthen innovation and technology development capacity of European SMEs, startups and scaleups through improved access to Technology Infrastructures",
+    "Enhance attractiveness and effectiveness of access schemes to broaden the range of Technology Infrastructure users, especially startups and scaleups",
+    "Establish a pilot centrally managed and funded access programme with simplified and standardised access conditions applicable across the EU",
+    "Enhance transnational and multisite collaboration among Technology Infrastructures to foster ecosystem building"
+  ],
+  "requirements": [
+    {
+      "category": "eligibility",
+      "description": "Applicants must be from countries described in Annex B of the Work Programme General Annexes (EU Member States and Associated Countries)",
+      "mandatory": true,
+      "evidence": "Legal entity validation and establishment in eligible country"
+    },
+    {
+      "category": "administrative",
+      "description": "Single-stage submission process with proposal page limits and layout as described in Part B of the Application Form",
+      "mandatory": true,
+      "evidence": "Completed application form within specified page limits"
+    },
+    {
+      "category": "financial",
+      "description": "Financial and operational capacity requirements as described in Annex C of the Work Programme General Annexes",
+      "mandatory": true,
+      "evidence": "Financial capacity assessment documentation"
+    },
+    {
+      "category": "technical",
+      "description": "Must involve a critical mass of Technology Infrastructure operators and users in priority areas (advanced materials, clean energy, health/biotechnology)",
+      "mandatory": true,
+      "evidence": "Partnership agreements and letters of commitment from Technology Infrastructure operators"
+    },
+    {
+      "category": "technical",
+      "description": "Should build on existing initiatives with already developed single access points (e.g., Open Innovation Test Beds or integrated networks)",
+      "mandatory": false,
+      "evidence": "Documentation of existing initiatives and access mechanisms"
+    },
+    {
+      "category": "technical",
+      "description": "Must coordinate with the envisaged European Charter of access for industrial users to research and technology infrastructures",
+      "mandatory": true,
+      "evidence": "Alignment plan with European Charter principles"
+    },
+    {
+      "category": "technical",
+      "description": "Must include development and implementation of visibility and promotion activities to demonstrate uptake across the EU",
+      "mandatory": true,
+      "evidence": "Communication and dissemination plan"
+    },
+    {
+      "category": "technical",
+      "description": "Should aim at significant broadening of user base to address needs of startups and scaleups without local access to such facilities",
+      "mandatory": true,
+      "evidence": "Strategy for user base expansion and target metrics"
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "name": "Excellence",
+      "description": "Quality and credibility of the research; level of innovation; appropriateness of methodology and approach",
+      "weight": 0,
+      "maxScore": 5,
+      "keyIndicators": [
+        "Understanding of specific needs of industrial users",
+        "Quality of proposed access scheme design",
+        "Innovation in approach to simplifying and standardising access",
+        "Building on existing initiatives and infrastructure networks"
+      ]
+    },
+    {
+      "name": "Impact",
+      "description": "Credibility of the pathways to achieve expected outcomes and impacts; suitability and quality of the measures to maximize expected outcomes and impacts",
+      "weight": 0,
+      "maxScore": 5,
+      "keyIndicators": [
+        "Increased opportunities for technology development and deployment",
+        "Strengthened capacity of European SMEs, startups and scaleups",
+        "Effectiveness in broadening Technology Infrastructure user base",
+        "Quality of communication and dissemination strategy",
+        "Plans for transnational access and collaboration"
+      ]
+    },
+    {
+      "name": "Quality and efficiency of implementation",
+      "description": "Quality and effectiveness of the work plan; appropriateness of the management structures and procedures; quality and relevant experience of the individual participants",
+      "weight": 0,
+      "maxScore": 5,
+      "keyIndicators": [
+        "Quality of work plan for pilot access programme implementation",
+        "Appropriateness of consortium composition and management structures",
+        "Capacity to coordinate multiple Technology Infrastructure operators",
+        "Resource allocation and budget justification",
+        "Risk management approach"
+      ]
+    }
+  ],
+  "budget": {
+    "totalAmount": "5,000,000 EUR (for 2 expected grants)",
+    "categories": [
+      {
+        "category": "Lump Sum Contribution",
+        "description": "Eligible costs will take the form of a lump sum as defined in the Decision of 7 July 2021",
+        "minAmount": 1500000,
+        "maxAmount": 2500000,
+        "rules": [
+          "Lump sum approach as per EU decision authorising use under Horizon Europe",
+          "Detailed budget table required (HE LS format)",
+          "Costs calculated according to lump sum methodology"
+        ]
+      },
+      {
+        "category": "Access Programme Funding",
+        "description": "Centrally managed and funded access programme for SMEs, startups and scaleups",
+        "minAmount": null,
+        "maxAmount": null,
+        "rules": [
+          "Must provide simplified and standardised access conditions",
+          "Should allow quick access to needed services",
+          "May include financial support to third parties (access beneficiaries)"
+        ]
+      }
+    ],
+    "coFundingRequired": true,
+    "coFundingPercentage": null
+  },
+  "timeline": [
+    {
+      "phase": "Planned Opening Date",
+      "duration": "2026-01-06",
+      "deliverables": [
+        "Call opens for submissions"
+      ]
+    },
+    {
+      "phase": "Submission Deadline",
+      "duration": "2026-04-21",
+      "deliverables": [
+        "Complete proposal submission"
+      ]
+    },
+    {
+      "phase": "Evaluation Period",
+      "duration": "Approximately 5 months (as per standard Horizon Europe timeline)",
+      "deliverables": [
+        "Proposal evaluation",
+        "Grant agreement preparation"
+      ]
+    },
+    {
+      "phase": "Implementation Period",
+      "duration": "To be specified in proposal (typically 3-4 years for CSA actions)",
+      "deliverables": [
+        "Pilot access scheme development and testing",
+        "Centrally managed access programme establishment",
+        "User engagement and promotion activities",
+        "Transnational collaboration framework",
+        "Final reporting and evaluation"
+      ]
+    },
+    {
+      "phase": "Post-Implementation",
+      "duration": "Up to 4 years after action end",
+      "deliverables": [
+        "Granting authority may object to transfer of ownership or exclusive licensing of results"
+      ]
+    }
+  ],
+  "targetBeneficiaries": [
+    "Startups developing new technologies",
+    "Scaleups requiring testing and validation facilities",
+    "Innovative SMEs needing access to state-of-the-art research and technology facilities",
+    "Technology Infrastructure operators seeking to broaden user base",
+    "Industrial users in advanced materials sector",
+    "Industrial users in clean energy sector",
+    "Industrial users in health and biotechnology sector",
+    "Companies without access to technology facilities in their local ecosystems"
+  ],
+  "geographicScope": "European Union and Associated Countries",
+  "eligibleCountries": [
+    "EU Member States",
+    "Horizon Europe Associated Countries",
+    "Certain non-EU/non-Associated Countries with specific funding provisions (see Horizon Europe Programme Guide)"
+  ],
+  "keyThemes": [
+    "Technology Infrastructures access",
+    "Innovation support for SMEs",
+    "Startups and scaleups support",
+    "Advanced materials",
+    "Clean energy",
+    "Health and biotechnology",
+    "Open Innovation Test Beds",
+    "Technology transfer",
+    "Multi-site collaboration",
+    "Transnational access",
+    "Technology upscaling and validation",
+    "Time-to-market acceleration",
+    "Strategic autonomy in raw materials and innovative materials"
+  ],
+  "additionalNotes": [
+    "This is a Coordination and Support Action (CSA), not a Research and Innovation Action",
+    "Expected to fund 2 grants from a total budget of 5 million EUR",
+    "Individual grant size ranges from 1.5 to 2.5 million EUR",
+    "Single-stage submission process (no two-stage evaluation)",
+    "Proposals should coordinate with the envisaged European Charter of access for industrial users",
+    "Action should build on existing initiatives like Open Innovation Test Beds or other integrated networks",
+    "Lump sum funding model applies (not traditional cost reimbursement)",
+    "Financial support to third parties may be included for access programme beneficiaries",
+    "Emphasis on simplifying complex access mechanisms and reducing costs for growing innovative companies",
+    "Communication and dissemination are critical components to increase visibility and demonstrate uptake",
+    "Proposals may benefit from sharing best practices with other Technology Infrastructure projects",
+    "The action contributes to the destination: 'Achieving technological leadership for Europe's open strategic autonomy in raw materials, chemicals and innovative materials (2026-27)'",
+    "Standard Horizon Europe eligibility, admissibility, and evaluation procedures apply as per General Annexes",
+    "Model Grant Agreement: Lump Sum MGA applies",
+    "Applicants must use Standard application form (HE CSA) available in Submission System"
+  ]
+}

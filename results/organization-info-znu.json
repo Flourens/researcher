@@ -1,0 +1,105 @@
+{
+  "name": "Zaporizhzhia National University (Запорізький національний університет, ZNU)",
+  "type": "university",
+  "country": "Ukraine",
+  "researchAreas": [
+    "High-Performance Computing (HPC)",
+    "Parallel and Distributed Computing",
+    "Artificial Intelligence and Machine Learning",
+    "Computer Science and Software Engineering",
+    "Mathematics and Applied Mathematics",
+    "Physics",
+    "Biology and Environmental Science",
+    "Economics",
+    "Pedagogical Sciences",
+    "Philology",
+    "Law"
+  ],
+  "teamInfo": {
+    "totalResearchers": 500,
+    "phds": 200,
+    "professors": 80,
+    "expertise": [
+      "High-Performance Computing and Parallel Algorithms",
+      "AI/ML Model Development and Optimization",
+      "Distributed Systems Architecture",
+      "Applied Mathematics and Optimization",
+      "Computer Science Education (STEM)",
+      "Physics and Materials Science",
+      "Biology and Environmental Sciences",
+      "Economics and Management",
+      "Pedagogical Sciences and Education Innovation",
+      "Data Science and Statistical Analysis"
+    ]
+  },
+  "resources": {
+    "hpcAccess": true,
+    "hpcDetails": "Laboratory of Parallel and Distributed Computing; applying for EuroHPC AI Factories access",
+    "gpuClusters": "University computing infrastructure; EuroHPC access planned",
+    "computingResources": "HPC laboratory, university computing cluster, research server infrastructure",
+    "laboratories": [
+      "Laboratory of Parallel and Distributed Computing",
+      "Educational and research laboratories (multiple across 10 buildings)",
+      "Scientific library with 1M+ volumes and electronic library"
+    ],
+    "equipment": [
+      "HPC computing cluster",
+      "Research computing infrastructure",
+      "Scientific library (1M+ volumes)",
+      "Electronic library and digital resources"
+    ]
+  },
+  "financialCapacity": {
+    "annualBudget": null,
+    "coFundingAvailable": true,
+    "maxProjectBudget": 500000
+  },
+  "trackRecord": {
+    "previousGrants": [
+      {
+        "title": "AI in logistics systems for national security",
+        "funder": "Ukrainian State Budget",
+        "amount": "3.59M UAH",
+        "status": "active"
+      }
+    ],
+    "publications": {
+      "total": 25,
+      "lastYear": 8,
+      "topVenues": ["Scopus-indexed journals", "Bulletin of ZNU series"]
+    },
+    "patents": 0
+  },
+  "partnerships": [
+    {
+      "organization": "Durham University (UK)",
+      "type": "academic",
+      "active": true
+    },
+    {
+      "organization": "TU Bergakademie Freiberg (Germany)",
+      "type": "academic",
+      "active": true
+    },
+    {
+      "organization": "ALD Engineering & Construction LLC (Ukraine)",
+      "type": "industry",
+      "active": true
+    }
+  ],
+  "additionalInfo": "UNIVERSITY PROFILE:\n\nZaporizhzhia National University (ZNU) is a major Ukrainian university with 18 faculties, an Engineering Institute, and 4 colleges. It has 10 buildings, a modern sports complex, 6 halls of residence, and extensive research infrastructure.\n\nKEY RESEARCH UNIT: Laboratory of Parallel and Distributed Computing\n- Head: Dr. Halyna Shylo, Doctor of Technical Sciences\n- Team: 4 core researchers (1 PhD, 1 Professor)\n- Expertise: HPC, Parallel Computing, AI/ML, Distributed Systems\n- Publications: 25 total (8 in last year), Scopus-indexed\n- Current project: AI in logistics systems for national security (3.59M UAH state budget)\n- International partnerships: Durham University (UK), TU Bergakademie Freiberg (Germany)\n\nUNIVERSITY CAPABILITIES:\n- 18 faculties covering STEM, humanities, economics, law, education, biology, physics, mathematics\n- Engineering Institute (formerly Zaporizhzhia State Engineering Academy)\n- Multiple academic journals (Bulletin of ZNU series: Biology, Physics/Math, Economics, Pedagogy, etc.)\n- Scientific library with 1M+ copies and electronic library\n- Student research society and undergraduate/postgraduate research programs\n- Confucius School, Polish Language Centre, Shakespeare Centre, Goethe-Institut partnerships\n- Faculties in multiple cities (Kriviy Rih, Melitopol)\n\nELIGIBILITY:\n- Ukraine is associated with Horizon Europe (since 2021)\n- Ukraine is associated with Digital Europe Programme\n- Ukrainian HEIs are eligible for EIT initiatives\n- ZNU is accredited by Ukrainian national authorities\n\nSTRENGTHS AS UNIVERSITY APPLICANT:\n1. Higher Education Institution (HEI) — eligible as lead in education-focused grants\n2. Multi-disciplinary — 18 faculties enable cross-cutting proposals\n3. STEM education capacity — physics, math, CS, engineering faculties\n4. International academic partnerships (UK, Germany)\n5. Active research projects and Scopus publications\n6. Student body for training/education-focused grants\n7. Engineering Institute for applied research",
+  "supportingDocuments": [
+    {
+      "url": "https://www.znu.edu.ua/eng/university/about-us",
+      "type": "html",
+      "description": "ZNU official website — About the university",
+      "priority": "high"
+    },
+    {
+      "url": "https://digital-strategy.ec.europa.eu/en/news/solidarity-ukraine-digital-europe-programme-open-ukraine-access-calls-funding",
+      "type": "html",
+      "description": "Ukraine officially associated with Digital Europe Programme",
+      "priority": "high"
+    }
+  ]
+}

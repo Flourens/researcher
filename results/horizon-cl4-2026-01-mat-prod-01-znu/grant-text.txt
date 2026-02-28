@@ -1,0 +1,397 @@
+GRANT CALL: Advanced manufacturing for key products (IA) (Made in Europe partnership)
+Identifier: HORIZON-CL4-2026-01-MAT-PROD-01
+Call: HORIZON-CL4-2026-01 — INDUSTRY
+Type of Action: HORIZON Innovation Actions
+Deadline: 2026-04-21T00:00:00.000+0000
+Submission: single-stage
+
+=== BUDGET ===
+{
+  "budgetYearsColumns": [
+    "2026"
+  ],
+  "budgetTopicActionMap": {
+    "112841": [
+      {
+        "action": "HORIZON-CL4-2026-01-MAT-PROD-24 - HORIZON-CSA HORIZON Coordination and Support Actions",
+        "expectedGrants": 1,
+        "minContribution": 800000,
+        "maxContribution": 800000,
+        "budgetYearMap": {
+          "2026": "800000"
+        },
+        "plannedOpeningDate": "2026-01-06",
+        "deadlineModel": "single-stage",
+        "deadlineDates": [
+          "2026-04-21"
+        ]
+      }
+    ],
+    "112843": [
+      {
+        "action": "HORIZON-CL4-2026-01-MAT-PROD-13 - HORIZON-CSA HORIZON Coordination and Support Actions",
+        "expectedGrants": 1,
+        "minContribution": 4000000,
+        "maxContribution": 4000000,
+        "budgetYearMap": {
+          "2026": "4000000"
+        },
+        "plannedOpeningDate": "2026-01-06",
+        "deadlineModel": "single-stage",
+        "deadlineDates": [
+          "2026-04-21"
+        ]
+      }
+    ],
+    "112842": [
+      {
+        "action": "HORIZON-CL4-2026-01-MAT-PROD-46 - HORIZON-CSA HORIZON Coordination and Support Actions",
+        "expectedGrants": 1,
+        "minContribution": 2000000,
+        "maxContribution": 2000000,
+        "budgetYearMap": {
+          "2026": "2000000"
+        },
+        "plannedOpeningDate": "2026-01-06",
+        "deadlineModel": "single-stage",
+        "deadlineDates": [
+          "2026-04-21"
+        ]
+      }
+    ],
+    "112845": [
+      {
+        "action": "HORIZON-CL4-2026-01-MAT-PROD-45 - HORIZON-CSA HORIZON Coordination and Support Actions",
+        "expectedGrants": 2,
+        "minContribution": 1500000,
+        "maxContribution": 2500000,
+        "budgetYearMap": {
+          "2026": "5000000"
+        },
+        "plannedOpeningDate": "2026-01-06",
+        "deadlineModel": "single-stage",
+        "deadlineDates": [
+          "2026-04-21"
+        ]
+      }
+    ],
+    "112844": [
+      {
+        "action": "HORIZON-CL4-2026-01-MAT-PROD-01 - HORIZON-IA HORIZON Innovation Actions",
+        "expectedGrants": 6,
+        "minContribution": 6000000,
+        "maxContribution": 8000000,
+        "budgetYearMap": {
+          "2026": "38000000"
+        },
+        "plannedOpeningDate": "2026-01-06",
+        "deadlineModel": "single-stage",
+        "deadlineDates": [
+          "2026-04-21"
+        ]
+      }
+    ],
+    "112847": [
+      {
+        "action": "HORIZON-CL4-2026-01-MAT-PROD-12 - HORIZON-RIA HORIZON  Research and Innovation Actions",
+        "expectedGrants": 3,
+        "minContribution": 5000000,
+        "maxContribution": 7000000,
+        "budgetYearMap": {
+          "2026": "19000000"
+        },
+        "plannedOpeningDate": "2026-01-06",
+        "deadlineModel": "single-stage",
+        "deadlineDates": [
+          "2026-04-21"
+        ]
+      }
+    ],
+    "112846": [
+      {
+        "action": "HORIZON-CL4-2026-01-MAT-PROD-05 - HORIZON-RIA HORIZON  Research and Innovation Actions",
+        "expectedGrants": 7,
+        "minContribution": 5000000,
+        "maxContribution": 6500000,
+        "budgetYearMap": {
+          "2026": "37000000"
+        },
+        "plannedOpeningDate": "2026-01-06",
+        "deadlineModel": "single-stage",
+        "deadlineDates": [
+          "2026-04-21"
+        ]
+      }
+    ],
+    "112849": [
+      {
+        "action": "HORIZON-CL4-2026-01-MAT-PROD-11 - HORIZON-RIA HORIZON  Research and Innovation Actions",
+        "expectedGrants": 3,
+        "minContribution": 5000000,
+        "maxContribution": 7000000,
+        "budgetYearMap": {
+          "2026": "18500000"
+        },
+        "plannedOpeningDate": "2026-01-06",
+        "deadlineModel": "single-stage",
+        "deadlineDates": [
+          "2026-04-21"
+        ]
+      }
+    ],
+    "112848": [
+      {
+        "action": "HORIZON-CL4-2026-01-MAT-PROD-41 - HORIZON-CSA HORIZON Coordination and Support Actions",
+        "expectedGrants": 2,
+        "minContribution": 1000000,
+        "maxContribution": 1000000,
+        "budgetYearMap": {
+          "2026": "2000000"
+        },
+        "plannedOpeningDate": "2026-01-06",
+        "deadlineModel": "single-stage",
+        "deadlineDates": [
+          "2026-04-21"
+        ]
+      }
+    ],
+    "112851": [
+      {
+        "action": "HORIZON-CL4-2026-01-MAT-PROD-04 - HORIZON-RIA HORIZON  Research and Innovation Actions",
+        "expectedGrants": 9,
+        "minContribution": 5000000,
+        "maxContribution": 8000000,
+        "budgetYearMap": {
+          "2026": "64000000"
+        },
+        "plannedOpeningDate": "2026-01-06",
+        "deadlineModel": "single-stage",
+        "deadlineDates": [
+          "2026-04-21"
+        ]
+      }
+    ],
+    "112850": [
+      {
+        "action": "HORIZON-CL4-2026-01-MAT-PROD-14 - HORIZON-IA HORIZON Innovation Actions",
+        "expectedGrants": 4,
+        "minContribution": 7500000,
+        "maxContribution": 7500000,
+        "budgetYearMap": {
+          "2026": "28000000"
+        },
+        "plannedOpeningDate": "2026-01-06",
+        "deadlineModel": "single-stage",
+        "deadlineDates": [
+          "2026-04-21"
+        ]
+      }
+    ],
+    "112853": [
+      {
+        "action": "HORIZON-CL4-2026-01-MAT-PROD-44 - HORIZON-CSA HORIZON Coordination and Support Actions",
+        "expectedGrants": 1,
+        "minContribution": 2500000,
+        "maxContribution": 2500000,
+        "budgetYearMap": {
+          "2026": "2500000"
+        },
+        "plannedOpeningDate": "2026-01-06",
+        "deadlineModel": "single-stage",
+        "deadlineDates": [
+          "2026-04-21"
+        ]
+      }
+    ],
+    "112852": [
+      {
+        "action": "HORIZON-CL4-2026-01-MAT-PROD-31 - HORIZON-RIA HORIZON  Research and Innovation Actions",
+        "expectedGrants": 7,
+        "minContribution": 5000000,
+        "maxContribution": 7000000,
+        "budgetYearMap": {
+          "2026": "43800000"
+        },
+        "plannedOpeningDate": "2026-01-06",
+        "deadlineModel": "single-stage",
+        "deadlineDates": [
+          "2026-04-21"
+        ]
+      }
+    ],
+    "112855": [
+      {
+        "action": "HORIZON-CL4-2026-01-MAT-PROD-48 - HORIZON-IA HORIZON Innovation Actions",
+        "expectedGrants": 25,
+        "minContribution": 200000,
+        "maxContribution": 200000,
+        "budgetYearMap": {
+          "2026": "5000000"
+        },
+        "plannedOpeningDate": "2026-01-06",
+        "deadlineModel": "single-stage",
+        "deadlineDates": [
+          "2026-04-21"
+        ]
+      }
+    ],
+    "112854": [
+      {
+        "action": "HORIZON-CL4-2026-01-MAT-PROD-23 - HORIZON-IA HORIZON Innovation Actions",
+        "expectedGrants": 4,
+        "minContribution": 13000000,
+        "maxContribution": 13000000,
+        "budgetYearMap": {
+          "2026": "50000000"
+        },
+        "plannedOpeningDate": "2026-01-06",
+        "deadlineModel": "single-stage",
+        "deadlineDates": [
+          "2026-04-21"
+        ]
+      }
+    ]
+  }
+}
+
+=== DESTINATION ===
+Achieving technological leadership for Europe’s open strategic autonomy in raw materials, chemicals and innovative materials (2026-27)
+
+=== DESCRIPTION (Expected Outcome & Scope) ===
+Expected Outcome:
+
+- Advanced manufacturing technology and machinery becomes available in Europe for the manufacturing of key and high-performance products;
+- Where relevant, production becomes increasingly circular through the reuse of secondary raw materials; and/or innovative advanced materials are incorporated in manufactured products, leading to better performance and quality;
+- Resource efficiency in terms of materials and energy is increased significantly; and
+- Circularity, productivity and competitiveness are increased, and hence resilience of European industry is enhanced.
+ Scope:
+
+This topic addresses technologies and machinery for advanced manufacturing, focusing on manufacturing excellence and on increasing circularity, including through the better use of innovative advanced materials and secondary raw materials. The focus is on key manufactured components and products that are competitive and have enhanced performance, and contribute to Europe’s technological leadership in manufacturing, but which are at risk of being lost to Europe or rely on raw materials or parts whose supply is mostly coming from outside Europe.
+
+Proposals should develop technologies and machinery to enable the manufacturing of these components with a minimal use of critical raw materials [reference to overall targets] or imported materials. This includes an increased use of secondary raw materials or biobased materials or revalorised components.
+
+Where appropriate to enhance performance and quality, proposals should target the use of innovative advanced materials (such as lightweight, functionalised or self-healing materials). In this case, the development of the advanced materials should not be the main focus of proposals, nevertheless the necessary steps to adapt such innovative advanced materials to the needs of the manufacturing application should be included. These can include digital twins for materials as well as SSbD-design steps.
+
+Examples of advanced manufacturing technologies and machinery include, but are not restricted to:
+
+- Innovative additive manufacturing;
+- Hybrid manufacturing (additive, subtractive);
+- Photonics;
+- Advanced joining technologies;
+- Polymer composite manufacturing;
+- Advanced technologies for surface treatment and structuring, to tailor surface properties for specific applications;
+- Manufacturing of components with lightweight materials; and
+- In-line testing.
+ Proposals should include a business case and exploitation strategy, as outlined in the introduction to this Destination.
+
+The portfolio approach will be used, to ensure that at least one proposal focusing on the automotive industry is funded. However, the production of batteries is not within the scope of this topic.[1]
+
+International cooperation is encouraged, especially with Japan or Taiwan.
+
+This topic implements the co-programmed European Partnership Made in Europe.
+
+null
+
+Activities are expected to start at TRL 5 and achieve TRL 7 by the end of the project – see General Annex B.
+
+[1] The production of batteries (including for automotive use) is addressed by topic HORIZON-CL5-2026-05-D2-03: Integrated Production and Product Development for Next-Generation Lithium-based Batteries for Mobility.
+
+=== CONDITIONS (Eligibility & Evaluation) ===
+">
+### General conditions
+
+### 1. Admissibility Conditions: Proposal page limit and layout
+In order to include a business case and exploitation strategy, as outlined in the introduction to this Destination, the page limit in part B of the General Annexes is exceptionally extended by 3 pages.
+
+﻿Admissibility conditions are ﻿described in Annex A and Annex E of the Horizon Europe Work Programme General Annexes.
+
+Proposal page limits and layout: described in Part B of the Application Form available in the Submission System.
+
+### 2. Eligible Countries
+described in Annex B of the Work Programme General Annexes.
+
+A number of non-EU/non-Associated Countries that are not automatically eligible for funding have made specific provisions for making funding available for their participants in Horizon Europe projects. See the information in the Horizon Europe Programme Guide.
+
+### 3. Other Eligible Conditions
+described in Annex B of the Work Programme General Annexes.
+
+### 4. Financial and operational capacity and exclusion
+described in Annex C of the Work Programme General Annexes.
+
+### 5a. Evaluation and award: Award criteria, scoring and thresholds
+To ensure a balanced portfolio covering also the automotive industry, grants will be awarded to applications not only in order of ranking but at least also to one proposal that is the highest ranked with focus on the automotive industry, provided that the applications attain all thresholds.
+
+are described in Annex D of the Work Programme General Annexes.
+
+### 5b. Evaluation and award: Submission and evaluation processes
+are described in Annex F of the Work Programme General Annexes and the Online Manual.
+
+### 5c. Evaluation and award: Indicative timeline for evaluation and grant agreement
+described in Annex F of the Work Programme General Annexes.
+
+### 6. Legal and financial set-up of the grants
+The granting authority may, up to 4 years after the end of the action, object to a transfer of ownership or to the exclusive licensing of results, as set out in the specific provision of Annex 5.
+
+described in Annex G of the Work Programme General Annexes.
+
+### Specific conditions
+ described in the [specific topic of the Work Programme]
+
+### Application and evaluation forms and model grant agreement (MGA):
+ Application form templates — the application form specific to this call is available in the Submission System
+
+Standard application form (HE RIA, IA)
+
+Evaluation form templates — will be used with the necessary adaptations 
+
+Standard evaluation form (HE RIA, IA)
+
+Guidance
+
+HE Programme Guide
+
+Model Grant Agreements (MGA)
+
+HE MGA
+
+Operating Grants MGA
+
+Framework Partnership Agreement FPA
+
+Call-specific instructions
+
+Information on financial support to third parties (HE)
+
+Information on clinical studies (HE)
+
+### Additional documents:
+ HE Main Work Programme 2026-2027 – 1. General Introduction
+
+HE Main Work Programme 2026-2027 – 7. Digital, Industry and Space
+
+HE Main Work Programme 2026-2027 – 14. Horizontal Activities
+
+HE Main Work Programme 2026-2027 – 15. General Annexes
+
+HE Programme Guide
+
+HE Framework Programme 2021/695
+
+HE Specific Programme Decision 2021/764
+
+EU Financial Regulation 2024/2509
+
+Decision authorising the use of lump sum contributions under the Horizon Europe Programme
+
+Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment
+
+EU Grants AGA — Annotated Model Grant Agreement 
+
+Funding & Tenders Portal Online Manual
+
+Funding & Tenders Portal Terms and Conditions
+
+Funding & Tenders Portal Privacy Statement
+
+=== DOCUMENT LINKS ===
+- HORIZON Innovation Actions: https://ec.europa.eu/research/participants/submission/manage/screen/submission/create-draft/43085?topic=HORIZON-CL4-2026-01-MAT-PROD-01

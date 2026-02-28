@@ -1,0 +1,298 @@
+{
+  "grantTitle": "EIT Higher Education Initiative — Call for Proposals 2025",
+  "grantingOrganization": "European Institute of Innovation and Technology (EIT)",
+  "programName": "EIT Higher Education Initiative (EIT HEI)",
+  "deadline": "2026-03-04T17:00:00+01:00",
+  "summary": "The EIT HEI 2025 Call aims to boost STEM education and strengthen innovation capacity across Europe, targeting 200,000 students, academics and staff by 2028. Projects can focus on either developing innovation/entrepreneurship capacity in STEM education (Topic 1) or strengthening synergies between European university alliances and EIT Knowledge and Innovation Communities (Topic 2). Total funding of EUR 70 million is available for 35-40 projects over 24 months.",
+  "objectives": [
+    "Reinforce Europe's innovation and entrepreneurship capacity in STEM education",
+    "Support the EU's Union of Skills and STEM Education Strategic Plan",
+    "Train 200,000 students, academics and non-academic staff in innovation, entrepreneurship and intellectual property management by 2028",
+    "Integrate entrepreneurship, IP management, and research commercialization into STEM curricula",
+    "Develop innovation and entrepreneurial capacity in STEM talent pipeline",
+    "Build strategic synergies between European university alliances and EIT Knowledge and Innovation Communities",
+    "Unite university alliances with research and business community involvement"
+  ],
+  "requirements": [
+    {
+      "category": "eligibility",
+      "description": "Minimum consortium of 5 partner organizations total",
+      "mandatory": true,
+      "evidence": "List of consortium partners with roles"
+    },
+    {
+      "category": "eligibility",
+      "description": "At least 3 higher education institutions (HEIs) from 3 different Horizon Europe-eligible countries",
+      "mandatory": true,
+      "evidence": "Institutional accreditation documents for each HEI; proof of legal registration in Horizon Europe eligible countries"
+    },
+    {
+      "category": "eligibility",
+      "description": "At least 1 business partner (SME, corporate, or investor)",
+      "mandatory": true,
+      "evidence": "Business partner registration and commitment letter"
+    },
+    {
+      "category": "eligibility",
+      "description": "At least 1 additional non-HEI partner (research organization, civil society, or public body)",
+      "mandatory": true,
+      "evidence": "Partner registration and commitment letter"
+    },
+    {
+      "category": "eligibility",
+      "description": "Topic 2 Special Requirement: All 3 HEIs must be members of the same European Universities alliance established under the European Universities Initiative, or were members after 1 January 2019",
+      "mandatory": true,
+      "evidence": "Proof of membership in European Universities alliance"
+    },
+    {
+      "category": "eligibility",
+      "description": "All partners must be legally registered in Horizon Europe eligible countries",
+      "mandatory": true,
+      "evidence": "Legal registration documentation"
+    },
+    {
+      "category": "administrative",
+      "description": "Innovation Vision Action Plan (IVAP) using provided Part B template",
+      "mandatory": true,
+      "evidence": "Completed Part B template (separate for Topic 1 and Topic 2)"
+    },
+    {
+      "category": "administrative",
+      "description": "HEInnovate self-assessment completion by each participating university",
+      "mandatory": true,
+      "evidence": "HEInnovate self-assessment results from each HEI"
+    },
+    {
+      "category": "administrative",
+      "description": "Top management commitment from HEI leadership",
+      "mandatory": true,
+      "evidence": "Signed commitment letters from university leadership listing participating faculties/departments"
+    },
+    {
+      "category": "administrative",
+      "description": "Confirmation letters from business partners",
+      "mandatory": true,
+      "evidence": "Signed commitment letters from business partners"
+    },
+    {
+      "category": "administrative",
+      "description": "National accreditation proof for each HEI",
+      "mandatory": true,
+      "evidence": "Institutional accreditation documents"
+    },
+    {
+      "category": "administrative",
+      "description": "Participant Identification Codes (PIC) for all organizations",
+      "mandatory": true,
+      "evidence": "PIC registration in EU Participant Portal"
+    },
+    {
+      "category": "financial",
+      "description": "Financial plan and Key Performance Indicators (KPIs)",
+      "mandatory": true,
+      "evidence": "Completed budget template (Excel format) with KPIs"
+    },
+    {
+      "category": "other",
+      "description": "Explanation of complementarity with other EU funding (HORIZON-WIDERA, Erasmus+) to avoid double funding",
+      "mandatory": true,
+      "evidence": "Written explanation in application; duplication risks automatic exclusion"
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "name": "Admissibility Check",
+      "description": "First stage evaluation to ensure application meets basic submission requirements",
+      "weight": 0,
+      "maxScore": 0,
+      "keyIndicators": [
+        "Application submitted before deadline",
+        "Application completeness"
+      ]
+    },
+    {
+      "name": "Eligibility Check",
+      "description": "Second stage evaluation to verify consortium composition and partner eligibility",
+      "weight": 0,
+      "maxScore": 0,
+      "keyIndicators": [
+        "Minimum consortium requirements met (5 partners total)",
+        "Minimum 3 HEIs from 3 different countries",
+        "At least 1 business partner present",
+        "At least 1 additional non-HEI partner",
+        "All partners legally registered in Horizon Europe eligible countries",
+        "Topic 2: HEIs are members of same European Universities alliance"
+      ]
+    },
+    {
+      "name": "External Evaluation",
+      "description": "Third stage comprehensive evaluation of project quality and impact (conducted only if admissibility and eligibility checks pass)",
+      "weight": 0,
+      "maxScore": 0,
+      "keyIndicators": [
+        "Innovation Vision Action Plan quality",
+        "Project impact on STEM education",
+        "Entrepreneurship integration approach",
+        "Partnership strength and ecosystem building",
+        "Sustainability and scalability of proposed activities"
+      ]
+    }
+  ],
+  "budget": {
+    "totalAmount": "EUR 70,000,000",
+    "categories": [
+      {
+        "category": "Project Funding",
+        "description": "Maximum funding per individual project over 24 months",
+        "minAmount": null,
+        "maxAmount": 2000000,
+        "rules": [
+          "Maximum EUR 2 million per project",
+          "35-40 projects expected to be funded",
+          "24-month duration (1 September 2026 — 31 August 2028)"
+        ]
+      },
+      {
+        "category": "Innovation Action Plan Development and Implementation",
+        "description": "Funding for developing and implementing innovation action plans",
+        "minAmount": null,
+        "maxAmount": null,
+        "rules": []
+      },
+      {
+        "category": "Entrepreneurship Program Design and Delivery",
+        "description": "Funding for designing and delivering entrepreneurship programs",
+        "minAmount": null,
+        "maxAmount": null,
+        "rules": []
+      },
+      {
+        "category": "Training and Mentoring Activities",
+        "description": "Funding for training and mentoring students, academics, and staff",
+        "minAmount": null,
+        "maxAmount": null,
+        "rules": []
+      },
+      {
+        "category": "New Innovation Structure Establishment",
+        "description": "Funding for establishing new innovation structures within institutions",
+        "minAmount": null,
+        "maxAmount": null,
+        "rules": []
+      },
+      {
+        "category": "Partnership and Ecosystem Building",
+        "description": "Funding for building partnerships and innovation ecosystems",
+        "minAmount": null,
+        "maxAmount": null,
+        "rules": []
+      },
+      {
+        "category": "Technology Transfer and Startup Support",
+        "description": "Funding for technology transfer activities and supporting startups",
+        "minAmount": null,
+        "maxAmount": null,
+        "rules": []
+      }
+    ],
+    "coFundingRequired": false,
+    "coFundingPercentage": null
+  },
+  "timeline": [
+    {
+      "phase": "Call Launch",
+      "duration": "3 December 2025",
+      "deliverables": [
+        "Call documentation published",
+        "Application portal opened"
+      ]
+    },
+    {
+      "phase": "Application Period",
+      "duration": "3 December 2025 - 4 March 2026",
+      "deliverables": [
+        "Consortium formation",
+        "HEInnovate self-assessments completed",
+        "Innovation Vision Action Plan drafted",
+        "All partners registered with PIC codes",
+        "Application submitted via portal"
+      ]
+    },
+    {
+      "phase": "Evaluation Period",
+      "duration": "March - June 2026",
+      "deliverables": [
+        "Admissibility check",
+        "Eligibility check",
+        "External evaluation",
+        "Evaluation reports prepared"
+      ]
+    },
+    {
+      "phase": "Results Announcement",
+      "duration": "July 2026",
+      "deliverables": [
+        "Selected projects notified with evaluation reports and launch instructions",
+        "Non-selected projects receive feedback reports"
+      ]
+    },
+    {
+      "phase": "Project Implementation",
+      "duration": "24 months (1 September 2026 — 31 August 2028)",
+      "deliverables": [
+        "Innovation action plan implementation",
+        "Entrepreneurship program delivery",
+        "Training and mentoring of students, academics and staff",
+        "Partnership and ecosystem building activities",
+        "Technology transfer and startup support",
+        "Progress reporting and KPI tracking"
+      ]
+    }
+  ],
+  "targetBeneficiaries": [
+    "Higher education institutions (universities and colleges)",
+    "STEM students (targeting 200,000 by 2028)",
+    "Academic staff in STEM disciplines",
+    "Non-academic staff in higher education institutions",
+    "Businesses (SMEs, corporates, investors)",
+    "Research organizations",
+    "Technology and knowledge transfer offices",
+    "Startups and entrepreneurs in STEM fields",
+    "European university alliances (Topic 2)",
+    "EIT Knowledge and Innovation Communities"
+  ],
+  "geographicScope": "European Union and Horizon Europe eligible countries",
+  "eligibleCountries": [
+    "All Horizon Europe eligible countries (EU Member States and Associated Countries)"
+  ],
+  "keyThemes": [
+    "STEM education",
+    "Innovation capacity building",
+    "Entrepreneurship education",
+    "Intellectual property management",
+    "Research commercialization",
+    "Technology transfer",
+    "Startup support",
+    "University-business collaboration",
+    "European university alliances",
+    "Knowledge and Innovation Communities (KICs)",
+    "Higher education innovation",
+    "Skills development",
+    "Curriculum integration"
+  ],
+  "additionalNotes": [
+    "The initiative aims to train 200,000 students, academics and non-academic staff by 2028",
+    "Two distinct topics available: Topic 1 focuses on boosting innovation/entrepreneurship capacity; Topic 2 focuses on synergies between university alliances and EIT KICs",
+    "Previous participants from Cohorts 1-4 are encouraged to apply as 'Innovation & Entrepreneurship Pioneers' to mentor new partners",
+    "Applicants must demonstrate complementarity with other EU funding programs (HORIZON-WIDERA, Erasmus+) to avoid double funding risks",
+    "Each HEI must complete a HEInnovate self-assessment as part of the application",
+    "Top management commitment is required with signed letters listing participating faculties/departments",
+    "Application requires 11 steps including consortium formation, document preparation, and portal submission",
+    "Submission portal: https://seedbook.eitrawmaterials.eu/AddHeiInitiativeProject.aspx?CallId=58006",
+    "Extensive support resources available: 7 recorded info sessions, FAQs, interactive eligibility guide, KIC synergy documents",
+    "EIT Manufacturing and other EIT KICs are involved in administering the call",
+    "Selected projects will join the EIT HEI community post-selection",
+    "National accreditation is mandatory for each participating HEI",
+    "Application deadline is strict: 4 March 2026, 17:00 CET"
+  ]
+}

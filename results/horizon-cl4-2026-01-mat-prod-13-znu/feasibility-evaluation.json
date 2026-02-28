@@ -1,0 +1,313 @@
+{
+  "overallChance": 25,
+  "recommendation": "not_recommended",
+  "executiveSummary": "Zaporizhzhia National University (ZNU) is geographically eligible for this Horizon Europe grant as Ukraine is an associated country. However, this Coordination and Support Action on secondary raw materials monitoring represents a severe mismatch with ZNU's core competencies in High-Performance Computing, AI/ML, and Computer Science. The grant requires deep expertise in raw materials science, waste management, circular economy, mining waste characterization, WEEE processing, biodiversity impact assessment, and natural capital accounting—none of which appear in ZNU's research portfolio or team expertise.\n\nWhile ZNU has strong computational and data science capabilities that could theoretically support monitoring and analysis aspects, the grant fundamentally requires domain expertise in materials science, environmental science, waste processing, and circular economy that ZNU does not demonstrate. The Laboratory of Parallel and Distributed Computing has 4 core researchers focused on HPC and AI—far insufficient for a €4M coordination action requiring pan-European sampling campaigns, multi-stream waste analysis, UNFC classification development, and biodiversity footprint assessment. ZNU's track record shows no publications, projects, or partnerships in raw materials, waste management, or circular economy.\n\nThis opportunity would require ZNU to play a minor computational/data management role in a large consortium led by specialized materials research institutes, environmental agencies, or geological surveys. As a coordination action requiring comprehensive expertise across all specified waste streams and biodiversity assessment frameworks, ZNU cannot credibly lead this proposal. The university should instead focus on Digital Europe Programme calls or Horizon Europe topics aligned with its HPC, AI/ML, and digital skills strengths.",
+  "matchScore": {
+    "overall": 28,
+    "breakdown": [
+      {
+        "category": "Geographic Eligibility",
+        "score": 100,
+        "maxScore": 100,
+        "explanation": "Ukraine is associated with Horizon Europe and explicitly mentioned as a priority partner country for raw materials strategic partnerships. ZNU is fully eligible to participate and lead proposals."
+      },
+      {
+        "category": "Domain Expertise Match",
+        "score": 5,
+        "maxScore": 100,
+        "explanation": "Critical mismatch. Grant requires expertise in: secondary raw materials characterization, waste batteries processing, WEEE analysis, mining waste, slags/ashes, construction/demolition waste, circular economy, UNFC classification, biodiversity footprint assessment, natural capital accounting. ZNU's expertise is in HPC, AI/ML, computer science, mathematics—no demonstrated capability in materials science, waste management, environmental impact assessment, or raw materials."
+      },
+      {
+        "category": "Team Capacity",
+        "score": 10,
+        "maxScore": 100,
+        "explanation": "The Laboratory of Parallel and Distributed Computing has only 4 core researchers. This €4M CSA requires extensive pan-European coordination, multiple waste stream sampling, biodiversity assessment, policy analysis, stakeholder engagement, and data harmonization. Even with university-wide mobilization, ZNU lacks the specialized personnel in materials science, environmental science, waste engineering, and circular economy required for this coordination action."
+      },
+      {
+        "category": "Technical Capability",
+        "score": 35,
+        "maxScore": 100,
+        "explanation": "ZNU has strong data science, HPC, and AI/ML capabilities that could support data collection, harmonization, analysis, and monitoring systems. However, these computational skills are secondary to the core materials science and environmental assessment requirements. ZNU lacks laboratory facilities for waste characterization, in-situ sampling protocols, materials analysis equipment, and biodiversity assessment frameworks."
+      },
+      {
+        "category": "Track Record Relevance",
+        "score": 5,
+        "maxScore": 100,
+        "explanation": "ZNU's documented track record shows 25 publications focused on HPC and AI, one state-funded project on AI in logistics for national security, and no evidence of work in raw materials, waste management, circular economy, UNFC classification, or biodiversity assessment. No relevant EU project experience in materials or environment domains."
+      },
+      {
+        "category": "Partnership Network",
+        "score": 20,
+        "maxScore": 100,
+        "explanation": "ZNU has academic partnerships with Durham University (UK) and TU Bergakademie Freiberg (Germany). TU Freiberg is a mining/materials university which could be highly relevant, but no evidence of active collaboration on raw materials topics. One industry partner (ALD Engineering) but unclear if related to waste/materials. Would need to build entirely new consortium with materials research institutes, waste management agencies, geological surveys, and biodiversity experts across multiple EU countries."
+      },
+      {
+        "category": "Resource Availability",
+        "score": 30,
+        "maxScore": 100,
+        "explanation": "ZNU has HPC infrastructure, computing resources, and a scientific library. However, lacks essential resources for this project: waste sampling and analysis laboratories, materials characterization equipment (XRF, ICP-MS, etc.), field sampling teams, biodiversity assessment tools, access to waste facilities across EU Member States. The €4M budget is far beyond ZNU's stated maximum project budget of €500K, indicating potential absorption capacity concerns."
+      },
+      {
+        "category": "Financial & Administrative Capacity",
+        "score": 40,
+        "maxScore": 100,
+        "explanation": "As a major national university, ZNU likely has basic financial and administrative systems. However, no evidence of managing €4M EU coordination actions. No documented experience with Horizon Europe lump sum grants, multi-country consortium coordination, or complex clustering activities. The administrative requirements for pan-European sampling campaigns, multi-stakeholder coordination, and mandatory data sharing protocols would be new territory."
+      }
+    ]
+  },
+  "strengths": [
+    {
+      "area": "Geographic Eligibility and Strategic Priority",
+      "description": "Ukraine is fully associated with Horizon Europe and explicitly mentioned in the call text as a priority country for international cooperation on raw materials strategic partnerships. ZNU's location could be viewed favorably for Eastern European participation and post-conflict reconstruction considerations.",
+      "impact": "medium"
+    },
+    {
+      "area": "Data Science and Computing Infrastructure",
+      "description": "ZNU has demonstrated capabilities in HPC, parallel computing, AI/ML, and data analysis through its Laboratory of Parallel and Distributed Computing. These skills could support the data harmonization, monitoring system development, and analytical aspects of the project.",
+      "impact": "low"
+    },
+    {
+      "area": "Multi-disciplinary University Structure",
+      "description": "With 18 faculties including physics, biology, environmental science, mathematics, and economics, ZNU theoretically has access to diverse academic expertise that could be mobilized if individuals with relevant materials/environmental experience can be identified.",
+      "impact": "low"
+    },
+    {
+      "area": "Existing International Partnerships",
+      "description": "Partnership with TU Bergakademie Freiberg (Germany) is potentially valuable, as Freiberg is a leading mining and materials university. If this partnership can be activated for materials science expertise, it could strengthen consortium credibility.",
+      "impact": "low"
+    }
+  ],
+  "weaknesses": [
+    {
+      "area": "Complete Domain Mismatch",
+      "description": "ZNU's entire research profile focuses on HPC, AI/ML, computer science, and mathematics. The grant requires deep expertise in secondary raw materials characterization, waste stream analysis (batteries, WEEE, mining waste, slags/ashes, C&D waste), circular economy, UNFC classification, and biodiversity footprint assessment. No evidence of any work in these domains.",
+      "severity": "critical",
+      "mitigation": "Cannot be fully mitigated. ZNU would need to play a minor computational support role in a consortium led by materials research institutes or environmental agencies. Consider partnering with specialized institutes rather than attempting to lead."
+    },
+    {
+      "area": "No Relevant Track Record",
+      "description": "The 25 publications are in HPC/AI domains, not materials science or environmental assessment. No documented projects on waste management, raw materials, circular economy, or biodiversity. EU evaluators will find no evidence of competence in the required technical areas.",
+      "severity": "critical",
+      "mitigation": "Build consortium with partners who have strong track records in raw materials monitoring, waste characterization, and environmental impact assessment. Position ZNU as data management/IT support partner, not technical lead."
+    },
+    {
+      "area": "Insufficient Team Capacity",
+      "description": "4 core researchers in the main laboratory cannot execute a €4M pan-European coordination action requiring waste sampling across multiple countries, laboratory analysis of diverse waste streams, biodiversity assessment, policy analysis, stakeholder coordination, and clustering activities. Severely understaffed for project scale.",
+      "severity": "critical",
+      "mitigation": "Would require massive consortium with multiple specialized partners handling different work packages. ZNU could only credibly lead coordination and data management components with partners handling technical execution."
+    },
+    {
+      "area": "Missing Laboratory Infrastructure",
+      "description": "Grant requires in-situ sampling and analysis of waste batteries, WEEE, mining waste, slags/ashes, and construction/demolition waste. ZNU has HPC infrastructure but no evidence of materials characterization labs (XRF, SEM, ICP-MS), waste processing facilities, or environmental testing capabilities.",
+      "severity": "critical",
+      "mitigation": "Must partner with institutions that have established waste analysis laboratories and field sampling capabilities. ZNU cannot provide the core technical infrastructure required."
+    },
+    {
+      "area": "No UNFC or Natural Capital Accounting Experience",
+      "description": "Grant mandates use of UNFC (United Nations Framework Classification) for resource classification and UN WCMC natural capital accounting frameworks for biodiversity assessment. These are highly specialized methodologies with no evidence of ZNU experience.",
+      "severity": "major",
+      "mitigation": "Partner with geological surveys, environmental agencies, or research institutes that participate in UNECE-UNFC expert groups and have biodiversity assessment expertise. Mandatory for compliance."
+    },
+    {
+      "area": "Limited EU Coordination Experience",
+      "description": "No documented experience coordinating multi-country EU projects, managing Horizon Europe lump sum grants, or executing coordination and support actions. The administrative complexity of pan-European sampling campaigns, multi-partner coordination, and mandatory clustering activities would be new territory.",
+      "severity": "major",
+      "mitigation": "Recruit experienced EU project manager, partner with institutions experienced in Horizon Europe CSAs, establish robust project management structures, or take supporting role rather than coordinator position."
+    },
+    {
+      "area": "Budget Absorption Capacity",
+      "description": "ZNU states maximum project budget capacity of €500K, but this grant is €4M lump sum. Significant gap suggests potential challenges in financial management, consortium coordination, and resource mobilization at this scale.",
+      "severity": "major",
+      "mitigation": "If pursuing, must build strong consortium where budget is distributed across multiple capable partners. Ensure robust financial management systems and consider if coordinator role is realistic given stated capacity constraints."
+    },
+    {
+      "area": "No Circular Economy or Waste Management Network",
+      "description": "Grant requires engagement with recycling companies, waste management operators, statistical offices, policy makers, and circular economy stakeholders across EU. ZNU's partnerships are academic (Durham, Freiberg) and one engineering company—no demonstrated network in waste/circular economy sectors.",
+      "severity": "major",
+      "mitigation": "Must build consortium including recycling industry associations, waste management companies, environmental agencies, and policy institutes. This network building would need to happen before proposal submission."
+    }
+  ],
+  "gaps": [
+    {
+      "type": "technical",
+      "description": "No expertise in secondary raw materials characterization, waste stream analysis, or materials science. Core technical requirements of the grant cannot be fulfilled with existing team.",
+      "severity": "critical",
+      "recommendation": "Partner with specialized materials research institutes (e.g., technical universities with mining/materials departments, geological surveys, environmental research centers) who can lead technical work packages on waste characterization and materials analysis."
+    },
+    {
+      "type": "technical",
+      "description": "No demonstrated experience with UNFC classification system for anthropogenic resources or participation in UNECE-UNFC expert groups.",
+      "severity": "critical",
+      "recommendation": "Include partners from geological surveys or research institutes that actively participate in UNFC expert groups and have experience classifying anthropogenic resources. Consider linking with FUTURAM project participants."
+    },
+    {
+      "type": "technical",
+      "description": "No capability in biodiversity footprint assessment or natural capital accounting frameworks (UN WCMC methodologies required by grant).",
+      "severity": "critical",
+      "recommendation": "Partner with environmental research institutes or universities with ecology/biodiversity departments experienced in natural capital accounting. Look for partners from projects funded under HORIZON-CL6-2021-BIODIV-01-15 mentioned in call."
+    },
+    {
+      "type": "resources",
+      "description": "No waste analysis laboratories, materials characterization equipment (XRF, ICP-MS, SEM, etc.), or field sampling infrastructure required for in-situ waste characterization across EU regions.",
+      "severity": "critical",
+      "recommendation": "Build consortium with partners who operate waste research facilities, recycling pilot plants, or environmental testing laboratories. Need partners in multiple EU regions for geographic coverage."
+    },
+    {
+      "type": "team",
+      "description": "Team size (4 core researchers) insufficient for €4M coordination action requiring waste sampling, laboratory analysis, data harmonization, policy analysis, stakeholder engagement, and clustering across multiple countries and waste streams.",
+      "severity": "critical",
+      "recommendation": "Recruit large consortium (10-15+ partners) to distribute workload. ZNU could lead data management/IT work package but cannot coordinate entire project without massive team expansion. Consider supporting role instead of coordinator."
+    },
+    {
+      "type": "experience",
+      "description": "No track record in EU-funded projects on raw materials, waste management, circular economy, or environmental assessment. No publications in these domains.",
+      "severity": "major",
+      "recommendation": "Partner with organizations that have strong Horizon 2020/Horizon Europe track records in raw materials and circular economy topics. Learn from their experience with EU project management and evaluation criteria."
+    },
+    {
+      "type": "team",
+      "description": "No policy analysis expertise for monitoring WEEE directive evolution, analyzing raw materials trade agreements, or contributing to EU statistics development.",
+      "severity": "major",
+      "recommendation": "Include policy research institutes, economic think tanks, or statistical offices as partners to handle policy analysis, foresight, and statistics development work packages."
+    },
+    {
+      "type": "administrative",
+      "description": "No documented experience managing Horizon Europe lump sum grants or coordinating complex clustering activities with multiple EU projects.",
+      "severity": "major",
+      "recommendation": "Hire experienced EU project manager, establish mentorship relationship with institution experienced in H2020/HE coordination, or take partner role in consortium led by experienced coordinator."
+    },
+    {
+      "type": "resources",
+      "description": "No established network with waste management operators, recycling companies, statistical offices, and industry stakeholders across EU Member States required for data collection and validation.",
+      "severity": "major",
+      "recommendation": "Build consortium including industrial partners (recycling companies, waste management associations), statistical offices (Eurostat connections), and industry associations representing different waste streams (batteries, WEEE, mining, construction)."
+    }
+  ],
+  "risks": [
+    {
+      "category": "Technical Credibility",
+      "description": "Evaluators will immediately identify the severe mismatch between ZNU's HPC/AI expertise and the grant's materials science/environmental requirements. Proposal may be rejected as non-compliant or score very low on Excellence criterion due to lack of demonstrated technical capability in required domains.",
+      "probability": "high",
+      "impact": "high",
+      "mitigation": "Only participate as junior partner focused on data management/IT infrastructure. Do not attempt to lead proposal or claim technical expertise in materials science. Build consortium with credible materials research institutes as technical leads."
+    },
+    {
+      "category": "Capacity Overstretch",
+      "description": "€4M project requiring pan-European coordination far exceeds ZNU's stated €500K project capacity and 4-person core team. Risk of being overwhelmed by administrative burden, unable to fulfill sampling and analysis requirements, or failing to deliver mandatory outputs.",
+      "probability": "high",
+      "impact": "high",
+      "mitigation": "Acknowledge realistic capacity limits. Only join as partner with well-defined, limited scope (e.g., data platform development, monitoring system IT infrastructure). Ensure experienced coordinator manages overall project."
+    },
+    {
+      "category": "Competitive Positioning",
+      "description": "This call will attract leading European materials research institutes, geological surveys, environmental agencies, and recycling industry consortia with decades of experience in raw materials and waste management. ZNU cannot compete for coordination role against institutions like BRGM (France), BGR (Germany), JRC (EU), or technical universities with mining departments.",
+      "probability": "high",
+      "impact": "high",
+      "mitigation": "Do not attempt to compete head-to-head. Instead, identify how ZNU's unique capabilities (Ukrainian perspective, computing infrastructure, TU Freiberg partnership) can add value to a strong consortium. Position as specialized contributor, not lead."
+    },
+    {
+      "category": "Mandatory Requirement Non-Compliance",
+      "description": "Grant has mandatory requirements for UNFC classification development, biodiversity footprint assessment, in-situ sampling across EU, and monitoring of specific waste streams. Without specialized expertise and infrastructure, ZNU-led proposal may be declared ineligible or score 0 on mandatory criteria.",
+      "probability": "high",
+      "impact": "high",
+      "mitigation": "Ensure consortium includes partners with proven expertise in all mandatory technical areas. Document each partner's specific qualifications and track record. Do not leave any mandatory requirement without credible responsible partner."
+    },
+    {
+      "category": "Wartime Context",
+      "description": "ZNU is located in Ukraine during active conflict. While Ukrainian eligibility is not questioned, evaluators may have concerns about ability to execute pan-European fieldwork, maintain project continuity, ensure researcher safety, and coordinate complex multi-country activities from conflict-affected location.",
+      "probability": "medium",
+      "impact": "medium",
+      "mitigation": "Emphasize robust consortium structure with EU-based partners handling fieldwork. Highlight ZNU's operational continuity despite war. Position Ukrainian participation as adding unique post-conflict raw materials recovery perspective. Ensure backup coordination arrangements."
+    },
+    {
+      "category": "Partnership Dependency",
+      "description": "ZNU's ability to participate meaningfully depends entirely on recruiting strong partners with complementary expertise. No evidence of existing relationships with materials research institutes, environmental agencies, or waste management industry. Building credible consortium from scratch within timeline may not be feasible.",
+      "probability": "medium",
+      "impact": "high",
+      "mitigation": "Begin immediate outreach to TU Freiberg to leverage existing relationship. Identify other Ukrainian institutions with materials/environmental expertise for national consortium. Seek invitations to join existing consortia rather than building from scratch."
+    },
+    {
+      "category": "Budget Management",
+      "description": "Lump sum grant model requires upfront estimation of all costs. No experience with this Horizon Europe mechanism. Risk of budget miscalculation, inability to adjust during implementation, or financial strain if actual costs exceed lump sum.",
+      "probability": "medium",
+      "impact": "medium",
+      "mitigation": "Study Horizon Europe lump sum guidelines carefully. Consult with institutions experienced in lump sum CSAs. Build sufficient contingency into work plan. Ensure financial management capacity assessment is honest about experience level."
+    },
+    {
+      "category": "Clustering Obligations",
+      "description": "Mandatory clustering activities with other raw materials projects require time, travel, and coordination effort. As newcomer to raw materials domain, ZNU may struggle to contribute meaningfully to technical discussions with established projects and may be seen as outsider.",
+      "probability": "low",
+      "impact": "medium",
+      "mitigation": "If participating, assign clustering role to partner with existing raw materials network. Focus ZNU's clustering contribution on computational/data management aspects where expertise is credible. Prepare to invest time in learning domain context."
+    }
+  ],
+  "requiredActions": [
+    {
+      "priority": "critical",
+      "action": "Conduct honest internal assessment of whether participating in this grant aligns with ZNU's strategic research priorities and capabilities. If raw materials/circular economy is not a priority domain, decline this opportunity and focus on better-matched calls.",
+      "timeline": "Immediate (within 1 week)"
+    },
+    {
+      "priority": "critical",
+      "action": "If deciding to pursue: Contact TU Bergakademie Freiberg immediately to explore potential collaboration. Freiberg has strong materials science expertise that could anchor a credible consortium. Determine if they are planning a proposal and if ZNU could contribute as computing/data partner.",
+      "timeline": "Immediate (within 2 weeks)"
+    },
+    {
+      "priority": "critical",
+      "action": "Identify Ukrainian research institutes with materials science, mining, environmental assessment, or waste management expertise (e.g., National Academy of Sciences institutes, technical universities). Explore forming Ukrainian sub-consortium to strengthen proposal relevance and share workload.",
+      "timeline": "Within 1 month"
+    },
+    {
+      "priority": "high",
+      "action": "Research existing Horizon 2020/Horizon Europe projects in raw materials and circular economy (especially FUTURAM project mentioned in call). Identify active consortia and reach out about potential collaboration or lessons learned. Look for existing networks seeking Ukrainian partner.",
+      "timeline": "Within 1 month"
+    },
+    {
+      "priority": "high",
+      "action": "Conduct detailed gap analysis comparing grant's mandatory requirements against ZNU's actual capabilities. For each technical requirement (UNFC, biodiversity assessment, waste characterization, etc.), identify which must be covered by partners and document this realistically in planning.",
+      "timeline": "Within 1 month"
+    },
+    {
+      "priority": "high",
+      "action": "Define realistic, limited role for ZNU focused on data management, monitoring system IT infrastructure, or computational analysis—areas where existing expertise is credible. Prepare to propose this supporting role to potential consortium coordinators.",
+      "timeline": "Within 1 month"
+    },
+    {
+      "priority": "medium",
+      "action": "Research UNECE-UNFC expert group on Anthropogenic Resources and identify participating institutions. These would be ideal partners for UNFC classification work package. Reach out about collaboration possibilities.",
+      "timeline": "Within 2 months"
+    },
+    {
+      "priority": "medium",
+      "action": "Study Horizon Europe lump sum grant model and CSA requirements. Review evaluation criteria carefully. Attend any available info sessions or webinars about this call. Understand what evaluators will expect from credible proposals.",
+      "timeline": "Within 2 months"
+    },
+    {
+      "priority": "medium",
+      "action": "If pursuing coordinator role despite risks: Recruit experienced EU project manager with Horizon Europe CSA experience. Establish project management office with dedicated administrative support. This cannot be managed as side activity by researchers.",
+      "timeline": "Within 2 months"
+    },
+    {
+      "priority": "low",
+      "action": "Review ZNU's broader research portfolio across all 18 faculties to identify any individuals with relevant materials science, environmental science, mining, or waste management background who could contribute. Check publication records in these domains.",
+      "timeline": "Within 2 months"
+    },
+    {
+      "priority": "low",
+      "action": "Contact European Commission's raw materials unit or National Contact Points to understand evaluation priorities and get guidance on Ukrainian participation expectations. Clarify if Ukrainian perspective on post-conflict raw materials recovery could be valuable angle.",
+      "timeline": "Within 3 months"
+    }
+  ],
+  "strategicRecommendations": [
+    "Prioritize better-matched opportunities: This grant represents a poor strategic fit for ZNU. The university should focus on calls aligned with demonstrated strengths in HPC, AI/ML, digital skills, and computer science education. Digital Europe Programme, EuroHPC, HORIZON-CL4 digital and AI topics, or Marie Skłodowska-Curie Actions in computing fields would offer much higher success probability.",
+    "Do not attempt to lead this proposal: ZNU lacks the domain expertise, track record, infrastructure, and team capacity to credibly coordinate this €4M raw materials monitoring action. Attempting to lead would result in low evaluation scores and damage reputation with evaluators. Only participate as specialized partner if invited by strong coordinator.",
+    "Define narrow, credible contribution: If participating, ZNU should offer a well-defined role as data management and monitoring system IT infrastructure provider. Focus on developing databases, data harmonization platforms, monitoring dashboards, and computational analysis—areas where HPC/AI expertise is genuinely valuable and credible.",
+    "Leverage TU Freiberg partnership strategically: The existing relationship with TU Bergakademie Freiberg (leading mining/materials university) is ZNU's strongest asset for this call. Explore if Freiberg is planning a proposal and how ZNU could contribute meaningfully. Learn from their materials science expertise and European project experience.",
+    "Build Ukrainian materials research network: If Ukraine's raw materials sector is strategic priority, use this as catalyst to establish partnerships with Ukrainian materials science institutes, mining companies, and environmental agencies. This network would strengthen future proposals and position ZNU as connector between computing and materials domains in Ukraine.",
+    "Understand evaluator perspective: EU evaluators will compare this proposal against submissions from leading materials research institutes with decades of relevant experience. ZNU must demonstrate unique value-add (Ukrainian perspective, computing capabilities, specific methodological innovation) rather than attempting to replicate established institutes' core competencies.",
+    "Be honest about capacity: With €500K stated max project budget and 4 core researchers, ZNU should not commit to roles beyond realistic capacity. Overcommitment risks project failure, financial problems, and damage to institutional reputation. Better to decline opportunity than accept role that cannot be fulfilled successfully.",
+    "Learn for future opportunities: Even if not pursuing this specific grant, study the call carefully to understand how EU raw materials and circular economy topics are structured. This knowledge could be valuable if ZNU decides to strategically expand into environmental informatics, materials data science, or circular economy digital solutions in future.",
+    "Consider alternative entry points: Rather than jumping directly to €4M coordination action, ZNU could build materials/environmental track record through smaller roles in ERA-NET projects, bilateral collaborations with TU Freiberg, or national Ukrainian projects on post-war reconstruction and resource recovery. This would create foundation for future EU applications.",
+    "Align with institutional strategy: ZNU should evaluate if diversifying into materials science and circular economy aligns with broader institutional research strategy, or if efforts should remain focused on deepening excellence in HPC, AI, and digital technologies where university already has recognized strengths and competitive advantages."
+  ]
+}
