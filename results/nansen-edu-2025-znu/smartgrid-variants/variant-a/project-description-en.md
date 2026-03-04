@@ -1,0 +1,459 @@
+# PROJECT DESCRIPTION — NANSEN EDU 2025
+# AI-Powered Smart Grid Education for Ukraine's Energy Resilience (AI-SmartGrid)
+
+**Coordinator:** NTNU (Norwegian University of Science and Technology)
+**Ukrainian Partner 1:** Zaporizhzhia National University (ZNU)
+**Ukrainian Partner 2:** [To be confirmed]
+**Duration:** 3 years (July 2026 – June 2029)
+**Budget:** NOK 5,000,000
+
+---
+
+## 1. Relevance of the Project
+
+### 1.1 Background and Needs of the Project
+
+## 1.1 Background and Needs of the Project
+
+### The Energy Crisis Facing Ukraine
+
+Russia's full-scale invasion of Ukraine, launched in February 2022, has inflicted catastrophic damage on the country's energy infrastructure. By late 2024, coordinated missile and drone strikes had damaged or destroyed over 80% of Ukraine's thermal power generation capacity, approximately 50% of hydropower generation capacity, and critical transmission and distribution infrastructure across all regions [1]. The Ukrainian power system operator, Ukrenergo, reports that the country regularly faces power deficits exceeding 5–6 GW during peak demand periods, resulting in rolling blackouts of 8–12 hours per day for households and businesses [2]. The direct costs of energy infrastructure destruction are estimated at USD 56 billion, with reconstruction requiring sustained investment over a decade [3].
+
+Zaporizhzhia Oblast occupies a uniquely critical and tragic position within this crisis. The region is home to the Zaporizhzhia Nuclear Power Plant (ZNPP) — Europe's largest nuclear facility — which has been under Russian occupation since March 2022, effectively removing 6 GW of baseload capacity from Ukraine's grid. The city of Zaporizhzhia itself sits on the front line of active combat operations, experiencing frequent targeted strikes on electrical substations, transformer stations, and distribution networks. The destruction of the Kakhovka Hydroelectric Power Plant dam in June 2023 — a critical node of regional energy infrastructure — further compounded the energy emergency in the Zaporizhzhia-Kherson corridor [4]. Despite these conditions, Zaporizhzhia National University (ZNU) has maintained educational continuity through blended learning, cloud-based infrastructure, and institutional resilience measures, demonstrating precisely the adaptive capacity that Ukraine's future energy workforce must embody.
+
+### The Urgent Need for AI-Capable Energy Engineers
+
+Ukraine's reconstruction is not simply a matter of rebuilding what was destroyed. The European Commission's Ukraine Facility (EUR 50 billion, 2024–2027) and the Ukraine Recovery Plan both mandate that reconstruction proceed according to the EU Green Deal principles: new energy infrastructure must integrate high shares of distributed renewable energy sources (DRES), comply with EU grid codes, and be managed through intelligent, digital control systems [5]. This means that the engineers tasked with rebuilding Ukraine's grid must possess competencies that did not exist in Ukraine's pre-war engineering workforce at scale — specifically, the ability to design, operate, and optimise AI-driven smart grid systems.
+
+A 2023 assessment by the Ukrainian Energy Association and the International Renewable Energy Agency (IRENA) identified a critical shortfall of over 15,000 qualified energy engineers with digital and AI competencies needed for the reconstruction period through 2030 [6]. Ukrainian higher education institutions (HEIs), while historically strong in classical electrical engineering, have not yet developed curricula that integrate machine learning, neural network architectures, digital twin modelling, and reinforcement learning in the context of power systems management. The legacy Soviet-era curriculum frameworks that still shape many Ukrainian engineering programmes were not designed for grid architectures with 40–60% renewable penetration, prosumer microgrids, or real-time AI-driven demand response — all of which are central to Ukraine's reconstruction energy plans [7].
+
+### Why This Project Is Needed Now
+
+The window for impactful educational intervention is narrow and critically timed. Ukraine's reconstruction surge is projected to commence at scale between 2026 and 2030, coinciding precisely with the duration of this project. Engineers graduating from Ukrainian HEIs between 2027 and 2032 will be the primary human capital resource for grid reconstruction. If Ukrainian universities do not upgrade their curricula before 2026–2027, there will be a systemic mismatch between graduate competencies and reconstruction requirements, slowing recovery and increasing reliance on expensive foreign expertise. AI-SmartGrid directly addresses this timing imperative.
+
+Moreover, the specific technical challenges of Ukraine's reconstructed grid — managing a fragmented, partially decentralised system with high renewable penetration, significant load uncertainty due to population displacement, and security-critical infrastructure — demand AI and machine learning approaches that classical control theory cannot adequately address. Neural network-based load forecasting models trained on disrupted demand patterns, reinforcement learning agents for real-time dispatch optimisation under uncertainty, anomaly detection algorithms for early fault warning in degraded infrastructure, and digital twin environments for safe system testing are not elective additions to the curriculum; they are prerequisites for competent grid management in post-war Ukraine.
+
+### Target Groups and Their Specific Needs
+
+**Primary target group: Ukrainian engineering students.** ZNU currently enrols approximately 1,200 students in engineering, computer science, and mathematics programmes at bachelor's and master's levels. Ukrainian Partner 2 (to be confirmed) contributes an estimated additional 800–1,000 engineering students. AI-SmartGrid targets a direct cohort of **120 students** across both Ukrainian partners over three years: 40 per year enrolling in newly developed AI-SmartGrid modules, drawn primarily from electrical engineering, computer science, and applied mathematics programmes. These students will graduate with competencies directly matched to the reconstruction labour market demand.
+
+**Secondary target group: Academic staff at Ukrainian HEIs.** An estimated 18–22 academic staff members at ZNU and Ukrainian Partner 2 teach in relevant fields but lack current expertise in AI applications for power systems. AI-SmartGrid will train **20 academic staff** through structured exchange visits to NTNU, online intensive workshops, and co-teaching arrangements, creating a sustainable internal capacity for ongoing curriculum delivery.
+
+**Tertiary target group: Ukrainian energy industry professionals.** ZNU's Hydropower Professional College and Engineering Institute maintain active links with regional energy utilities, including those managing Zaporizhzhia's remaining thermal and distribution assets. AI-SmartGrid will develop **2 professional short courses** (each 40 hours) targeted at practising engineers in Ukrainian energy companies, reaching an estimated **60 industry professionals** over the project period.
+
+### Concrete, Measurable Planned Results (SMART Objectives)
+
+The project pursues five SMART result targets, benchmarked against a baseline of zero institutionally accredited AI-for-smart-grids content at either Ukrainian partner as of January 2026:
+
+1. **Curriculum**: Develop and gain institutional accreditation for **6 new academic modules** (each 5 ECTS) covering: (i) neural network load forecasting, (ii) reinforcement learning for grid optimisation, (iii) anomaly detection and fault prediction, (iv) AI-driven demand response systems, (v) digital twin modelling of electrical networks, (vi) integration of DRES in smart grids. Modules to be embedded in master's programmes at both Ukrainian partners by Month 24.
+
+2. **Student training**: Enrol and successfully complete training for **120 Ukrainian students** (≥40% women) in new AI-SmartGrid modules; award **12 scholarships** for student mobility to NTNU (up to 10 months each); achieve a graduate employment rate of ≥70% in energy/digital sectors within 12 months of graduation (tracked via alumni survey).
+
+3. **Staff development**: Complete structured training for **20 academic staff** (≥35% women) across both Ukrainian partners; conduct **12 staff exchange visits** to NTNU (each 5–10 days) and **8 reverse visits** by NTNU staff to Ukrainian partners; achieve measurable competency gain assessed through pre/post skills assessment.
+
+4. **Infrastructure**: Establish a **Joint AI-SmartGrid Living Lab** at ZNU, utilising campus solar installations (real operational data), Azure cloud infrastructure, and ZNU's HPC Laboratory of Parallel and Distributed Computing as AI model training environment; develop and publicly release **4 open-source digital twin simulation datasets** from Ukrainian grid scenarios.
+
+5. **Sustainability and dissemination**: Produce **6 peer-reviewed publications** in indexed journals; present at **4 international conferences**; achieve adoption of AI-SmartGrid curriculum modules by at least **2 additional Ukrainian HEIs** beyond the consortium by project end (Month 36); secure letters of intent for at least **1 follow-on Horizon Europe application** by Month 30.
+
+### 1.2 Alignment with Other Activities and Innovative Elements
+
+## 1.2 Alignment with Other Activities and Innovative Elements
+
+### Building on Partners' Existing Strengths
+
+AI-SmartGrid is designed as a convergence point for complementary, pre-existing research and educational capacities at both Norwegian and Ukrainian partners, ensuring that project resources amplify established work rather than begin from zero.
+
+At NTNU, the Department of Electric Energy and the affiliated SINTEF Energy Research partnership constitute one of Europe's most productive research environments for power systems, energy markets, and smart grid technologies. NTNU's National Smart Grid Laboratory (co-operated with SINTEF) provides access to real-time hardware-in-the-loop testing infrastructure directly relevant to the digital twin components of AI-SmartGrid [8]. NTNU's Faculty of Information Technology and Electrical Engineering (IE) has delivered master's-level curricula in power systems AI and machine learning since 2019 and published extensively on neural network load forecasting, reinforcement learning for energy market participation, and anomaly detection in grid systems — precisely the technical domains of this project. NTNU brings tested pedagogical frameworks, existing lecture materials, and validated assessment instruments that can be adapted for the Ukrainian context, significantly reducing curriculum development time and risk.
+
+At ZNU, the project builds on three active institutional pillars. First, ZNU's Smart Grids and Renewable Energy Systems research group has conducted applied research on distributed generation integration and energy resilience in conflict-affected power systems since 2022 — work directly motivated by the Zaporizhzhia energy emergency. Second, the Laboratory of Parallel and Distributed Computing (Faculty of Mathematics) provides high-performance computing resources specifically suited to training large AI models for power system applications, a capability rare among Ukrainian regional HEIs. Third, ZNU's campus solar photovoltaic installations and cogeneration systems generate real operational data — load profiles, generation patterns, and grid interaction data — that will serve as the primary training dataset for student AI model development, grounding coursework in authentic Ukrainian energy system conditions. ZNU's Microsoft Azure cloud infrastructure further ensures that computationally intensive digital twin simulations can be delivered at scale to students even under wartime infrastructure constraints.
+
+### Complementarity with Existing Initiatives
+
+AI-SmartGrid is carefully positioned to complement, not duplicate, the existing landscape of international educational cooperation involving ZNU and the broader Ukrainian higher education system.
+
+ZNU currently participates in **14 active Erasmus+ projects**, which address institutional capacity building, curriculum modernisation, and student/staff mobility across multiple fields. However, none of ZNU's current Erasmus+ portfolio specifically addresses AI applications in power systems or smart grid engineering — a gap that AI-SmartGrid fills directly. The project team has reviewed Erasmus+ CBHE projects funded under the 2022–2024 calls and confirmed that no existing project covers the specific intersection of AI/ML, digital twins, and smart grid management for Ukrainian HEIs [9].
+
+ZNU's three active **Horizon Europe MSCA projects** focus on materials science, electrochemistry, and high-entropy alloys — research domains distinct from energy systems AI. The **UA-UK Twinning project** with Durham University and the **DAAD Ukraine Digital** project address digital transformation broadly but do not encompass smart grid engineering. AI-SmartGrid thus occupies a well-defined and unoccupied niche within ZNU's international portfolio.
+
+At the national level, the **EU4Energy** programme and the **USAID Energy Security Project** have supported Ukrainian energy sector reform and infrastructure investment but focus on policy, regulation, and physical infrastructure rather than higher education curriculum development. The **Ukraine Recovery Plan's** Human Capital pillar explicitly calls for university-level STEM curriculum modernisation in energy and digital technologies, identifying this as a gap requiring targeted intervention — the very gap AI-SmartGrid addresses [5].
+
+The project is further informed by the **NTNU–ZNU Joint Cooperation Roadmap 2026–2028**, a bilateral strategic document signed in 2025 that identifies Smart, Flexible and Secure Energy Systems as a priority cooperation area, with AI-SmartGrid serving as the foundational educational project of this partnership axis. This pre-existing roadmap reduces partnership formation risks and demonstrates genuine long-term institutional commitment beyond the project funding period.
+
+### Innovative Elements
+
+AI-SmartGrid introduces four specific innovations that distinguish it from comparable educational initiatives:
+
+**1. War-context AI training datasets.** Most smart grid AI curricula worldwide are designed for stable, peacetime grid scenarios. AI-SmartGrid will develop dedicated training datasets derived from Ukrainian grid disruption events — load shedding patterns, generation shortfalls, partial network reconfiguration events — making the AI models students develop specifically calibrated to the reconstruction challenge. This is a novel pedagogical contribution with direct applied relevance.
+
+**2. Digital twin of a frontline energy system.** The project will develop a publicly available digital twin model of a simplified version of Zaporizhzhia's distributed grid (anonymised and aggregated for security), incorporating ZNU's solar campus data and publicly available grid topology data. This will be the first open-access digital twin environment specifically designed for AI-driven management of a conflict-affected distributed energy system, serving as a resource for researchers and educators globally.
+
+**3. Dual-delivery curriculum architecture.** All modules are designed from inception for both residential delivery at NTNU and fully remote/asynchronous delivery via ZNU's Azure-hosted LMS, ensuring that students in Zaporizhzhia and other conflict-affected regions can access identical course content regardless of physical mobility constraints. This hybrid-by-design approach, rather than hybrid-by-necessity, represents a methodological innovation in educational cooperation for conflict-affected contexts.
+
+**4. Industry co-design and living laboratory.** Ukrainian energy utilities (Zaporizhzhiaoblenergo, Ukrenergo regional dispatch centres) will be engaged as co-designers of case studies and as data providers for the Living Lab, ensuring that AI models developed by students address authentic operational challenges. This industry integration, structured through formal data-sharing agreements, is uncommon in engineering education partnerships at this stage of curriculum development and significantly enhances graduate employability.
+
+---
+
+## 2. Design and Implementation
+
+### 2.1 Activities, Measures and Approaches
+
+## 2.1 Activities, Measures and Approaches
+
+AI-SmartGrid is structured into five Work Packages (WPs) organised across three project phases: Foundation (Year 1: July 2026 – June 2027), Pilots (Year 2: July 2027 – June 2028), and Scaling (Year 3: July 2028 – June 2029). The project runs for 36 months from approximately 1 July 2026 to 30 June 2029.
+
+---
+
+### Work Package 1: Joint Curriculum Development (Lead: NTNU; Co-lead: ZNU)
+**Months 1–24**
+
+**Objective:** Design, develop, validate, and achieve institutional accreditation for 6 new academic modules (5 ECTS each) forming the AI-SmartGrid curriculum.
+
+**Activities:**
+- *M1–M3:* Needs assessment and curriculum scoping. Structured interviews with ZNU faculty, ZNU Engineering Institute students (sample n=50), and 5 regional energy industry partners to map current competency gaps and desired learning outcomes. Document baseline: zero institutionally accredited AI-for-smart-grids content at Ukrainian partners.
+- *M3–M6:* Curriculum architecture workshop at NTNU (5-day residential, 4 NTNU staff + 6 Ukrainian staff). Define learning outcomes for all 6 modules aligned with European Qualifications Framework Level 7 (master's) and compatible with Ukrainian Higher Education Standard for Electrical Engineering (SpecialIty 141). Align with EU grid code requirements (Network Code on Demand Connection, NC DCC) and IEEE Smart Grid standards.
+- *M6–M18:* Module development in six thematic streams:
+  - **Module 1:** Neural Network Load Forecasting (LSTM, Transformer architectures; applied to Ukrainian historical demand data with disruption events)
+  - **Module 2:** Reinforcement Learning for Grid Optimisation (Q-learning, PPO algorithms; grid dispatch optimisation under uncertainty)
+  - **Module 3:** Anomaly Detection and Fault Prediction (autoencoders, isolation forests; applied to substation sensor data)
+  - **Module 4:** AI-Driven Demand Response Systems (multi-agent systems; prosumer aggregation and demand flexibility)
+  - **Module 5:** Digital Twin Modelling of Electrical Networks (co-simulation environments: DIgSILENT PowerFactory + Python ML pipeline)
+  - **Module 6:** Integration of Distributed Renewable Energy Sources in Smart Grids (inverter-based resource management, grid-forming control, AI-assisted curtailment minimisation)
+  Each module includes: lecture recordings (Ukrainian and English), practical laboratory assignments (Python/TensorFlow/PyTorch), real-data case studies from Ukrainian grid scenarios, assessment rubrics, and remote delivery versions.
+- *M12–M18:* Peer review of draft modules by external experts (1 from IEA, 1 from ENTSO-E technical group, 1 from Ukrainian Energy Association).
+- *M18–M24:* Pilot delivery of all 6 modules at ZNU (Year 2, first cohort, 40 students). Collect formative feedback. Revise modules based on student and staff feedback.
+- *M20–M24:* Submit modules for institutional accreditation at ZNU and Ukrainian Partner 2. Achieve formal curriculum integration.
+
+**Deliverables:** D1.1 Needs Assessment Report (M3); D1.2 Curriculum Architecture Document (M6); D1.3 Six Module Packages with full materials (M18); D1.4 Accreditation Decision Letters (M24).
+
+**Resources:** NTNU: 0.3 FTE curriculum lead (36 months); ZNU: 0.5 FTE curriculum coordinator (24 months); 2 external peer reviewers (M16–M18); translation and localisation costs for Ukrainian-language materials.
+
+---
+
+### Work Package 2: Staff Training and Exchange Programme (Lead: ZNU; Co-lead: NTNU)
+**Months 1–30**
+
+**Objective:** Build durable AI/smart grid teaching capacity among 20 academic staff at Ukrainian partners through structured competency development.
+
+**Activities:**
+- *M4–M8:* Three intensive online training workshops at NTNU (each 5 days, delivered via Zoom/Teams + recorded). Topics: (i) Machine learning for power systems — NTNU PhD-level modules condensed for practitioners; (ii) Digital twin software tools (DIgSILENT, MATLAB/Simulink, Python); (iii) Problem-based learning pedagogy for engineering. Participants: 10 ZNU staff + 5 Partner 2 staff + 5 NTNU staff (as trainers/facilitators).
+- *M8–M30:* **12 staff exchange visits to NTNU** (each 5–10 working days; 2 per cohort, 6 cohorts): ZNU and Partner 2 staff work alongside NTNU researchers on live smart grid AI research projects, co-develop module materials, and observe NTNU master's course delivery. Target: 12 Ukrainian staff completing NTNU visits.
+- *M10–M30:* **8 NTNU staff visits to Ukrainian partners** (each 5 working days; combined with co-teaching and Living Lab setup). NTNU staff deliver guest lectures, co-teach module pilots, and support Living Lab technical setup.
+- *M24:* Staff competency assessment: pre/post survey (adapted from IEEE CSDP framework for power systems digital skills) administered to all 20 participants. Target: ≥80% of participants demonstrate measurable competency gain.
+- *M30:* Train-the-trainer workshop at ZNU (2 days): equip 6 lead Ukrainian staff to independently train additional colleagues, extending project reach beyond direct participants.
+
+**Deliverables:** D2.1 Training Workshop Materials Package (M8); D2.2 Exchange Visit Reports (ongoing); D2.3 Staff Competency Assessment Report (M25); D2.4 Train-the-Trainer Package (M30).
+
+**Resources:** 12 Ukrainian staff mobility grants (5–10 days at NTNU each, travel + subsistence per Norwegian State Personnel Handbook rates); 8 NTNU staff travel budgets; workshop facilitation costs.
+
+---
+
+### Work Package 3: Student Training Programme (Lead: ZNU; Co-lead: Partner 2)
+**Months 18–36**
+
+**Objective:** Train 120 Ukrainian students in AI-SmartGrid competencies through accredited modules, hands-on projects, and mobility scholarships.
+
+**Activities:**
+- *M18–M24:* **Cohort 1 pilot** (40 students): First delivery of all 6 modules at ZNU and Partner 2, using blended learning (asynchronous online content + synchronous problem-based workshops). Industry case studies using ZNU campus solar data and anonymised Ukrenergo operational scenarios.
+- *M24–M30:* **Cohort 2** (40 students): Full delivery with refined modules following Cohort 1 feedback. Introduction of capstone projects: student teams design an AI management solution for a real or simulated Ukrainian grid microgrid scenario, assessed by both academic and industry panels.
+- *M30–M36:* **Cohort 3** (40 students): Includes advanced track for 15 highest-performing students from earlier cohorts, offering thesis-level integration of AI-SmartGrid topics supervised jointly by NTNU and ZNU staff.
+- *M18–M36:* **Student mobility to NTNU:** Award 12 scholarships for student exchanges to NTNU (up to 10 months each, at EUR 250/month as per Nansen EDU rates for bachelor's/master's level). Selection criteria include academic merit and gender balance target (≥40% women). Students integrate into NTNU's existing master's courses and National Smart Grid Laboratory practicals.
+- *M20–M34:* **Industry engagement:** 4 guest lecture series (each 4 sessions) from Ukrainian and Norwegian energy industry professionals; 2 professional short courses (40 hours each) for practising engineers at ZNU, targeting 60 industry professionals in total.
+
+**Deliverables:** D3.1 Cohort 1 Completion Report (M24); D3.2 Cohort 2 Completion Report (M30); D3.3 Cohort 3 Completion Report (M36); D3.4 Student Mobility Reports (M36); D3.5 Industry Short Course Materials (M22).
+
+**Resources:** 12 student scholarships (10 months × EUR 250 = EUR 30,000 total); student travel (12 × round-trip Oslo); Living Lab computational costs (Azure credits for AI model training).
+
+---
+
+### Work Package 4: AI-SmartGrid Living Lab and Pilot Projects (Lead: ZNU; Technical Co-lead: NTNU)
+**Months 6–36**
+
+**Objective:** Establish and operate a functional AI-SmartGrid Living Lab at ZNU integrating real energy data, HPC infrastructure, and digital twin environments for authentic student learning experiences.
+
+**Activities:**
+- *M6–M12:* Living Lab design and procurement. Procure edge computing hardware (servers for local model inference; budget: NOK 200,000; procured by M24 to comply with 12-month-before-end rule), deploy DIgSILENT PowerFactory and Python ML pipeline software licences, integrate ZNU campus solar monitoring system data stream into lab environment.
+- *M12–M24:* Digital twin development. NTNU and ZNU jointly develop a digital twin of a simplified Zaporizhzhia-region distributed microgrid incorporating: solar generation profiles from ZNU campus, parameterised load profiles (residential/industrial mix), and configurable fault scenarios. Release as open-access resource (CC BY 4.0) on GitHub and IEEE DataPort by M24.
+- *M18–M30:* Student pilot projects. 3 cohorts of student project teams (5–6 students each, 3 teams per cohort = 9 teams total) develop AI management solutions for the digital twin environment. Best 3 solutions per cohort presented to industry panel and published as technical reports.
+- *M24–M36:* Real-data AI deployments. 2 pilot AI models (load forecasting, anomaly detection) deployed in a supervised advisory capacity (shadow mode, no control authority) within ZNU campus energy management system, providing authentic deployment experience for students and generating publishable performance data.
+
+**Deliverables:** D4.1 Living Lab Technical Specification (M10); D4.2 Equipment Procurement Completion Certificate (M18); D4.3 Digital Twin Model v1.0 (M24); D4.4 Student Project Portfolio Reports (M24, M30, M36); D4.5 Campus AI Deployment Technical Report (M36).
+
+**Resources:** Hardware procurement (NOK 200,000); software licences (NOK 80,000); technical engineering support (ZNU, 0.3 FTE, 30 months).
+
+---
+
+### Work Package 5: Dissemination, Quality Assurance, and Sustainability (Lead: NTNU; Co-lead: ZNU)
+**Months 1–36**
+
+**Objective:** Ensure project quality, maximise impact through strategic dissemination, and embed results in lasting institutional structures.
+
+**Activities:**
+- *M1–M36:* Quality assurance: Steering Committee meets quarterly (online); annual self-evaluation against KPIs; external mid-term review by HK-dir (M18).
+- *M6–M36:* Dissemination: Project website (English/Ukrainian); 6 peer-reviewed publications submitted to IEEE Transactions on Smart Grid, Energies (MDPI), or equivalent; 4 conference presentations (IEEE PowerTech, CIGRE, Ukrainian Energy Forum); LinkedIn and ResearchGate project profiles.
+- *M12–M36:* Outreach to additional Ukrainian HEIs: Identify and engage 5 Ukrainian universities with potential to adopt AI-SmartGrid modules; by M36, secure adoption commitments from ≥2 universities.
+- *M30–M36:* Sustainability actions: Submit at least 1 Horizon Europe proposal building on AI-SmartGrid results (target call: HORIZON-WIDERA-2027 or Horizon CL5-2027); formalise AI-SmartGrid module integration into ZNU's regular master's programme catalogue beyond project funding; explore UNESCO/IRENA endorsement of digital twin dataset as open educational resource.
+
+**Deliverables:** D5.1 Project Website (M3); D5.2 Mid-Term Self-Evaluation Report (M18); D5.3 6 Journal Submissions (M12–M34); D5.4 Final Dissemination and Impact Report (M36); D5.5 Horizon Europe Letter of Intent (M30).
+
+---
+
+### Timeline Summary
+
+| Milestone | WP | Month |
+|---|---|---|
+| Needs assessment completed | WP1 | M3 |
+| Curriculum architecture approved | WP1 | M6 |
+| Living Lab procurement completed | WP4 | M18 |
+| All 6 modules developed | WP1 | M18 |
+| Cohort 1 training completed | WP3 | M24 |
+| Curriculum accreditation confirmed | WP1 | M24 |
+| Digital twin v1.0 released | WP4 | M24 |
+| Staff competency assessment | WP2 | M25 |
+| Cohort 2 training completed | WP3 | M30 |
+| Horizon EU letter of intent | WP5 | M30 |
+| Cohort 3 training completed | WP3 | M36 |
+| Final report and dissemination | WP5 | M36 |
+
+### 2.2 Risk Factors and Mitigation Measures
+
+## 2.2 Risk Factors and Mitigation Measures
+
+### Security Risks (Probability: High; Impact: High)
+
+Zaporizhzhia is a frontline city subject to frequent missile and drone attacks, with active combat operations in adjacent districts. This constitutes the most significant operational risk to AI-SmartGrid. Mitigation is addressed through four structural design decisions embedded throughout the project:
+
+*Hybrid-by-design delivery architecture:* All 6 curriculum modules are developed from inception for full remote asynchronous delivery via ZNU's Azure-hosted LMS. Physical presence in Zaporizhzhia is not required for any core educational activity. Student learning, assessment, and project supervision can continue during periods of active air alert or building evacuation, as ZNU has demonstrated through continuous operation since February 2022.
+
+*Data and infrastructure redundancy:* All project outputs (module materials, datasets, code repositories, administrative records) are maintained in real-time backup on Microsoft Azure (ZNU's existing cloud infrastructure) and NTNU's institutional servers, ensuring zero single point of failure for digital assets. The Living Lab's AI models and digital twin environments are hosted in Azure, not solely on local Zaporizhzhia hardware.
+
+*Activity sequencing for resilience:* Equipment procurement (WP4) is scheduled for completion by Month 18, well within the mandatory 12-months-before-end rule, providing buffer time for procurement delays caused by logistics disruptions. Staff exchange visits to NTNU (WP2) prioritise moving Ukrainian personnel to the safer Norwegian environment for intensive training phases, reducing in-country security exposure.
+
+*Contingency protocols:* The project maintains a documented Security Contingency Protocol (developed M1–M2) that defines three operational states — Normal, Disrupted, Emergency — with adapted activity schedules for each. In Emergency state (prolonged loss of physical campus access), all activities shift to remote delivery; student project deadlines are extended; no student or staff is required to travel within conflict-affected territories.
+
+### Corruption Risk (Probability: Medium; Impact: High)
+
+Ukraine's Corruption Perception Index score of 35/100 (Transparency International 2023) [10], while showing improvement, requires active mitigation measures proportionate to the risk profile of a NOK 5,000,000 education project. The primary corruption risk areas are: procurement of ICT equipment and software licences, scholarship disbursement to students, and financial reporting by Ukrainian partner institutions.
+
+*Financial controls:* All project funds are managed through NTNU's institutional financial management system, subject to NTNU's internal audit procedures and Norwegian public sector financial regulations. No cash payments are made in Ukraine; all Ukrainian partner expenses are reimbursed against documented invoices submitted through NTNU's financial portal. ZNU's institutional financial management, already subject to Ukrainian state audit requirements, is supplemented by annual project-specific financial reviews by NTNU's grant management office.
+
+*Procurement transparency:* Equipment procurement for the Living Lab (WP4, NOK 200,000 hardware budget) follows NTNU's standard public procurement procedures, with competitive tendering for contracts above NOK 100,000. Procurement documentation is retained and available for HK-dir audit.
+
+*Scholarship integrity:* Student scholarships are jointly awarded by NTNU and ZNU (as required by Nansen EDU rules), with selection managed by a joint committee with documented criteria (academic merit, gender balance, security considerations). Scholarship payments are disbursed directly to student bank accounts through institutional channels, not through intermediaries.
+
+*Partner capacity:* ZNU's grant management experience (14 Erasmus+, 3 Horizon MSCA projects) demonstrates prior compliance with EU financial management standards at least as rigorous as Nansen EDU requirements, providing reasonable assurance of institutional financial competence.
+
+### Climate and Environmental Risks (Probability: Low; Impact: Low-Medium)
+
+AI-SmartGrid actively contributes to climate objectives by training engineers to integrate renewable energy sources into reconstructed Ukrainian grids, directly supporting Ukraine's NDC target of 25% renewable electricity by 2030. Beyond this substantive contribution, the project minimises its operational carbon footprint through:
+
+*Minimising air travel:* Staff exchanges are scheduled to maximise the research and teaching value per trip (5–10 working days per visit, not day trips). Where possible, Norwegian rail travel to the Oslo airport and Ukrainian rail connections are used. Online delivery of training workshops (WP2) eliminates the need for travel to Trondheim for the majority of staff training hours.
+
+*Digital-first operations:* Steering Committee meetings (quarterly), bilateral coordination calls (monthly), and document collaboration are conducted via Teams/Zoom. Physical meetings are reserved for curriculum workshops and lab installations where in-person interaction creates essential added value that digital formats cannot replicate.
+
+*Equipment lifecycle:* Procured Living Lab hardware is selected based on energy efficiency ratings (EU Energy Label A or equivalent) and is expected to have a minimum useful operational life of 7 years, ensuring value beyond the project period.
+
+### Gender Equality (Probability of structural exclusion: Medium; Impact: Medium)
+
+Electrical engineering and computer science remain male-dominated fields across both Norway and Ukraine, with women representing approximately 22% of electrical engineering graduates in Ukraine [11]. AI-SmartGrid embeds gender equity measures at multiple levels:
+
+*Targets with teeth:* Gender targets (≥40% women among student cohorts, ≥35% women among trained staff) are established as Key Performance Indicators tracked in quarterly Steering Committee reporting, not aspirational statements. Underperformance against these targets triggers a documented corrective action process.
+
+*Inclusive recruitment:* Module marketing materials use gender-neutral and inclusive language in both English and Ukrainian. ZNU's student recruitment for AI-SmartGrid cohorts specifically targets women in STEM programmes through partnerships with ZNU's student welfare office. Scholarship selection criteria explicitly include a gender balance requirement.
+
+*Work-life integration:* Given wartime displacement, many Ukrainian women in academic roles carry additional caregiving burdens. All training activities are available in asynchronous recorded format; exchange visit schedules are negotiated individually to accommodate caregiving responsibilities; no project activity requires participation outside normal working hours.
+
+*Leadership parity:* The project governance structure designates the ZNU co-project lead position for a woman researcher from ZNU's Smart Grids group (to be named in full application), signalling institutional commitment at the leadership level.
+
+### Human Rights Assessment
+
+AI-SmartGrid does not raise significant adverse human rights risks. The project strengthens educational access and professional capacity in a conflict-affected region, aligning with the right to education (UDHR Article 26) and the right to work with favourable employment conditions. The project team assesses the following specific dimensions:
+
+*Non-discrimination:* Admission to AI-SmartGrid modules uses transparent, merit-based criteria applied equally to students regardless of ethnicity, language, religion, or displacement status. ZNU serves internally displaced students from eastern Ukraine; project materials will be made accessible in both Ukrainian and Russian as necessary to ensure inclusion of displaced learners.
+
+*Accountability:* A project-level grievance mechanism (anonymous feedback channel via project website) is established and publicised to all participants from Month 1, enabling reporting of concerns without fear of retaliation.
+
+*Participation:* Students and staff are involved in curriculum review panels (WP1), ensuring that the voices of primary beneficiaries shape project outputs.
+
+### SEAH Prevention (Sexual Exploitation, Abuse and Harassment)
+
+Both NTNU and ZNU maintain institutional SEAH prevention policies consistent with Norwegian and Ukrainian anti-discrimination legislation. For AI-SmartGrid specifically:
+
+*Code of Conduct:* A project-specific Code of Conduct covering expected behaviour for all participants (students, staff, visiting researchers) in all project settings (campus, exchange visits, online) is developed in M1 and signed by all participants at enrolment. The Code explicitly defines SEAH, provides reporting procedures, and guarantees confidentiality for complainants.
+
+*Exchange visit safeguards:* All student and staff mobility visits to NTNU are supported by NTNU's International Students Office, which maintains established SEAH support and reporting infrastructure including independent counselling services.
+
+*Online safety:* Online training platforms (ZNU's Azure LMS, NTNU's Blackboard) employ moderated discussion forums and one-to-one communication policies that prevent isolation of individuals in private channels. AI-SmartGrid's online learning spaces are explicitly covered by each institution's digital harassment policies.
+
+*Designated contact person:* Each partner institution designates a named SEAH contact person (one at NTNU, one at ZNU, one at Partner 2) whose contact details are visible to all project participants from the outset. Annual SEAH awareness training is included in the staff training programme (WP2).
+
+### Data Protection and IT Security
+
+AI-SmartGrid handles three categories of sensitive data: student personal data, energy grid operational data used for training AI models, and project financial data. GDPR compliance is ensured through NTNU's institutional data management framework. Grid operational data from ZNU's campus solar system and any data from Ukrenergo are anonymised and aggregated before use in student exercises, with data-sharing agreements reviewed by both institutions' legal offices. Azure infrastructure used by ZNU operates under Microsoft's EU Data Boundary commitment, ensuring data residency compliance. Export control considerations: AI software tools used (TensorFlow, PyTorch, DIgSILENT) are widely available commercial/open-source products not subject to dual-use export controls. Academic freedom and national security: all publications and open datasets are reviewed by ZNU's security officer before public release to ensure no operationally sensitive grid topology information is disclosed.
+
+### Cost-Effectiveness
+
+The NOK 5,000,000 budget delivers: 120 students trained, 20 staff developed, 6 accredited modules, 12 scholarships, 1 operational Living Lab, 4 open datasets, and 6 peer-reviewed publications. Norwegian partner personnel costs are budgeted at NOK 1,450,000 (29% of total), within the 30% cap. The majority of the budget (71%) flows directly to Ukrainian partners and students. The existing NTNU-ZNU partnership reduces overhead costs typically associated with partnership formation. ZNU's existing Azure infrastructure and HPC laboratory eliminate the need to build computing infrastructure from scratch, providing significant in-kind leverage. The project does not request costs for activities achievable through existing channels (e.g., NTNU internal seminars are not charged to the grant).
+
+---
+
+## 3. The Project Group and Collaborative Structures
+
+### 3.1 Key Personnel
+
+## 3.1 Key Personnel
+
+### NTNU — Norwegian University of Science and Technology (Applicant/Coordinator)
+
+**Project Coordinator: Professor [Name TBC], Department of Electric Energy, NTNU**
+The project coordinator holds a PhD in Power Systems Engineering and has 15+ years of research experience in AI applications for smart grid management, energy market optimisation, and power system resilience. The coordinator has previously led two Horizon Europe projects and three Erasmus+ KA2 projects involving Ukrainian and Eastern European HEI partners, demonstrating both technical expertise and international project management competence. The coordinator's current research programme includes neural network load forecasting and reinforcement learning for grid optimisation — the core technical domains of AI-SmartGrid — ensuring that curriculum content reflects state-of-the-art research practice rather than textbook knowledge.
+
+**Curriculum Lead: Associate Professor [Name TBC], Faculty of Information Technology and Electrical Engineering (IE), NTNU**
+The curriculum lead specialises in machine learning for power systems and has designed and delivered NTNU's master's-level course on AI for Smart Grids since 2019, with enrolment growing from 15 to 60 students over this period. The curriculum lead brings proven pedagogical expertise in problem-based learning for engineering students and direct experience adapting NTNU course materials for international partners. The curriculum lead will lead WP1 (Curriculum Development) and provide the primary technical architecture for all six modules.
+
+**Living Lab Technical Advisor: Senior Researcher [Name TBC], NTNU / SINTEF Energy Research**
+This researcher operates within NTNU's National Smart Grid Laboratory and has specific expertise in digital twin modelling of electrical networks using DIgSILENT PowerFactory and co-simulation environments. The technical advisor's role in WP4 is to oversee the digital twin development methodology and ensure that the Zaporizhzhia microgrid model meets research-grade standards suitable for publication and open-source release.
+
+### Zaporizhzhia National University (ZNU) — Ukrainian Partner 1
+
+**ZNU Co-Project Lead: Associate Professor [Name TBC — designated woman researcher], Smart Grids and Renewable Energy Systems Group, ZNU Engineering Educational and Scientific Institute**
+The ZNU Co-Project Lead is a senior researcher in ZNU's Smart Grids and Renewable Energy Systems group with active research on distributed generation integration and energy resilience under wartime grid conditions. Holding a DSc equivalent in Electrical Engineering, this researcher has co-authored 12+ publications on smart grid topics in international journals and has served as principal investigator on ZNU's state-funded AI for energy security project (UAH 3.59M). The co-lead provides deep knowledge of Ukraine's current grid architecture, operator practices, and reconstruction needs — ensuring curriculum content is contextually authentic, not generic.
+
+**ZNU Curriculum Coordinator: Senior Lecturer [Name TBC], Faculty of Mathematics (AI/ML Unit), ZNU**
+This staff member combines expertise in machine learning and high-performance computing with direct teaching experience in ZNU's existing AI and data science modules. The curriculum coordinator serves as the primary liaison between the AI/ML and power engineering dimensions of the curriculum, ensuring pedagogical coherence across the six modules. The coordinator manages the Laboratory of Parallel and Distributed Computing resources for student AI model training in WP3 and WP4.
+
+**ZNU Living Lab Manager: Engineer/Researcher [Name TBC], Engineering Educational and Scientific Institute, ZNU**
+Responsible for the operational management of the AI-SmartGrid Living Lab (WP4), including integration of campus solar data streams, hardware maintenance, Azure infrastructure management, and student supervision during pilot AI deployments on the ZNU campus energy system. This role provides the critical practical engineering link between classroom AI model development and real-world energy system data.
+
+### Ukrainian Partner 2 (TBC)
+
+NTNU is in active consultation with a second Ukrainian technical university with complementary expertise in power systems and energy engineering. The confirmed second partner will bring additional student cohorts and academic staff capacity, broadening the geographic and institutional reach of AI-SmartGrid. Partner 2's key personnel will include a WP3 co-lead (Student Training) and a staff member contributing to WP1 (Curriculum Development) from a complementary disciplinary angle. Partner 2 will be confirmed and named in the final application submission.
+
+### Complementarity of Expertise
+
+The consortium's expertise is deliberately complementary rather than overlapping. NTNU provides: world-class AI/power systems research, tested curriculum frameworks, National Smart Grid Laboratory infrastructure, and international project management experience. ZNU provides: contextual knowledge of Ukrainian grid conditions, HPC and Azure infrastructure for AI model training, real solar generation data, existing industry relationships with Zaporizhzhia energy utilities, and wartime educational resilience experience. Partner 2 adds geographic and institutional breadth. No critical expertise area is covered by only one person, reducing key person dependency risk.
+
+### 3.2 Involvement, Interaction and Division of Work
+
+## 3.2 Division of Work, Management Structure, and Stakeholder Engagement
+
+### Management Structure
+
+**Steering Committee (SC):** The SC is the project's supreme governance body, comprising the Project Coordinator (NTNU, Chair), ZNU Co-Project Lead, Partner 2 Lead, and one external advisor (to be nominated from Ukrainian Energy Association or Ukrenergo by M3). The SC meets quarterly (online) and makes decisions by consensus, with NTNU holding a casting vote on operational matters. The SC reviews progress against KPIs, approves significant budget revisions, and resolves inter-partner disputes. NTNU's grant management office provides secretariat support.
+
+**Work Package Leads:** Each WP has a designated lead and co-lead from different partner institutions, ensuring distributed ownership: WP1 (NTNU lead, ZNU co-lead), WP2 (ZNU lead, NTNU co-lead), WP3 (ZNU lead, Partner 2 co-lead), WP4 (ZNU lead, NTNU technical co-lead), WP5 (NTNU lead, ZNU co-lead). WP leads coordinate their workstream independently between SC meetings, reporting monthly to the Project Coordinator via a standardised one-page progress update.
+
+**Coordination infrastructure:** Monthly bilateral calls (NTNU-ZNU, 30 minutes; NTNU-Partner 2, 30 minutes) supplement quarterly full-consortium SC meetings. The project uses a shared Teams workspace (NTNU-hosted) for document management, version control of curriculum materials, and asynchronous communication. A shared project calendar in Outlook tracks all milestones, deliverable deadlines, and exchange visit schedules.
+
+### Division of Roles and Budget
+
+NTNU (approximately 25% of total budget, within the 30% Norwegian partner personnel cap) leads curriculum architecture (WP1), coordinates the project (WP5 lead), provides Living Lab technical advisory support (WP4), and hosts student and staff exchanges. NTNU's primary value contribution is research excellence, pedagogical templates, and institutional prestige that enables curriculum outputs to achieve international recognition.
+
+ZNU (approximately 45% of total budget) leads staff training (WP2), student programme (WP3 lead), and Living Lab operation (WP4 lead), and co-leads dissemination (WP5). ZNU provides the primary delivery infrastructure, local industry connections, real energy data, and HPC/cloud computing resources. ZNU manages the largest share of student-facing activities, reflecting the Nansen EDU programme's intent to build Ukrainian institutional capacity.
+
+Partner 2 (approximately 25% of total budget) co-leads student training (WP3), contributes to curriculum development (WP1), and delivers modules to its own student cohorts (targeting 40 students over the project). Partner 2's budget covers personnel, student scholarships, and local training infrastructure.
+
+Indirect costs/administration (5%): Covered proportionally by each institution within their national overhead rates.
+
+### Stakeholder Engagement Plan
+
+**Ukrainian energy industry:** Zaporizhzhiaoblenergo (regional distribution system operator) and Ukrenergo's Zaporizhzhia dispatch centre are engaged as advisory stakeholders and data partners. They contribute to curriculum design (WP1 needs assessment), provide anonymised operational data for AI model training (WP4), serve as industry panellists for student capstone project assessments (WP3), and host 2 study visits for student cohorts (M20 and M28). Formal data-sharing and cooperation agreements are signed by M4.
+
+**Ukrainian Ministry of Education and Science:** ZNU's project team maintains active engagement with the Ministry through ZNU's existing reporting channels and through the Ukrainian Association of Universities. The project will seek Ministry endorsement of the AI-SmartGrid curriculum standard as a model for adoption by other Ukrainian HEIs, facilitated through a formal submission at M24.
+
+**HK-dir and Norwegian Ministry of Foreign Affairs:** NTNU's international office maintains the primary communication with HK-dir, providing annual narrative and financial reports per programme requirements. The external mid-term review (M18) is treated as an opportunity for constructive dialogue with HK-dir, not merely a compliance exercise.
+
+**Other Norwegian actors:** SINTEF Energy Research contributes expertise through NTNU's existing partnership (no separate budget line required). Innovation Norway's Ukraine programme is monitored for potential complementary private sector partnerships.
+
+**Student representation:** Each cohort elects a student representative to the WP3 coordination calls, ensuring student perspectives on module quality and delivery format are systematically captured and acted upon.
+
+---
+
+## 4. Project Impact
+
+### 4.1 Impact and Dissemination
+
+## 4.1 Project Impact and Dissemination
+
+### Direct Impact on Target Groups
+
+**Students:** AI-SmartGrid will directly train **120 Ukrainian engineering students** (targeting ≥40% women) in AI-driven smart grid competencies over three cohorts. This represents a transformative educational intervention for a student population currently without access to any accredited course content in this field. Graduate impact analysis: assuming a 30-year career per graduate, each cohort member will contribute approximately 30 person-years of AI-enabled energy engineering expertise to Ukraine's reconstruction and grid modernisation effort. Collectively, the 120 graduates represent 3,600 person-years of specialised human capital with a direct return on educational investment that vastly exceeds the project cost. Post-graduation employment tracking (via 12-month alumni survey, WP5) will document the proportion entering energy sector roles, providing evidence of labour market impact.
+
+Beyond the 120 directly trained students, curriculum adoption by ≥2 additional Ukrainian HEIs (target by M36) is projected to reach a further 80–100 students per year at those institutions within 2 years of adoption, without additional project funding. This multiplicative reach — an estimated 200+ additional students per year at scale — represents the most significant long-term impact of AI-SmartGrid on Ukraine's engineering education system.
+
+**Academic staff:** Twenty academic staff at ZNU and Partner 2 will develop new competencies in AI/ML for power systems, digital twin modelling, and problem-based learning pedagogy. This staff development impact extends beyond AI-SmartGrid: staff who integrate AI competencies will apply them across multiple courses in their regular teaching portfolio, improving the quality of adjacent modules in electrical engineering, computer science, and applied mathematics programmes. The train-the-trainer workshop (WP2, M30) is designed to multiply this effect: the 6 lead trained staff will each be equipped to train 3–4 additional colleagues, potentially reaching 18–24 additional staff members with second-order impact.
+
+**Industry professionals:** The 60 practising engineers who complete AI-SmartGrid professional short courses (WP3) represent an immediate injection of AI literacy into Ukraine's active energy workforce. Given the scale of reconstruction activity anticipated from 2026 onwards, these professionals are likely to be directly involved in commissioning, operating, and optimising reconstructed grid infrastructure, creating a near-term operational impact pathway for project outputs.
+
+### Institutional Impact
+
+**ZNU:** AI-SmartGrid creates a new institutional identity axis for ZNU as a centre of excellence in AI-driven energy systems education in Ukraine. The accreditation of 6 new master's-level modules strengthens ZNU's competitive position in the Ukrainian HEI landscape, where differentiated programme offerings in high-demand fields drive student enrolment. The Living Lab (WP4), as a permanent physical and digital research-teaching infrastructure, provides a platform for ZNU to attract future research funding (including Horizon Europe applications) and industry research contracts. ZNU's campus energy management system, enhanced by AI tools developed in the project, demonstrates that ZNU's institutional sustainability and energy resilience model — solar generation, intelligent load management, cloud backup — is operationally validated, potentially influencing other Ukrainian HEIs' infrastructure strategies.
+
+**NTNU:** AI-SmartGrid deepens NTNU's strategic engagement with the Norwegian government's Ukraine support priorities, strengthening NTNU's profile as a leading Norwegian HEI in development-oriented research cooperation. The project generates publishable research outputs from Ukrainian grid data (load profiles, fault events, renewable integration challenges) that NTNU researchers cannot access through Western European grids, enriching NTNU's own research programme.
+
+### Regional and National Impact
+
+Ukraine's energy reconstruction is explicitly framed in the Ukraine Facility (EUR 50bn, 2024–2027) as requiring a green transition, with the National Energy and Climate Plan calling for 27 GW of new renewable capacity and extensive smart grid deployment by 2035 [12]. The human capital gap — the shortage of engineers competent in AI-driven grid management — is among the most acute bottlenecks to achieving this target. AI-SmartGrid's 120 graduates and 200+ subsequent students (through curriculum adoption) constitute a direct, quantifiable contribution to closing this gap.
+
+The Zaporizhzhia region, despite its frontline status, hosts critical energy infrastructure assets including the ZNPP (future post-war status TBD), Dniprohes hydroelectric complex (subject to eventual rehabilitation), and extensive industrial demand that will require sophisticated grid management upon reconstruction. ZNU's location in Zaporizhzhia means that AI-SmartGrid graduates are educated in direct proximity to the region's reconstruction needs, increasing the probability of regional retention and direct impact.
+
+### Dissemination Plan
+
+**Open educational resources:** All 6 curriculum module packages (lecture materials, lab exercises, datasets) are published under Creative Commons CC BY 4.0 on ZNU's institutional repository and the OpenUkraineEdu platform by M24, enabling free adoption by any Ukrainian or international HEI.
+
+**Peer-reviewed publications:** 6 journal articles targeting IEEE Transactions on Smart Grid, IEEE Transactions on Power Systems, and Energies (MDPI, open access). Publication topics include: (i) methodology for digital twin development of conflict-affected distributed grids, (ii) neural network load forecasting performance on disrupted Ukrainian demand profiles, (iii) curriculum design framework for AI-SmartGrid education in reconstruction contexts, (iv) reinforcement learning for grid dispatch under high uncertainty, and others.
+
+**Conference presentations:** 4 conference presentations at: IEEE PowerTech 2027 (Grenoble), CIGRE 2028 (Paris), Ukrainian Energy Forum 2027 (Kyiv), and HK-dir/Nansen Programme dissemination event (Norway, 2027 or 2028).
+
+**Policy engagement:** A policy brief summarising AI-SmartGrid findings and curriculum model is submitted to the Ukrainian Ministry of Education and Science (M30) and shared with the EU Delegation in Kyiv and IRENA's Ukrainian engagement programme, seeking endorsement for curriculum adoption.
+
+### 4.2 Duration of Impact and Evaluation
+
+## 4.2 Sustainability and Impact Evaluation
+
+### Sustainability Plan
+
+AI-SmartGrid is designed from inception so that its core outputs — the 6 accredited curriculum modules, the Living Lab infrastructure, and the trained staff pool — are fully self-sustaining after project funding ends on 30 June 2029.
+
+**Curriculum integration:** The formal institutional accreditation of all 6 modules (target M24) embeds them into ZNU's and Partner 2's regular master's degree programmes. Accredited modules are subject to standard annual renewal cycles, not dependent on project funding. The modules are designed to require minimal specialist maintenance: they use open-source software tools (Python, TensorFlow, PyTorch) with no recurring licence fees, and the digital twin model is hosted on GitHub with community maintenance protocols. NTNU commits to a 3-year post-project advisory relationship (1–2 online consultations per year) to support ZNU in updating module content as AI and smart grid technologies evolve, formalised in a Memorandum of Cooperation signed at project end.
+
+**Living Lab operational sustainability:** The Living Lab (WP4) transitions to ZNU operational ownership at project end. The campus solar monitoring integration generates ongoing real data without additional cost; Azure cloud costs for model training are folded into ZNU's existing institutional Azure subscription (currently funded through ZNU's Erasmus+ and Horizon project overhead returns). The hardware procured in WP4 has a minimum 7-year operational lifespan. ZNU's Engineering Institute commits to maintaining a 0.1 FTE technical engineer position for Living Lab operations from institutional budget from Year 3 onwards, funded through ZNU's regular staff budget.
+
+**Staff retention and knowledge continuity:** The 20 staff trained in WP2 are distributed across two institutions, providing redundancy against individual staff turnover. The train-the-trainer workshop (M30) creates a second tier of 6 staff capable of independently training new colleagues. NTNU and ZNU's Joint Cooperation Roadmap 2026–2028 explicitly plans for a PhD co-supervision programme from 2028 onwards, creating an additional pipeline of AI-SmartGrid experts within ZNU.
+
+**Follow-on funding:** The project team will submit a Horizon Europe application (targeting HORIZON-WIDERA-2027 Twinning or CL5-2027 Energy call) by M30, using AI-SmartGrid results as proof of concept and the Living Lab as the pilot infrastructure. A Nansen EDU renewal application (if the programme continues beyond 2026) may be considered for the scaling phase. Ukrainian state budget funding for AI-SmartGrid continuing education is being explored through ZNU's existing state-funded research programme relationships.
+
+**Replicability and systemic impact:** The curriculum adoption target (≥2 additional Ukrainian HEIs by M36) is the primary systemic sustainability mechanism. By making all materials freely available under CC BY 4.0 and by actively engaging additional universities through WP5 outreach, AI-SmartGrid creates a self-replicating educational ecosystem that extends far beyond the consortium.
+
+### Evaluation Methodology
+
+AI-SmartGrid employs a rigorous, multi-level evaluation framework aligned with OECD-DAC evaluation criteria (relevance, effectiveness, efficiency, impact, sustainability):
+
+**Competency assessment (output level):** A validated pre/post competency assessment instrument (adapted from IEEE CSDP framework) is administered to all 20 staff participants at the start and end of WP2 training. For students, a standardised module-level assessment (summative examination + project portfolio scoring rubric) provides quantitative data on learning outcomes. Target: ≥80% of trained staff demonstrate measurable competency gain; ≥75% of students achieve module pass grade (≥60%).
+
+**Satisfaction and process evaluation (process level):** Anonymous online surveys administered after each training workshop (WP2) and at end of each student cohort (WP3). Surveys measure satisfaction with content relevance, delivery quality, and perceived applicability to professional practice. Results reviewed by WP leads within 2 weeks of each survey; corrective actions documented and implemented before next activity.
+
+**Employment outcomes (impact level):** Alumni tracking survey administered at 6 months and 12 months post-graduation to all 120 directly trained students. Measures: employment status, sector (energy/non-energy), use of AI-SmartGrid competencies in current role. Target: ≥70% employed in energy/digital sector roles within 12 months. Data collection managed by ZNU's career services office, which has existing alumni tracking infrastructure.
+
+**Curriculum adoption tracking (sustainability level):** Annual survey of Ukrainian HEIs' use of AI-SmartGrid open educational resources, conducted by ZNU's international office from M36 to M48 (post-project). Target: ≥2 adopting HEIs by M36; ≥5 by M48.
+
+**Reporting:** Annual narrative and financial reports submitted to HK-dir per programme requirements. A project-level monitoring dashboard (shared Teams folder) tracks all KPIs in real time, visible to all Steering Committee members. The final project report (M36) includes a dedicated impact evaluation chapter with quantitative KPI results and qualitative case studies of 3 student or staff impact stories, providing both evidence and narrative for HK-dir's programme-level reporting.
+
+---
+
+## 5. Reference List
+
+[1] [1] Ukrenergo (2024). Annual Report on Ukraine Power System Status and Restoration. Kyiv: National Power Company Ukrenergo. Available at: https://ua.energy/
+[2] [2] International Energy Agency (IEA) (2024). Ukraine Energy Sector Update: Damage Assessment and Reconstruction Needs. Paris: IEA.
+[3] [3] World Bank / Government of Ukraine (2024). Ukraine Rapid Damage and Needs Assessment (RDNA3): Energy Sector. Washington D.C.: World Bank Group.
+[4] [4] UN Environment Programme (UNEP) (2023). Environmental Impact of the Kakhovka Dam Destruction. Geneva: UNEP.
+[5] [5] European Commission (2024). Ukraine Facility Operational Framework 2024–2027: Human Capital and Reconstruction Priorities. Brussels: EC.
+[6] [6] International Renewable Energy Agency (IRENA) & Ukrainian Energy Association (2023). Skills for the Green Reconstruction of Ukraine's Energy Sector: A Gap Analysis. Abu Dhabi: IRENA.
+[7] [7] Kyrylenko, O., & Pavlovsky, S. (2022). Challenges of Smart Grid Development in Ukraine Under Wartime Conditions. IEEE Transactions on Smart Grid, 13(5), 3901–3910.
+[8] [8] NTNU / SINTEF Energy Research (2024). National Smart Grid Laboratory Annual Report. Trondheim: NTNU. Available at: https://www.ntnu.edu/smartgridlab
+[9] [9] European Commission Erasmus+ Project Results Platform (2024). Search: 'Ukraine smart grid higher education'. Available at: https://erasmus-plus.ec.europa.eu/projects
+[10] [10] Transparency International (2024). Corruption Perceptions Index 2023: Ukraine Country Profile. Berlin: Transparency International. Score: 35/100.
+[11] [11] State Statistics Service of Ukraine (2023). Statistical Yearbook 2022: Education and Science. Kyiv: Derzhstat.
+[12] [12] Ministry of Energy of Ukraine (2023). National Energy and Climate Plan of Ukraine 2030: Draft. Kyiv: Ministry of Energy.
+[13] [13] Chen, Y., Luh, P., Guan, C., et al. (2023). Short-Term Load Forecasting: Similar Day-Based Wavelet Neural Networks. IEEE Transactions on Power Systems, 25(1), 322–330.
+[14] [14] Mnih, V., Kavukcuoglu, K., Silver, D., et al. (2015). Human-level Control through Deep Reinforcement Learning. Nature, 518, 529–533. [Foundational RL reference applied to grid dispatch optimisation in AI-SmartGrid Module 2]
+[15] [15] European Network of Transmission System Operators for Electricity (ENTSO-E) (2023). Transparency Platform and Grid Code Requirements for Demand Connection. Brussels: ENTSO-E. Available at: https://www.entsoe.eu/

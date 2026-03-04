@@ -1,0 +1,239 @@
+{
+  "overallScore": 5.6,
+  "qualifiesForFunding": true,
+  "executiveSummary": "SmartGreen-UA is a technically sophisticated, contextually grounded proposal that addresses a genuine and well-documented crisis: the near-total collapse of Ukraine's energy infrastructure and the corresponding absence of modern smart grid engineering competences in Ukrainian higher education. The proposal demonstrates exceptional understanding of the thematic domain, credible partnership logic (NTNU + ZNU), and a clearly articulated sustainability philosophy. The framing of ZNU's wartime campus as a 'Conflict Zone Living Lab' is genuinely novel and represents a rare example of a project converting crisis conditions into a pedagogical asset rather than merely managing around them. The SMART objectives are concrete, numbered, and tied to a realistic three-year workplan with sensible budget allocation. All seven mandatory cross-cutting issues are addressed explicitly and with substantive detail, which is above average for proposals at this stage.\n\nHowever, several structural weaknesses reduce the proposal's overall rating below the 'excellent' threshold. Most critically, the second Ukrainian partner institution is entirely unconfirmed — listed only as 'TBC' throughout — which undermines a mandatory eligibility requirement (minimum 2 Ukrainian HEIs) and introduces fundamental uncertainty into partnership complementarity, task division, and budget allocation. Approximately 23% of the total budget is allocated to an institution that does not yet exist in the consortium. The proposal also names all key personnel as '[Name TBC]', including the project coordinator whose CV is a mandatory submission document. These omissions are not minor administrative gaps; they go to the heart of the programme's eligibility criteria and the credibility of the partnership structure. A strong proposal framework is thus weakened by what appears to be premature submission before the partnership is fully constituted.\n\nAdditionally, while the proposal is ambitious in scope — eight accredited courses, a Living Lab, 45 student mobilities, CPD for 80 professionals, a national education network — reviewers should note that the total budget of NOK 5,000,000 is stretched across activities that, if fully realised, would individually cost far more. The cost-effectiveness argument presented is persuasive at a surface level but does not confront the genuine risk of scope overreach. The budget allocation is indicative only, with no line-item detail provided for the largest cost categories. These issues are fixable, and the underlying proposal quality is high enough to recommend conditional progression, provided the second Ukrainian partner is formally confirmed and personnel are named before final submission.",
+  "criterionScores": [
+    {
+      "criterion": "Relevance of the project",
+      "weight": 30,
+      "score": 6,
+      "subScores": {
+        "1.1_need": 6,
+        "1.2_results": 6,
+        "1.3_ambition": 6,
+        "1.4_innovation": 6,
+        "1.5_added_value": 5
+      },
+      "strengths": [
+        "The needs analysis is exceptional in its specificity and evidence base: quantified infrastructure losses (9 GW net dispatchable capacity, 70–80% thermal/hydro damage), referenced to authoritative sources (IEA, Ukrenergo, World Bank RDNA), and translated directly into a skills gap analysis with statistical grounding (fewer than 12% of Ukrainian energy programs incorporate smart grid modules, fewer than 8% address renewable grid integration — sourced to a 2023 MES Ukraine audit).",
+        "The four target groups (undergraduate students, postgraduate students/researchers, academic staff, industry/public sector) are differentiated with specific numbers: 600 undergraduates, 80 master's/PhD students, 25 staff, 80 CPD professionals — these are not generic aspirations but defined populations with named institutional home bases.",
+        "SMART objectives (Section 1.1) are genuinely SMART: eight courses, two master's specialisation tracks with minimum 40-student intake, 25 certified staff, 45 student mobilities with breakdown, four CPD workshops, one Living Lab, one open-source AI toolkit. Each has a baseline (zero smart grid courses at ZNU as of January 2026) and a target.",
+        "The 'dual-track competence framework' (engineering depth + policy/planning breadth) is well-theorised and directly responsive to the reconstruction context, where engineers must also navigate regulatory and market design questions. This distinguishes SmartGreen-UA from narrowly technical curriculum projects.",
+        "The 'Conflict Zone Living Lab' concept is genuinely innovative: ZNU's campus solar-cogen-battery infrastructure as a live teaching environment is not replicated by any comparable Nansen or Erasmus+ project known to the reviewer. It transforms a severe contextual disadvantage into a differentiating pedagogical asset.",
+        "Complementarity with existing initiatives (Erasmus+, DAAD, UA-UK Twinning, MSCA) is mapped specifically and credibly — the proposal does not merely assert non-overlap but explains the substantive domain distinctions.",
+        "All four reconstruction-embedded innovation elements (Living Lab, dual-track, Ukraine-specific case studies, industry co-teaching model) are described in sufficient operational detail to assess their credibility. The Kakhovka dam replacement scenario, ZNPP alternative power scenarios, and Zaporizhzhia regional energy independence planning are not generic; they are grounded in the actual reconstruction literature cited."
+      ],
+      "weaknesses": [
+        "The second Ukrainian partner institution is entirely unnamed, meaning the needs analysis for that institution's student population is absent. Approximately half the student reach target (300 of 600 undergraduates, unclear proportion of 80 postgraduates) is attributed to an unidentified institution with unverified capacity to deliver.",
+        "The 2023 MES Ukraine curriculum audit (Reference [5]) is cited to support the 12%/8% statistics but the document is not publicly available in English and its methodology is not described. Evaluators cannot independently verify these figures, which are central to the needs argument.",
+        "The proposal notes awareness of 'other Nansen-funded projects in Ukraine's energy sector' but does not name them or explain specifically how SmartGreen-UA avoids duplicating their outputs. This leaves a gap in sub-factor 1.5 (added value beyond what exists in the Nansen portfolio).",
+        "Horizon Europe alignment is referenced repeatedly as a goal but the specific calls or topics targeted are not identified. This makes the 'upstream–downstream synergy' with existing MSCA projects somewhat speculative.",
+        "The baseline documentation commitment ('formally documented in WP1 needs assessment conducted in project Month 1') is appropriate but means the baseline is not yet established in the proposal itself — evaluators are asked to trust that the gap will prove as significant as claimed."
+      ],
+      "recommendations": [
+        "Identify and name Ukrainian Partner 2 before submission, including its enrolled student numbers, existing energy engineering program structure, and geographic location outside the frontline zone — this is critical both for eligibility and for credibility of the needs analysis.",
+        "Request a translated executive summary or English abstract of the MES Ukraine 2023 curriculum audit and include it as an annex, or supplement with an alternative verifiable source for the 12%/8% statistics.",
+        "Name at least two specific Nansen EDU projects in the energy/digital domain and explain, with one sentence each, what SmartGreen-UA adds that those projects do not deliver.",
+        "Identify the specific Horizon Europe work programme topic(s) (e.g., HORIZON-ENERGY or HORIZON-EIC) targeted for 2028 submission to make the follow-on funding argument concrete rather than aspirational."
+      ]
+    },
+    {
+      "criterion": "Quality of design and implementation",
+      "weight": 20,
+      "score": 5,
+      "subScores": {
+        "2.1_implementation_plan": 5,
+        "2.2_risk_assessment": 6,
+        "2.3_cost_effectiveness": 4
+      },
+      "strengths": [
+        "The five-WP structure is logical, internally consistent, and sequenced appropriately: WP1 (curriculum design) feeds WP3 (student delivery), WP4 (Living Lab) supports WP3 (laboratory exercises), and WP5 (dissemination/QA) runs in parallel across all years. Dependencies are explicit.",
+        "The year-by-year timeline table provides clear milestones: Foundation (Year 1), Pilots (Year 2), Scaling (Year 3). This phasing is credible and matches the NTNU-ZNU strategic roadmap logic described in Section 1.2.",
+        "Deliverable specifications are strong: each WP lists numbered deliverables (D1.1–D5.6) with milestone months, providing a clear contractual basis for monitoring. The 36-deliverable structure is well-suited to a three-year Nansen project.",
+        "The blended-first architecture as a wartime mitigation measure is embedded into the design logic (not merely described in the risk section), which is methodologically sound — resilience is built into pedagogy rather than bolted on.",
+        "The risk assessment in Section 2.2 is among the most comprehensive seen in Nansen EDU proposals: security, corruption (with specific CPI citation), climate, gender, human rights, SEAH, and data protection/IT security are all addressed with specific, actionable mitigation measures rather than generic statements. The SEAH section distinguishes between the reporting channel and the anti-corruption channel — a level of detail rarely found.",
+        "The 72-hour security assessment protocol for in-person ZNU visits, combined with mandatory war-zone travel insurance, reflects genuine institutional risk management rather than pro forma compliance.",
+        "The equipment procurement timeline (Living Lab instrumented by M12, i.e., 18 months before project end) explicitly demonstrates compliance with the Nansen rule requiring equipment purchase no later than 12 months before project end.",
+        "The 5% contingency budget ring-fence is explicitly justified and linked to a defined activation mechanism (written agreement between NTNU and HK-dir)."
+      ],
+      "weaknesses": [
+        "The budget allocation is described only at WP level (indicative percentages) with no line-item breakdown. For a NOK 5,000,000 project, the absence of even a categorical breakdown (personnel vs. travel vs. equipment vs. scholarships per WP) makes cost-effectiveness difficult to assess rigorously. The statement that NTNU personnel costs are 'NOK 1,450,000, representing 29%' is the only line-item figure given.",
+        "The scholarship arithmetic is not fully reconciled. Section 1.1 states 15 master's/PhD students at 'up to 10 months each' (PhD at EUR 400/month = EUR 60,000 for 15 PhD-level students). Section 2.1 states 30 undergraduate students at 5 months × EUR 250/month (= EUR 37,500) and 15 postgraduate at 10 months (= EUR 60,000 for PhD rate). Total scholarship cost would be approximately NOK 1,030,000 (using EUR/NOK ≈ 11.5) — but the WP3 budget allocation is NOK 1,500,000 with scholarships at NOK 800,000. This discrepancy is not explained.",
+        "The six curriculum co-design workshops are described (three online, one at NTNU, one at ZNU, one at Ukrainian Partner 2) but no travel cost estimate is provided for the in-person workshops. For a project constrained to 29% Norwegian personnel costs, the travel budget for 25 staff exchanges + 15 teaching missions + workshop travel needs explicit justification.",
+        "WP4 Living Lab equipment budget of NOK 350,000 (approx. EUR 30,000) for smart metering, IoT sensors, and data infrastructure for a 50 kW PV + cogeneration + battery system seems potentially under-resourced. No cost comparison with comparable Living Lab installations is provided.",
+        "The Gantt-style timeline table is helpful but does not indicate which activities are on the critical path. In a wartime context, identifying critical path dependencies (e.g., accreditation completion at M24 as a prerequisite for Year 3 full curriculum rollout) is important for risk management.",
+        "The proposal notes that Partner 2's location 'outside the frontline zone' provides geographic resilience but does not name the city or region, making it impossible to assess whether this mitigation is realistic.",
+        "Monthly online seminars (WP2, 36 total) are listed as deliverables, which may be administratively burdensome to report to HK-dir. No description of how these are recorded, archived, and attributed is provided."
+      ],
+      "recommendations": [
+        "Provide a two-tier budget breakdown in the final submission: (a) by WP (already present) and (b) by budget category (personnel, travel, equipment, scholarships, services) with Norwegian vs. Ukrainian split — even if approximate, this demonstrates cost-effectiveness transparency.",
+        "Reconcile the scholarship arithmetic: clarify whether the 15 postgraduate students are at PhD rate (EUR 400/month) or master's rate (EUR 250/month), and confirm that the NOK 800,000 scholarship allocation covers the full 45 mobilities as stated.",
+        "Identify the Living Lab equipment by component (AMI meters, IoT gateway, SCADA interface, data server) with indicative costs to justify the NOK 350,000 allocation.",
+        "Add a simplified critical path diagram or narrative identifying the three or four activities whose delay would most significantly affect overall project delivery, and link these to the contingency protocol.",
+        "Reduce the number of deliverable events (e.g., consolidate 36 monthly seminar recordings into quarterly reports) to maintain a realistic administrative load consistent with the stated staff FTE allocations."
+      ]
+    },
+    {
+      "criterion": "Quality of project group",
+      "weight": 20,
+      "score": 4,
+      "subScores": {
+        "3.1_complementarity": 4,
+        "3.2_task_division": 4,
+        "3.3_interaction_plan": 5
+      },
+      "strengths": [
+        "The NTNU-ZNU partnership logic is credible and pre-existing: a formal strategic roadmap for 2026–2028 is referenced, and the proposal is framed explicitly as the educational crystallisation of an active research relationship. This is stronger than typical Nansen proposals where partnerships are formed primarily for the grant application.",
+        "The NTNU team's disciplinary coverage is appropriate: power systems engineering (Department of Electric Energy), energy efficiency and industrial decarbonisation (Department of Energy and Process Engineering), digital twins and simulation (CINELDI Centre), and international mobility administration (International Office). The combination covers all eight proposed courses.",
+        "ZNU's team similarly covers multiple required competences: smart grids research, hydropower engineering, AI/ML for energy systems, and campus infrastructure management. The ZNU Digital and AI Lead's background in ML for energy load forecasting is directly relevant to WP4 Pilot 3.",
+        "The three-tier governance structure (PSC, WP Leadership, Operational Office) is well-designed for a three-year multi-partner project. The casting vote mechanism, escalation protocol, and 72-hour security assessment trigger are specific and workable.",
+        "The stakeholder engagement plan is notably strong: named industry partners (Ukrenergo, Zaporizhzhiaoblenergo, Statkraft, Eidsiva), defined roles (advisory board, guest lecturers, data providers, internship placements), and specific contributions to curriculum delivery. This goes well beyond typical advisory board formalism.",
+        "The communication infrastructure (shared SharePoint, monthly WP meetings, quarterly PSC, annual consortium meeting) is appropriately scaled for the project size and security context.",
+        "The conflict escalation protocol (10 working days to PSC, financial irregularities to NTNU legal office and HK-dir) is explicit and operationally credible."
+      ],
+      "weaknesses": [
+        "The most significant weakness is that Ukrainian Partner 2 is entirely absent from the consortium as presented. This is not merely a gap in the proposal document — it is a potential eligibility disqualification. The programme requires a minimum of two Ukrainian HEIs. A proposal that allocates 23% of its budget and a significant share of its student reach targets to an unidentified institution cannot fully demonstrate partnership complementarity, active task division, or a realistic interaction plan for that partner.",
+        "All NTNU and ZNU key personnel are listed as '[Name TBC]'. The project coordinator CV is a mandatory submission document under Nansen EDU requirements. No CVs, publication records, or track records are verifiable from the proposal as submitted. The claims about personnel expertise (e.g., '15+ years of experience coordinating EU-funded projects', ZNU Director's 'peer-reviewed research on distributed renewable energy management') cannot be assessed without named individuals.",
+        "The budget split (NTNU 35%, ZNU 42%, Partner 2 23%) assigns NTNU 35% of total budget, of which 29% is Norwegian personnel costs. This leaves only 6% of total budget for NTNU non-personnel activities (travel, equipment, services). Given that NTNU is hosting 45 student exchanges (each requiring laboratory access, supervision time, and administrative support) and conducting 15 teaching missions to Ukraine, this allocation appears tight and is not explained.",
+        "The division of WP leads is somewhat unbalanced: NTNU leads WP1 (Curriculum) and WP5 (Dissemination/QA), while ZNU leads WP2 (Staff Training), WP3 (Student Programme), and WP4 (Living Lab). However, WP5's quality assurance function gives NTNU implicit authority over deliverable approval across all WPs. The power dynamic this creates for a Ukrainian partner institution operating under wartime conditions is not acknowledged.",
+        "The industry advisory board membership includes 'NTNU alumni in Ukrainian energy sector' as a listed category, but no names or positions are provided, making this contribution speculative.",
+        "Partner 2's role is described only generically ('alternative geographic hub', 'complementary technical expertise', 'student recruitment'). Without knowing the institution's field, these generic role descriptions cannot be assessed for genuine complementarity."
+      ],
+      "recommendations": [
+        "This is the single most important improvement: identify and formally confirm Ukrainian Partner 2 before submission. Provide the institution's name, city, accredited programs, enrolled student numbers in energy/electrical engineering, and the name of the designated project coordinator. Attach a signed Letter of Commitment.",
+        "Name all key personnel and either include their CVs (mandatory for project coordinator) or provide one-paragraph biographies with verifiable indicators (e.g., ORCID IDs, Scopus author profiles, Erasmus+ project numbers) for the remaining team members.",
+        "Clarify what NTNU's 6% of non-personnel budget covers: specifically, how NTNU covers the costs of hosting 45 incoming students (laboratory consumables, supervision time, accommodation coordination) within this allocation.",
+        "Consider whether ZNU's lead on WP5 quality assurance (or at minimum co-lead status) would better reflect an equitable partnership dynamic, given that ZNU is delivering the majority of direct outputs.",
+        "Replace the generic 'NTNU alumni in Ukrainian energy sector' advisory board category with named individuals and their affiliations, or remove this reference if it cannot be substantiated before submission."
+      ]
+    },
+    {
+      "criterion": "Project impact",
+      "weight": 30,
+      "score": 5,
+      "subScores": {
+        "4.1_impact": 6,
+        "4.2_sustainability": 5,
+        "4.3_evaluation": 5
+      },
+      "strengths": [
+        "The impact narrative is multi-level and credible: student competences (600+ directly trained), academic staff permanence (25 trained, 40 cascaded, estimated 500+ students/year post-project), industry CPD (80 professionals), institutional transformation (first accredited smart grid specialisation in Zaporizhzhia region), and national system change (OER reaching 20+ HEIs, Ministry of Education engagement from M6).",
+        "The five-year graduate tracking protocol (established M30, contacts at 1, 2, 5 years post-graduation) is among the strongest sustainability evaluation mechanisms seen in proposals at this funding level. Its integration with ZNU's existing Erasmus+ graduate tracking system avoids creating a parallel administrative burden.",
+        "The regulatory sustainability mechanism — accreditation by Ukrainian Ministry of Education and Science creating a legal obligation to deliver courses perpetually — is well-theorised. Once accredited, courses cannot be discontinued without regulatory consequence, which is a genuinely durable form of sustainability.",
+        "The Living Lab's estimated annual operating cost (EUR 5,000–8,000) is modest and credibly absorbed into ZNU's regular facilities budget under its ESG institutional strategy. This is more specific than most sustainability plans which vaguely reference 'institutional absorption'.",
+        "The 'SmartGreen Ukraine Education Network' of 20 HEIs constituted at M36 provides an institutional vehicle for post-project OER distribution and peer learning. ZNU's 0.1 FTE secretariat commitment is a realistic ongoing resource commitment.",
+        "The four-publication commitment with named target journals (IEEE Transactions on Education, European Journal of Engineering Education, Energies) is specific and the open-access choice (particularly MDPI Energies) maximises reach for Ukrainian colleagues with limited library access.",
+        "The direct connection between SmartGreen-UA graduates and Ukraine's energy reconstruction pipeline is argued compellingly: graduates are the human capital required by Ukrenergo, regional DSOs, and municipal energy units to implement the Ukraine Recovery Plan's smart grid components. This link to national recovery is explicit and verifiable against referenced policy documents.",
+        "The Horizon Europe follow-on strategy is grounded in the specific NTNU-ZNU strategic roadmap rather than generic aspiration, and the 2028 submission timeline is consistent with the consortium having the joint publications and institutional depth required for competitive Horizon applications."
+      ],
+      "weaknesses": [
+        "The '500+ students per year by Year 5 post-project' estimate is the weakest quantitative claim in the document. It is not derived from any stated calculation of staff capacity, course scheduling constraints, or ZNU's actual student enrollment trends. Given Ukraine's wartime demographic challenges (student population decline, emigration), this figure may be optimistic and should be modelled against current and projected enrollment.",
+        "The '3,000 students within five years' cumulative figure compounded from the 500/year estimate inherits the same problem. These headline numbers appear in the impact section without supporting calculation.",
+        "The external evaluator at M18 is 'contracted by NTNU through open procurement' — there is no specification of evaluator qualifications, evaluation scope, budget allocation for evaluation activities, or independence criteria. The mid-term evaluation could be cursory if not properly resourced.",
+        "The policy brief to Ukraine's Ministry of Energy and Ministry of Education and Science (due M30) is listed as a dissemination activity but there is no description of the engagement strategy: who will deliver it, in what forum, with what follow-up mechanism. A policy brief submitted without a stakeholder engagement plan has low probability of influencing national curriculum standards.",
+        "The '1,000+ downloads within 12 months' OER reach estimate is referenced to 'ZNU's experience with prior OER releases' but no specific prior OER release data is cited to validate this benchmark.",
+        "The final evaluation (M34–36) is described but no budget allocation for external evaluation is mentioned. If the evaluator is also external for the final evaluation, this represents a non-trivial cost that should appear in the budget.",
+        "The proposal does not address the risk that ZNU's student population — already under pressure from the wartime displacement of young Ukrainians — may not sustain the minimum 40-student intake for the new master's specialisation tracks. No minimum viability threshold or contingency plan is described.",
+        "Academic publications are listed as a dissemination output but no timeline beyond 'Years 2 and 3' is specified. For publications in peer-reviewed journals, the lead time from submission to publication means Year 2 manuscripts may not appear until Year 3 or beyond — and final evaluation manuscripts may not be published before the project ends."
+      ],
+      "recommendations": [
+        "Provide a worked calculation for the 500 students/year post-project estimate: how many staff × how many courses each × average class size = annual student reach. Benchmark against ZNU's current annual enrollment in energy engineering programs.",
+        "Specify the budget line for evaluation activities (mid-term and final), the evaluator selection criteria (independence from consortium, experience with HEI capacity-building evaluation), and whether a single evaluator will cover both evaluations.",
+        "Develop a two-page Ministry engagement strategy for the policy brief: named Ministry contacts if available, the specific forum for presentation (e.g., MES working group on curriculum standards), and a follow-up mechanism to assess whether the brief influenced policy discussions.",
+        "Add a contingency plan for master's specialisation track viability: if Year 1 applications for the new tracks are below minimum viable cohort size (suggest: 10 students), what is the response — adjust intake requirements, merge tracks, or reroute students through single-course uptake?",
+        "Set explicit academic publication submission deadlines (not just conference presentation dates) and identify a specific lead author for each of the four planned publications to ensure accountability."
+      ]
+    }
+  ],
+  "crossCuttingCompliance": {
+    "antiCorruption": {
+      "addressed": true,
+      "quality": "Strong. Ukraine's CPI score (35/100) is cited explicitly with correct reference to the Nansen EDU threshold requirement. Six specific measures are described: NTNU as primary financial controller under Norwegian state financial regulations, dual authorisation for ZNU expenditures above EUR 1,000, competitive three-quote procurement above EUR 500, transparent scholarship selection by joint committee with published criteria, a named whistleblower channel with designated NTNU integrity officer, and mandatory staff anti-corruption training. The financial control cascade from NTNU → sub-grant → ZNU internal audit is operationally credible. Minor gap: no mention of how the sub-grant agreement will be structured to include audit rights for HK-dir directly."
+    },
+    "climate": {
+      "addressed": true,
+      "quality": "Adequate to good. Travel minimisation is addressed (online workshops replacing three of six in-person, Oslo–Kyiv/Lviv direct flights, rail preference for European legs, estimated 35% CO₂ reduction). NTNU's institutional carbon accounting tool is referenced for annual reporting. The Living Lab is correctly identified as a climate mitigation instrument embedded in the educational programme itself. Gap: the 35% CO₂ reduction estimate is not supported by calculation (no baseline travel carbon figure provided). The proposal does not specify whether NTNU offsets residual travel emissions or how climate considerations will appear in HK-dir progress reports."
+    },
+    "gender": {
+      "addressed": true,
+      "quality": "Good. The gender dimension is addressed at multiple levels: targeted recruitment with a 40% minimum threshold for women scholarship recipients with an active outreach protocol if applications fall short, steering committee gender balance (40% any gender), gender balance in NTNU visiting lecturers (40% women), and curriculum content explicitly addressing gender-differentiated energy access with IRENA and IEA sources cited. The 28%/20% baseline data for Ukrainian engineering gender representation is specific. Minor gap: the 40% target is framed as a minimum floor but there is no mechanism to track or report against this target in annual progress reports to HK-dir."
+    },
+    "humanRights": {
+      "addressed": true,
+      "quality": "Adequate. Two specific rights risks are identified and addressed: access and non-discrimination for displaced Ukrainian students (mitigated by blended-first design), and academic freedom (confirmed safe under Ukrainian law for energy engineering content, with dual-use review referenced). The proposal correctly contextualises the broader rights violations perpetrated by the occupying power while distinguishing project-specific risk from the macro-conflict context. Gap: the human rights assessment does not consider the rights of students from occupied territories who may be enrolled at ZNU remotely — specifically whether digital participation creates any identification or security risk for individuals in Russian-controlled areas."
+    },
+    "seah": {
+      "addressed": true,
+      "quality": "Strong. The SEAH section is unusually detailed for a project proposal: codes of conduct signed by all participants, mandatory pre-departure briefings, a dedicated reporting channel independent of the anti-corruption channel, a named contact person (NTNU Gender Equality and Inclusion Officer) with ZNU equivalent, accommodation arranged exclusively through SiT (never by individual staff), and power dynamics training for the project team. The distinction between the SEAH channel and the anti-corruption channel reflects genuine institutional awareness of different reporting needs. Minor gap: no description of the timeline for completing SEAH awareness briefings relative to mobility departure dates, or of the process if a SEAH incident occurs at ZNU rather than NTNU."
+    },
+    "dataProtection": {
+      "addressed": true,
+      "quality": "Adequate. GDPR compliance is referenced for both NTNU's Microsoft 365 and ZNU's Azure tenant. A Data Management Plan is committed for M3 with annual updates, covering both personal data and Living Lab sensor data. Export control review is scheduled for M1 with a documented conclusion expected. Microsoft Defender for Cloud is named for IoT cybersecurity monitoring. Gap: the proposal does not address the specific GDPR status of ZNU's Azure tenant — Ukrainian institutions are not subject to GDPR directly, and the cross-border transfer of student personal data from ZNU to NTNU's systems requires specific adequacy assessment (Ukraine is not on the EU adequacy list). This should be addressed in the M3 DMP but should be noted in the proposal."
+    }
+  },
+  "topStrengths": [
+    "Exceptional needs analysis grounded in verified, quantitative data on Ukraine's energy infrastructure collapse and the corresponding skills gap in higher education, with 15 cited references spanning IEA, World Bank, Ukrenergo, and Ukrainian MES sources.",
+    "The 'Conflict Zone Living Lab' concept is internationally novel and represents genuine methodological innovation: ZNU's wartime campus infrastructure (solar, cogeneration, battery, cloud monitoring) is transformed into a real-world pedagogical asset that most comparable projects cannot replicate.",
+    "Comprehensive, specific, and proportionate treatment of all seven cross-cutting issues — including an unusual level of SEAH institutional detail (separate reporting channel, named contact, SiT accommodation protocol, power dynamics training) — which significantly exceeds the minimum compliance threshold.",
+    "Robust sustainability architecture operating at four levels simultaneously: regulatory accreditation, human capital permanence, physical Living Lab infrastructure, and the SmartGreen Ukraine Education Network — each with specific post-project resource commitments and financial estimates.",
+    "Strong governance design with explicit decision rules (casting vote, 10-day escalation), named institutional roles (NTNU integrity officer, NTNU Gender Equality and Inclusion Officer, ZNU PSC observer), and security-adaptive protocols (72-hour ZNU visit assessment, Azure dual-location backup) appropriate for a wartime operating environment."
+  ],
+  "criticalWeaknesses": [
+    "ELIGIBILITY RISK: Ukrainian Partner 2 is entirely unidentified throughout the proposal. The programme requires a minimum of two Ukrainian HEIs. Without a confirmed, named second partner with a signed Letter of Commitment, the application does not meet the mandatory eligibility criterion and cannot be submitted. This is not a gap that can be addressed by the evaluators — it must be resolved before submission.",
+    "MANDATORY SUBMISSION DOCUMENT MISSING: The project coordinator CV (maximum 4 pages) is a mandatory submission document under Nansen EDU requirements. All key NTNU and ZNU personnel are listed as '[Name TBC]', meaning no CV can be attached. This will result in administrative rejection of the application at the eligibility screening stage.",
+    "BUDGET CREDIBILITY GAP: The scholarship arithmetic does not reconcile with the stated WP3 budget allocation (NOK 800,000 for scholarships vs. a calculated ~NOK 1,030,000 needed for 45 students at stated rates and durations). This discrepancy must be resolved before submission to ensure the mobility programme can be fully funded as described.",
+    "SCOPE-RESOURCE TENSION: The proposal commits to eight accredited courses, a Living Lab, 45 student mobilities, 25 staff exchanges, 15 teaching missions, 36 online seminars, four CPD workshops, four academic publications, a national education network, an AI analytics open-source toolkit, a replication guide, and a Horizon Europe proposal — all within NOK 5,000,000. No prioritisation framework is provided for the event that activities must be reduced. A credible risk response to scope overreach is absent."
+  ],
+  "improvementPriorities": [
+    {
+      "priority": "critical",
+      "area": "Partner 2 identification and eligibility compliance",
+      "recommendation": "Identify, formally engage, and obtain a signed Letter of Commitment from a second Ukrainian HEI with accredited bachelor's and master's programs in electrical or energy engineering, located outside the current frontline zone. Include the institution's name, city, program catalog, enrolled student numbers, and designated project coordinator in the proposal. This is a prerequisite for submission — without it, the application is ineligible."
+    },
+    {
+      "priority": "critical",
+      "area": "Personnel identification and mandatory CV submission",
+      "recommendation": "Name all key personnel listed as '[Name TBC]' and prepare the project coordinator's CV (max 4 pages) as a mandatory submission document. For other key staff, provide at minimum one-paragraph biographies with verifiable indicators (ORCID, Scopus, Erasmus+ project references) to allow evaluators to assess the team's credibility independently."
+    },
+    {
+      "priority": "critical",
+      "area": "Scholarship budget reconciliation",
+      "recommendation": "Recalculate scholarship costs based on the stated mobility parameters (30 undergraduates × 5 months × EUR 250 + 15 postgraduates × 10 months × EUR 250–400) and reconcile the total against the NOK 800,000 scholarship allocation within WP3. If the allocation is insufficient, either reduce mobility numbers, adjust duration, or increase the WP3 budget — but the arithmetic must be consistent throughout the proposal."
+    },
+    {
+      "priority": "high",
+      "area": "Budget line-item transparency",
+      "recommendation": "Provide a categorical budget breakdown (personnel, travel, equipment, scholarships, external services, other) for each WP and for each partner separately. This is particularly important to demonstrate that NTNU's non-personnel activities (hosting 45 students, 15 teaching missions) are funded within the remaining 6% of non-Norwegian-personnel budget, and to allow evaluators to assess cost-effectiveness at the activity level."
+    },
+    {
+      "priority": "high",
+      "area": "Post-project student enrollment viability",
+      "recommendation": "Provide a worked calculation for the post-project annual student reach estimate (currently 500+/year without derivation) based on ZNU's current enrollment data in energy engineering and realistic staff teaching load assumptions. Add a minimum viable cohort policy for the two new master's specialisation tracks and a contingency plan if Year 1 applications fall below that threshold."
+    },
+    {
+      "priority": "high",
+      "area": "Evaluation budget and external evaluator specification",
+      "recommendation": "Specify a budget line for evaluation activities (mid-term and final external evaluation) and define the evaluator selection criteria: minimum qualifications, independence from consortium, experience with HEI capacity-building evaluation in conflict contexts. Without a funded evaluation plan, the quality assurance commitment in WP5 is not credible."
+    },
+    {
+      "priority": "medium",
+      "area": "GDPR and cross-border personal data transfer",
+      "recommendation": "Note in the data protection section that ZNU's Azure tenant is under Ukrainian rather than EU/EEA jurisdiction, and that cross-border transfer of student personal data from ZNU to NTNU systems requires a specific legal basis under GDPR (e.g., standard contractual clauses). Commit to addressing this in the M3 Data Management Plan with NTNU's Data Protection Officer involvement."
+    },
+    {
+      "priority": "medium",
+      "area": "Ministry of Education engagement strategy",
+      "recommendation": "Develop the policy brief activity (currently listed as a deliverable at M30) into a two-page stakeholder engagement plan: named Ministry contact (or relevant working group), the forum for presentation, a follow-up mechanism, and a success indicator (e.g., SmartGreen-UA OER listed as Ministry-recommended resource). Without this, the national curriculum impact claim cannot be assessed."
+    },
+    {
+      "priority": "medium",
+      "area": "Critical path and scope prioritisation",
+      "recommendation": "Add a narrative or visual critical path identifying the three to four activities whose delay would most affect overall delivery, and specify a prioritisation protocol: if budget or timeline pressures require scope reduction, which activities are protected (accreditation, Living Lab) and which are contingent (OER volume, network formation)? This is particularly important given the wartime operating environment."
+    },
+    {
+      "priority": "low",
+      "area": "Nansen portfolio complementarity",
+      "recommendation": "Name at least two existing Nansen EDU projects in the energy or digital transformation domain and provide one-sentence explanations of how SmartGreen-UA's outputs are distinct. This directly addresses sub-factor 1.5 (added value beyond what exists) in the Nansen portfolio context and strengthens the relevance score."
+    }
+  ]
+}
