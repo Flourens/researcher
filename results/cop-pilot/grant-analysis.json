@@ -1,0 +1,402 @@
+{
+  "grantTitle": "COP-PILOT Open Call #1 - CL2 Smart Sustainable IoT Solutions (Valencia)",
+  "grantingOrganization": "European Union - HORIZON Programme (COP-PILOT Consortium)",
+  "programName": "COP-PILOT (Collaborative Open Platform for PILOTing services across emerging smart IoT and Edge computing environments)",
+  "deadline": "2026-05-04T22:00:00+01:00",
+  "summary": "COP-PILOT Open Call #1 offers up to EUR 200,000 per project (100% funding) for SME-led innovations in smart sustainable IoT solutions for Valencia, Spain. The call targets 8 projects across multiple clusters, with Cluster 2 (CL2) focusing on smart cities, urban development, environmental monitoring, and IoT platform integration. Projects must integrate with the COP-PILOT platform and demonstrate TRL progression from 6 to 7-8 over an 8-month execution period.",
+  "objectives": [
+    "Develop and pilot innovative IoT solutions that integrate with the COP-PILOT Collaborative Open Platform framework",
+    "Demonstrate end-to-end orchestration of services across diverse edge computing, 5G connectivity, and decentralized processing environments",
+    "Address specific challenges in Valencia's smart city infrastructure including smart access/resource management, robotic surveillance, autonomous transport, and municipal building automation",
+    "Validate COP-PILOT platform components (ServOrch, SIF, LLM-UI) through real-world deployment in Valencia cluster environments",
+    "Progress technology readiness from TRL 5-6 to TRL 7-8 while ensuring compliance with open standards (FIWARE, TMForum APIs, NGSI-LD, Eclipse Arrowhead)",
+    "Support Valencia's carbon neutrality goals by 2030 through sustainable smart city IoT innovations",
+    "Demonstrate cross-sector scenarios and replication potential beyond the initial deployment"
+  ],
+  "requirements": [
+    {
+      "category": "eligibility",
+      "description": "Lead applicant MUST be an SME registered in an EU Member State or Horizon Europe Associated Country",
+      "mandatory": true,
+      "evidence": "Company registration documents proving SME status and EU/Associated Country registration"
+    },
+    {
+      "category": "eligibility",
+      "description": "Eligible as single SME or SME-led consortium of at least 2 partners (no maximum). Other partners can be SMEs, large enterprises, research institutions, universities, non-profit organizations, or public entities",
+      "mandatory": true,
+      "evidence": "Consortium agreement if multi-partner; partner eligibility documentation"
+    },
+    {
+      "category": "eligibility",
+      "description": "Organization must not be bankrupt, subject to insolvency proceedings, guilty of grave professional misconduct or fraud, and must be compliant with tax and social security obligations",
+      "mandatory": true,
+      "evidence": "Legal declarations and certificates of good standing"
+    },
+    {
+      "category": "administrative",
+      "description": "Proposal must be submitted in English only, maximum 12 pages",
+      "mandatory": true,
+      "evidence": "English-language proposal document within page limit"
+    },
+    {
+      "category": "administrative",
+      "description": "Submission through https://cop-pilot.eu/ between 03 March 2026 09:00 CET and 04 May 2026 22:00 CET (strict deadline, late submissions rejected)",
+      "mandatory": true,
+      "evidence": "Online submission confirmation"
+    },
+    {
+      "category": "financial",
+      "description": "Maximum funding request of EUR 200,000 per project",
+      "mandatory": true,
+      "evidence": "Detailed budget breakdown not exceeding EUR 200,000"
+    },
+    {
+      "category": "financial",
+      "description": "Indirect costs limited to maximum 25% of direct costs",
+      "mandatory": true,
+      "evidence": "Budget table showing indirect costs calculation"
+    },
+    {
+      "category": "financial",
+      "description": "Subcontracting limited to maximum 20% of total budget with clear justification",
+      "mandatory": true,
+      "evidence": "Subcontracting justification and cost breakdown"
+    },
+    {
+      "category": "financial",
+      "description": "Cannot receive funding from another EU source for the same work (no double funding)",
+      "mandatory": true,
+      "evidence": "Declaration of no double funding"
+    },
+    {
+      "category": "technical",
+      "description": "Solution must address at least one of the four CL2 Open Call Challenges: OC#2.1 (Smart Access/Resource Management at UPV), OC#2.2 (Robotic Patrol/Surveillance), OC#2.3 (Autonomous Terminal Shuttle at Port), or OC#2.4 (Municipal Buildings Management)",
+      "mandatory": true,
+      "evidence": "Clear identification and technical approach to specific challenge"
+    },
+    {
+      "category": "technical",
+      "description": "Application must be containerized (Docker, Kubernetes) and expose performance metrics for COP-PILOT platform integration",
+      "mandatory": true,
+      "evidence": "Technical architecture showing containerization approach"
+    },
+    {
+      "category": "technical",
+      "description": "Compliance with open standards: TMForum APIs, ETSI ZSM, NGSI-LD/NGSI-v2, FIWARE, Eclipse Arrowhead, CNCF SPIFFE, OAuth 2.0, OpenID Connect",
+      "mandatory": true,
+      "evidence": "Technical specification showing standards compliance"
+    },
+    {
+      "category": "technical",
+      "description": "Integration with COP-PILOT platform components through one of two workflows: (1) Onboarding New Services via git-based repository with CI pipeline, or (2) Integrating New Infrastructure Domains via portal registration with Domain Orchestrator",
+      "mandatory": true,
+      "evidence": "Integration architecture and workflow description"
+    },
+    {
+      "category": "technical",
+      "description": "Solution must start at minimum TRL 6 and demonstrate progression to TRL 7-8 by project end",
+      "mandatory": true,
+      "evidence": "TRL assessment at start and planned progression roadmap"
+    },
+    {
+      "category": "technical",
+      "description": "Solutions must be compatible with cluster infrastructure: 5G/6G networks, LoRaWAN, edge computing resources, existing sensor networks, FIWARE Thinking Cities platform",
+      "mandatory": true,
+      "evidence": "Technical compatibility analysis with cluster infrastructure"
+    },
+    {
+      "category": "technical",
+      "description": "GDPR compliance and data protection regulations adherence",
+      "mandatory": true,
+      "evidence": "Data protection impact assessment and GDPR compliance plan"
+    },
+    {
+      "category": "administrative",
+      "description": "Project duration: 8 months execution + 2 months reporting (10 months total)",
+      "mandatory": true,
+      "evidence": "Project timeline with Gantt chart"
+    },
+    {
+      "category": "administrative",
+      "description": "Mandatory milestones: M4 intermediate report and M9 final deliverable",
+      "mandatory": true,
+      "evidence": "Milestone schedule in project plan"
+    },
+    {
+      "category": "administrative",
+      "description": "Clear project phases: Design, Implementation, Testing, Evaluation/Reporting",
+      "mandatory": true,
+      "evidence": "Phased work plan"
+    },
+    {
+      "category": "other",
+      "description": "Open access obligations: publish findings, share code on GitHub/GitLab, acknowledge EU funding (Grant Agreement 101189819)",
+      "mandatory": true,
+      "evidence": "Open access and dissemination plan"
+    },
+    {
+      "category": "other",
+      "description": "Maintain financial records for 6 years after project end",
+      "mandatory": true,
+      "evidence": "Record-keeping procedures"
+    },
+    {
+      "category": "other",
+      "description": "Minimum score of 3 (Good) in each evaluation criterion; overall threshold of 60 points total",
+      "mandatory": true,
+      "evidence": "Proposal must meet quality thresholds in Excellence, Impact, and Implementation"
+    }
+  ],
+  "evaluationCriteria": [
+    {
+      "name": "Excellence",
+      "description": "Assessment of objectives, technical approach, standards compliance, state-of-the-art analysis, and TRL progression",
+      "weight": 40,
+      "maxScore": 40,
+      "keyIndicators": [
+        "SMART objectives and clear problem statement",
+        "Alignment with COP-PILOT goals and CL2 cluster objectives",
+        "Sound technical approach using FIWARE, TMForum APIs, Eclipse Arrowhead, GAIA-X compliance",
+        "Standards compliance (MQTT, OPC UA, REST integration protocols)",
+        "State-of-the-art analysis with novel approach beyond existing solutions",
+        "TRL progression from 5-6 to 7-8 with clear pathway",
+        "Technical innovation and feasibility of proposed solution"
+      ]
+    },
+    {
+      "name": "Impact",
+      "description": "Assessment of cluster alignment, platform integration, cross-sector potential, and sustainability/dissemination plans",
+      "weight": 30,
+      "maxScore": 30,
+      "keyIndicators": [
+        "Specific CL2 cluster and use case targeting",
+        "Clear COP-PILOT platform integration description",
+        "Effective leveraging of platform components (ServOrch, SIF, LLM-UI)",
+        "Cross-sector scenarios supported and replication potential",
+        "Comprehensive sustainability and dissemination plans",
+        "Open access and data sharing commitments",
+        "Environmental, economic and technological impact analysis",
+        "Scalability and transferability to other contexts"
+      ]
+    },
+    {
+      "name": "Implementation",
+      "description": "Assessment of project planning, team qualifications, timeline realism, and budget justification",
+      "weight": 30,
+      "maxScore": 30,
+      "keyIndicators": [
+        "Clear project phases: Design, Implementation, Testing, Evaluation/Reporting",
+        "Mandatory milestones at M4 (intermediate report) and M9 (final deliverable)",
+        "Realistic 8-month timeline with detailed Gantt chart",
+        "Team qualifications and relevant track record",
+        "Budget ≤ EUR 200,000 with justified breakdown by category",
+        "Indirect costs ≤ 25% of direct costs",
+        "Risk management and mitigation strategies",
+        "Quality assurance and project management approach"
+      ]
+    }
+  ],
+  "budget": {
+    "totalAmount": "EUR 1,600,000 (total call budget for 8 projects)",
+    "categories": [
+      {
+        "category": "Personnel",
+        "description": "Salaries for project staff directly working on the project",
+        "minAmount": null,
+        "maxAmount": null,
+        "rules": [
+          "Must be justified based on actual work performed",
+          "Standard hourly/daily rates apply"
+        ]
+      },
+      {
+        "category": "Travel",
+        "description": "Meetings, conferences, site visits, webinars",
+        "minAmount": null,
+        "maxAmount": 1000,
+        "rules": [
+          "Maximum EUR 1,000 per person per month",
+          "Must be directly related to project activities"
+        ]
+      },
+      {
+        "category": "Equipment",
+        "description": "Computing hardware, sensors, software licenses",
+        "minAmount": null,
+        "maxAmount": null,
+        "rules": [
+          "Only depreciation costs eligible (not full purchase price)",
+          "Must be justified for project needs"
+        ]
+      },
+      {
+        "category": "Subcontracting",
+        "description": "Outsourced services to third parties",
+        "minAmount": null,
+        "maxAmount": null,
+        "rules": [
+          "Maximum 20% of total budget",
+          "Clear justification required",
+          "Must specify subcontractor and tasks"
+        ]
+      },
+      {
+        "category": "Other Direct Costs",
+        "description": "Consumables, services, publications, dissemination costs",
+        "minAmount": null,
+        "maxAmount": null,
+        "rules": [
+          "Must be directly attributable to the project",
+          "Properly documented and justified"
+        ]
+      },
+      {
+        "category": "Indirect Costs",
+        "description": "Overhead costs not directly attributable to project",
+        "minAmount": null,
+        "maxAmount": null,
+        "rules": [
+          "Maximum 25% of total direct costs",
+          "Calculated as flat rate",
+          "No additional justification required beyond percentage"
+        ]
+      }
+    ],
+    "coFundingRequired": false,
+    "coFundingPercentage": 0
+  },
+  "timeline": [
+    {
+      "phase": "Submission Period",
+      "duration": "03 March 2026 to 04 May 2026",
+      "deliverables": [
+        "Complete proposal submission (max 12 pages)",
+        "Budget breakdown",
+        "Consortium agreement (if applicable)"
+      ]
+    },
+    {
+      "phase": "Evaluation Period",
+      "duration": "May-June 2026",
+      "deliverables": [
+        "Proposal evaluation by expert panel",
+        "Selection of 8 projects (1-2 per cluster)"
+      ]
+    },
+    {
+      "phase": "Contract Negotiation and Start",
+      "duration": "July 2026 (expected)",
+      "deliverables": [
+        "Grant agreement signature",
+        "First payment (50% upon contract signature)"
+      ]
+    },
+    {
+      "phase": "Design Phase",
+      "duration": "Months 1-2 of project execution",
+      "deliverables": [
+        "Detailed technical design",
+        "Integration architecture",
+        "Risk assessment"
+      ]
+    },
+    {
+      "phase": "Implementation Phase",
+      "duration": "Months 2-5 of project execution",
+      "deliverables": [
+        "Solution development",
+        "Platform integration",
+        "Containerization and deployment"
+      ]
+    },
+    {
+      "phase": "Mid-term Reporting",
+      "duration": "Month 4",
+      "deliverables": [
+        "Intermediate report (mandatory milestone M4)",
+        "Progress assessment",
+        "Updated timeline if needed"
+      ]
+    },
+    {
+      "phase": "Testing Phase",
+      "duration": "Months 6-7 of project execution",
+      "deliverables": [
+        "Integration testing with COP-PILOT platform",
+        "Deployment in Valencia cluster infrastructure",
+        "Performance metrics collection"
+      ]
+    },
+    {
+      "phase": "Evaluation Phase",
+      "duration": "Month 8 of project execution",
+      "deliverables": [
+        "Solution validation",
+        "Impact assessment",
+        "Lessons learned documentation"
+      ]
+    },
+    {
+      "phase": "Final Reporting",
+      "duration": "Months 9-10 (2 additional months)",
+      "deliverables": [
+        "Final report (mandatory milestone M9)",
+        "Open access publications",
+        "Code repository (GitHub/GitLab)",
+        "Financial report",
+        "Second payment (50% upon approval)"
+      ]
+    }
+  ],
+  "targetBeneficiaries": [
+    "SMEs (Small and Medium Enterprises) as lead applicants",
+    "SME-led consortia including large enterprises, research institutions, universities, non-profit organizations, and public entities",
+    "Technology providers specializing in IoT, edge computing, 5G/6G connectivity, smart city solutions",
+    "Service providers in urban development, environmental monitoring, building management, autonomous systems",
+    "Infrastructure owners and operators in smart cities",
+    "Innovation actors addressing Valencia's carbon neutrality goals"
+  ],
+  "geographicScope": "Valencia, Spain (City of Valencia, Port of Valencia, Industrial Park Almussafes, UPV Campus Vera)",
+  "eligibleCountries": [
+    "All EU Member States",
+    "Horizon Europe Associated Countries (including Iceland, Norway, Albania, Bosnia and Herzegovina, North Macedonia, Montenegro, Serbia, Turkey, Israel, Moldova, Ukraine, Tunisia, Georgia, Armenia, Kosovo)"
+  ],
+  "keyThemes": [
+    "Smart sustainable IoT solutions",
+    "Edge computing and 5G/6G connectivity",
+    "Smart cities and urban development",
+    "Environmental monitoring and sustainability",
+    "Carbon neutrality and green transition",
+    "Building management and automation",
+    "Traffic management and autonomous vehicles",
+    "Port logistics and maritime monitoring",
+    "Waste management optimization",
+    "Water resource management and conservation",
+    "Robotic surveillance and security",
+    "AI-driven service orchestration",
+    "Open standards and interoperability (FIWARE, TMForum, NGSI-LD)",
+    "Zero-trust security architectures",
+    "Data governance and GDPR compliance",
+    "Cross-sector digital innovation"
+  ],
+  "additionalNotes": [
+    "COP-PILOT is funded under EU HORIZON programme (Grant Agreement 101189819) under call HORIZON-CL4-2024-DATA-01, topic HORIZON-CL4-2024-DATA-01-03",
+    "Total call budget is EUR 1,600,000 expecting to fund 8 projects (1-2 per cluster), with CL2 being one of multiple clusters",
+    "100% funding rate means no co-financing required from applicants",
+    "Payment schedule: 50% upon contract signature (July 2026), 50% upon final report approval (2027)",
+    "Valencia was European Green Capital 2024 and aims for carbon neutrality by 2030, providing strong policy alignment",
+    "Four specific Open Call Challenges for CL2: OC#2.1 (Smart Access/Resource Management at UPV Campus), OC#2.2 (Robotic Patrol/Surveillance), OC#2.3 (Autonomous Terminal Shuttle at Port), OC#2.4 (Municipal Buildings Management with closed-loop automation)",
+    "Extensive infrastructure available: private 5G networks (n40, n78, n258), LoRaWAN networks, edge computing resources (HPE ProLiant, Dell PowerEdge servers), FIWARE Thinking Cities platform by Telefonica",
+    "CL2 has operational use cases already deployed: 5G radars for traffic/flood monitoring, IoT waste management sensors, maritime traffic monitoring, smart building management at La Harinera, environmental quality monitoring",
+    "Applicants can either deploy new infrastructure domain OR leverage existing CL2 domains (UPV Campus or Valencia Port)",
+    "Technical documentation available at: https://thinking-cities.readthedocs.io and https://github.com/telefonicaid",
+    "COP-PILOT platform uses modern tech stack: Next.js, React, Keycloak, Apache Kafka, Kubernetes, OpenZiti, NGSI-LD Context Brokers",
+    "Critical need identified for OC#2.4: closed-loop automation layer that translates building analytics into direct operational impact (HVAC control, equipment scheduling, anomaly detection)",
+    "Cross-site interconnection exists between UPV Lab and Fundacion Valenciaport via dedicated fiber",
+    "Proposals must demonstrate progress beyond state-of-the-art and analyze environmental, economic and technological impact",
+    "Integration protocols required: MQTT, OPC UA, REST APIs",
+    "Security requirements: OAuth 2.0, OpenID Connect, mTLS, X.509/PKI, CNCF SPIFFE compliance",
+    "Open access obligations include publishing on GitHub/GitLab and acknowledging EU funding in all materials",
+    "Threshold requirements: minimum score 3 (Good) in each of three criteria AND overall minimum 60 points (out of 100 possible)"
+  ]
+}

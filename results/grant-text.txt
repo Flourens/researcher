@@ -24,10 +24,11 @@ PROJECT DURATION:
 - Standard: 8 months execution + 2 months for reporting
 - Expected start: July 2026 (after evaluation)
 
-TARGET CLUSTER: CL3e — Edge Intelligence for Grid Reliability
-- Location: Preveza, Greece
-- Focus: Grid reliability, renewable integration, edge intelligence
-- Best for: Smart grid, renewable energy management
+TARGET CLUSTER: CL2 — Smart Sustainable IoT Solutions (Valencia)
+- Location: Valencia, Spain (City, Port, Industrial Park Almussafes, UPV Campus)
+- Domain: Smart cities, smart buildings, urban development, environmental monitoring
+- Focus: City-wide IoT platform for real-time urban optimization including traffic, surveillance, environmental monitoring, waste management, and water conservation
+- Valencia was European Green Capital 2024, aims carbon neutral by 2030
 
 ABOUT COP-PILOT:
 COP-PILOT is an Innovation Action funded under the EU HORIZON program focused on developing a Collaborative Open Platform (COP) framework that enables end-to-end orchestration of services across diverse industry sectors. Building upon the foundations of edge computing, advanced 5G connectivity, and decentralized processing, COP-PILOT aims to overcome fragmented infrastructure and isolated service domains by providing a unified platform for secure, automated, and intelligent management of resources and data.
@@ -60,7 +61,7 @@ Criterion 1: EXCELLENCE (Score 0-5, minimum 3, weight x8, max 40 points)
 - Standards compliance
 - Integration protocols (MQTT, OPC UA, REST)
 - State-of-the-art analysis + novel approach
-- TRL progression (typically TRL 5-6 → TRL 7-8)
+- TRL progression (typically TRL 5-6 to TRL 7-8)
 
 Criterion 2: IMPACT (Score 0-5, minimum 3, weight x6, max 30 points)
 - Specific cluster and use case targeted
@@ -124,13 +125,126 @@ Standards Compliance Required:
 - FIWARE, Eclipse Arrowhead for IoT
 - CNCF SPIFFE, OAuth 2.0, OpenID Connect for security
 
-CL3e CLUSTER SPECIFICS — Edge Intelligence for Enhancing Grid Reliability in RES-Rich Distribution Grids:
-- Location: Preveza, Greece
-- Focus: Grid reliability, renewable integration, edge intelligence
-- Smart grid, renewable energy management
-- Edge computing for real-time grid monitoring and control
-- Integration of distributed renewable energy sources (RES)
-- AI/ML for predictive grid management and reliability
+=== CL2 CLUSTER SPECIFICS — Smart Sustainable IoT Solutions (Valencia) ===
+
+CLUSTER OVERVIEW:
+Valencia's piloting cluster focuses on smart sustainable IoT solutions. The cluster brings several real-life environments for use case demonstration: (i) the city of Valencia, (ii) the port of Valencia — the fifth-largest port in Europe, (iii) the nearby industrial park of Almussafes, and (iv) UPV campus, a realistic smart city environment aiming carbon neutral by 2030. The cluster implements smart IoT platforms including the Thinking City platform by Telefonica (based on FIWARE, used by City of Valencia and UPV) and two platforms by IoT device integrators.
+
+EXISTING USE CASES IN CL2:
+- UC#2.1A: 5G-Connected Radars for Traffic Classification and Vehicle Counting — deployment of 5G-connected radar units for high-precision vehicle classification and real-time counting
+- UC#2.1B: Flood Warning and Mitigation System Through Radar Sensing — connected radar units at vulnerable locations of Almussafes for real-time water level monitoring
+- UC#2.2: Smart Resources Management in the UPV Campus — IoT-based fill-level sensors in waste containers for accurate waste generation estimation and distribution optimization
+- UC#2.3: Maritime Traffic Monitoring and Berthing Assistance — radars at port for real-time vessel direction, position, and docking conditions monitoring
+- UC#2.4A: IoT-Driven Smart Building Management — hybrid IoT architecture at La Harinera (multipurpose public building) integrating sensors with cloud-based BMS for occupancy, environmental conditions, space usage monitoring
+- UC#2.4B: IoT-Based Environmental Quality Monitoring System — LoRaWAN sensor network in Juan Carlos I Industrial Park for real-time formaldehyde monitoring
+
+OPEN CALL CHALLENGES FOR CL2 (what applicants should address):
+
+OC#2.1: Smart Access and Resource Management at UPV Campus
+- Access management: sensorizing and remotely controlling motorized gates and barriers in parking areas
+- Water resource management: replacing traditional water meters with smart LoRaWAN-enabled ones for real-time consumption monitoring, leak detection, and data-driven maintenance
+- Technologies: IoT sensors, actuators (gate controllers, barrier sensors, smart water meters), private LoRaWAN network
+- Implementation: UPV Campus parking areas, building entrances, water network nodes
+
+OC#2.2: Robotic Patrol and Surveillance at UPV Campus (and/or Valencia City)
+- Campus security: robotic dogs patrol predefined routes, detect unusual activity, provide live video and sensor data
+- Urban collaboration: with Valencia local police for public safety operations, mobile surveillance
+- Technologies: autonomous quadruped robots with cameras, LiDAR, environmental sensors; private 5G network; edge/cloud systems for real-time analytics
+- Test sites: UPV campus, selected urban streets in collaboration with Valencia local police
+
+OC#2.3: Autonomous Terminal Shuttle (Port of Valencia)
+- Deploying autonomous shuttle buses to transport employees and workers within the port
+- Integrating private 5G networks, advanced network slicing, and V2X communication
+- Technologies: 5G SA private network, V2I/V2V communication, remote-control cockpit
+- Requires ultra-reliable, low-latency connectivity
+
+OC#2.4: Municipal Buildings Management
+- Install further IoT devices to measure, analyse, and visualize the behaviour of municipal buildings in Valencia
+- Existing sensors: wireless IoT and wired sensing for temperature, humidity, CO2, occupancy, and energy consumption
+- Need: intelligent analytics that can translate raw data into concrete recommendations for facility managers
+- CRITICAL NEED: "What is still missing is the closed-loop automation layer that turns those insights into direct operational impact"
+- Required capabilities of the automation layer:
+  * Adjust climate control parameters (heating/cooling/ventilation) based on occupancy, comfort targets, outdoor conditions, and energy cost
+  * Switch equipment on/off or move it into low-power modes when spaces are not in use
+  * Regulate and schedule energy consumption to avoid peaks and support sustainability targets
+  * Detect operational anomalies (e.g., abnormal consumption, HVAC malfunction, comfort drifts) and trigger corrective actions or maintenance alerts
+- Users: campus security staff, maintenance workers, UPV as the LoRaWAN network manager, students and staff
+
+CL2 AVAILABLE INFRASTRUCTURE:
+
+Two computational domains: UPV Campus and Valencia Port, interconnected through the Secure Integration Fabric (SIF).
+
+UPV Campus Domain:
+- Physical compute: 1x HPE ProLiant DL325 Gen10 Plus (AMD EPYC 7702P, 64 cores, 512 GB RAM, 2x960GB SSD, 4x1.2TB HDD)
+- Virtual compute: VM for OpenZiti Edge Router (4 vCPU, 8GB RAM), VM for FIWARE Orion Context Broker (4 vCPU, 8GB RAM), VM for ETSI OpenSlice Domain Orchestrator (8 vCPU, 16GB RAM), 3x VM for K8s cluster (6 vCPU, 10GB RAM each)
+- Physical network: Nokia IXR 7250 switches/routers
+- Private 5G network deployed across UPV Vera Campus (indoor and outdoor)
+  * 5G SA on n40, 5G NSA on n258 with LTE B7, 5G SA on n78 (indoor)
+  * Spectrum from Telefonica: B7, n78, n258 (5+5 MHz, 100 MHz, 800 MHz)
+  * UPV owned spectrum: n40 (20 MHz)
+- Physical IoT: Traffic monitoring radars (5G/LTE), water level radars (NBIoT/CAT-M), 5G radars near UPV, air quality sensors (5 LoRaWAN, Almussafes), smart building sensors (6 LoRaWAN at La Harinera, people flow), fill level sensors (26 NB-IoT, UPV campus)
+- Virtual network: Proxmox Virtual Environment (PVE)
+
+Valencia Port Domain (FVP):
+- Physical compute: 1x Dell PowerEdge R740xd (14 CPUs Intel Xeon Gold 5120, 127.49 GB RAM, 8T HDD RAID 5)
+- Virtual compute: VM for ETSI OpenSlice DO (8 vCPU, 16GB RAM), VM for FIWARE Orion CB (4 vCPU, 8GB RAM), VM for OpenSlice DO (8 vCPU, 16GB RAM), VM for K8s cluster (6 vCPU, 10GB RAM)
+- Radio Access Network: Standalone 5G (N40 TDD, 30 MHz, 32T32R MIMO, >80% port coverage)
+  * RAN Capacity: >4.3 Gbps, UL >45Mbps, DL >135Mbps
+  * Core Network: Georedundant distributed core, >25000 subscribers
+- Physical IoT: 4 berthing assistance radars, 1 maritime traffic monitoring radar (5G)
+- Cross-site interconnection: Dedicated fiber between UPV Lab and Fundacion Valenciaport 5G Lab
+
+THINKING CITIES PLATFORM (Telefonica):
+- IoT management platform based on FIWARE, layered architecture per UNE 178104:2017
+- Core modules: IoT Agents (NGSI-LD, MQTT, HTTP), Orion Context Broker (NGSI v2), Cygnus data adapter, STH (Short-Term Historic Storage, MongoDB), BDA (Analytical Database, MySQL/PostgreSQL), CEP (Complex Event Processing, Esper engine), Big Data Stack (HDFS, Spark, Hive), CKAN Open Data Portal
+- Security: Keystone IDM, KeyPass (XACML), PEP proxies, OAuth 2.0
+- Integration: IoT Agents accept UL2.0, JSON over HTTP/MQTT, transform to NGSI context updates; bidirectional communication
+- Documentation: https://thinking-cities.readthedocs.io/en/latest/index.html, https://github.com/telefonicaid
+
+CL2 TECHNOLOGIES, STANDARDS AND OPEN-SOURCE COMMUNITIES:
+| Component | Open Source | Standard / Reference | Main Technologies |
+| IoT Agents | Yes | FIWARE IoT Agents | NGSI-LD, MQTT, HTTP |
+| Context Broker | Yes | FIWARE Orion-LD | NGSI-LD |
+| Identity & Auth | Yes | OAuth 2.0 (RFC 6749) | Keycloak |
+| Secure Context APIs | Yes | NGSI-LD + OAuth 2.0 | REST APIs |
+| Data Models | Yes | Smart Data Models | NGSI-LD, JSON |
+| Domain Orchestrator | Yes | ETSI OpenSlice (SDG), TMF633/641/638 | Kubernetes, OpenSlice |
+| Secure Integration Fabric | Yes | CNCF SPIFFE, OAuth 2.0, mTLS | OpenZiti |
+| E2E Orchestrator | Yes | ETSI ZSM, TMF Service/Resource Mgmt | OpenSlice HypO |
+
+INFRASTRUCTURE AVAILABILITY FOR OPEN CALLS:
+- Infrastructure is fully available for COP-PILOT to deploy platform and application components
+- Open Call projects may bring and deploy a new domain within Cluster 2 (adding complementary technologies, datasets, or services)
+- OR they may host and validate their solution within one of the existing Cluster 2 domains, leveraging its infrastructure, data environment, and demonstration use cases
+
+What Applicants Can Access:
+- Testbed infrastructure and equipment
+- Edge computing resources
+- Connectivity (5G/6G or LoRaWAN)
+- Sensor networks and IoT devices
+- Data collection and storage
+- Technical mentoring and support
+- Integration with COP-PILOT platform
+- Documentation and APIs
+- Training and workshops
+- Community collaboration opportunities
+
+Applicant solutions must be compatible with:
+- Open standards and protocols
+- COP-PILOT platform APIs
+- Edge-to-cloud architecture
+- Data governance frameworks
+- Security and compliance requirements
+- Interoperability specifications
+- Container deployment (Docker, Kubernetes)
+- Real-time data processing
+- GDPR and data protection regulations
+
+OPEN CALL INNOVATION REQUIREMENTS:
+- Solutions expected to start at minimum TRL 6 and reach TRL 7-8 by project end
+- Proposals should clearly describe technical innovation, integration approach with COP-PILOT and Cluster 2 components, and expected impacts
+- Demonstrate improvements in efficiency, sustainability, or interoperability
+- Every proposal submitted to Cluster 2 should analyse environmental, economic and technological impact, progress beyond state of the art, replication and scalability aspects
 
 EXPECTED BENEFITS FROM OPEN CALLS:
 1. Platform Validation and Feedback — deploy solutions using COP-PILOT core components

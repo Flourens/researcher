@@ -13,12 +13,23 @@ import {
   createScientificWritingPrompt,
 } from './prompts/scientific-writing.prompts';
 
+export type PromptFactory = (
+  grantAnalysis: string,
+  organizationInfo: string,
+  feasibilityEvaluation: string,
+  language: string,
+  businessContext?: string,
+  memoryContext?: string
+) => string;
+
 export interface ScientificWritingInput {
   grantAnalysis: GrantAnalysisOutput;
   organizationInfo: OrganizationInfo;
   feasibilityEvaluation: FeasibilityEvaluation;
   language?: Language;
   businessContext?: string;
+  systemPrompt?: string;
+  promptFactory?: PromptFactory;
 }
 
 export class ScientificWritingAgent extends BaseAgent<
@@ -51,7 +62,8 @@ export class ScientificWritingAgent extends BaseAgent<
         this.logger.info('Loaded memory context', { memoryLength: memory.length });
       }
 
-      const userPrompt = createScientificWritingPrompt(
+      const promptFn = input.promptFactory ?? createScientificWritingPrompt;
+      const userPrompt = promptFn(
         JSON.stringify(input.grantAnalysis, null, 2),
         JSON.stringify(input.organizationInfo, null, 2),
         JSON.stringify(input.feasibilityEvaluation, null, 2),
@@ -60,8 +72,9 @@ export class ScientificWritingAgent extends BaseAgent<
         memory || undefined
       );
 
+      const systemPrompt = input.systemPrompt ?? SCIENTIFIC_WRITING_SYSTEM_PROMPT;
       const response = await this.callClaude(
-        SCIENTIFIC_WRITING_SYSTEM_PROMPT,
+        systemPrompt,
         userPrompt,
         1.0
       );

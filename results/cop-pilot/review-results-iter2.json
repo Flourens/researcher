@@ -1,0 +1,278 @@
+{
+  "overallScore": 82,
+  "maxScore": 100,
+  "readyToSubmit": false,
+  "executiveSummary": "SmartLoop is a well-conceived proposal that directly addresses COP-PILOT OC#2.4's explicitly stated gap: the missing closed-loop automation layer for Valencia's municipal buildings. The two-level architecture (deterministic rules + ML recommendations) is technically sound and pragmatically de-risked, ensuring value delivery even if ML components underperform. The proposal demonstrates strong alignment with COP-PILOT platform components (Orion CB, ESO, SIF, LLM Portal), thorough standards compliance (NGSI-LD, TMForum, SPIFFE), and a compelling replicability narrative through the YAML-per-building configuration model. The budget is mathematically correct at exactly €200,000 with proper 25% indirect cost calculation, and the consortium provides genuine complementarity between ALD's software engineering/building domain expertise and ZNU's ML research capability.\n\nHowever, several issues prevent a 'ready to submit' determination. Most critically, the estimated page count (14–18 pages based on content volume) almost certainly exceeds the mandatory 12-page limit, which would result in rejection without evaluation. The proposal contains seven detailed tables, a Gantt chart, two full partner budget breakdowns, a consolidated budget table, a risk register, a bibliography of 12 references, and extensive technical prose across all sections. Second, the team's FIWARE/NGSI-LD experience is limited to 'pre-proposal prototyping' on a local Orion instance—no production deployment experience is demonstrated. Third, pilot building actuator access remains hedged ('pre-confirmed with COP-PILOT CL2 coordinator') without documentary evidence such as a letter of support. The fallback to 'simulated actuation' would undermine the TRL 7 claim. Finally, on-site presence during the critical M6–M7 piloting phase is limited to a single 7-day trip (Trip 3, M7), which may be insufficient for physical actuator integration, A/B testing, and facility manager interviews.\n\nCompared to previous review iterations, meaningful improvements have been made: the budget is now mathematically correct (the indirect cost errors from earlier versions are resolved), a formal risk register with likelihood/impact ratings is included, Ukraine's Horizon Europe Associated Country status is explicitly stated, and travel planning is more detailed. The persistent page-count issue and the unconfirmed actuator access remain the proposal's most significant vulnerabilities.",
+  "complianceCheck": {
+    "passed": false,
+    "issues": [
+      "Estimated page count (14–18 pages) very likely exceeds the mandatory 12-page limit. The proposal contains 7 detailed tables, a Gantt chart, 2 partner budget breakdowns, a consolidated budget table, a risk register, a 12-item bibliography, and extensive technical prose. This would result in rejection without evaluation.",
+      "No documentary evidence of pilot building actuator access (e.g., letter of support from COP-PILOT CL2 coordinator or Valencia facility management). The phrase 'pre-confirmed with COP-PILOT CL2 coordinator' is an unverifiable claim within the proposal text."
+    ]
+  },
+  "sectionScores": [
+    {
+      "section": "Excellence",
+      "score": 4,
+      "maxScore": 5,
+      "feedback": "SMART Objectives: The seven objectives are well-structured with measurable KPIs, specific targets, and timeframes. O1–O7 cover deployment, energy reduction, anomaly detection, ML accuracy, usability, open-source release, and TRL progression—comprehensive and verifiable. Minor issue: O2 (≥15% energy reduction) and the project summary both cite this target, but the 4-week baseline period (M5) compared against M6–M8 operation may be seasonally biased if the baseline falls in a different climate period. The proposal should acknowledge this.\n\nCOP-PILOT Alignment: Excellent. SmartLoop directly addresses the verbatim gap identified in COP-PILOT documentation ('closed-loop automation layer'). Integration with all four key platform components (Orion CB, ESO, SIF, LLM Portal) is described with specific technical details—NGSI-LD subscriptions, git-based CI onboarding, OpenZiti mTLS, API catalog registration. TMF633/TMF641 compliance is noted.\n\nTechnical Approach: The two-level architecture is the proposal's strongest innovation. Level 1 (deterministic rules, zero training data) provides immediate value and de-risks the ML dependency. Level 2 (human-in-the-loop ML) is scientifically grounded with transfer learning from Building Data Genome 2.0. The data flow diagram (sensors → IoT Agents → Orion CB → SmartLoop → actuation entities → IoT Agents → actuators) is clear and complete. The YAML configuration model for multi-building replicability is genuinely novel in the FIWARE ecosystem.\n\nStandards Compliance: Thorough. NGSI-LD (ETSI CIM), MQTT, REST, OAuth 2.0/OIDC, TMForum APIs, Helm/Docker OCI, Prometheus/OpenMetrics, CNCF SPIFFE—all properly referenced with specific usage contexts. OPC UA is listed in the infrastructure requirements table but not discussed in the technical approach; this should be clarified or removed.\n\nState of the Art: Well-structured comparison against commercial BMS (Siemens, Honeywell, JCI), FIWARE monitoring deployments, and research prototypes (DeepMind, BuildSys). The five innovation claims are specific and defensible. However, the analysis could be strengthened by citing specific FIWARE-based building automation attempts (if any exist) rather than only monitoring deployments.\n\nTRL Progression: TRL 6 entry is claimed based on pre-prototyped NGSI-LD adapter and validated ML models on open datasets. This is borderline—true TRL 6 requires 'system/subsystem model or prototype demonstration in a relevant environment.' A local Orion CB instance is arguably a simulated environment (TRL 5). The proposal wisely targets TRL 7 rather than TRL 8, which is more defensible. However, the fallback scenario (simulated actuation if actuators unavailable) would cap the project at TRL 6+, undermining the progression claim.\n\nData Management: FAIR-compliant plan with specific repositories (Zenodo, GitHub, CKAN), formats (NGSI-LD JSON, ONNX), and licenses (Apache 2.0, CC-BY 4.0). GDPR treatment is appropriate—aggregated occupancy only, no PII. Volume estimates are reasonable.\n\nKey gap: No demonstrated production FIWARE/NGSI-LD experience. The pre-proposal prototyping is valuable but insufficient to demonstrate that the team can handle the complexity of production Orion CB integration, subscription management at scale, and actuation command routing through IoT Agents."
+    },
+    {
+      "section": "Impact",
+      "score": 4,
+      "maxScore": 5,
+      "feedback": "Cluster and Use Case Targeting: SmartLoop maps precisely to OC#2.4 requirements with a dedicated table showing requirement-by-requirement coverage. The proposal directly quotes the COP-PILOT gap analysis, demonstrating thorough understanding of the call.\n\nPlatform Integration: Among the strongest aspects. The proposal specifies exactly how each platform component is used—not generic claims but concrete technical interactions (NGSI-LD subscription patterns, ESO SLA parameters, SIF mTLS configuration, LLM Portal API registration, TMForum endpoint exposure). The 'new capabilities provided to the platform' section effectively articulates SmartLoop's contribution back to COP-PILOT.\n\nCross-Sector Scenarios: Well-articulated replicability across CL2 port warehouses, CL1 industrial facilities, CL3 campus buildings, and 40+ FIWARE smart cities. The YAML configuration model makes this claim credible rather than aspirational. The three-tier scaling analysis (building → city → cross-city) is convincing.\n\nSustainability: ALD's plan to offer SmartLoop as commercial SaaS integrated with its existing platform is credible given the company's 18-developer team and existing SaaS business. ZNU's continued ML research provides academic sustainability. The open-source release ensures community continuity.\n\nDissemination: Comprehensive plan covering GitHub, Zenodo, two Q1 journal papers, COP-PILOT events, FIWARE Summit, Smart City Expo, and ALD marketing channels. Timeline is realistic.\n\nEnvironmental Impact: Quantified CO₂ reduction (5–8 tonnes/year per building, 600–960 tonnes/year city-wide) with clear methodology (Valencia emission factor). EPBD compliance pathway argument is policy-relevant.\n\nEconomic Impact: The ROI calculation (€6,000/year per building, €720,000/year city-wide, 4-month payback) is compelling but should note that it assumes all 120 buildings are suitable candidates and that actuator infrastructure exists—which it may not.\n\nMinor gaps: The cross-sector impact analysis could be strengthened with specific expressions of interest from other clusters or cities. The 'labeled anomaly dataset' contribution to COP-PILOT data commons is valuable but should specify expected size and labeling methodology."
+    },
+    {
+      "section": "Implementation",
+      "score": 4,
+      "maxScore": 5,
+      "feedback": "Work Plan: Five well-defined work packages with clear deliverables, person-month allocations, and dependencies. The critical path is explicitly identified. The phasing (Design → Implementation → Piloting → Evaluation) follows the mandatory structure. The three Valencia trips are strategically placed at design validation (M2), deployment (M5), and validation (M7).\n\nMilestones: M4 intermediate report and M9 final report are present as mandatory milestones. Additional milestones (MS1–MS6) provide intermediate checkpoints.\n\nGantt Chart: Covers M1–M9 with all WPs, trips, and milestone markers. Clear and readable.\n\nRisk Register: This is a significant improvement over previous versions. Five risks are identified with likelihood, impact, and mitigation strategies. However, the register remains lightweight compared to best practice—it lacks risk owners, contingency budgets, and trigger conditions. The actuator access risk mitigation ('fallback: validate with simulated actuation') is honest but problematic: it acknowledges the project's existential risk while proposing a fallback that would undermine the TRL 7 claim.\n\nTeam Qualifications: ALD brings genuine software engineering depth (18-developer team, 6+ years SaaS experience) and building domain expertise (Vasyl Bondar's 12 years HVAC/facility management). ZNU brings strong ML credentials with relevant publications and EU project experience (14 Erasmus+, 3 Horizon MSCA). The complementarity table is well-structured. However, no team member has demonstrated FIWARE/NGSI-LD production experience, which is the project's core integration technology.\n\nBudget: Mathematically correct at exactly €200,000. Indirect costs are properly calculated at 25% of direct costs (ALD: 25% × €104,000 = €26,000; ZNU: 25% × €56,000 = €14,000). No subcontracting. Personnel rates are reasonable for Ukrainian market. Travel budget (€12,000 total for 3 trips) is tight but feasible. The justification narrative is clear and proportionate.\n\nOn-Site Presence: Three trips totaling 19 person-days is minimal for a project requiring physical actuator integration, A/B testing, and facility manager interviews during M5–M7. Trip 2 (M5, deployment) and Trip 3 (M7, validation) are critical, but the M6 gap means no on-site presence during the first month of live piloting. Remote monitoring via VPN partially mitigates this, but physical issues (sensor calibration, actuator wiring, network configuration) cannot be resolved remotely.\n\nTravel Compliance: €12,000 / 7 team members / 9 months = ~€190/person/month, well within the €1,000/person/month limit. However, note that only 3-4 people actually travel, so the per-traveler calculation should be verified: Trip 1 (2 persons), Trip 2 (3 persons), Trip 3 (3 persons) = 8 person-trips across 9 months for those individuals. Still compliant."
+    }
+  ],
+  "strengths": [
+    "Two-level automation architecture (deterministic rules + ML recommendations) is technically sound, pragmatically de-risked, and genuinely novel in the FIWARE ecosystem",
+    "Direct and thorough alignment with COP-PILOT OC#2.4 gap analysis, quoting the call documentation verbatim",
+    "Detailed, specific integration with all four COP-PILOT platform components (Orion CB, ESO, SIF, LLM Portal) with concrete technical interactions rather than generic claims",
+    "YAML-per-building configuration model provides credible and compelling replicability narrative",
+    "Budget is mathematically correct, well-justified, and fully compliant with COP-PILOT financial rules",
+    "Strong consortium complementarity: ALD's software engineering + building domain expertise paired with ZNU's ML research credentials",
+    "Comprehensive standards compliance (NGSI-LD, TMForum, SPIFFE, OAuth 2.0, Prometheus) with specific usage contexts",
+    "Quantified environmental impact with clear methodology and policy alignment (EPBD recast)",
+    "FAIR-compliant data management plan with specific repositories and licenses",
+    "Risk register is a meaningful improvement over previous versions, addressing actuator access, FIWARE integration, ML data, travel disruption, and model accuracy",
+    "Ukraine's Horizon Europe Associated Country status is now explicitly stated",
+    "Economic analysis with credible ROI calculations for city-wide scaling"
+  ],
+  "weaknesses": [
+    {
+      "section": "Compliance",
+      "issue": "Estimated page count (14–18 pages) very likely exceeds the mandatory 12-page limit. The proposal contains 7 detailed tables, a Gantt chart, 2 partner budget breakdowns, a consolidated budget table, a risk register, a 12-item bibliography, and extensive prose.",
+      "severity": "critical",
+      "suggestion": "Aggressively condense the proposal to fit 12 pages: (1) Merge the two partner budget tables into the consolidated table only; (2) Reduce the bibliography to 6-8 essential references; (3) Convert the State of the Art innovation table to inline text; (4) Shorten the infrastructure requirements tables by removing obvious entries; (5) Condense the dissemination plan table; (6) Move the risk register to a 3-row summary and put details in an annex. Target ~10.5 pages of content to leave margin for formatting."
+    },
+    {
+      "section": "Excellence",
+      "issue": "No demonstrated FIWARE/NGSI-LD production experience. The only evidence is 'pre-proposal prototyping' on a local Orion Context Broker instance, which is insufficient for a project whose entire value proposition depends on NGSI-LD integration.",
+      "severity": "major",
+      "suggestion": "Document the pre-proposal prototyping results more concretely: number of entity types subscribed, message throughput achieved, subscription patterns tested. If possible, reference any FIWARE training or certification. Highlight that COP-PILOT provides technical mentoring to bridge this gap, and include specific mentoring milestones in WP1."
+    },
+    {
+      "section": "Implementation",
+      "issue": "Pilot building actuator access is unconfirmed. 'Pre-confirmed with COP-PILOT CL2 coordinator' is an unverifiable claim. Without actuator access, Level 1 automation cannot be demonstrated and TRL 7 cannot be achieved.",
+      "severity": "major",
+      "suggestion": "Obtain and attach (as an annex) a letter of support from the COP-PILOT CL2 coordinator or Valencia municipal facilities authority confirming: (1) which building will be used, (2) which actuators are accessible, (3) the protocol/interface for actuation commands. If this is not possible before submission, at minimum name the specific CL2 contact and reference specific correspondence."
+    },
+    {
+      "section": "Implementation",
+      "issue": "Limited on-site presence during the critical M5-M7 piloting phase. Only Trip 2 (M5) and Trip 3 (M7) are planned, leaving M6 (first month of live operation) without any physical presence.",
+      "severity": "major",
+      "suggestion": "Consider adding a shorter Trip 2.5 during M6 (e.g., 1 person × 3 days) focused on troubleshooting early operational issues. Alternatively, explicitly describe the remote monitoring and troubleshooting capabilities that compensate for physical absence, including specific tools, escalation procedures, and CL2 local support contacts."
+    },
+    {
+      "section": "Excellence",
+      "issue": "TRL 6 entry claim is arguable. A local Orion CB prototype is closer to a simulated environment (TRL 5) than a 'relevant environment' (TRL 6). ZNU's ML models validated on open datasets also represent TRL 5 at best.",
+      "severity": "minor",
+      "suggestion": "Be more precise about TRL entry: acknowledge that some components start at TRL 5 while the overall system architecture is at TRL 6 (design validated). Alternatively, strengthen the TRL 6 claim by describing the local prototype in more detail—entity counts, subscription throughput, rule execution latency—to demonstrate system-level validation."
+    },
+    {
+      "section": "Implementation",
+      "issue": "Risk register lacks risk owners, contingency budgets, and trigger conditions. The actuator fallback (simulated actuation) undermines TRL 7 claims.",
+      "severity": "minor",
+      "suggestion": "Assign each risk to a named team member. For the actuator risk, strengthen mitigation: identify a backup building or partial-actuation scenario (e.g., lighting control only if HVAC actuation is unavailable). Note that even partial physical actuation would support TRL 7."
+    },
+    {
+      "section": "Excellence",
+      "issue": "OPC UA is listed in the standards table but not discussed in the technical approach. This creates an inconsistency.",
+      "severity": "minor",
+      "suggestion": "Either describe how OPC UA is used (e.g., for BMS gateway integration) or remove it from the standards table if it is not relevant to the SmartLoop architecture."
+    }
+  ],
+  "missingElements": [
+    "Confirmation of pilot building actuator access (letter of support or equivalent evidence)",
+    "Demonstrated FIWARE/NGSI-LD production experience beyond local prototyping",
+    "Explicit font specification (must be at least 10-point Arial per compliance rules)",
+    "OPC UA usage justification or removal from standards table",
+    "Seasonal bias acknowledgment in baseline energy measurement methodology",
+    "Specific COP-PILOT technical mentoring milestones integrated into WP1"
+  ],
+  "structureCompliance": {
+    "hasProjectSummary": true,
+    "hasConceptObjectives": true,
+    "hasStateOfTheArt": true,
+    "hasCopPilotRelevance": true,
+    "hasDataManagement": true,
+    "hasInfrastructureRequirements": true,
+    "hasExpectedImpact": true,
+    "hasExpectedOutcomes": true,
+    "hasWorkPlan": true,
+    "hasGanttChart": true,
+    "hasTeamQualifications": true,
+    "hasBudgetTable": true,
+    "hasReferences": true,
+    "estimatedPageCount": 16,
+    "withinPageLimit": false
+  },
+  "improvementPriorities": [
+    {
+      "priority": "critical",
+      "area": "Page Count",
+      "recommendation": "The proposal must be condensed to 12 pages. This is a rejection-triggering compliance failure. Merge partner-level budget tables into the consolidated table only. Reduce bibliography to 6-8 entries. Convert innovation comparison table to concise prose. Shorten infrastructure tables. Move risk register details to an annex. Target 10.5 pages of content."
+    },
+    {
+      "priority": "high",
+      "area": "Actuator Access Confirmation",
+      "recommendation": "Obtain a letter of support from the COP-PILOT CL2 coordinator or Valencia municipal facilities authority confirming pilot building identity, available actuators, and access protocol. Attach as an annex (does not count toward page limit). This is the project's existential dependency."
+    },
+    {
+      "priority": "high",
+      "area": "FIWARE Experience Evidence",
+      "recommendation": "Expand the description of pre-proposal NGSI-LD prototyping: entity types, subscription patterns, throughput benchmarks, lessons learned. If any team member has FIWARE training or certification, mention it. Integrate specific COP-PILOT technical mentoring milestones into WP1 to explicitly address this gap."
+    },
+    {
+      "priority": "medium",
+      "area": "On-Site Presence During Piloting",
+      "recommendation": "Add a brief M6 troubleshooting trip (1 person × 3 days) or describe comprehensive remote operations capability including specific tools, CL2 local support contacts, and escalation procedures."
+    },
+    {
+      "priority": "medium",
+      "area": "TRL Entry Justification",
+      "recommendation": "Provide more specific evidence for TRL 6 entry: quantitative results from local Orion CB prototyping, system-level integration test results, ML model performance on open datasets with specific metrics."
+    },
+    {
+      "priority": "low",
+      "area": "Risk Register Enhancement",
+      "recommendation": "Assign risk owners, add trigger conditions, and strengthen the actuator access fallback to include partial-actuation scenarios rather than full simulation."
+    }
+  ],
+  "detailedFeedback": [
+    {
+      "section": "ProjectSummary",
+      "comments": [
+        "Clear, well-structured summary that immediately identifies the problem, solution, and expected outcomes.",
+        "Effective use of the COP-PILOT gap analysis quote to establish relevance.",
+        "The two-level architecture is explained concisely with concrete examples.",
+        "KPI targets (≥15% energy reduction, <30s anomaly latency, ≥90% accuracy) are specific and measurable.",
+        "TRL target is conservatively stated as TRL 7 rather than TRL 8, which is more defensible but may be seen as less ambitious by reviewers."
+      ]
+    },
+    {
+      "section": "ConceptObjectives",
+      "comments": [
+        "Seven SMART objectives with clear metrics, targets, and timeframes—excellent structure.",
+        "The success measurement methodology (4-week baseline vs. M6-M8 operation) is reasonable but should acknowledge potential seasonal bias if baseline and operation span different climate periods.",
+        "Level 1/Level 2 methodology is the proposal's strongest intellectual contribution.",
+        "The data flow description (sensors → IoT Agents → Orion CB → SmartLoop → actuation entities → IoT Agents → actuators) is complete and technically sound.",
+        "Minor: O5 (SUS ≥70) with 3-5 facility managers is a small sample; consider noting this as a limitation."
+      ]
+    },
+    {
+      "section": "StateOfTheArt",
+      "comments": [
+        "Well-structured comparison across three categories (commercial BMS, FIWARE monitoring, research prototypes).",
+        "The five innovation claims are specific, defensible, and clearly articulate advancement beyond each category.",
+        "Reference quality is good—mix of academic publications, standards documents, and platform documentation.",
+        "Could be strengthened by citing any existing FIWARE-based building automation attempts (even unsuccessful ones) to demonstrate thorough literature review.",
+        "The TRL progression section should be more precise about distinguishing TRL 5 from TRL 6 given that the prototype was tested in a simulated (local) environment."
+      ]
+    },
+    {
+      "section": "CopPilotRelevance",
+      "comments": [
+        "Strongest section of the proposal. Requirement-by-requirement mapping to OC#2.4 is excellent.",
+        "Integration descriptions for all four platform components are specific and technically detailed.",
+        "TMForum API compliance (TMF633, TMF641) is a valuable addition that many proposals overlook.",
+        "'New Capabilities Provided to the Platform' section effectively articulates SmartLoop's contribution back to COP-PILOT—this is exactly what evaluators want to see.",
+        "Cross-sector replicability analysis (port warehouses, industrial facilities, campus buildings, 40+ FIWARE cities) is credible thanks to the YAML configuration model."
+      ]
+    },
+    {
+      "section": "DataManagement",
+      "comments": [
+        "Concise and compliant FAIR data management plan.",
+        "Volume estimates are realistic for building telemetry.",
+        "GDPR treatment is appropriate—aggregated occupancy counts, no PII.",
+        "Specific repositories (Zenodo, GitHub, CKAN) and licenses (Apache 2.0, CC-BY 4.0) are named.",
+        "Consider mentioning data retention period (6 years per COP-PILOT requirements) and backup strategy."
+      ]
+    },
+    {
+      "section": "InfrastructureRequirements",
+      "comments": [
+        "Three well-organized tables covering platform infrastructure, compute/storage, and protocols/standards.",
+        "Compute requirements (8 vCPU, 16 GB RAM, 50 GB storage) are reasonable and not excessive.",
+        "Network requirement (<50 ms latency to Orion CB) is achievable within CL2 infrastructure.",
+        "OPC UA is listed in the standards table but not used anywhere in the technical approach—remove or justify.",
+        "The 'pilot building actuators' requirement notes 'HVAC setpoint, lighting relay, ventilation damper control' but access to these is unconfirmed."
+      ]
+    },
+    {
+      "section": "ExpectedImpact",
+      "comments": [
+        "Quantified economic impact (€6,000/year per building, €720,000/year city-wide) with clear methodology.",
+        "Environmental impact quantification (5-8 tonnes CO₂/year per building) uses verifiable emission factor.",
+        "EPBD compliance argument adds policy relevance.",
+        "Two targeted Q1 journal publications with specific venues are credible.",
+        "Dissemination plan is comprehensive with realistic timeline.",
+        "City-wide scaling assumes all 120 buildings have suitable infrastructure—add a caveat."
+      ]
+    },
+    {
+      "section": "ExpectedOutcomes",
+      "comments": [
+        "Strong articulation of platform validation value—this section effectively argues why COP-PILOT should fund SmartLoop.",
+        "Three-tier replication analysis (building → city → cross-city) is convincing.",
+        "'3 buildings configurable within 2 hours each' is a concrete and testable claim.",
+        "The ecosystem expansion argument (attracting facility management stakeholders) is relevant to COP-PILOT's growth strategy.",
+        "Could mention specific cities or organizations that have expressed interest in building automation via FIWARE."
+      ]
+    },
+    {
+      "section": "WorkPlan",
+      "comments": [
+        "Five work packages with clear deliverables, person-month allocations, and dependencies.",
+        "Critical path is explicitly identified—rare and valuable in proposals at this stage.",
+        "Three Valencia trips are strategically placed but leave M6 without on-site presence.",
+        "Risk register is a significant improvement over previous versions but still lacks risk owners and trigger conditions.",
+        "The actuator access risk fallback (simulated actuation) is honest but would undermine TRL 7 claims—needs a stronger mitigation.",
+        "Gantt chart is clear and covers M1-M9 with appropriate milestone markers.",
+        "WP5 (Project Management, 1.5 PM) is lean but adequate for an 8-month project."
+      ]
+    },
+    {
+      "section": "TeamQualifications",
+      "comments": [
+        "ALD's 18-developer software team and 6+ years SaaS experience provide credible engineering capacity.",
+        "Vasyl Bondar's 12 years HVAC/facility management experience is a valuable domain asset.",
+        "ZNU's EU project experience (14 Erasmus+, 3 Horizon MSCA) is substantial for a research partner.",
+        "Ukraine's Horizon Europe Associated Country status is now explicitly stated—good improvement.",
+        "The complementarity table effectively visualizes consortium strengths.",
+        "Key gap: No team member has FIWARE/NGSI-LD production experience. This should be addressed by referencing the COP-PILOT mentoring program with specific milestones.",
+        "Schengen visa status and travel logistics are briefly addressed—helpful for reviewer confidence."
+      ]
+    },
+    {
+      "section": "FundingJustification",
+      "comments": [
+        "Budget is mathematically correct at exactly €200,000. Previous indirect cost calculation errors have been resolved.",
+        "Indirect costs: ALD 25% × €104,000 = €26,000 ✓; ZNU 25% × €56,000 = €14,000 ✓.",
+        "No subcontracting—consortium covers all competencies.",
+        "Personnel rates (€4,000-€5,500/PM) are reasonable for Ukrainian market and below EU-15 rates.",
+        "Travel budget (€12,000) is tight but feasible for 3 trips with 2-3 travelers each.",
+        "The value-for-money argument ('1.5× person-effort vs. EU-15 rates') is effective.",
+        "Equipment costs are properly described as depreciation, not full purchase price.",
+        "ASHRAE dataset license and open-access publication fees under 'other direct costs' are well-justified."
+      ]
+    },
+    {
+      "section": "Bibliography",
+      "comments": [
+        "12 references covering academic literature, standards documents, platform documentation, and policy instruments.",
+        "Good mix of authoritative sources: ETSI standards, FIWARE documentation, IEEE/Elsevier journals, EU directives.",
+        "All references are cited in the text and relevant to the proposal.",
+        "Could be reduced to 8 references to save space for the 12-page limit.",
+        "Consider adding a reference to the COP-PILOT technical documentation or architecture paper if available."
+      ]
+    }
+  ]
+}

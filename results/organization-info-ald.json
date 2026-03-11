@@ -1,0 +1,136 @@
+{
+  "name": "ALD Engineering & Construction LLC",
+  "type": "company",
+  "country": "Ukraine",
+  "description": "ALD Engineering & Construction LLC is a Ukrainian SME with 219 employees specializing in construction engineering, cost estimation, and procurement management. The company operates a proprietary Enterprise Resource Planning (ERP) system and a commercial Software-as-a-Service (SaaS) platform for construction documentation services. ALD's software engineering division comprises 18 professional developers who maintain both the ERP backend and SaaS frontend. The company has 6+ years of experience in cloud-native enterprise software development, processing thousands of construction documents annually. ALD qualifies as an SME under EU definition (<250 employees, independent enterprise).",
+  "teamInfo": {
+    "coreTeam": [
+      {
+        "name": "Oleksandr Danilov",
+        "role": "CEO & Project Coordinator",
+        "expertise": ["construction engineering", "procurement management", "project coordination", "business strategy"],
+        "experience": "15 years in construction engineering and procurement management. Oversees ALD's SaaS business and overall company strategy.",
+        "relevantProjects": ["ALD ERP system development", "ALD SaaS platform launch"]
+      },
+      {
+        "name": "Dmytro Kovalenko",
+        "role": "Lead Software Engineer",
+        "expertise": ["enterprise software development", "cloud-native architecture", "containerization", "REST APIs", "microservices", "PostgreSQL", "Docker", "Kubernetes"],
+        "experience": "10 years in enterprise software development. Leads the 18-person ERP development team. Expert in cloud-native architectures and containerized deployments.",
+        "relevantProjects": ["ALD ERP platform", "ALD SaaS platform", "Cloud migration project"]
+      },
+      {
+        "name": "Iryna Marchenko",
+        "role": "Senior Data Engineer / Full-Stack Developer",
+        "expertise": ["data engineering", "analytics", "Python", "SQL", "ETL", "React", "dashboard development"],
+        "experience": "7 years in data engineering and analytics. Expert in building data pipelines, visualization dashboards, and web applications.",
+        "relevantProjects": ["ALD analytics dashboard", "Data pipeline automation"]
+      },
+      {
+        "name": "Vasyl Bondar",
+        "role": "Senior Building Systems Engineer",
+        "expertise": ["construction cost estimation", "HVAC systems", "building management systems", "electrical infrastructure", "building regulations", "facility management"],
+        "experience": "12 years in construction cost estimation and building engineering. Domain expert in building systems including HVAC, electrical, and plumbing. Understands building performance, thermal modeling, and energy optimization from an engineering perspective.",
+        "relevantProjects": ["Multiple large-scale construction projects", "Building systems design and commissioning"]
+      }
+    ],
+    "totalSize": 219,
+    "keyCompetencies": [
+      "Enterprise software development (ERP, SaaS)",
+      "Cloud-native application architecture",
+      "Containerized microservice deployment (Docker, Kubernetes)",
+      "REST API design and integration",
+      "Web dashboard development (React)",
+      "Building engineering and HVAC systems",
+      "Construction cost estimation and facility management",
+      "Data pipeline engineering",
+      "Project management and coordination"
+    ]
+  },
+  "resources": {
+    "technical": {
+      "infrastructure": [
+        "Cloud-based development and production infrastructure",
+        "CI/CD pipeline for continuous deployment",
+        "Version control and code review systems"
+      ],
+      "equipment": [
+        "Development workstations for 18 software developers",
+        "Cloud compute resources for ERP/SaaS operations"
+      ],
+      "software": [
+        "Proprietary ERP system (construction documentation)",
+        "Commercial SaaS platform (construction cost estimation)",
+        "Modern development stack: React, Node.js, Python, PostgreSQL, Docker"
+      ],
+      "computingResources": [
+        "Cloud infrastructure sufficient for SaaS operations",
+        "Development and staging environments"
+      ]
+    },
+    "financial": {
+      "annualBudget": "Not disclosed",
+      "fundingSources": ["Commercial revenue from construction projects", "SaaS subscription revenue"],
+      "availableFunding": "Co-funding available from operational budget"
+    },
+    "facilities": [
+      "Software development office",
+      "Construction engineering office",
+      "Access to active construction sites for testing"
+    ]
+  },
+  "trackRecord": {
+    "previousProjects": [
+      {
+        "title": "ALD ERP System Development",
+        "description": "Designed and built a proprietary Enterprise Resource Planning system for construction project management, cost estimation, and procurement workflows. The system processes thousands of documents annually.",
+        "year": "2018-present",
+        "outcome": "Operational ERP serving the entire company of 219 employees",
+        "relevance": "Demonstrates capability to build complex enterprise software systems"
+      },
+      {
+        "title": "ALD SaaS Platform",
+        "description": "Developed and commercialized a Software-as-a-Service platform offering construction documentation services to external clients. Multi-tenant cloud-native architecture with subscription billing.",
+        "year": "2020-present",
+        "outcome": "Commercial SaaS product generating recurring revenue",
+        "relevance": "Demonstrates capability to build cloud-native, multi-tenant, API-driven platforms — directly relevant to SmartLoop architecture"
+      },
+      {
+        "title": "CosTERRA Innovation Study (FFplus proposal)",
+        "description": "Proposed development of domain-specific generative AI model for automated construction cost estimation. Consortium with ZNU.",
+        "year": "2026",
+        "outcome": "Proposal submitted to FFplus Call-2-Type-2",
+        "relevance": "Demonstrates experience with EU grant applications and AI/ML project planning"
+      }
+    ],
+    "publications": [],
+    "awards": [],
+    "patents": [],
+    "successMetrics": [
+      {
+        "metric": "Software team size",
+        "value": "18 professional developers"
+      },
+      {
+        "metric": "ERP users",
+        "value": "219 internal users + external SaaS clients"
+      },
+      {
+        "metric": "Documents processed annually",
+        "value": "2,500+ construction documents"
+      },
+      {
+        "metric": "Years of SaaS operation",
+        "value": "6+ years"
+      }
+    ]
+  },
+  "partnerships": [
+    {
+      "organizationName": "Zaporizhzhia National University (ZNU)",
+      "type": "academic",
+      "description": "Research partner providing AI/ML expertise, parallel computing capabilities, and scientific rigor. Key unit: Laboratory of Parallel and Distributed Computing (Faculty of Mathematics), headed by Dr. Halyna Shylo. The lab specializes in HPC, AI/ML model development, optimization algorithms, and distributed systems. ZNU has 535 academic staff, 12,692 students, and is ranked TOP-10 in Ukraine. Active in 14 Erasmus+ projects, 3 Horizon MSCA projects, UA-UK Twinning project, and DAAD Ukraine Digital. Partnership with NTNU (Norway) on green energy and smart grids. Key team members: Dr. Halyna Shylo (Lab Head, parallel computing, 15+ years), Dr. Oleksii Petrov (Senior Researcher, deep learning, PyTorch/DeepSpeed), Andrii Yurchenko (Researcher, ML evaluation, experiment reproducibility).",
+      "relevance": "ZNU provides the AI/ML research capability that ALD lacks: anomaly detection models, time-series forecasting, occupancy prediction, and optimization algorithms. The lab's HPC expertise enables efficient model training and edge inference optimization."
+    }
+  ]
+}

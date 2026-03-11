@@ -1,90 +1,213 @@
-PROJECT: Edge Intelligence for Smart Grid Reliability in RES-Rich Distribution Networks
+PROJECT: SmartLoop — Closed-Loop Building Automation Service for Municipal Facility Management
 
-TARGET CLUSTER: CL3e — Edge Intelligence for Grid Reliability (Preveza, Greece)
+TARGET CLUSTER: CL2 — Smart Sustainable IoT Solutions (Valencia, Spain)
+TARGET OPEN CALL CHALLENGE: OC#2.4 — Municipal Buildings Management
 
 === CONSORTIUM ===
 
-NOTE: The leading partner MUST be an SME. ZNU is a university and CANNOT be the lead partner.
-Current status: ZNU needs to find an SME partner to lead the consortium, OR an SME must apply with ZNU as a supporting research partner.
+LEAD PARTNER (SME): ALD Engineering & Construction LLC
+- Country: Ukraine (Horizon Europe Associated Country)
+- Type: SME (219 employees, qualifies under EU SME definition)
+- Role: Lead partner, software development, building domain expertise, project coordination
+- Core business: Construction engineering, cost estimation, procurement management
+- Software division: 18 developers maintaining proprietary ERP system and SaaS platform
+- Relevant expertise: Building Management Systems (BMS), HVAC engineering, electrical systems design, facility management, building information modeling, enterprise software development
+- ERP/SaaS experience: 6+ years operating cloud-based construction documentation platform with thousands of users
 
 RESEARCH PARTNER: Zaporizhzhia National University (ZNU)
 - Country: Ukraine (Horizon Europe Associated Country)
-- Type: University / Research institution (NOT an SME — cannot be lead partner)
-- Role: Research and technical implementation partner
+- Type: University / Research institution
+- Role: Research partner — AI/ML model development, data analytics, algorithm optimization
 - Key unit: Laboratory of Parallel and Distributed Computing (Faculty of Mathematics)
 - Head: Dr. Halyna Shylo, Doctor of Technical Sciences
-- Team: 4+ researchers specialized in HPC, AI/ML, parallel computing
+- Team: 4+ researchers specialized in HPC, AI/ML, parallel computing, deep learning
 
-SME PARTNER: TBD — Need to identify an SME partner to lead the consortium
-- Must be registered in EU Member State or Horizon Europe Associated Country
-- Must qualify as SME (<250 employees, <EUR 50M turnover, <EUR 43M balance sheet)
-- Ideally: Energy tech company, smart grid solutions provider, IoT for energy, or edge computing company
+=== PROJECT CONCEPT ===
 
-=== RELEVANT ZNU EXPERTISE FOR CL3e ===
+SmartLoop is a containerized edge service that provides closed-loop building automation for municipal buildings. It addresses the specific need identified by COP-PILOT Cluster 2: "What is still missing is the closed-loop automation layer that turns [IoT] insights into direct operational impact."
 
-1. Smart Grids and Renewable Energy Systems
-   - Research on enhancing energy resilience and real-time management of distributed renewables
-   - Rooftop solar power systems and cogeneration technologies (operational on campus)
-   - Hydropower Professional College with energy system management expertise
+The service operates at two automation levels:
 
-2. Digital Twins for Industrial and Energy Systems
-   - Modeling and optimizing energy systems through data-driven simulation
-   - Experience with real-time monitoring and predictive analytics
+LEVEL 1 — Fully Automated (rule-based, no human intervention):
+- Lighting control: turn off when occupancy = 0 for > 15 minutes
+- Ventilation adjustment: reduce when CO2 < threshold AND occupancy = 0
+- Schedule management: switch to night/weekend modes automatically
+- Immediate energy savings (10-15%) from day one of deployment
+- No ML training data required — works immediately
 
-3. AI/ML for Industrial Applications
-   - Laboratory of Parallel and Distributed Computing
-   - Model development and optimization
-   - Anomaly detection, predictive maintenance capabilities
+LEVEL 2 — Human-in-the-Loop (ML-driven recommendations):
+- HVAC optimization: "Recommend reducing temperature by 2°C in zone B, saving €45/week" → facility manager approves/rejects
+- Anomaly detection: "Energy consumption 30% above baseline, probable HVAC malfunction" → trigger maintenance ticket
+- Schedule optimization: "Tomorrow forecast +35°C, recommend pre-cooling at 5:00" → approve/modify
+- Occupancy prediction: learn weekly patterns, pre-condition spaces before arrival
+- Trained on data collected during Level 1 operation (4-6 weeks sufficient)
 
-4. Edge/Cloud Computing
-   - HPC infrastructure and parallel computing expertise
-   - Microsoft Azure cloud technologies
-   - Experience with distributed computing architectures
+=== TECHNICAL ARCHITECTURE ===
 
-5. IoT and Sensor Integration
-   - Experience with sensor data processing
-   - Real-time data pipeline development
+SmartLoop is a config-driven, containerized microservice that integrates with existing FIWARE-based IoT infrastructure:
 
-=== POTENTIAL PROJECT CONCEPT ===
+Data Flow:
+1. IoT sensors (already installed in Valencia municipal buildings) → FIWARE IoT Agents → Orion Context Broker (NGSI-LD)
+2. SmartLoop subscribes to Context Broker for real-time sensor updates
+3. Rule Engine (Level 1) and ML Engine (Level 2) process data
+4. Decisions are published back to Context Broker as NGSI-LD entities
+5. Actuator commands routed through IoT Agents to building systems
+6. Facility Manager Dashboard shows status, recommendations, and analytics
 
-Develop an AI-driven edge intelligence service for real-time monitoring and predictive management of renewable energy integration in distribution grids, deployed on the COP-PILOT platform. The service would:
+Key Integration Points:
+- FIWARE Orion Context Broker (NGSI-LD) — primary data interface (already deployed in CL2)
+- FIWARE IoT Agents — sensor data ingestion (MQTT, HTTP, UL2.0)
+- COP-PILOT ESO — service lifecycle management, SLA monitoring
+- COP-PILOT SIF — secure zero-trust communication between components
+- Prometheus/Grafana — performance metrics export
+- Kubernetes — deployment target (K8s cluster available in UPV Campus domain)
 
-1. Collect real-time data from grid sensors and RES installations via IoT protocols (MQTT, OPC UA)
-2. Run ML models at the edge for anomaly detection and grid stability prediction
-3. Provide predictive analytics for renewable energy output forecasting
-4. Enable automated response to grid reliability threats via COP-PILOT's SLA assurance
-5. Expose standardized APIs (TMForum, NGSI-LD) for cross-domain collaboration
+Standards Compliance:
+- NGSI-LD / NGSI-v2 for all data exchange with Context Broker
+- FIWARE Smart Data Models for building entities (Building, BuildingSpace, Device, etc.)
+- TMForum APIs for service catalog and ordering
+- OAuth 2.0 / Keycloak for authentication
+- MQTT for IoT device communication
+- REST APIs for external integrations
+- Docker/Helm for containerized deployment
 
-Integration with COP-PILOT:
-- Workflow 1: Onboard the AI edge intelligence service as a containerized application
-- Deploy via COP-PILOT's LLM-based portal and E2E Service Orchestrator
-- Use COP-PILOT's Secure Integration Fabric for secure data exchange
-- Leverage platform's automated SLA assurance (Intelligence + Automation + Security trinity)
-- Expose performance metrics for platform monitoring (Prometheus/Grafana)
+Config-Driven Architecture (universal for any building):
+The service is configured via a YAML configuration file per building:
+- Building type (office, school, hospital, etc.)
+- Floor area, number of zones
+- HVAC system type (central, split, VRF)
+- Available sensors and their NGSI-LD entity IDs
+- Comfort parameters (temperature range, CO2 thresholds)
+- Automation rules (customizable per building)
+This enables deployment to ANY building with FIWARE-connected IoT sensors.
 
-=== ZNU RESOURCES ===
+=== WHY ALD FOR THIS PROJECT ===
 
-- Laboratory of Parallel and Distributed Computing (HPC)
-- Materials science and energy research labs
-- Hydropower Professional College facilities
-- Microsoft Azure cloud infrastructure
-- Rooftop solar power systems (real operational data)
-- 535 academic staff, 12,692 students
+ALD's role is natural and essential, not contrived:
 
-=== ZNU TRACK RECORD ===
+1. BUILDING DOMAIN EXPERTISE: ALD designs and builds buildings. They understand HVAC systems, electrical infrastructure, thermal behavior, and building management — the exact domain knowledge needed to create meaningful automation rules and optimization strategies.
 
-- 14 Erasmus+ projects (active)
-- 3 Horizon MSCA projects (active)
-- UA-UK Twinning project (active)
-- DAAD Ukraine Digital (active)
-- AI in logistics systems for national security (Ukrainian State Budget, 3.59M UAH)
-- Partnership with NTNU (Norway) — roadmap 2026-2028 focused on green energy and smart grids
+2. SOFTWARE DEVELOPMENT CAPABILITY: ALD has 18 professional software developers who maintain an ERP/SaaS platform. They can build containerized microservices, REST APIs, web dashboards, and integrate with external systems. This is their daily work.
 
-=== RISKS AND CHALLENGES ===
+3. FACILITY MANAGEMENT UNDERSTANDING: ALD's construction projects include post-construction handover and building operations documentation. They understand what facility managers need — practical, actionable insights, not abstract analytics.
 
-1. CRITICAL: ZNU cannot be lead partner — need SME partner
-2. Ukraine is a warzone — Zaporizhzhia is a frontline region
-3. Limited direct experience with COP-PILOT platform technologies (TMForum APIs, OpenZiti, ETSI ZSM)
-4. Need to demonstrate concrete grid reliability use case in Preveza, Greece cluster
-5. 8-month timeline is tight for meaningful edge intelligence service development
-6. Budget limited to EUR 200,000 — must justify efficient resource allocation
+4. ERP PLATFORM AS FOUNDATION: ALD's existing SaaS platform architecture (cloud-native, multi-tenant, API-driven) provides a proven foundation for building the SmartLoop dashboard and management interface.
+
+=== WHY ZNU FOR THIS PROJECT ===
+
+ZNU's Laboratory of Parallel and Distributed Computing provides:
+
+1. ML MODEL DEVELOPMENT: Anomaly detection models (autoencoders, isolation forests), time-series forecasting (LSTM, Transformer), occupancy prediction, energy baseline modeling.
+
+2. ALGORITHM OPTIMIZATION: Efficient inference on edge devices, model compression, real-time processing optimization.
+
+3. SCIENTIFIC RIGOR: Proper experimental design, benchmarking, evaluation metrics, academic publications.
+
+4. OPEN DATA EXPERTISE: Pre-training on open building datasets (Building Data Genome 2.0, ASHRAE), transfer learning to Valencia-specific data.
+
+=== BUDGET OUTLINE (EUR 200,000 max) ===
+
+NOTE: Indirect costs = 25% of (A+B+C+D), i.e. excluding subcontracting (E=0).
+
+ALD (Lead SME): EUR 130,000 (65%)
+- [A] Personnel: 4 staff × 18 PM total = EUR 88,000
+  * Project Coordinator (O. Danilov): 3 PM × €5,000/PM = €15,000
+  * Lead Software Engineer (D. Kovalenko): 6 PM × €5,500/PM = €33,000
+  * Full-Stack Developer (I. Marchenko): 5 PM × €4,800/PM = €24,000
+  * Building Systems Engineer (V. Bondar): 4 PM × €4,000/PM = €16,000
+- [B] Travel: 3 Valencia trips (2 pers × 5 days) + 1 consortium meeting = EUR 8,000
+- [C] Equipment (depreciation only): Dev server 8/36 months = EUR 4,000
+- [D] Other direct costs: Cloud hosting, testing tools = EUR 4,000
+- [E] Subcontracting: EUR 0
+- Direct total (A+B+C+D+E) = EUR 104,000
+- [F] Indirect costs: 25% × (A+B+C+D) = 25% × €104,000 = EUR 26,000
+- ALD TOTAL: EUR 130,000 ✓
+
+ZNU (Research Partner): EUR 70,000 (35%)
+- [A] Personnel: 3 researchers × 10 PM total = EUR 44,800
+  * Lab Head / ML Architect (H. Shylo): 3 PM × €4,800/PM = €14,400
+  * Senior Researcher / ML Engineer (O. Petrov): 4 PM × €4,600/PM = €18,400
+  * Researcher / Data Scientist (A. Yurchenko): 3 PM × €4,000/PM = €12,000
+- [B] Travel: 2 Valencia trips (1 pers) + 1 conference = EUR 4,000
+- [C] Equipment (depreciation only): GPU rental + edge device = EUR 4,000
+- [D] Other direct costs: ASHRAE dataset, 2 OA publications = EUR 3,200
+- [E] Subcontracting: EUR 0
+- Direct total (A+B+C+D+E) = EUR 56,000
+- [F] Indirect costs: 25% × (A+B+C+D) = 25% × €56,000 = EUR 14,000
+- ZNU TOTAL: EUR 70,000 ✓
+
+CONSOLIDATED:
+| Item | ALD | ZNU | TOTAL |
+| [A] Personnel | 88,000 | 44,800 | 132,800 |
+| [B] Travel | 8,000 | 4,000 | 12,000 |
+| [C] Equipment | 4,000 | 4,000 | 8,000 |
+| [D] Other | 4,000 | 3,200 | 7,200 |
+| [E] Subcontracting | 0 | 0 | 0 |
+| Direct total | 104,000 | 56,000 | 160,000 |
+| [F] Indirect (25%) | 26,000 | 14,000 | 40,000 |
+| TOTAL | 130,000 | 70,000 | 200,000 |
+
+TOTAL REQUESTED FUNDING: EUR 200,000 ✓
+
+=== TIMELINE (8 months + 2 months reporting) ===
+
+M1-M2: Design & Architecture
+- Define NGSI-LD data models for buildings
+- Design Rule Engine and ML pipeline architecture
+- Set up development environment and CI/CD
+- Establish integration with COP-PILOT platform (Orion CB, SIF)
+
+M3-M5: Implementation
+- Implement Level 1 Rule Engine
+- Implement ML data collection pipeline
+- Develop anomaly detection and prediction models (ZNU)
+- Build Facility Manager Dashboard
+- Implement NGSI-LD adapter and TMForum API integration
+- Containerize and prepare Helm charts
+
+M4: Mid-term report (covers M1-M3)
+
+M6-M7: Piloting & Testing
+- Deploy on K8s in Valencia (UPV Campus / municipal building)
+- Test with real IoT sensor data
+- Calibrate ML models on collected data
+- Measure energy savings and anomaly detection accuracy
+- Collect feedback from facility managers
+
+M8: Evaluation & Final Results
+- Performance evaluation and benchmarking
+- Documentation and open-source release on GitHub
+- Prepare dissemination materials
+
+M9: Final report (covers M4-M8)
+
+=== VALENCIA ON-SITE PRESENCE PLAN ===
+
+Although ALD and ZNU are based in Ukraine, the consortium ensures sustained on-site presence in Valencia during the critical pilot phase:
+
+1. TRIP 1 (M2, Architecture Review): 2 ALD staff × 5 days. Meet COP-PILOT technical team, inspect pilot building, verify sensor connectivity, finalize NGSI-LD data models.
+2. TRIP 2 (M5, Deployment): 2 ALD staff + 1 ZNU researcher × 7 days. Deploy SmartLoop on COP-PILOT K8s, configure Level 1 rules for pilot building, verify NGSI-LD subscriptions and actuation path.
+3. TRIP 3 (M7, Validation): 2 ALD staff + 1 ZNU researcher × 7 days. Conduct A/B testing, measure energy savings, user testing with facility managers, calibrate ML models.
+
+Between trips, remote monitoring is continuous (24/7 via dashboard + alerts). COP-PILOT provides VPN/remote access to K8s cluster. Weekly video calls with COP-PILOT technical mentors ensure alignment.
+
+Ukraine → Valencia flights: ~4 hours via Warsaw/Vienna (well-established routes). ALD and ZNU staff hold valid Schengen visas and have demonstrated international travel capability through prior EU project collaborations (Erasmus+, Horizon MSCA).
+
+=== SME SELF-DECLARATION (ALD) ===
+
+ALD Engineering & Construction LLC confirms compliance with the EU SME definition (Commission Recommendation 2003/361/EC):
+- Staff headcount: 219 employees (< 250 threshold)
+- Annual turnover: < EUR 50 million (threshold)
+- Annual balance sheet total: < EUR 43 million (threshold)
+- Independence: ALD is not owned 25%+ by any enterprise that is not itself an SME
+
+ALD will submit the official SME Self-Declaration as part of the Annexes (COP-PILOT-SME-Checklist).
+
+=== RISKS AND MITIGATIONS ===
+
+1. Limited historical IoT data → Mitigation: Level 1 rules work without training data; ML models use transfer learning from open datasets (Building Data Genome 2.0, ASHRAE) + fine-tune on collected data
+2. Actuator access in municipal buildings → Mitigation: Start with monitoring + recommendations (Level 2), add direct control progressively; COP-PILOT provides integration support for connected actuators
+3. Ukraine war situation → Mitigation: All development is done remotely from secure locations; deployment is in Valencia; both ALD and ZNU have proven remote work capability and international travel logistics
+4. On-site presence in Valencia → Mitigation: 3 planned trips (M2, M5, M7) with 5-7 day stays; remote access between trips via VPN to K8s cluster; weekly coordination calls with COP-PILOT
+5. 8-month timeline → Mitigation: Two-level approach ensures deliverables at every stage; Level 1 is functional by M4 (intermediate report milestone)
+6. FIWARE integration complexity → Mitigation: Leverage COP-PILOT technical mentoring programme and documentation; ALD has pre-prototyped NGSI-LD integration with local Orion CB instance

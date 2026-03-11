@@ -10,6 +10,7 @@
     "debug:review": "tsx src/debug-reviewer-agent.ts",
     "debug:package": "tsx src/debug-application-package-agent.ts",
     "pipeline": "tsx src/run-full-pipeline.ts",
+    "cop-pilot": "tsx src/run-cop-pilot-pipeline.ts",
     "db:generate": "prisma generate",
     "db:push": "prisma db push",
     "db:studio": "prisma studio"

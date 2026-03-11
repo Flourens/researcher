@@ -213,6 +213,17 @@ export interface ScientificContent {
   methodology?: string;
   expectedResults?: string;
   impact?: string;
+  // COP-PILOT OC1 fields (used when generating COP-PILOT proposals)
+  projectSummary?: string;
+  conceptAndObjectives?: string;
+  copPilotRelevance?: string;
+  dataManagement?: string;
+  infrastructureRequirements?: string;
+  expectedImpact?: string;
+  expectedOutcomes?: string;
+  workPlanAndTimeline?: string;
+  teamQualifications?: string;
+  fundingJustification?: string;
 }
 
 // ============================================================================

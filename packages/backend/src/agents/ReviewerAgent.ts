@@ -11,9 +11,17 @@ import {
   createReviewerPrompt,
 } from './prompts/reviewer.prompts';
 
+export type ReviewerPromptFactory = (
+  grantAnalysis: string,
+  scientificProposal: string,
+  memoryContext?: string
+) => string;
+
 export interface ReviewerInput {
   grantAnalysis: GrantAnalysisOutput;
   scientificProposal: ScientificContent;
+  systemPrompt?: string;
+  promptFactory?: ReviewerPromptFactory;
 }
 
 export class ReviewerAgent extends BaseAgent<ReviewerInput, ReviewOutput> {
@@ -39,14 +47,16 @@ export class ReviewerAgent extends BaseAgent<ReviewerInput, ReviewOutput> {
         this.logger.info('Loaded memory context', { memoryLength: memory.length });
       }
 
-      const userPrompt = createReviewerPrompt(
+      const promptFn = input.promptFactory ?? createReviewerPrompt;
+      const userPrompt = promptFn(
         JSON.stringify(input.grantAnalysis, null, 2),
         JSON.stringify(input.scientificProposal, null, 2),
         memory || undefined
       );
 
+      const systemPrompt = input.systemPrompt ?? REVIEWER_SYSTEM_PROMPT;
       const response = await this.callClaude(
-        REVIEWER_SYSTEM_PROMPT,
+        systemPrompt,
         userPrompt,
         1.0
       );
