@@ -1,188 +1,147 @@
-GRANT CALL: Nansen EDU — Call for Applications 2025
-Organization: HK-dir (Directorate for Higher Education and Skills, Norway)
-Programme: Nansen Support Programme for Ukraine
-Funder: Norwegian Ministry of Foreign Affairs
-Deadline: Extended (original: 2 March 2026, 13:00 CET)
-Budget: Up to NOK 80,000,000 total; up to NOK 5,000,000 per project (~EUR 430,000)
-Duration: Up to 3 years (start: June-July 2026; end: no later than June 30, 2029)
-Application Portal: Espresso (https://espresso.hkdir.no)
-Application Language: English
-Contact: ukraina@hkdir.no
+COP-PILOT OPEN CALL #1 — GRANT CALL TEXT
 
-=== PROGRAMME OBJECTIVES ===
+Program: COP-PILOT (Collaborative Open Platform for PILOTing services across emerging smart IoT and Edge computing environments)
+EU Project Number: 101189819
+Call: HORIZON-CL4-2024-DATA-01
+Topic: HORIZON-CL4-2024-DATA-01-03
+Type of Action: HORIZON-IA (Innovation Action)
+Funding: 100% of eligible costs (no co-financing required)
+Max per project: EUR 200,000
+Total budget: EUR 1,600,000 (8 projects expected, 1-2 per cluster)
 
-The Nansen EDU programme aims to:
-1. Strengthen Ukrainian institutions' capacity to deliver quality education
-2. Improve access to qualified professionals in priority fields
-3. Establish long-term cooperation between Norwegian and Ukrainian higher education partners
+SUBMISSION PERIOD:
+- Opens: 03 March 2026, 9:00 CET Brussels time
+- Closes: 04 May 2026, 22:00 CET (strict deadline) late submissions will be rejected
+- Where: https://cop-pilot.eu/
 
-=== THEMATIC PRIORITIES ===
+FUNDING AVAILABLE:
+- Total Available Budget: EUR 1,600,000
+- Maximum Funding per Project: EUR 200,000
+- Expected Funded Projects: 8 (min 1 and max 2 per cluster)
+- Funding Rate: 100% of eligible costs
 
-Projects must focus on one or more of the following thematic areas:
-- Digital transformation
-- Environment and energy
-- Physical and mental health
-- Law, social sciences, economics
-- Reconstruction and urban planning
-- STEM and agricultural sciences
-- Teacher education
+PROJECT DURATION:
+- Standard: 8 months execution + 2 months for reporting
+- Expected start: July 2026 (after evaluation)
 
-=== ELIGIBILITY CRITERIA ===
+TARGET CLUSTER: CL3e — Edge Intelligence for Grid Reliability
+- Location: Preveza, Greece
+- Focus: Grid reliability, renewable integration, edge intelligence
+- Best for: Smart grid, renewable energy management
 
-Applicant Requirements:
-- Only Norwegian higher education institutions accredited by NOKUT can apply
-- Must offer bachelor's and master's programs
-- Must coordinate projects involving at least two Ukrainian partner institutions
-- Ukrainian partners must be fully recognized, offering both bachelor's and master's level programs
-- Encouraged to include institutions relocated or affected by the war in Ukraine
-- European partners may participate supplementarily if contributing meaningfully
+ABOUT COP-PILOT:
+COP-PILOT is an Innovation Action funded under the EU HORIZON program focused on developing a Collaborative Open Platform (COP) framework that enables end-to-end orchestration of services across diverse industry sectors. Building upon the foundations of edge computing, advanced 5G connectivity, and decentralized processing, COP-PILOT aims to overcome fragmented infrastructure and isolated service domains by providing a unified platform for secure, automated, and intelligent management of resources and data.
 
-Consortium Composition:
-- Applicant/Coordinator: 1 Norwegian HEI (mandatory)
-- Ukrainian partners: Minimum 2 Ukrainian HEIs (mandatory)
-- Additional European partners: Optional (if meaningful contribution)
+At its core, COP-PILOT integrates novel AI-driven tools and automation solutions with robust security features to facilitate the onboarding and management of complex applications. The project prioritizes modularity, ease-of-use, and industry-standard interoperability, leveraging multi-tiered data processing, policy-driven optimization, and dynamic reasoning for service orchestration. Through hierarchical orchestration and resource slicing, COP-PILOT enables scalable, reliable, and SLA-preserving deployment of vertical services.
 
-=== WHAT CAN THE FUNDS BE USED FOR ===
+ELIGIBILITY REQUIREMENTS:
+- Organization must be registered in an EU Member State or Horizon Europe Associated Country
+- Not bankrupt or subject to insolvency proceedings
+- Not guilty of grave professional misconduct or fraud
+- Compliant with tax and social security obligations
+- Eligible applicants are Single SME or SME-led consortia of at least 2 partners (no maximum)
+- The leading partner MUST be an SME
+- Other eligible partners: SMEs, Large enterprises, Research institutions and universities, Non-profit organizations, Public entities
 
-Eligible cost categories:
-1. Personnel and administration costs (account category 5***):
-   - Salaries for project participants (release time or new hires)
-   - IMPORTANT: Maximum 30% of total budget for Norwegian/non-Ukrainian partner personnel
-   - Hourly rates must include all non-wage costs (holiday pay, insurance, indirect costs)
+WHAT YOU CANNOT DO:
+- Receive funding from another EU source for the same work
+- Submit incomplete proposals
+- Use languages other than English
+- Exceed page limit of 12 pages
+- Apply for more funding than EUR 200,000
 
-2. Procurement costs for services (account category 6***):
-   - External services necessary for project implementation
-   - Must be clearly justified as necessary
+EVALUATION CRITERIA:
+Proposals will be evaluated on three main criteria. Minimum score of 3 (Good) in each criterion.
 
-3. Procurement costs for equipment (account category 4***):
-   - Physical items, licenses, software necessary for the project
-   - Must be purchased no later than 12 months before project end
+Criterion 1: EXCELLENCE (Score 0-5, minimum 3, weight x8, max 40 points)
+- SMART objectives, clear problem statement
+- Alignment with COP-PILOT goals and cluster objectives
+- Sound technical approach (FIWARE, TMForum APIs, Eclipse Arrowhead, GAIA-X compliance)
+- Standards compliance
+- Integration protocols (MQTT, OPC UA, REST)
+- State-of-the-art analysis + novel approach
+- TRL progression (typically TRL 5-6 → TRL 7-8)
 
-4. Scholarship costs (account category 5***):
-   - Scholarships for Ukrainian students (up to 10 months)
-   - Bachelor's/Master's: EUR 250/month maximum
-   - PhD: EUR 400/month maximum
-   - Must be jointly awarded by Norwegian and Ukrainian partners
+Criterion 2: IMPACT (Score 0-5, minimum 3, weight x6, max 30 points)
+- Specific cluster and use case targeted
+- COP-PILOT platform integration described
+- Platform components leveraged (ServOrch, SIF, LLM-UI)
+- Cross-sector scenarios supported
+- Sustainability plan, dissemination plan
+- Open access/data sharing plans
 
-5. Travel and accommodation costs (account category 7***):
-   - Project participant travel (domestic and international)
-   - Student exchange travel costs
-   - Must follow Norwegian State Personnel Handbook rates
-   - Digital alternatives encouraged; climate-friendly transport preferred
+Criterion 3: IMPLEMENTATION (Score 0-5, minimum 3, weight x6, max 30 points)
+- Clear phases (Design, Implementation, Testing, Evaluation/Reporting)
+- Mandatory milestones: M4 intermediate report, M9 final deliverable
+- Realistic 8-month timeline with Gantt chart
+- Team qualifications, track record
+- Budget <= EUR 200,000 with justified breakdown
+- Indirect costs max 25% of direct costs
 
-6. Scholarships for mobility:
-   - Student exchanges: up to 6 months per person
-   - Staff exchanges: up to 30 days per stay (one or more stays)
-   - Incoming students to Norway (>4 weeks): Norwegian State Educational Loan Fund rates
-   - Incoming students (<4 weeks): government subsistence rates
+FINAL WEIGHTED SCORE:
+To pass: Individual Threshold of 3 (Good) in every criterion AND Overall Threshold of 60 points total.
 
-7. Other project-related costs (account categories 6 and 7***):
-   - Costs not fitting other categories but necessary for implementation
-   - Must be justified
+FINANCIAL CONDITIONS:
+Eligible Costs:
+- Personnel: Salaries for project staff
+- Travel: Meetings, conferences, site visits, webinars (max EUR 1,000/person/month)
+- Equipment: Computing hardware, sensors, software licenses (depreciation only)
+- Subcontracting: Outsourced services (max 20%, clear justification)
+- Other Direct Costs: Consumables, services, publications
+- Indirect Costs: Maximum 25% of direct costs
 
-=== CROSS-CUTTING ISSUES (MANDATORY) ===
+Payment Schedule:
+- Payment 1: 50% upon contract signature (July 2026)
+- Payment 2: 50% upon final report approval (2027)
 
-All projects must address:
-1. Anti-corruption measures: Required for partners from countries with Corruption Perception Index ≤ 69 (Ukraine qualifies). Must implement preventive measures.
-2. Climate and environment: Projects should reduce carbon footprint (digital meetings, climate-friendly travel)
-3. Gender equality: Gender dimension must be addressed in project design and implementation
-4. Human rights: Must assess potential negative impacts on participation, accountability, non-discrimination, women's rights
-5. SEAH prevention: Must have ethical guidelines for prevention and follow-up of sexual exploitation, abuse, and harassment
+TECHNICAL REQUIREMENTS (COP-PILOT Platform):
+Two Primary Workflows for Open Call Participants:
 
-=== RISK ASSESSMENT REQUIREMENTS ===
+Workflow 1 - Onboarding New Services (for Service Providers):
+- Publish application to git-based repository (container images + deployment manifests)
+- CI pipeline auto-translates to standardized service blueprints
+- Service ordered via LLM-based portal chat
+- Application must be containerized and expose performance metrics
 
-Projects must include risk assessments covering:
-- Security situation in Ukraine (especially for institutions in conflict-affected areas)
-- Corruption risk (Ukraine CPI < 69)
-- Environmental and climate risks
-- Social discrimination risks
-- Data protection and IT security
-- Academic freedom and national security interests
-- Export control and dual use considerations
+Workflow 2 - Integrating New Infrastructure Domains (for Infrastructure Owners):
+- Register private domain via portal
+- Auto-Pilot process establishes zero-trust encrypted connections via SIF
+- Must run COP-PILOT Domain Orchestrator (DO) and Data Management (DM) components
+- Use compatible infrastructure controllers (e.g., Kubernetes)
 
-=== EVALUATION CRITERIA ===
+Key Platform Technologies:
+- Business Portal: Next.js, React, Keycloak, LangChain, Ollama/vLLM
+- E2E Service Orchestrator (ESO): Apache Quarkus, Prometheus, Grafana, Apache Kafka
+- Domain Orchestrator (DO): Spring Boot, Keycloak, Flowable, Apache ActiveMQ, MCP
+- Data Management: Orion/Scorpio/Stellio Context Broker, Eclipse Arrowhead
+- Secure Integration Fabric (SIF): OpenZiti (Go), X.509/PKI, mTLS
+- Compute Controller: Kubernetes, OpenShift, OCM, ColonyOS
 
-Applications are assessed on 4 criteria with the following weights:
+Standards Compliance Required:
+- TMForum (TMF) APIs for service/resource orchestration
+- ETSI ZSM for zero-touch network management
+- NGSI-LD / NGSI-v2 for data management
+- FIWARE, Eclipse Arrowhead for IoT
+- CNCF SPIFFE, OAuth 2.0, OpenID Connect for security
 
-Criterion 1: Relevance of the project (30%)
-Sub-factors:
-1.1) Need for the project and significance for target groups
-1.2) Planned results are concrete and suitable to achieve call objectives
-1.3) Level of ambition of results
-1.4) Innovation and/or complementarity to other measures/activities
-1.5) Knowledge of existing initiatives; added value beyond what exists
+CL3e CLUSTER SPECIFICS — Edge Intelligence for Enhancing Grid Reliability in RES-Rich Distribution Grids:
+- Location: Preveza, Greece
+- Focus: Grid reliability, renewable integration, edge intelligence
+- Smart grid, renewable energy management
+- Edge computing for real-time grid monitoring and control
+- Integration of distributed renewable energy sources (RES)
+- AI/ML for predictive grid management and reliability
 
-Criterion 2: Quality of project design and implementation (20%)
-Sub-factors:
-2.1) Concrete, comprehensive and realistic implementation plan
-2.2) Quality of risk assessments, including cross-cutting issues and SEAH
-2.3) Cost-effectiveness and sufficient resource allocation
+EXPECTED BENEFITS FROM OPEN CALLS:
+1. Platform Validation and Feedback — deploy solutions using COP-PILOT core components
+2. Ecosystem Expansion and Innovation — introduce tangible innovative assets
+3. Demonstrate Cross-Domain Collaboration — interact with existing COP-PILOT piloting domains
+4. Adherence to Open Standards and Interoperability — comply with TMForum APIs, NGSI-LD
 
-Criterion 3: Quality of the project group and collaborative structures (20%)
-Sub-factors:
-3.1) Complementarity of institutions/actors and overall expertise
-3.2) Division of tasks shows commitment and active contribution from all partners
-3.3) Clear and comprehensive plan for interaction between partners and stakeholders
-
-Criterion 4: Project impact (30%)
-Sub-factors:
-4.1) Potential impact for target groups, institutions, and actors in and outside the project
-4.2) Quality of measures to ensure impacts are maintained after project end
-4.3) Quality of measures to evaluate and document project impact
-
-=== GRADING SCALE ===
-
-7 - Exceptional: Meets assessment factors in exceptional manner, no or only minor potential for improvement
-6 - Excellent: Meets factors in excellent manner, very few or only minor potential for improvement
-5 - Very good: Meets factors in very good manner, some clear potential for improvement, no significant shortcomings
-4 - Good: Meets factors in good manner, some clear potential for improvement or significant shortcomings
-3 - Fair: Meets factors in fair manner, substantial potential for improvement or significant shortcomings
-2 - Poor: Meets factors in inadequate manner, decisive potential for improvement and/or shortcomings
-1 - Very poor: Meets factors in clearly inadequate manner, very poorly described and justified
-
-QUALIFICATION THRESHOLD: All sub-grades must be ≥ 4; at least two sub-grades must be ≥ 5
-
-=== APPLICATION DOCUMENTS REQUIRED ===
-
-1. Project Description (PDF, using HK-dir template) — uploaded to Espresso
-2. Signed Declaration of Participation from applicant's legal representative
-3. Letters of Commitment from all partners (excluding applicant)
-4. Project Coordinator CV (maximum 4 pages)
-5. Budget (completed in Espresso portal)
-
-=== PROJECT DESCRIPTION TEMPLATE STRUCTURE ===
-
-Section 1: Relevance of the project
-  1.1 Background and needs of the project
-  1.2 The project's alignment with other activities/measures and any innovative elements
-
-Section 2: Design and implementation
-  2.1 Activities, measures and approaches to achieve the project results
-  2.2 Risk factors in the project and measures to reduce them
-
-Section 3: The project group and collaborative structures
-  3.1 Key personnel for the implementation of the project
-  3.2 Involvement, interaction and division of work between the project partners
-
-Section 4: Project impact
-  4.1 The project impact and possible measures to promote dissemination
-  4.2 Duration of the impact and evaluation of the project's impact
-
-Section 5: Reference list
-
-=== TIMELINE ===
-
-Call opening: December 2025
-Application deadline: Extended (originally March 2, 2026, 13:00 CET)
-Grant decisions: Estimated mid-May 2026
-Project start: Between June 1 - July 1, 2026
-Project end: No later than June 30, 2029
-Must include budgeted activities in each year
-
-=== ADDITIONAL NOTES ===
-
-- This is NOT a mobility programme; physical exchange is secondary to educational partnership
-- Projects must include budgeted activities in each year of the project
-- The programme is part of Norway's Nansen Support Programme for Ukraine
-- War-affected and relocated institutions are encouraged to participate
-- Projects should contribute to Ukraine's reconstruction and recovery
+OBLIGATIONS IF FUNDED:
+- Mid-term report at Month 4
+- Final report at Month 8 (+ 2 months for reporting = Month 9)
+- GDPR compliance
+- Open access: publish findings, share code on GitHub/GitLab
+- Acknowledge EU funding (Grant Agreement: 101189819)
+- Maintain financial records for 6 years after project end

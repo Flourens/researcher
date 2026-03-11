@@ -1,327 +1,357 @@
 {
-  "overallChance": 15,
-  "recommendation": "not_recommended",
-  "executiveSummary": "Zaporizhzhia National University (ZNU) faces a **fundamental geographic eligibility barrier** for the Nansen EDU Call 2025. This programme requires a **Norwegian higher education institution as the lead applicant**, with Ukrainian institutions participating as **partners only**. ZNU, being a Ukrainian institution, cannot apply as the lead applicant and therefore cannot submit an independent application.\n\nThe only pathway for ZNU to participate is as a **Ukrainian partner institution** in a consortium led by a Norwegian HEI. While ZNU has a strategic partnership with NTNU (Norwegian University of Science and Technology) and a joint roadmap (2026-2028), **no evidence indicates NTNU is planning to apply or lead a Nansen EDU application with ZNU as a partner**. Without confirmation of Norwegian-led consortium participation, ZNU cannot proceed with this opportunity.\n\nIf NTNU or another Norwegian partner were to lead an application with ZNU as a partner, ZNU would be highly competitive: strong thematic alignment (digital transformation, energy, reconstruction), excellent track record (TOP-10 ranking, 17+ international projects), robust technical capacity, and direct war-context relevance. However, the current feasibility analysis must reflect the reality that **ZNU cannot apply independently**, making this opportunity currently inaccessible without active Norwegian institutional leadership.",
+  "overallChance": 35,
+  "recommendation": "proceed_with_caution",
+  "executiveSummary": "Zaporizhzhia National University (ZNU) faces a challenging but not impossible opportunity with COP-PILOT Open Call #1. While Ukraine's association with Horizon Europe programs and ZNU's strong research capabilities in smart grids, renewable energy, and AI/ML provide a foundation, several critical gaps severely limit competitiveness. The most significant challenges are: (1) ZNU is NOT an SME and the call MANDATES SME leadership - this is a disqualifying factor unless ZNU partners with an eligible SME lead; (2) ZNU has no demonstrated experience with the highly specialized technical standards required (TMForum APIs, ETSI ZSM, NGSI-LD, FIWARE, Eclipse Arrowhead, GAIA-X); (3) limited track record in edge computing and IoT containerization at scale; (4) wartime operational context creating execution risks. The grant's focus on the Greek pilot location (Preveza) further distances ZNU from direct implementation experience.\n\nHowever, ZNU possesses valuable complementary strengths: proven AI/ML expertise, HPC infrastructure, smart grid research capabilities, and active European project experience (Erasmus+, Horizon MSCA). The partnership with NTNU offers potential for consortium formation, and the Engineering Institute's digital twin and renewable energy work aligns with cluster objectives. Success probability is estimated at 35% - viable only if ZNU secures an eligible SME lead partner with edge computing expertise and commits to intensive technical capacity building in the required standards.\n\nRecommendation: Proceed only if ZNU can quickly identify and formalize partnership with a qualified EU/Associated Country SME experienced in edge intelligence, IoT platforms, and the required technical standards. Without this partnership, application is not viable due to mandatory SME leadership requirement.",
   "matchScore": {
-    "overall": 0,
+    "overall": 52,
     "breakdown": [
       {
-        "category": "Geographic Eligibility",
-        "score": 0,
+        "category": "Eligibility Compliance",
+        "score": 30,
         "maxScore": 100,
-        "explanation": "CRITICAL BARRIER: ZNU is a Ukrainian institution. The grant requires the APPLICANT to be a Norwegian HEI accredited by NOKUT. Ukrainian institutions can only participate as PARTNERS (minimum 2 required), not as lead applicants. ZNU cannot submit an application independently."
+        "explanation": "CRITICAL ISSUE: ZNU is a university, not an SME. The call explicitly requires SME leadership. ZNU can only participate as a consortium partner, not lead applicant. This is a mandatory requirement that significantly impacts eligibility. However, Ukraine IS a Horizon Europe Associated Country (since Sept 2022 for Digital Europe programmes), so geographic eligibility is satisfied. Score heavily penalized due to SME requirement."
       },
       {
-        "category": "Thematic Alignment (if eligible)",
-        "score": 95,
+        "category": "Technical Capability Match",
+        "score": 45,
         "maxScore": 100,
-        "explanation": "Exceptional alignment with 5 of 7 priority themes: Digital transformation (HPC, AI/ML), Environment and energy (smart grids, renewables, hydropower), Reconstruction and urban planning (ESG strategy, war recovery), STEM and agricultural sciences (metallurgy, materials science), and indirectly Teacher education (pedagogical innovation). ZNU's focus areas directly match call priorities."
+        "explanation": "Mixed alignment. ZNU has strong foundations in smart grids, renewable energy, AI/ML, and HPC. The Engineering Institute's work on digital twins for energy systems is relevant. However, critical gaps exist in edge computing containerization, IoT platform integration, and ALL required technical standards (TMForum APIs, ETSI ZSM, NGSI-LD, FIWARE, Eclipse Arrowhead, GAIA-X). No evidence of previous work with these specific frameworks. COP-PILOT platform integration would require significant learning curve."
       },
       {
-        "category": "Partnership Readiness (if eligible)",
-        "score": 85,
+        "category": "Team Expertise and Track Record",
+        "score": 60,
         "maxScore": 100,
-        "explanation": "Strong partnership with NTNU with joint roadmap 2026-2028 covering foundation, pilots, and scaling phases. However, no explicit evidence that NTNU is preparing to lead a Nansen EDU application. ZNU has proven partnership capacity (14 Erasmus+, 3 MSCA, UK/German partnerships) but lacks confirmed Norwegian-led consortium for this specific call."
+        "explanation": "Strong research team with 535 academic staff, demonstrable expertise in renewable energy, smart grids, AI/ML, and parallel computing. Laboratory of Parallel and Distributed Computing provides computational foundation. Active participation in 14 Erasmus+ and 3 Horizon MSCA projects shows EU project management capacity. However, no evidence of prior edge intelligence deployments, IoT at scale, or service orchestration projects. Limited industrial pilot experience compared to typical SME applicants."
       },
       {
-        "category": "Technical and Scientific Capability (if eligible)",
-        "score": 90,
+        "category": "Resource Availability",
+        "score": 65,
         "maxScore": 100,
-        "explanation": "Outstanding technical capacity: TOP-10 ranking nationally, 1st in Humanities & Arts research, 535 academic staff, robust research infrastructure (HPC lab, Azure cloud, solar power, VR facilities). Strong expertise in grant priorities (green metal industry, smart grids, digital twins, AI/ML). War-affected status adds strategic relevance."
+        "explanation": "Good infrastructure: HPC lab, Azure cloud access, solar power systems, materials/engineering laboratories. Co-funding capacity up to EUR 500K exceeds grant maximum (EUR 200K). However, lacks specialized edge computing infrastructure, IoT testbeds, and containerized application development environments. VR facilities and metallurgy labs have limited direct relevance to this call."
       },
       {
-        "category": "Administrative Capacity (if eligible)",
-        "score": 85,
+        "category": "Innovation and Impact Potential",
+        "score": 55,
         "maxScore": 100,
-        "explanation": "Proven track record managing complex EU projects (14 Erasmus+, 3 Horizon MSCA, DAAD Ukraine Digital, multiple staff development projects). Experience with Norwegian systems limited but demonstrated adaptability. Administrative burden would fall primarily on Norwegian lead applicant."
+        "explanation": "Moderate innovation potential. Digital twins for energy systems and AI-driven grid management align with call objectives. Wartime context creates compelling narrative for resilient energy systems. However, proposal would need to demonstrate deployment in Preveza, Greece (not Ukraine), limiting direct impact on ZNU's regional challenges. Cross-domain collaboration potential exists but not clearly articulated for this specific use case."
       },
       {
-        "category": "Financial Capacity (if eligible)",
-        "score": 80,
+        "category": "Implementation Readiness",
+        "score": 50,
         "maxScore": 100,
-        "explanation": "Budget capacity confirmed up to €500,000. As Ukrainian partner, majority of budget allocation would flow to ZNU (Norwegian partners limited to 30% personnel costs). ZNU has ESG strategy and infrastructure investment capacity. Co-funding availability stated but not mandatory for this grant."
+        "explanation": "Mixed readiness. Strong project management experience from multiple EU projects. ESG strategy and Azure migration show institutional resilience. However, 8-month timeline is aggressive for a team needing to master new technical standards while deploying in remote Greek location. Wartime conditions create execution risks (staff availability, travel constraints). No evidence of rapid prototyping or agile development culture typical of competitive SME applicants."
       },
       {
-        "category": "Consortium Building Capability (if eligible)",
-        "score": 75,
+        "category": "Competitive Positioning",
+        "score": 40,
         "maxScore": 100,
-        "explanation": "Could fulfill mandatory requirement of 2 Ukrainian HEIs through internal network or existing partnerships. However, no evidence of identified second Ukrainian partner institution. Strong international network but consortium would need Norwegian-led coordination."
+        "explanation": "Weak competitive position. Likely competing against experienced SMEs with established edge computing products, existing IoT platforms, and proven containerization expertise. These competitors will have direct experience with FIWARE, Eclipse Arrowhead, and TMForum APIs. ZNU's academic research strengths don't directly translate to the fast-paced, deliverable-focused 8-month pilot timeline. Geographic distance from Preveza and lack of local partnerships further weaken positioning."
       }
     ]
   },
   "strengths": [
     {
-      "area": "War-Context Strategic Relevance",
-      "description": "ZNU operates in frontline Zaporizhzhia region with direct war impact, aligning perfectly with call's emphasis on supporting war-affected/relocated institutions and Ukraine's reconstruction. Demonstrated operational continuity under wartime conditions through blended learning, mental health programs, and resilience infrastructure (solar power, Azure cloud migration, ESG strategy).",
+      "area": "Geographic Eligibility",
+      "description": "Ukraine is a Horizon Europe Associated Country for Digital Europe programmes (since September 2022), making ZNU geographically eligible. This removes what might initially appear as a barrier.",
       "impact": "high"
     },
     {
-      "area": "Exceptional Thematic Alignment",
-      "description": "Outstanding match with 5 of 7 priority themes: Digital transformation (HPC lab, AI/ML expertise), Environment and energy (smart grids, renewables, hydropower rehabilitation), Reconstruction and urban planning (green industrial transformation, ESG strategy), STEM (metallurgy, materials science, engineering), and Teacher education (pedagogical innovation). Research roadmap with NTNU directly addresses call priorities.",
+      "area": "Smart Grid and Renewable Energy Research",
+      "description": "ZNU has direct research experience in smart grids, renewable energy systems, and energy resilience - core themes of the CL3e cluster. Hydropower Professional College and Engineering Institute provide domain expertise.",
       "impact": "high"
     },
     {
-      "area": "Strong International Project Track Record",
-      "description": "Active portfolio of 17+ international projects including 14 Erasmus+, 3 Horizon MSCA, UK-UA twinning, DAAD Ukraine Digital, and multiple staff development initiatives. Demonstrates proven capacity for complex EU grant management, reporting, and partnership coordination. TOP-10 national ranking and 1st in Humanities & Arts research category.",
+      "area": "AI/ML and HPC Capabilities",
+      "description": "Laboratory of Parallel and Distributed Computing, active AI research (including state-funded AI in logistics project), and computational expertise provide strong foundation for edge intelligence algorithms and predictive grid management.",
       "impact": "high"
     },
     {
-      "area": "Strategic NTNU Partnership with Joint Roadmap",
-      "description": "Established partnership with NTNU (Norwegian University of Science and Technology) with documented 2026-2028 roadmap covering Foundation→Pilots→Scaling phases. Focus areas (green metal industry, smart energy, digital twins, AI for industry) align perfectly with Nansen EDU priorities. NTNU partnership provides potential pathway if NTNU leads application.",
+      "area": "EU Project Management Experience",
+      "description": "Active portfolio of 14 Erasmus+, 3 Horizon MSCA, and other EU projects demonstrates proven capacity to manage complex European funding, reporting requirements, and multi-partner collaborations.",
       "impact": "high"
     },
     {
-      "area": "Robust Technical Infrastructure",
-      "description": "Laboratory of Parallel and Distributed Computing (HPC), Microsoft Azure cloud infrastructure, VR facilities, rooftop solar power systems, materials science and metallurgy laboratories, electrochemistry labs, scientific library with 1M+ volumes. Infrastructure supports digital transformation and sustainable operation priorities.",
+      "area": "Strategic Partnership with NTNU",
+      "description": "Active roadmap 2026-2028 with NTNU focusing on green energy, smart systems, and digital twins. NTNU could be valuable consortium partner with complementary technical expertise and potential SME connections.",
       "impact": "medium"
     },
     {
-      "area": "Experienced Academic Team",
-      "description": "535 academic staff with 30% having long-term international mobility experience. Expertise spans metallurgy, electrochemistry, catalysis, smart grids, digital twins, AI/ML, HPC, renewable energy, and STEM education. Four professional colleges (including Metallurgical and Hydropower) provide applied education capacity.",
+      "area": "Digital Infrastructure",
+      "description": "Azure cloud infrastructure, solar power systems, and digital security capabilities demonstrate commitment to modern IT infrastructure and operational resilience despite wartime conditions.",
       "impact": "medium"
     },
     {
-      "area": "Gender Equality and Human Rights Awareness",
-      "description": "Ukrainian higher education sector generally has strong gender equality policies. ZNU's international project experience (Erasmus+, Horizon) indicates familiarity with EU-standard gender equality requirements, human rights assessments, and SEAH prevention protocols.",
+      "area": "Compelling Narrative",
+      "description": "Wartime context and focus on energy resilience creates powerful story about importance of distributed renewable energy and smart grid reliability - highly relevant to EU energy security priorities.",
       "impact": "medium"
+    },
+    {
+      "area": "Financial Capacity",
+      "description": "Co-funding capacity up to EUR 500K exceeds grant maximum (EUR 200K), ensuring no financial constraints. ESG strategy shows commitment to sustainable institutional development.",
+      "impact": "low"
     }
   ],
   "weaknesses": [
     {
-      "area": "CRITICAL: Geographic Ineligibility as Lead Applicant",
-      "description": "ZNU is a Ukrainian institution and CANNOT apply as lead applicant. Grant explicitly requires Norwegian HEI accredited by NOKUT as applicant. Ukrainian institutions can only participate as mandatory partners (minimum 2 required). This is an absolute, non-waivable barrier to independent application.",
+      "area": "SME Eligibility Requirement",
+      "description": "ZNU is a university, not an SME. The call MANDATES that the leading partner must be an SME. This is a DISQUALIFYING factor for ZNU as lead applicant. ZNU can only participate as consortium partner under SME leadership.",
       "severity": "critical",
-      "mitigation": "ZNU must identify and secure commitment from a Norwegian HEI willing to lead the application with ZNU as Ukrainian partner. NTNU is the obvious candidate given existing partnership, but no evidence suggests NTNU is preparing to apply for this specific call. Without Norwegian lead, application is impossible."
+      "mitigation": "MANDATORY ACTION: Identify and secure partnership with eligible EU/Associated Country SME willing to lead consortium with ZNU as partner. SME should have edge computing, IoT, or smart grid expertise. Formalize consortium agreement before application deadline."
     },
     {
-      "area": "Unconfirmed Norwegian Partner Leadership",
-      "description": "While ZNU has strategic partnership with NTNU and joint roadmap 2026-2028, there is NO explicit evidence that NTNU is planning to lead a Nansen EDU application with ZNU as partner. Partnership documentation shows research collaboration intentions but not specific grant application plans. Without Norwegian partner commitment to lead, ZNU cannot participate.",
+      "area": "Technical Standards Gap",
+      "description": "No demonstrated experience with ANY of the mandatory technical standards: TMForum APIs, ETSI ZSM, NGSI-LD, FIWARE, Eclipse Arrowhead, GAIA-X compliance. These are mandatory requirements with evidence needed in technical architecture.",
       "severity": "critical",
-      "mitigation": "Immediate action required: Contact NTNU leadership to determine if NTNU plans to apply for Nansen EDU 2025 and whether ZNU can be included as Ukrainian partner. If NTNU declines, urgently identify alternative Norwegian HEIs with relevant thematic focus willing to lead consortium."
+      "mitigation": "Immediate technical capacity building: (1) Assign dedicated team to study each standard, (2) Deploy test implementations of FIWARE/Arrowhead, (3) Partner with organizations having proven expertise in these frameworks, (4) Consider subcontracting (max 20%) to specialized consultants for standards compliance."
     },
     {
-      "area": "Missing Second Ukrainian Partner Institution",
-      "description": "Grant requires minimum 2 Ukrainian partner institutions. ZNU documentation does not identify a confirmed second Ukrainian HEI partner for potential Nansen EDU application. Even if Norwegian lead is secured, ZNU must recruit at least one additional Ukrainian partner with bachelor's/master's programs in relevant fields.",
+      "area": "Edge Computing and IoT Containerization Experience",
+      "description": "No evidence of previous containerized application development, Kubernetes/OpenShift deployment, or edge computing implementations. These are core technical requirements with mandatory deliverables (container images, deployment manifests).",
+      "severity": "critical",
+      "mitigation": "Rapidly build containerization expertise: (1) Train development team on Docker, Kubernetes, (2) Deploy pilot containerized applications on Azure, (3) Partner with SME having production container deployment experience, (4) Consider recruiting external DevOps expertise."
+    },
+    {
+      "area": "Service Orchestration Experience",
+      "description": "No track record in service orchestration, zero-touch network management, or TMForum API implementations. COP-PILOT platform integration (ServOrch, SIF, LLM-UI) requires expertise ZNU hasn't demonstrated.",
       "severity": "major",
-      "mitigation": "Identify and approach complementary Ukrainian HEIs with expertise in grant priority themes (e.g., National Technical University of Ukraine 'Kyiv Polytechnic Institute' for digital/engineering, V.N. Karazin Kharkiv National University for STEM/energy, or regional war-affected institutions). Secure Letters of Commitment before application deadline."
+      "mitigation": "Essential to partner with organization having service orchestration experience. Alternative: dedicate significant portion of design phase (Months 1-2) to intensive platform learning and testing, with expert consultation."
     },
     {
-      "area": "Limited Documentation of Norwegian Collaboration Experience",
-      "description": "While ZNU has strong EU project experience (Erasmus+, Horizon MSCA), limited evidence of previous collaboration specifically with Norwegian institutions beyond NTNU partnership. No documented experience with Norwegian funding systems (Espresso portal, HK-dir procedures, Norwegian State Personnel Handbook rates for travel costs).",
+      "area": "Geographic Distance from Pilot Site",
+      "description": "ZNU is in Zaporizhzhia, Ukraine; pilot location is Preveza, Greece. Physical distance, wartime travel constraints, and lack of local Greek partnerships create logistical challenges for on-site deployment, testing, and stakeholder engagement.",
       "severity": "major",
-      "mitigation": "Leverage NTNU partnership for guidance on Norwegian grant procedures and administrative requirements. If NTNU leads, ensure clear task division where Norwegian partner handles primary Norwegian-system compliance. Assign dedicated staff to learn Espresso portal and Norwegian reporting requirements."
+      "mitigation": "Essential to: (1) Partner with Greek organization (SME, research institute, or utility) familiar with Preveza grid infrastructure, (2) Budget adequately for travel despite constraints, (3) Plan for remote deployment capabilities, (4) Establish local technical support arrangements."
     },
     {
-      "area": "Anti-Corruption Measures Documentation",
-      "description": "Ukraine's Corruption Perception Index is below 69, triggering mandatory anti-corruption measures requirement. While ZNU likely has institutional integrity policies from EU project experience, no explicit documentation of anti-corruption prevention measures, transparency protocols, or conflict of interest procedures tailored to Norwegian standards.",
+      "area": "Limited Industrial Pilot Experience",
+      "description": "ZNU's project portfolio is primarily academic (Erasmus+, MSCA, research grants). Limited evidence of rapid industrial pilot deployments, particularly in energy sector operational environments with real-time constraints.",
       "severity": "major",
-      "mitigation": "Develop comprehensive anti-corruption action plan addressing prevention, detection, reporting, and enforcement mechanisms. Document procurement transparency procedures, financial oversight structures, and whistleblower protection. Align with Norwegian transparency standards and EU anti-fraud requirements."
+      "mitigation": "Partner with SME or industrial organization having energy sector pilot experience. Assign experienced project manager familiar with deliverable-focused, short-timeline projects. Build in buffer time for unforeseen technical challenges."
     },
     {
-      "area": "SEAH Prevention Policy Gaps",
-      "description": "No explicit documentation of institutional guidelines for prevention and follow-up of sexual exploitation, abuse, and harassment (SEAH). While ZNU likely has student protection policies, specific SEAH protocols aligned with Norwegian/international standards may need development or documentation.",
+      "area": "Wartime Operational Risks",
+      "description": "Zaporizhzhia is frontline region. Wartime conditions create risks for staff availability, travel (especially international to Greece), supply chain for equipment, and continuity of operations during 8-month project.",
       "severity": "major",
-      "mitigation": "Review and document existing student protection, harassment prevention, and complaint resolution policies. Develop explicit SEAH prevention guidelines covering prevention, reporting mechanisms, confidential support, investigation procedures, and survivor-centered follow-up. Ensure policies cover both domestic operations and exchange/mobility contexts."
+      "mitigation": "Explicit risk management plan in proposal: (1) Backup personnel for critical roles, (2) Distributed team structure leveraging Azure cloud, (3) Clear contingency protocols, (4) Highlight resilience measures already in place (solar power, cloud migration, blended operations). Frame as demonstration of resilience rather than weakness."
     },
     {
-      "area": "War-Related Operational Risks",
-      "description": "Zaporizhzhia is a frontline region with ongoing security threats, potential power disruptions, air raid alerts affecting academic continuity, and risk of escalation impacting project implementation. While ZNU has demonstrated resilience (blended learning, solar power, cloud migration), war dynamics create unpredictable operational constraints.",
+      "area": "Protocol Implementation Experience",
+      "description": "While ZNU has computational expertise, no specific evidence of implementing MQTT, OPC UA, or REST APIs for industrial IoT applications - all mandatory integration protocols for the call.",
       "severity": "major",
-      "mitigation": "Develop comprehensive risk mitigation plan including: flexible implementation timeline, digital-first activities prioritization, contingency budget allocation, evacuation/relocation protocols if needed, Norwegian-side activity backup plans, and regular security situation monitoring. Emphasize ZNU's proven operational continuity under wartime conditions as strength, not weakness."
+      "mitigation": "Rapid prototyping of protocol implementations during pre-proposal phase. Partner with organization having industrial IoT communication experience. Allocate Development Phase resources specifically for protocol integration testing."
     },
     {
-      "area": "Limited Teacher Education Focus",
-      "description": "While ZNU has pedagogical sciences capacity and STEM education expertise, teacher education is listed as one of 7 priority themes but appears less prominent in ZNU's research portfolio compared to engineering/technical areas. This limits competitive positioning if other consortia have stronger teacher education focus.",
+      "area": "Academic vs. Commercial Development Culture",
+      "description": "Universities typically operate on longer research timelines with academic publication focus. This call requires aggressive 8-month delivery, containerized production-ready code, open GitHub repositories - more aligned with SME/startup culture.",
       "severity": "minor",
-      "mitigation": "Consider recruiting second Ukrainian partner with strong teacher education focus (pedagogical university) to strengthen thematic coverage. Alternatively, emphasize ZNU's pedagogical innovation in STEM/technical education and Engineering Institute's role in training technical educators."
+      "mitigation": "Establish agile development methodology from project start. Recruit/assign staff with industry experience or startup mentality. Set clear milestone-driven deliverables. Partner with SME to inject commercial development practices."
     }
   ],
   "gaps": [
     {
       "type": "administrative",
-      "description": "No confirmed Norwegian lead applicant institution willing to submit application with ZNU as partner. This is the fundamental gap preventing any application progress.",
+      "description": "SME Lead Requirement: ZNU cannot apply as lead due to mandatory SME leadership requirement. Must identify eligible SME consortium lead.",
       "severity": "critical",
-      "recommendation": "URGENT: Within next 2 weeks, contact NTNU International Office and relevant faculty/department heads to determine Nansen EDU application intentions. If NTNU cannot lead, immediately identify alternative Norwegian HEIs (e.g., Norwegian University of Life Sciences for environment/agriculture, Oslo Metropolitan University for teacher education, University of Bergen for energy/climate) and approach with partnership proposal."
-    },
-    {
-      "type": "team",
-      "description": "Missing second mandatory Ukrainian partner institution with confirmed commitment and Letters of Commitment.",
-      "severity": "critical",
-      "recommendation": "Identify 1-2 complementary Ukrainian HEIs offering bachelor's/master's programs in relevant fields. Prioritize institutions with complementary expertise (e.g., IT/digital transformation, health sciences, law/social sciences) to broaden thematic coverage. Secure institutional leadership approval and draft Letters of Commitment within 3 weeks of confirming Norwegian lead."
-    },
-    {
-      "type": "administrative",
-      "description": "No documented SEAH prevention policy or guidelines meeting Norwegian/international standards.",
-      "severity": "major",
-      "recommendation": "Assign institutional working group to review existing student protection policies and develop explicit SEAH prevention guidelines within 4 weeks. Include prevention training, confidential reporting mechanisms, investigation procedures, survivor support, and accountability measures. Ensure policy covers both campus and exchange/mobility contexts."
-    },
-    {
-      "type": "administrative",
-      "description": "Anti-corruption measures not explicitly documented for Norwegian transparency standards and Ukrainian CPI<69 requirement.",
-      "severity": "major",
-      "recommendation": "Within 3 weeks, document comprehensive anti-corruption action plan addressing: procurement transparency procedures, financial oversight/audit mechanisms, conflict of interest declaration requirements, whistleblower protection, and enforcement protocols. Align with Norwegian public sector transparency standards and EU anti-fraud requirements."
-    },
-    {
-      "type": "experience",
-      "description": "Limited documented experience with Norwegian grant systems (Espresso portal, HK-dir procedures, Norwegian reporting requirements).",
-      "severity": "major",
-      "recommendation": "If Norwegian partner confirmed, assign dedicated administrative staff to learn Espresso portal system and Norwegian State Personnel Handbook requirements. Request Norwegian partner to provide guidance on HK-dir administrative procedures, budget format, and reporting templates. Consider attending HK-dir webinars or information sessions if available."
+      "recommendation": "IMMEDIATE ACTION: Network through NTNU partnership, Erasmus+ contacts, and energy sector connections to identify potential SME partners. Target SMEs in smart grid, edge computing, or IoT sectors in Norway, Germany, Netherlands, or other Associated Countries with strong technical capabilities. Present ZNU as valuable technical partner bringing AI/ML, research depth, and compelling use case."
     },
     {
       "type": "technical",
-      "description": "Climate and environment measures not comprehensively documented beyond existing solar power and infrastructure sustainability.",
-      "severity": "minor",
-      "recommendation": "Develop explicit carbon footprint reduction plan for project activities including: prioritization of digital meetings over travel, preference for rail over air travel when physical meetings necessary, virtual exchange components, energy-efficient equipment procurement, and offsetting mechanisms. Quantify expected emissions reductions."
+      "description": "FIWARE and Eclipse Arrowhead Integration: No institutional experience with these mandatory IoT frameworks.",
+      "severity": "critical",
+      "recommendation": "Assign 2-3 developers to immediate intensive training on FIWARE (focusing on NGSI-LD data models and Context Broker) and Eclipse Arrowhead (service registry, orchestration). Deploy test instances. Consider partnering with FIWARE iHub or Eclipse Arrowhead consortium members. Budget for technical consultation."
+    },
+    {
+      "type": "technical",
+      "description": "TMForum API Compliance: No experience with TMForum Open APIs (particularly for service/resource orchestration).",
+      "severity": "critical",
+      "recommendation": "Study TMForum Open API specifications (especially TMF633 Service Catalog, TMF641 Service Ordering). Partner with telecom/service provider sector organization familiar with TMForum standards. Consider if SME lead partner can bring this expertise."
+    },
+    {
+      "type": "technical",
+      "description": "GAIA-X Framework Compliance: No demonstrated GAIA-X compliance experience or data sovereignty implementations.",
+      "severity": "major",
+      "recommendation": "Review GAIA-X compliance documentation and self-description frameworks. Connect with GAIA-X Hub Ukraine (if exists) or European GAIA-X hubs. This may be area where partnership with German institution (like TU Bergakademie Freiberg connection) could provide expertise."
+    },
+    {
+      "type": "experience",
+      "description": "Greek Energy Sector Context: No connections to Preveza grid infrastructure, local utilities, or Greek energy regulatory environment.",
+      "severity": "major",
+      "recommendation": "Essential to establish Greek partnership. Contact COP-PILOT consortium members active in Preveza. Reach out to Greek universities, research centers (e.g., CERTH, NTUA), or energy companies. Greek partner critical for site access, stakeholder engagement, and local deployment support."
     },
     {
       "type": "team",
-      "description": "Project coordinator not yet identified with CV prepared (mandatory 4-page CV requirement).",
+      "description": "DevOps and Cloud-Native Development Expertise: Limited evidence of containerization, CI/CD pipeline, Kubernetes orchestration skills needed for COP-PILOT platform integration.",
+      "severity": "major",
+      "recommendation": "Recruit or train DevOps specialist. Leverage existing Azure infrastructure to build Kubernetes test environment. Consider hiring external consultant for initial setup. Ensure development team trained on Docker, container registries, Helm charts, and GitOps workflows. Allocate 20% subcontracting budget if needed."
+    },
+    {
+      "type": "resources",
+      "description": "Edge Computing Testbed: No dedicated edge computing infrastructure for testing distributed intelligence algorithms before Greek deployment.",
+      "severity": "major",
+      "recommendation": "Establish minimal edge testbed using existing HPC lab: deploy lightweight Kubernetes cluster, integrate IoT sensors/simulators, implement MQTT broker. Use Azure IoT Edge for cloud-to-edge simulation. This provides proof-of-concept environment for proposal demonstration."
+    },
+    {
+      "type": "experience",
+      "description": "TRL 7-8 Validation: Call expects progression to TRL 7-8 (system prototype in operational environment). ZNU's projects are typically TRL 3-5 (academic research to lab validation).",
+      "severity": "major",
+      "recommendation": "Clearly articulate TRL progression plan in proposal. Ensure Greek pilot site provides genuine operational environment, not just lab test. Partner with organization having TRL 7-8 validation experience. Demonstrate understanding of operational reliability, performance metrics, and pilot user acceptance requirements."
+    },
+    {
+      "type": "team",
+      "description": "8-Month Project Management for Rapid Delivery: Academic project timelines typically longer. Need experience managing aggressive deliverable schedules.",
       "severity": "minor",
-      "recommendation": "Once Norwegian lead confirmed, identify senior ZNU academic with relevant expertise, international project management experience, and English proficiency as Ukrainian co-coordinator. Prepare 4-page CV highlighting relevant qualifications, project management track record, international collaboration experience, and leadership capabilities."
+      "recommendation": "Assign project manager with industry or startup experience (if available). Implement sprint-based agile methodology. Create detailed Gantt chart with weekly milestones. Build in 2-week buffer before M4 and M9 reporting deadlines. Consider external project management support if internal capacity uncertain."
     }
   ],
   "risks": [
     {
-      "category": "Eligibility Risk",
-      "description": "CRITICAL: ZNU cannot apply independently as Ukrainian institution. Application is impossible without confirmed Norwegian HEI lead applicant willing to include ZNU as Ukrainian partner. If no Norwegian partner commits, opportunity is completely inaccessible regardless of ZNU's qualifications.",
+      "category": "Eligibility",
+      "description": "Application rejected outright if ZNU applies as lead without SME partnership, violating mandatory SME leadership requirement.",
       "probability": "high",
       "impact": "high",
-      "mitigation": "Immediate priority: Contact NTNU within 48 hours to determine Nansen EDU application plans. If NTNU declines or is non-responsive, rapidly identify and approach 3-5 alternative Norwegian HEIs with relevant thematic focus. Prepare compelling partnership value proposition highlighting ZNU's competitive advantages (TOP-10 ranking, war-context relevance, research infrastructure, international track record)."
+      "mitigation": "DO NOT APPLY AS LEAD. Only proceed if eligible SME lead partner secured and consortium agreement formalized before submission. Ensure SME meets all eligibility criteria (registered in EU/Associated Country, not bankrupt, tax compliant, etc.)."
     },
     {
-      "category": "Partnership Risk",
-      "description": "Even if NTNU or other Norwegian partner expresses interest, partner may have competing priorities, limited application capacity, or strategic focus on different themes/regions. Norwegian partner's priorities may not align with ZNU's strengths, leading to weak consortium design or ZNU's marginalization as junior partner.",
+      "category": "Technical Feasibility",
+      "description": "Inability to achieve technical standards compliance (TMForum, ETSI ZSM, NGSI-LD, FIWARE, GAIA-X) within 8-month timeline due to steep learning curve and complexity.",
+      "probability": "high",
+      "impact": "high",
+      "mitigation": "De-risk through: (1) Partner selection prioritizing organizations with standards expertise, (2) Allocate full Month 1-2 for intensive design and platform integration, (3) Use 20% subcontracting budget for specialized compliance consultation, (4) Establish early communication with COP-PILOT technical support team, (5) Plan for iterative development with frequent validation."
+    },
+    {
+      "category": "Operational",
+      "description": "Wartime disruptions (infrastructure attacks, staff mobilization, travel restrictions) prevent project execution or meeting M4/M9 milestones.",
       "probability": "medium",
       "impact": "high",
-      "mitigation": "Approach multiple Norwegian potential partners simultaneously to avoid single-point dependency. Develop clear partnership value proposition demonstrating mutual benefit: ZNU provides expertise, war-context relevance, and access to Ukrainian higher education system; Norwegian partner provides application eligibility and Norwegian HE system insights. Ensure consortium design gives ZNU meaningful leadership role in technical work packages."
+      "mitigation": "Build resilience into proposal: (1) Distributed team with partners in stable locations, (2) Cloud-based development eliminating single-point infrastructure dependencies, (3) Backup personnel for all critical roles, (4) Remote deployment capabilities minimizing travel requirements, (5) Highlight existing resilience measures (solar power, Azure migration), (6) Partner structure where Greek organization handles on-site work."
     },
     {
-      "category": "Timeline Risk",
-      "description": "Extended deadline to March 2, 2026 provides 3+ months, but critical path requires: (1) Norwegian partner confirmation (2-4 weeks), (2) Second Ukrainian partner recruitment (2-3 weeks), (3) Consortium agreement and task division (2-3 weeks), (4) Project design and work package development (4-5 weeks), (5) Budget preparation (1-2 weeks), (6) Document collection and quality review (2 weeks). Timeline is tight, especially if Norwegian partner identification is delayed.",
-      "probability": "medium",
-      "impact": "medium",
-      "mitigation": "Act immediately on Norwegian partner outreach. If NTNU response takes >1 week, begin parallel outreach to alternative Norwegian HEIs. Pre-develop project concept, work package structure, and ZNU capability documentation in parallel with partner search to accelerate consortium formation phase. Set internal milestone: Norwegian partner confirmed by January 10, 2026 (7 weeks before deadline)."
-    },
-    {
-      "category": "Operational Risk (War Context)",
-      "description": "Zaporizhzhia's frontline location creates ongoing security risks that could impact project implementation: facility damage, power disruptions, staff/student displacement, restricted mobility, emergency evacuations. Norwegian partner or evaluators may perceive war-context as liability rather than strategic relevance, potentially undermining application competitiveness.",
-      "probability": "medium",
-      "impact": "medium",
-      "mitigation": "Frame war-context as strategic advantage (call explicitly encourages war-affected institutions) while demonstrating robust risk management: ZNU's proven operational continuity, blended learning infrastructure, backup power systems, cloud migration, flexible implementation plans, Norwegian-site activity options. Include comprehensive risk assessment addressing security scenarios with credible contingency plans. Emphasize institutional resilience as competitive strength."
-    },
-    {
-      "category": "Competitive Risk",
-      "description": "Strong competition expected from established Norwegian-Ukrainian HEI partnerships with longer collaboration history, previous Nansen programme experience, or stronger institutional profiles. Universities in safer Ukrainian regions (Lviv, Kyiv) may be preferred by Norwegian partners. Grant budget of NOK 80M total suggests ~16 projects funded if average NOK 5M per project, creating high selectivity.",
+      "category": "Logistical",
+      "description": "Unable to effectively deploy and test solution in Preveza, Greece due to distance, travel constraints, and lack of local partnerships.",
       "probability": "high",
-      "impact": "medium",
-      "mitigation": "Differentiate through unique strengths: TOP-10 national ranking, war-context strategic relevance, specialized technical expertise (green metal industry, smart grids, digital twins), robust infrastructure (HPC lab, solar power, VR), proven EU project track record. Emphasize complementarity with NTNU partnership roadmap if NTNU leads. Design highly innovative project with clear, measurable impacts aligned with Ukraine reconstruction priorities."
+      "impact": "high",
+      "mitigation": "MANDATORY Greek partnership. Structure project so Greek partner handles physical deployment, local utility coordination, and on-site testing. ZNU focuses on AI/ML algorithms, digital twin development, and remote monitoring. Budget adequate travel for 2-3 key personnel visits despite constraints. Establish remote deployment and troubleshooting protocols."
     },
     {
-      "category": "Administrative Complexity Risk",
-      "description": "Grant has extensive mandatory requirements (21 mandatory items) including specialized documentation (anti-corruption measures, SEAH policies, human rights assessment, climate/environment plan, risk assessment covering 7 dimensions). ZNU has limited experience with Norwegian administrative systems. Incomplete or poor-quality documentation could lead to disqualification or low evaluation scores.",
+      "category": "Competitive",
+      "description": "Proposal scores poorly vs. experienced SME competitors with proven edge computing products, existing IoT platforms, and track record in similar pilots.",
+      "probability": "high",
+      "impact": "high",
+      "mitigation": "Differentiate through: (1) Strong AI/ML capabilities for predictive analytics, (2) Compelling wartime resilience narrative showing importance of distributed energy, (3) Academic research depth in smart grids and renewable integration, (4) NTNU partnership bringing international credibility, (5) Innovative digital twin approach, (6) Emphasis on open access and knowledge sharing mission. Frame as academic-industry bridge rather than direct competitor."
+    },
+    {
+      "category": "Timeline",
+      "description": "8-month execution timeline too aggressive for team learning new platforms, developing solution, deploying internationally, and meeting M4/M9 reporting - especially with limited prior experience.",
       "probability": "medium",
-      "impact": "medium",
-      "mitigation": "As Ukrainian partner (not lead applicant), primary administrative burden falls on Norwegian HEI. However, ZNU must prepare Ukrainian partner documentation (Letters of Commitment, institutional accreditation, partner contributions, anti-corruption/SEAH policies). Assign dedicated administrative project manager with EU grant experience. Use HK-dir templates meticulously. Request Norwegian partner review of all ZNU-prepared documentation before submission."
+      "impact": "high",
+      "mitigation": "Realistic project planning: (1) Allocate 25% of timeline (2 months) purely for platform learning and design, (2) Use pre-existing code/models where possible rather than building from scratch, (3) Narrow scope to achievable proof-of-concept rather than overambitious full system, (4) Strong partner bringing ready components, (5) Experienced project manager with contingency planning."
     },
     {
-      "category": "Budget Constraint Risk",
-      "description": "Norwegian/non-Ukrainian partner personnel costs capped at 30% of total budget, meaning majority of funding must flow to Ukrainian partners. While favorable for ZNU, this may reduce Norwegian partner incentives to lead application if their direct benefit is limited. Budget justification must clearly demonstrate cost-effectiveness while ensuring all partners have adequate resources.",
+      "category": "Financial",
+      "description": "50% upfront payment, 50% upon final report creates cash flow risk if project experiences delays or cost overruns.",
       "probability": "low",
-      "impact": "low",
-      "mitigation": "Design budget allocating 60-65% to Ukrainian partners (ZNU + partner 2), 25-30% to Norwegian lead for coordination/oversight/mobility, 5-10% for travel/exchange/equipment. Ensure Norwegian partner receives sufficient resources for meaningful engagement (release time for project coordinator, student/staff mobility costs, joint activity expenses). Emphasize non-financial benefits to Norwegian partner: research collaboration, international reputation, Ukrainian market access, joint publications."
+      "impact": "medium",
+      "mitigation": "ZNU has strong financial capacity (up to EUR 500K co-funding available). Institutional backing ensures ability to bridge potential cash flow gaps. Careful budget planning with 10-15% contingency reserves. Monitor spending against milestones monthly."
+    },
+    {
+      "category": "Technical Debt",
+      "description": "Rushing to meet 8-month deadline results in poorly documented, non-maintainable code that fails open access and sustainability requirements.",
+      "probability": "medium",
+      "impact": "medium",
+      "mitigation": "Build documentation and code quality into development process from start: (1) Use CI/CD with automated testing and documentation generation, (2) Allocate specific time for code cleanup and documentation in Months 7-8, (3) GitHub repository setup from Day 1 with regular commits and README updates, (4) Code review processes, (5) Follow open source best practices."
+    },
+    {
+      "category": "Stakeholder Engagement",
+      "description": "Limited engagement with Greek grid operators, local authorities, or energy stakeholders reduces practical impact and validation quality of pilot.",
+      "probability": "medium",
+      "impact": "medium",
+      "mitigation": "Greek partner responsibility to manage local stakeholder relationships. Include stakeholder engagement plan in proposal with specific utilities/authorities identified. Plan for stakeholder workshops at project start (M1) and validation phase (M6-7). Demonstrate letters of support from Preveza stakeholders if possible."
     }
   ],
   "requiredActions": [
     {
       "priority": "critical",
-      "action": "URGENT: Contact NTNU International Office and relevant department heads (within 48 hours) to determine if NTNU is planning to apply for Nansen EDU 2025 Call and whether NTNU would consider including ZNU as Ukrainian partner institution. Request meeting to discuss partnership possibility and timeline for decision.",
-      "timeline": "Immediate - by December 23, 2024"
+      "action": "Identify and secure eligible SME lead partner from EU/Associated Country with edge computing, IoT platform, or smart grid expertise. Formalize consortium agreement and define role split.",
+      "timeline": "IMMEDIATE - within 2 weeks. Cannot proceed with application without this partnership."
     },
     {
       "priority": "critical",
-      "action": "If NTNU declines or is non-responsive within 1 week, immediately identify and approach 3-5 alternative Norwegian HEIs with relevant thematic focus (Norwegian University of Life Sciences, Oslo Metropolitan University, University of Bergen, University of Agder, Western Norway University of Applied Sciences). Prepare partnership value proposition document highlighting ZNU's competitive advantages and alignment with Nansen EDU priorities.",
-      "timeline": "By December 30, 2024 (contingency plan)"
+      "action": "Assign dedicated technical team (3-5 developers) to intensive learning program on mandatory standards: FIWARE (NGSI-LD), Eclipse Arrowhead, TMForum APIs, ETSI ZSM, GAIA-X compliance. Deploy test implementations.",
+      "timeline": "Start immediately, achieve basic proficiency within 4-6 weeks before proposal drafting begins."
     },
     {
       "priority": "critical",
-      "action": "Once Norwegian lead partner confirmed, immediately identify and approach potential second Ukrainian partner HEI with complementary expertise in priority themes. Prioritize institutions with strong capacity in areas where ZNU is less specialized (teacher education, health sciences, law/social sciences) to broaden consortium thematic coverage. Secure institutional leadership approval and draft Letter of Commitment.",
-      "timeline": "Within 1 week of Norwegian partner confirmation - by January 10, 2026"
+      "action": "Establish partnership with Greek organization (university, research center, SME, or utility) in or near Preveza for local deployment, testing, and stakeholder engagement support.",
+      "timeline": "Within 3 weeks. Essential for credible implementation plan."
     },
     {
       "priority": "high",
-      "action": "Establish institutional working group to develop/document comprehensive SEAH prevention policy meeting Norwegian/international standards. Include prevention training, confidential reporting mechanisms, investigation procedures, survivor support services, and accountability measures. Ensure policy covers both campus and exchange/mobility contexts. Secure institutional leadership approval.",
-      "timeline": "Complete by January 15, 2026"
+      "action": "Build edge computing and containerization testbed: Deploy Kubernetes cluster on existing infrastructure, integrate IoT simulators, implement MQTT/OPC UA protocols, test container deployment workflows.",
+      "timeline": "Begin within 1 week, operational testbed within 4 weeks for proposal demonstration."
     },
     {
       "priority": "high",
-      "action": "Document comprehensive anti-corruption action plan addressing Ukrainian CPI<69 requirement. Include procurement transparency procedures, financial oversight/audit mechanisms, conflict of interest declaration requirements, whistleblower protection, and enforcement protocols. Align with Norwegian public sector transparency standards and EU anti-fraud requirements. Secure institutional leadership approval.",
-      "timeline": "Complete by January 15, 2026"
+      "action": "Develop detailed technical architecture document showing integration approach for COP-PILOT platform components (ServOrch, SIF, LLM-UI), data flow diagrams using NGSI-LD, and service orchestration using TMForum APIs.",
+      "timeline": "Complete draft within 6 weeks to include in proposal technical sections."
     },
     {
       "priority": "high",
-      "action": "Prepare ZNU institutional capability documentation package including: institutional accreditation documentation, program catalog showing bachelor's/master's offerings in relevant fields, organizational chart, ESG strategy document, infrastructure descriptions (HPC lab, solar power, Azure cloud, laboratories), track record of international projects, ranking documentation, and financial capacity statement. Translate key documents to English if necessary.",
-      "timeline": "Complete by January 10, 2026"
+      "action": "Engage COP-PILOT project consortium to understand platform documentation, access developer resources, clarify technical requirements, and potentially identify partnership opportunities.",
+      "timeline": "Within 2 weeks. Early engagement demonstrates seriousness and may provide valuable intelligence."
     },
     {
       "priority": "high",
-      "action": "Once consortium formed, convene consortium planning meeting (virtual or in-person) to agree on: project concept and thematic focus, work package structure and task division, leadership roles and responsibilities, budget allocation principles, deliverable assignments, and timeline. Ensure clear, equitable division of tasks showing active contribution from all partners. Document agreements in consortium MoU.",
-      "timeline": "Within 2 weeks of full consortium formation - by January 24, 2026"
+      "action": "Leverage NTNU partnership: Discuss potential joint application or NTNU introduction to relevant SMEs/technical experts. Explore if NTNU has connections to Greek energy sector or COP-PILOT consortium.",
+      "timeline": "Within 1 week. Use existing relationship strategically."
     },
     {
       "priority": "medium",
-      "action": "Identify and designate ZNU project coordinator with relevant expertise, international project management experience, and strong English proficiency. Prepare 4-page CV highlighting qualifications, track record, international collaboration experience, and leadership capabilities. Ensure coordinator has dedicated time allocation (release time or load reduction) for project preparation and implementation.",
-      "timeline": "By January 17, 2026"
+      "action": "Assign experienced project manager familiar with rapid delivery, agile methodology, and EU reporting requirements. If internal capacity limited, budget for external PM support.",
+      "timeline": "Within 3 weeks, before detailed work planning begins."
     },
     {
       "priority": "medium",
-      "action": "Develop comprehensive risk assessment covering all 7 required dimensions: security (war context), corruption (anti-corruption measures), environmental/climate (carbon footprint reduction), social discrimination (equity/inclusion), data protection/IT security (cybersecurity protocols), academic freedom (protection measures), and export control (dual-use considerations). Include probability, impact, and mitigation strategies for each risk category.",
-      "timeline": "By February 1, 2026"
+      "action": "Prepare detailed budget breakdown showing personnel costs, travel (including Ukraine-Greece trips despite constraints), equipment/infrastructure, subcontracting (up to 20%), and indirect costs (max 25%). Ensure compliance with all financial rules.",
+      "timeline": "Draft budget within 4 weeks, finalize 1 week before submission."
     },
     {
       "priority": "medium",
-      "action": "Develop explicit climate and environment action plan demonstrating carbon footprint reduction: prioritize digital meetings, prefer rail over air travel, incorporate virtual exchange components, procure energy-efficient equipment, implement offsetting mechanisms. Quantify expected emissions reductions. Align with ZNU's existing sustainability infrastructure (solar power, cogeneration).",
-      "timeline": "By February 1, 2026"
+      "action": "Develop risk management and operational continuity plan explicitly addressing wartime context: backup personnel, distributed operations, remote deployment capabilities, communication protocols during disruptions.",
+      "timeline": "Complete within 5 weeks for inclusion in proposal implementation section."
     },
     {
       "priority": "medium",
-      "action": "Prepare gender equality plan or impact assessment for project design and implementation. Address: gender balance in project team and beneficiaries, gender-sensitive pedagogy in curriculum development, women's participation in STEM fields (especially relevant for ZNU's engineering/metallurgy focus), gender-disaggregated monitoring indicators, and measures to prevent gender-based barriers to participation.",
-      "timeline": "By February 8, 2026"
+      "action": "Create 8-month Gantt chart with weekly milestones, explicit allocation for M4 intermediate report and M9 final deliverables, contingency buffers, and realistic timeline for standards learning + deployment.",
+      "timeline": "Draft timeline within 4 weeks, refine based on partner input."
     },
     {
       "priority": "medium",
-      "action": "Conduct human rights impact assessment evaluating potential impacts on: participation (accessibility, inclusion), accountability (grievance mechanisms), non-discrimination (equity across demographics), and women's rights (gender equality). Identify potential negative impacts and mitigation measures. Document assessment in project proposal.",
-      "timeline": "By February 8, 2026"
-    },
-    {
-      "priority": "medium",
-      "action": "Assign dedicated administrative staff member to learn Espresso portal system and Norwegian State Personnel Handbook requirements for travel cost calculations. Request Norwegian partner to provide guidance on HK-dir administrative procedures, budget format requirements, and reporting templates. Schedule training session with Norwegian partner's administrative team.",
-      "timeline": "By January 24, 2026"
+      "action": "Compile evidence of EU project track record: success stories from Erasmus+, MSCA projects, publications demonstrating smart grid/renewable energy research, letters of recommendation from previous EU project coordinators.",
+      "timeline": "Within 3 weeks for inclusion in team qualification section."
     },
     {
       "priority": "low",
-      "action": "Develop detailed project concept note (5-7 pages) outlining proposed activities, expected results, innovation elements, impact pathways, and sustainability measures beyond project end. Align with ZNU-NTNU roadmap 2026-2028 phases and Nansen EDU call objectives. Circulate to consortium partners for feedback and refinement.",
-      "timeline": "By January 31, 2026"
+      "action": "Prepare sustainability and dissemination plan: open access publication strategy, GitHub repository structure, knowledge transfer approach, post-project exploitation plans.",
+      "timeline": "Within 5 weeks for impact section of proposal."
     },
     {
       "priority": "low",
-      "action": "Prepare draft budget allocation using Espresso portal budget categories. Ensure Norwegian/non-Ukrainian personnel costs ≤30% of total. Include all required cost categories: personnel, services, equipment (purchased ≥12 months before project end), scholarships (EUR 250/month bachelor's/master's, EUR 400/month PhD), travel (Norwegian State Personnel Handbook rates), mobility scholarships. Ensure activities budgeted in each year.",
-      "timeline": "By February 15, 2026"
+      "action": "Draft compelling narrative emphasizing wartime resilience, distributed renewable energy importance for energy security, and ZNU's unique perspective on grid reliability under extreme conditions.",
+      "timeline": "Integrate throughout proposal writing process over 6-8 weeks."
     }
   ],
   "strategicRecommendations": [
-    "FUNDAMENTAL STRATEGIC PIVOT REQUIRED: ZNU must immediately shift from 'applying for grant' mindset to 'securing Norwegian partner to lead application with ZNU as partner' strategy. This is not optional—it is the only pathway to participation. Dedicate senior leadership attention (Rector, Vice-Rector for International Relations) to NTNU outreach and alternative Norwegian partner identification. This is the critical bottleneck determining whether opportunity is accessible at all.",
-    "LEVERAGE NTNU PARTNERSHIP AS PRIMARY STRATEGY: The existing ZNU-NTNU strategic partnership with joint roadmap 2026-2028 is ZNU's strongest asset and most likely pathway to Nansen EDU participation. Frame Nansen EDU application as natural implementation vehicle for the roadmap's 2026 'Foundation' phase (governance, capacity building, pilot concepts, EU proposals). Position Nansen EDU as anchor project enabling the planned collaboration while providing funding for foundational activities. NTNU's profile (technical university, energy/engineering focus) aligns perfectly with Nansen EDU priorities and ZNU's strengths.",
-    "PREPARE COMPELLING PARTNERSHIP VALUE PROPOSITION: Norwegian HEIs need clear reasons to include ZNU as partner beyond eligibility requirements. Emphasize: (1) TOP-10 national ranking and research excellence, (2) War-context strategic relevance (call explicitly encourages war-affected institutions), (3) Unique technical expertise (green metal industry, smart grids, digital twins), (4) Robust infrastructure despite war conditions, (5) Proven EU project management capacity (14 Erasmus+, 3 MSCA), (6) Access to Ukrainian HE system and reconstruction priorities, (7) Mutual benefit through joint publications, PhD co-supervision, and long-term collaboration outlined in roadmap.",
-    "DIVERSIFY NORWEGIAN PARTNER OUTREACH: While NTNU is primary target, simultaneously approach 2-3 alternative Norwegian HEIs to create competitive dynamics and backup options. Target institutions with relevant thematic focus: Norwegian University of Life Sciences (environment, energy, agriculture), Oslo Metropolitan University (teacher education, digital transformation), University of Bergen (energy, climate, marine), University of Agder (digital transformation, STEM education), Western Norway University of Applied Sciences (applied engineering). Tailor value proposition to each institution's strategic priorities.",
-    "FRAME WAR-CONTEXT AS STRATEGIC ADVANTAGE, NOT LIABILITY: Call explicitly states 'war-affected and relocated institutions are particularly encouraged to participate.' Position ZNU's frontline location and demonstrated resilience as competitive differentiation, not risk factor. Emphasize proven operational continuity (blended learning, solar power, Azure cloud, ESG strategy), contribution to Ukraine reconstruction priorities, urgency of supporting institutions in most-affected regions, and alignment with Norwegian foreign policy priorities. Include robust risk management demonstrating credible contingency plans, but lead with resilience narrative.",
-    "DESIGN PROJECT AROUND ZNU'S COMPETITIVE ADVANTAGES: Focus project concept on areas where ZNU has distinctive technical strengths: (1) Digital transformation leveraging HPC lab and AI/ML expertise, (2) Green industrial transformation and green metal industry (unique specialization), (3) Smart grids and renewable energy (hydropower rehabilitation, solar power), (4) Digital twins for industrial/energy systems, (5) STEM education innovation through Engineering Institute and professional colleges. Avoid generic projects—emphasize specialized capabilities that differentiate ZNU from other Ukrainian HEIs.",
-    "EMPHASIZE LONG-TERM PARTNERSHIP SUSTAINABILITY: Call prioritizes 'long-term cooperation' and 'sustainable institutional capacity beyond project duration.' Leverage ZNU-NTNU roadmap 2026-2028 as evidence of commitment to multi-year partnership extending beyond Nansen EDU project. Show how Nansen EDU fits into broader collaboration strategy progressing from Foundation→Pilots→Scaling phases. Demonstrate sustainability mechanisms: joint research programs, co-supervised PhD/postdoc, permanent exchange agreements, shared infrastructure access, joint degree program development potential.",
-    "BUILD STRATEGIC SECOND UKRAINIAN PARTNER SELECTION: Second Ukrainian partner should be complementary, not competitive. Prioritize institutions with strengths in priority themes where ZNU is less specialized (teacher education, health sciences, law/social sciences) to broaden thematic coverage and increase evaluation scores across all priority areas. Consider geographic distribution—partner from different region could demonstrate pan-Ukrainian impact. Alternatively, select partner with specialized capacity strengthening consortium's technical credibility (e.g., National Technical University 'KPI' for digital/AI, V.N. Karazin Kharkiv for STEM/energy).",
-    "FRONT-LOAD ADMINISTRATIVE COMPLIANCE PREPARATION: Grant has 21 mandatory requirements with extensive cross-cutting documentation (anti-corruption, SEAH, human rights, gender equality, climate/environment, comprehensive risk assessment). Begin preparing these documents immediately, even before consortium finalization, as they require institutional policy development (SEAH, anti-corruption) and senior leadership approval. Early preparation creates competitive advantage by allowing more time for high-quality project concept development rather than last-minute compliance rush.",
-    "DEVELOP INNOVATION-FOCUSED, HIGH-IMPACT PROJECT DESIGN: Evaluation criteria emphasize 'innovation and/or complementarity,' 'level of ambition,' and 'potential impact for target groups.' Avoid conventional capacity-building projects. Design innovative approaches: (1) Living Labs methodology (aligns with ZNU-NTNU roadmap), (2) Digital twins for Ukrainian reconstruction planning, (3) Green hydrogen production from hydropower, (4) AI-driven adaptive learning systems, (5) Virtual exchange through VR technologies (ZNU has VR facilities). Show measurable, transformative impacts beyond project participants (regional/national reconstruction contribution, policy influence, industry partnership, curriculum reforms).",
-    "POSITION PROJECT AS RECONSTRUCTION INVESTMENT, NOT AID: Frame project as strategic investment in Ukraine's reconstruction and recovery capacity, not humanitarian assistance. Emphasize: (1) Training professionals for priority reconstruction sectors (energy, environment, digital infrastructure, urban planning), (2) Building institutional capacity for long-term educational resilience, (3) Establishing knowledge transfer channels between Norwegian expertise and Ukrainian reconstruction needs, (4) Creating pipeline of qualified graduates for Norway-Ukraine reconstruction partnerships. Align with Norwegian government's reconstruction priorities and long-term Ukraine strategy.",
-    "QUANTIFY EXPECTED IMPACTS WITH CONCRETE METRICS: Evaluation criterion 'Project impact' (30% weight) requires demonstrating 'potential impact for target groups, institutions, and actors.' Develop specific, measurable impact indicators: number of students reached, new/reformed programs launched, faculty trained, joint publications produced, industry partnerships established, policy recommendations delivered, carbon emissions reduced, jobs created in reconstruction sectors. Show impact pathways from project activities→outputs→outcomes→long-term impacts. Include realistic but ambitious targets.",
-    "ENSURE CLEAR, EQUITABLE CONSORTIUM TASK DIVISION: Evaluation criterion 'Quality of project group' (20% weight) assesses 'division of tasks shows commitment and active contribution from all partners.' Avoid Norwegian-led design where Ukrainian partners are passive recipients. Structure work packages giving ZNU and Ukrainian partner 2 clear leadership roles in technical areas (ZNU: digital transformation/smart energy, Partner 2: complementary theme). Ensure all partners have meaningful deliverable responsibilities, budget allocations, and visible contributions to project results.",
-    "PREPARE FOR COMPETITIVE SELECTION REALITY: Total program budget NOK 80M with up to NOK 5M per project suggests ~16 projects funded maximum. With evaluation threshold requiring all sub-grades ≥4 and at least two ≥5 (on 1-7 scale), only high-quality applications will qualify. Even among qualified applications, competition will be intense. ZNU must aim for excellence across all evaluation criteria, not just meeting minimum requirements. Distinctive project design, demonstrated partnership quality, clear impact pathways, and robust implementation planning are essential for competitive success."
+    "DO NOT APPLY AS LEAD - This is non-negotiable. Focus all partnership efforts on finding eligible SME lead with whom ZNU can be strong technical partner. Position ZNU as bringing deep AI/ML research, smart grid expertise, and compelling real-world motivation.",
+    "Target SME partners in Norway (leverage NTNU connection), Germany (TU Freiberg connection), or Netherlands/Nordics (strong edge computing sectors). Look for SMEs that have technology but lack academic depth or need AI/ML capabilities - complementary partnership.",
+    "Reframe wartime context as asset, not liability: Emphasize ZNU's unique insight into critical infrastructure resilience, importance of distributed renewable energy for energy independence, and battle-tested operational continuity under extreme conditions. This differentiates from typical academic applications.",
+    "Narrow technical scope to achievable proof-of-concept: Given 8-month timeline and learning curve, focus on specific high-value use case (e.g., AI-driven predictive load balancing for renewable integration) rather than attempting comprehensive grid management system. Depth over breadth.",
+    "Structure consortium with clear role separation: SME lead handles platform integration and standards compliance; ZNU focuses on AI/ML algorithms, digital twin modeling, and analytics; Greek partner manages local deployment and validation. Play to each partner's strengths.",
+    "Invest heavily in pre-proposal technical prototyping: Demonstrable proof-of-concept (even simple) with FIWARE integration, containerized AI model, and MQTT data ingestion dramatically strengthens proposal credibility. Allocate December 2025-February 2026 for this if pursuing application.",
+    "Leverage Azure infrastructure strategically: Highlight existing cloud-native capabilities, emphasize hybrid edge-cloud architecture that aligns with COP-PILOT vision, demonstrate ability to operate in distributed, resilient manner.",
+    "Build explicit 'learning buffer' into timeline: Be honest that Month 1-2 includes intensive platform familiarization and standards compliance work. Evaluators appreciate realistic planning over overconfident timelines. Frame as systematic approach to ensuring quality integration.",
+    "Pursue parallel capacity building regardless of application decision: FIWARE, Eclipse Arrowhead, containerization, and service orchestration skills have value beyond this single call. Invest in building these capabilities for ZNU's long-term edge computing and IoT research agenda.",
+    "Consider this call as learning opportunity and relationship builder: Even if not funded, proposal process forces technical skill development, establishes partnerships (especially Greek connections valuable for future calls), and demonstrates ambition to EU project officers. Strong proposal creates foundation for future success.",
+    "Explore alternative consortium configurations: Could ZNU support multiple SME-led proposals as technical partner rather than putting all effort into single application? Increases success probability and builds diverse relationships.",
+    "If partnership formation proves difficult by March 2026, consider skipping this call and targeting COP-PILOT Open Call #2 (if announced) or similar Horizon Europe/Digital Europe calls where ZNU's research institution status is advantage rather than barrier. Pick battles wisely."
   ]
 }

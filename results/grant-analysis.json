@@ -1,353 +1,433 @@
 {
-  "grantTitle": "Nansen EDU — Call for Applications 2025",
-  "grantingOrganization": "HK-dir (Directorate for Higher Education and Skills, Norway)",
-  "programName": "Nansen Support Programme for Ukraine",
-  "deadline": "2026-03-02T13:00:00+01:00",
-  "summary": "The Nansen EDU programme supports partnerships between Norwegian and Ukrainian higher education institutions to strengthen Ukraine's educational capacity in priority fields. Projects must involve at least one Norwegian HEI and two Ukrainian HEIs, with funding up to NOK 5 million per project for up to 3 years. The programme emphasizes long-term cooperation, digital transformation, and contribution to Ukraine's reconstruction and recovery.",
+  "grantTitle": "COP-PILOT Open Call #1 - Edge Intelligence for Grid Reliability",
+  "grantingOrganization": "European Union - Horizon Europe Programme",
+  "programName": "COP-PILOT (Collaborative Open Platform for PILOTing services across emerging smart IoT and Edge computing environments)",
+  "deadline": "2026-05-04T22:00:00+01:00",
+  "summary": "COP-PILOT Open Call #1 offers up to EUR 200,000 per project (100% funding) for SME-led initiatives focused on edge intelligence for enhancing grid reliability in renewable energy-rich distribution grids in Preveza, Greece. The program expects to fund 8 projects across clusters, with 1-2 projects specifically for the CL3e cluster focusing on smart grid and renewable energy management using the COP-PILOT platform.",
   "objectives": [
-    "Strengthen Ukrainian institutions' capacity to deliver quality education",
-    "Improve access to qualified professionals in priority fields",
-    "Establish long-term cooperation between Norwegian and Ukrainian higher education partners",
-    "Support Ukraine's reconstruction and recovery through educational partnership",
-    "Build sustainable institutional capacity beyond project duration"
+    "Deploy innovative edge intelligence solutions for grid reliability in renewable energy-rich distribution grids",
+    "Validate and provide feedback on COP-PILOT platform components through real-world implementations",
+    "Demonstrate cross-domain collaboration and interoperability using standardized APIs and protocols",
+    "Advance technology readiness levels from TRL 5-6 to TRL 7-8 through pilot implementations",
+    "Expand the COP-PILOT ecosystem with tangible innovative assets in smart grid and renewable energy domains",
+    "Ensure adherence to open standards (TMForum, ETSI ZSM, NGSI-LD, FIWARE, Eclipse Arrowhead)"
   ],
   "requirements": [
     {
       "category": "eligibility",
-      "description": "Applicant must be a Norwegian higher education institution accredited by NOKUT",
+      "description": "Organization must be registered in an EU Member State or Horizon Europe Associated Country",
       "mandatory": true,
-      "evidence": "NOKUT accreditation documentation"
+      "evidence": "Legal registration documents from eligible country"
     },
     {
       "category": "eligibility",
-      "description": "Norwegian applicant must offer bachelor's and master's programs",
+      "description": "Leading partner MUST be an SME. Consortia must have at least 2 partners (SME-led)",
       "mandatory": true,
-      "evidence": "Institutional program catalog or accreditation"
+      "evidence": "SME declaration, consortium agreement if applicable"
     },
     {
       "category": "eligibility",
-      "description": "Project must include minimum 2 Ukrainian partner institutions",
+      "description": "Not bankrupt, subject to insolvency proceedings, or guilty of grave professional misconduct or fraud",
       "mandatory": true,
-      "evidence": "Letters of Commitment from Ukrainian partners"
+      "evidence": "Declaration of honor, financial statements"
     },
     {
       "category": "eligibility",
-      "description": "Ukrainian partners must be fully recognized and offer both bachelor's and master's level programs",
+      "description": "Compliant with tax and social security obligations",
       "mandatory": true,
-      "evidence": "Ukrainian institutional accreditation/recognition documentation"
+      "evidence": "Tax compliance certificates, social security payment records"
     },
     {
-      "category": "eligibility",
-      "description": "European partners may participate supplementarily if contributing meaningfully",
+      "category": "administrative",
+      "description": "Proposal must be submitted in English only",
+      "mandatory": true,
+      "evidence": "English language proposal document"
+    },
+    {
+      "category": "administrative",
+      "description": "Proposal must not exceed 12 pages",
+      "mandatory": true,
+      "evidence": "Page-limited proposal document"
+    },
+    {
+      "category": "administrative",
+      "description": "Complete proposal submission by deadline: 04 May 2026, 22:00 CET",
+      "mandatory": true,
+      "evidence": "Timestamped submission confirmation"
+    },
+    {
+      "category": "financial",
+      "description": "Maximum funding request of EUR 200,000 per project",
+      "mandatory": true,
+      "evidence": "Detailed budget breakdown"
+    },
+    {
+      "category": "financial",
+      "description": "Indirect costs maximum 25% of direct costs",
+      "mandatory": true,
+      "evidence": "Budget table with indirect costs calculation"
+    },
+    {
+      "category": "financial",
+      "description": "Subcontracting maximum 20% of total budget with clear justification",
+      "mandatory": true,
+      "evidence": "Subcontracting plan and justification"
+    },
+    {
+      "category": "financial",
+      "description": "Travel costs limited to max EUR 1,000 per person per month",
+      "mandatory": true,
+      "evidence": "Travel budget breakdown"
+    },
+    {
+      "category": "financial",
+      "description": "Cannot receive funding from another EU source for the same work",
+      "mandatory": true,
+      "evidence": "Declaration of other funding sources"
+    },
+    {
+      "category": "technical",
+      "description": "Application must be containerized and expose performance metrics",
+      "mandatory": true,
+      "evidence": "Container images, deployment manifests, metrics specification"
+    },
+    {
+      "category": "technical",
+      "description": "Compliance with TMForum APIs for service/resource orchestration",
+      "mandatory": true,
+      "evidence": "Technical architecture showing API integration"
+    },
+    {
+      "category": "technical",
+      "description": "Compliance with ETSI ZSM for zero-touch network management",
+      "mandatory": true,
+      "evidence": "Technical documentation showing ZSM compliance"
+    },
+    {
+      "category": "technical",
+      "description": "Use NGSI-LD/NGSI-v2 for data management",
+      "mandatory": true,
+      "evidence": "Data model and API specifications"
+    },
+    {
+      "category": "technical",
+      "description": "Integration with FIWARE and/or Eclipse Arrowhead for IoT",
+      "mandatory": true,
+      "evidence": "IoT integration architecture"
+    },
+    {
+      "category": "technical",
+      "description": "Support integration protocols: MQTT, OPC UA, REST",
+      "mandatory": true,
+      "evidence": "Protocol implementation documentation"
+    },
+    {
+      "category": "technical",
+      "description": "Use COP-PILOT platform components (ServOrch, SIF, LLM-UI)",
+      "mandatory": true,
+      "evidence": "Platform integration plan"
+    },
+    {
+      "category": "technical",
+      "description": "Compliance with GAIA-X framework",
+      "mandatory": true,
+      "evidence": "GAIA-X compliance documentation"
+    },
+    {
+      "category": "technical",
+      "description": "Publish application to git-based repository (GitHub/GitLab)",
+      "mandatory": true,
+      "evidence": "Repository URL and access credentials"
+    },
+    {
+      "category": "technical",
+      "description": "TRL progression typically from TRL 5-6 to TRL 7-8",
       "mandatory": false,
-      "evidence": "Letter of Commitment and justification of meaningful contribution"
-    },
-    {
-      "category": "technical",
-      "description": "Project must focus on one or more thematic priorities: Digital transformation, Environment and energy, Physical and mental health, Law/social sciences/economics, Reconstruction and urban planning, STEM and agricultural sciences, or Teacher education",
-      "mandatory": true,
-      "evidence": "Project description demonstrating thematic alignment"
-    },
-    {
-      "category": "technical",
-      "description": "All projects must address anti-corruption measures for partners from countries with Corruption Perception Index ≤ 69",
-      "mandatory": true,
-      "evidence": "Description of preventive measures in project proposal"
-    },
-    {
-      "category": "technical",
-      "description": "Projects must address climate and environment considerations (reduce carbon footprint)",
-      "mandatory": true,
-      "evidence": "Description of measures in project proposal"
-    },
-    {
-      "category": "technical",
-      "description": "Gender equality dimension must be addressed in project design and implementation",
-      "mandatory": true,
-      "evidence": "Gender equality plan or description in project proposal"
-    },
-    {
-      "category": "technical",
-      "description": "Human rights assessment must evaluate potential negative impacts on participation, accountability, non-discrimination, women's rights",
-      "mandatory": true,
-      "evidence": "Human rights impact assessment in project proposal"
-    },
-    {
-      "category": "technical",
-      "description": "Must have ethical guidelines for prevention and follow-up of SEAH (sexual exploitation, abuse, and harassment)",
-      "mandatory": true,
-      "evidence": "SEAH prevention policy or guidelines"
-    },
-    {
-      "category": "technical",
-      "description": "Comprehensive risk assessment covering security, corruption, environmental/climate, social discrimination, data protection/IT security, academic freedom, and export control considerations",
-      "mandatory": true,
-      "evidence": "Risk assessment section in project proposal"
+      "evidence": "TRL assessment documentation"
     },
     {
       "category": "administrative",
-      "description": "Project Description using HK-dir template (PDF format)",
+      "description": "Mid-term report submission at Month 4",
       "mandatory": true,
-      "evidence": "Completed template uploaded to Espresso portal"
+      "evidence": "Intermediate progress report"
     },
     {
       "category": "administrative",
-      "description": "Signed Declaration of Participation from applicant's legal representative",
+      "description": "Final report submission at Month 8 (with 2 months for reporting = Month 9)",
       "mandatory": true,
-      "evidence": "Signed declaration document"
+      "evidence": "Final technical and financial reports"
     },
     {
       "category": "administrative",
-      "description": "Letters of Commitment from all partners (excluding applicant)",
+      "description": "GDPR compliance throughout project execution",
       "mandatory": true,
-      "evidence": "Signed letters from each partner institution"
+      "evidence": "Data protection impact assessment, GDPR compliance plan"
     },
     {
       "category": "administrative",
-      "description": "Project Coordinator CV (maximum 4 pages)",
+      "description": "Open access: publish findings and share code on GitHub/GitLab",
       "mandatory": true,
-      "evidence": "CV document not exceeding 4 pages"
+      "evidence": "Open access publication plan, public repository"
     },
     {
       "category": "administrative",
-      "description": "Budget completed in Espresso portal",
+      "description": "Acknowledge EU funding with Grant Agreement: 101189819",
       "mandatory": true,
-      "evidence": "Budget form in Espresso system"
+      "evidence": "EU funding acknowledgment in all materials"
     },
     {
       "category": "administrative",
-      "description": "Application must be submitted in English through Espresso portal",
+      "description": "Maintain financial records for 6 years after project end",
       "mandatory": true,
-      "evidence": "English-language application via https://espresso.hkdir.no"
-    },
-    {
-      "category": "financial",
-      "description": "Norwegian/non-Ukrainian partner personnel costs must not exceed 30% of total budget",
-      "mandatory": true,
-      "evidence": "Budget breakdown in Espresso portal"
-    },
-    {
-      "category": "financial",
-      "description": "Equipment must be purchased no later than 12 months before project end",
-      "mandatory": true,
-      "evidence": "Procurement timeline in project plan"
-    },
-    {
-      "category": "financial",
-      "description": "Travel costs must follow Norwegian State Personnel Handbook rates",
-      "mandatory": true,
-      "evidence": "Budget justification with rate references"
-    },
-    {
-      "category": "other",
-      "description": "Projects must include budgeted activities in each year of the project period",
-      "mandatory": true,
-      "evidence": "Annual activity and budget breakdown"
-    },
-    {
-      "category": "other",
-      "description": "All sub-grades in evaluation must be ≥ 4; at least two sub-grades must be ≥ 5 to qualify",
-      "mandatory": true,
-      "evidence": "Comprehensive application meeting threshold standards"
+      "evidence": "Record retention system and procedures"
     }
   ],
   "evaluationCriteria": [
     {
-      "name": "Relevance of the project",
-      "description": "Assessment of project need, alignment with call objectives, ambition level, innovation, and added value",
+      "name": "Excellence",
+      "description": "Assessment of objectives, problem statement, technical approach, standards compliance, and innovation level",
+      "weight": 40,
+      "maxScore": 5,
+      "keyIndicators": [
+        "SMART objectives with clear problem statement",
+        "Strong alignment with COP-PILOT goals and CL3e cluster objectives (grid reliability, renewable integration, edge intelligence)",
+        "Sound technical approach using FIWARE, TMForum APIs, Eclipse Arrowhead, GAIA-X compliance",
+        "Standards compliance (TMForum, ETSI ZSM, NGSI-LD, FIWARE)",
+        "Integration protocol implementation (MQTT, OPC UA, REST)",
+        "State-of-the-art analysis demonstrating novel approach",
+        "Clear TRL progression from TRL 5-6 to TRL 7-8",
+        "Minimum score of 3 (Good) required"
+      ]
+    },
+    {
+      "name": "Impact",
+      "description": "Assessment of cluster targeting, platform integration, cross-sector support, and sustainability planning",
       "weight": 30,
-      "maxScore": 7,
+      "maxScore": 5,
       "keyIndicators": [
-        "Need for the project and significance for target groups",
-        "Planned results are concrete and suitable to achieve call objectives",
-        "Level of ambition of results",
-        "Innovation and/or complementarity to other measures/activities",
-        "Knowledge of existing initiatives; added value beyond what exists"
+        "Specific targeting of CL3e cluster and smart grid use cases",
+        "Clear description of COP-PILOT platform integration approach",
+        "Effective leveraging of platform components (ServOrch, SIF, LLM-UI)",
+        "Support for cross-sector scenarios and applications",
+        "Comprehensive sustainability and dissemination plans",
+        "Strong open access and data sharing commitments",
+        "Minimum score of 3 (Good) required"
       ]
     },
     {
-      "name": "Quality of project design and implementation",
-      "description": "Assessment of implementation plan, risk management, and cost-effectiveness",
-      "weight": 20,
-      "maxScore": 7,
-      "keyIndicators": [
-        "Concrete, comprehensive and realistic implementation plan",
-        "Quality of risk assessments, including cross-cutting issues and SEAH",
-        "Cost-effectiveness and sufficient resource allocation"
-      ]
-    },
-    {
-      "name": "Quality of the project group and collaborative structures",
-      "description": "Assessment of consortium complementarity, expertise, task division, and interaction plans",
-      "weight": 20,
-      "maxScore": 7,
-      "keyIndicators": [
-        "Complementarity of institutions/actors and overall expertise",
-        "Division of tasks shows commitment and active contribution from all partners",
-        "Clear and comprehensive plan for interaction between partners and stakeholders"
-      ]
-    },
-    {
-      "name": "Project impact",
-      "description": "Assessment of potential impact, sustainability beyond project end, and evaluation mechanisms",
+      "name": "Implementation",
+      "description": "Assessment of project planning, team capabilities, timeline realism, and budget justification",
       "weight": 30,
-      "maxScore": 7,
+      "maxScore": 5,
       "keyIndicators": [
-        "Potential impact for target groups, institutions, and actors in and outside the project",
-        "Quality of measures to ensure impacts are maintained after project end",
-        "Quality of measures to evaluate and document project impact"
+        "Clear project phases: Design, Implementation, Testing, Evaluation/Reporting",
+        "Mandatory milestones included: M4 intermediate report, M9 final deliverable",
+        "Realistic 8-month timeline with detailed Gantt chart",
+        "Strong team qualifications and relevant track record",
+        "Budget ≤ EUR 200,000 with detailed, justified breakdown",
+        "Indirect costs ≤ 25% of direct costs",
+        "Minimum score of 3 (Good) required"
       ]
     }
   ],
   "budget": {
-    "totalAmount": "NOK 80,000,000 total program budget; up to NOK 5,000,000 per project (~EUR 430,000)",
+    "totalAmount": "EUR 1,600,000 total program budget (EUR 200,000 max per project)",
     "categories": [
       {
-        "category": "Personnel and administration costs",
-        "description": "Salaries for project participants (release time or new hires), including all non-wage costs (holiday pay, insurance, indirect costs)",
+        "category": "Personnel",
+        "description": "Salaries and wages for project staff working on the project",
+        "minAmount": null,
         "maxAmount": null,
         "rules": [
-          "Maximum 30% of total budget for Norwegian/non-Ukrainian partner personnel",
-          "Hourly rates must include all non-wage costs",
-          "Account category 5***"
+          "Based on actual costs",
+          "Must be directly related to project activities"
         ]
       },
       {
-        "category": "Procurement costs for services",
-        "description": "External services necessary for project implementation",
-        "rules": [
-          "Must be clearly justified as necessary",
-          "Account category 6***"
-        ]
-      },
-      {
-        "category": "Procurement costs for equipment",
-        "description": "Physical items, licenses, software necessary for the project",
-        "rules": [
-          "Must be purchased no later than 12 months before project end",
-          "Account category 4***"
-        ]
-      },
-      {
-        "category": "Scholarship costs",
-        "description": "Scholarships for Ukrainian students (up to 10 months)",
+        "category": "Travel",
+        "description": "Meetings, conferences, site visits, webinars",
+        "minAmount": null,
         "maxAmount": null,
         "rules": [
-          "Bachelor's/Master's: EUR 250/month maximum",
-          "PhD: EUR 400/month maximum",
-          "Must be jointly awarded by Norwegian and Ukrainian partners",
-          "Account category 5***"
+          "Maximum EUR 1,000 per person per month",
+          "Must be justified and necessary for project"
         ]
       },
       {
-        "category": "Travel and accommodation costs",
-        "description": "Project participant travel (domestic and international) and student exchange travel costs",
+        "category": "Equipment",
+        "description": "Computing hardware, sensors, software licenses",
+        "minAmount": null,
+        "maxAmount": null,
         "rules": [
-          "Must follow Norwegian State Personnel Handbook rates",
-          "Digital alternatives encouraged; climate-friendly transport preferred",
-          "Account category 7***"
+          "Depreciation costs only (not full purchase price)",
+          "Must be directly used for project activities"
         ]
       },
       {
-        "category": "Scholarships for mobility",
-        "description": "Support for student and staff exchanges",
+        "category": "Subcontracting",
+        "description": "Outsourced services from third parties",
+        "minAmount": null,
+        "maxAmount": null,
         "rules": [
-          "Student exchanges: up to 6 months per person",
-          "Staff exchanges: up to 30 days per stay (one or more stays)",
-          "Incoming students to Norway (>4 weeks): Norwegian State Educational Loan Fund rates",
-          "Incoming students (<4 weeks): government subsistence rates"
+          "Maximum 20% of total budget",
+          "Clear justification required",
+          "Must comply with best value for money principle"
         ]
       },
       {
-        "category": "Other project-related costs",
-        "description": "Costs not fitting other categories but necessary for implementation",
+        "category": "Other Direct Costs",
+        "description": "Consumables, services, publications, dissemination costs",
+        "minAmount": null,
+        "maxAmount": null,
         "rules": [
-          "Must be justified",
-          "Account categories 6 and 7***"
+          "Must be directly attributable to project",
+          "Properly justified and documented"
+        ]
+      },
+      {
+        "category": "Indirect Costs",
+        "description": "Overhead costs (administrative, facilities, utilities)",
+        "minAmount": null,
+        "maxAmount": null,
+        "rules": [
+          "Maximum 25% of total direct costs",
+          "Flat rate application"
         ]
       }
     ],
     "coFundingRequired": false,
-    "coFundingPercentage": null
+    "coFundingPercentage": 0
   },
   "timeline": [
     {
-      "phase": "Call opening",
-      "duration": "December 2025",
-      "deliverables": []
-    },
-    {
-      "phase": "Application submission",
-      "duration": "Deadline extended (originally March 2, 2026, 13:00 CET)",
+      "phase": "Submission Period",
+      "duration": "03 March 2026 (9:00 CET) - 04 May 2026 (22:00 CET)",
       "deliverables": [
-        "Complete application via Espresso portal",
-        "Project description using HK-dir template",
-        "Signed declaration of participation",
-        "Letters of commitment from all partners",
-        "Project coordinator CV",
-        "Completed budget"
+        "Complete proposal submission via https://cop-pilot.eu/"
       ]
     },
     {
-      "phase": "Grant decisions",
-      "duration": "Estimated mid-May 2026",
+      "phase": "Evaluation and Selection",
+      "duration": "May-June 2026",
       "deliverables": [
-        "Notification of funding decisions"
+        "Proposal evaluation by expert panel",
+        "Funding decision notification"
       ]
     },
     {
-      "phase": "Project implementation",
-      "duration": "Between June 1 - July 1, 2026 to no later than June 30, 2029 (up to 3 years)",
+      "phase": "Project Start",
+      "duration": "Expected July 2026",
       "deliverables": [
-        "Budgeted activities in each year",
-        "Implementation according to approved project plan",
-        "Annual reporting (implied)",
-        "Equipment procurement (no later than 12 months before project end)"
+        "Contract signature",
+        "First payment (50% of budget)"
+      ]
+    },
+    {
+      "phase": "Design Phase",
+      "duration": "Within 8-month execution period",
+      "deliverables": [
+        "Technical architecture design",
+        "Integration plan with COP-PILOT platform",
+        "Detailed work plan"
+      ]
+    },
+    {
+      "phase": "Implementation Phase",
+      "duration": "Within 8-month execution period",
+      "deliverables": [
+        "Development of solution components",
+        "Integration with COP-PILOT platform",
+        "Containerization and deployment"
+      ]
+    },
+    {
+      "phase": "Mid-term Milestone (M4)",
+      "duration": "Month 4 of execution",
+      "deliverables": [
+        "Intermediate progress report",
+        "Preliminary results and findings"
+      ]
+    },
+    {
+      "phase": "Testing Phase",
+      "duration": "Within 8-month execution period",
+      "deliverables": [
+        "Testing and validation activities",
+        "Performance metrics collection",
+        "Bug fixes and optimization"
+      ]
+    },
+    {
+      "phase": "Evaluation and Reporting Phase",
+      "duration": "Month 8 of execution + 2 months reporting",
+      "deliverables": [
+        "Final technical report (M9)",
+        "Final financial report (M9)",
+        "Open access publications",
+        "Code repository finalization"
+      ]
+    },
+    {
+      "phase": "Project Closure",
+      "duration": "After M9 report approval",
+      "deliverables": [
+        "Final payment (50% of budget)",
+        "Project closure documentation"
       ]
     }
   ],
   "targetBeneficiaries": [
-    "Ukrainian higher education institutions",
-    "Ukrainian students in priority fields",
-    "Norwegian higher education institutions",
-    "Ukrainian professionals in priority sectors",
-    "War-affected and relocated Ukrainian institutions",
-    "Faculty and staff involved in educational partnerships"
+    "Single SMEs or SME-led consortia",
+    "Small and Medium-sized Enterprises (SMEs)",
+    "Large enterprises (as consortium partners)",
+    "Research institutions and universities (as consortium partners)",
+    "Non-profit organizations (as consortium partners)",
+    "Public entities (as consortium partners)",
+    "Organizations working on smart grid technologies",
+    "Companies focused on renewable energy management",
+    "Edge computing and IoT solution providers",
+    "Grid reliability and energy distribution specialists"
   ],
-  "geographicScope": "Norway-Ukraine bilateral cooperation with optional European partner participation",
+  "geographicScope": "Pilot location: Preveza, Greece (CL3e cluster). Applicants must be from EU Member States or Horizon Europe Associated Countries.",
   "eligibleCountries": [
-    "Norway (applicant institutions)",
-    "Ukraine (mandatory partner institutions)",
-    "European countries (optional supplementary partners)"
+    "All EU Member States (27 countries)",
+    "Horizon Europe Associated Countries (including Norway, Iceland, Israel, Switzerland, United Kingdom, and others as per Horizon Europe association agreements)"
   ],
   "keyThemes": [
-    "Digital transformation",
-    "Environment and energy",
-    "Physical and mental health",
-    "Law, social sciences, economics",
-    "Reconstruction and urban planning",
-    "STEM and agricultural sciences",
-    "Teacher education",
-    "Anti-corruption",
-    "Climate and environment",
-    "Gender equality",
-    "Human rights",
-    "SEAH prevention"
+    "Edge Intelligence",
+    "Grid Reliability",
+    "Renewable Energy Integration",
+    "Smart Grid Management",
+    "IoT and Edge Computing",
+    "AI/ML for Predictive Grid Management",
+    "Distributed Renewable Energy Sources (RES)",
+    "Real-time Grid Monitoring and Control",
+    "Service Orchestration",
+    "Zero-touch Network Management",
+    "Open Standards and Interoperability",
+    "FIWARE and Eclipse Arrowhead",
+    "TMForum APIs",
+    "NGSI-LD Data Management",
+    "Containerization and Cloud-native Technologies",
+    "Zero-trust Security",
+    "Cross-domain Collaboration"
   ],
   "additionalNotes": [
-    "This is NOT a mobility programme; physical exchange is secondary to educational partnership",
-    "War-affected and relocated Ukrainian institutions are particularly encouraged to participate",
-    "Programme is part of Norway's broader Nansen Support Programme for Ukraine",
-    "Projects should contribute to Ukraine's reconstruction and recovery efforts",
-    "Funder: Norwegian Ministry of Foreign Affairs",
-    "Contact email: ukraina@hkdir.no",
-    "Application portal: Espresso (https://espresso.hkdir.no)",
-    "All applications must be submitted in English",
-    "Grading scale: 1-7, with qualification threshold requiring all sub-grades ≥ 4 and at least two sub-grades ≥ 5",
-    "Ukraine's Corruption Perception Index is below 69, triggering mandatory anti-corruption measures",
-    "Digital meetings and climate-friendly transport are strongly encouraged",
-    "Scholarship payments must be jointly awarded by Norwegian and Ukrainian partners",
-    "Export control and dual use considerations must be addressed in risk assessment",
-    "Academic freedom and national security interests must be considered"
+    "This is specifically for CL3e cluster (Edge Intelligence for Grid Reliability) located in Preveza, Greece. Other clusters exist but are not detailed in this call.",
+    "Program expects to fund 8 projects total across all clusters, with 1-2 projects per cluster",
+    "Overall threshold for passing: Individual score ≥3 (Good) in each criterion AND total score ≥60 points",
+    "Late submissions will be rejected - strict deadline enforcement",
+    "EU Project Number for acknowledgment: 101189819",
+    "Payment structure: 50% upfront upon contract signature, 50% upon final report approval",
+    "Two primary workflows available: (1) Onboarding New Services for Service Providers, (2) Integrating New Infrastructure Domains for Infrastructure Owners",
+    "Key platform technologies include: Next.js, React, Keycloak, Apache Quarkus, Spring Boot, Kubernetes, OpenShift, OpenZiti, Prometheus, Grafana",
+    "Must use compatible infrastructure controllers such as Kubernetes",
+    "CI pipeline will auto-translate applications to standardized service blueprints",
+    "Domain Orchestrator (DO) and Data Management (DM) components must be run for infrastructure integration",
+    "Security requirements include CNCF SPIFFE, OAuth 2.0, OpenID Connect, X.509/PKI, mTLS",
+    "Projects must demonstrate cross-domain collaboration with existing COP-PILOT piloting domains",
+    "Financial records must be maintained for 6 years after project completion for audit purposes",
+    "Open access requirements include publishing findings and sharing code on public repositories (GitHub/GitLab)",
+    "Applications focusing on smart grid, renewable energy management, and edge computing for real-time monitoring have highest relevance for CL3e cluster"
   ]
 }

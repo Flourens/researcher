@@ -7,6 +7,63 @@ description: Manage the AI Grant Researcher project — run agents, check result
 
 You are managing a multi-agent system for grant proposal generation. The project is at `/Users/evgeniyareshkin/Desktop/projects/researcher`.
 
+## Grant Research Workflow
+
+When the user says **"research this grant"** (or similar), follow this procedure:
+
+### Step 1: Collect Resources
+- The user will provide URLs to grant documents (PDFs, web pages)
+- Use **WebFetch** to download all PDFs/pages in parallel
+- If WebFetch returns binary PDFs, use the **Read** tool with `pages` parameter to read them visually
+- Also check if the user provided any EU portal links — if so, use the `eu-grant-fetcher` skill to get structured call data
+
+### Step 2: Analyze & Extract
+From all documents, extract and organize:
+1. **Deadlines & Timeline** — submission period, evaluation dates, project duration, key milestones
+2. **Funding** — total budget, max per project, funding rate, payment schedule, eligible/ineligible costs
+3. **Eligibility** — who can apply, organization types, country requirements, restrictions
+4. **How to Apply** — step-by-step actions, portal registration, online form, what to upload
+5. **Required Documents** — list every document needed, format requirements, who should prepare each one
+6. **Evaluation Criteria** — scoring system, weights, thresholds, what evaluators look for
+7. **Research Areas / Topics** — specific clusters, sectors, focus areas, use cases
+8. **Technical Requirements** — platform specs, standards compliance, integration requirements
+9. **Obligations if Funded** — reporting, IP, open access, financial records
+10. **Contact & Support** — email, webinars, advisory reviews
+
+### Step 3: Save Research
+- Create a directory: `grants/[grant-short-name]/`
+- Write a comprehensive `RESEARCH.md` file with all findings organized by the categories above
+- Calculate days remaining until deadline
+- Highlight critical constraints (page limits, language, file naming, etc.)
+
+### Step 4: Present Summary
+Give the user a concise summary covering:
+- **Time remaining** to apply
+- **Key actions** they need to take
+- **Documents needed** and who prepares them
+- **Possible research areas** to target
+- **Key financial numbers**
+
+### Research Output Template
+Save to `grants/[grant-name]/RESEARCH.md` with these sections:
+```
+# [Grant Name] - Grant Research
+## Overview (program, call, type, funding)
+## 1. Time to Apply (deadline table + days remaining)
+## 2. Actions to Apply (step-by-step)
+## 3. Required Documents & Responsibility (table)
+## 4. Possible Areas of Research (clusters/topics)
+## 5. Evaluation Criteria (scoring table + what evaluators check)
+## 6. Financial Conditions (eligible costs, payment schedule)
+## 7. Eligibility Requirements
+## 8. Technical Requirements (if applicable)
+## 9. Obligations if Funded
+## 10. Contact & Support
+## 11. Key Risks & Tips
+```
+
+---
+
 ## Architecture
 
 5 specialized agents form a pipeline:
