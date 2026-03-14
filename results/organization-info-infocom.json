@@ -1,0 +1,309 @@
+{
+  "name": "INFOCOM Ltd (ТОВ \"Інфоком Лтд\")",
+  "type": "company",
+  "country": "Ukraine",
+  "edrpou": "20501767",
+  "website": "https://ia.ua",
+  "description": "INFOCOM Ltd is a Ukrainian SME founded in 1996, specializing in industrial automation (АСУ ТП), SCADA systems, building automation, IoT solutions, and AI/machine vision. The company is a certified Siemens Solution Partner — the first in Ukraine (since 2014). With ~90-125 employees, offices in Zaporizhzhia, Kyiv, Uzhhorod (Ukraine), Dolný Kubín (Slovakia), and Wrocław (Poland), INFOCOM has completed 1,000+ projects across 40+ countries. Annual revenue ~$14M. Core competencies span industrial process control (Siemens PCS7, TIA Portal, WinCC), energy management, EV charging infrastructure (UGV Chargers brand), energy storage systems, building automation, robotics (TIMA robot, GNOM UGV), and neural network-based machine vision. The company qualifies as an SME under EU definition (<250 employees, independent enterprise).",
+  "headquartersAddress": "prosp. Motorobudivnykiv, 26a, k. 14, Zaporizhzhia, Ukraine",
+  "offices": [
+    {"city": "Zaporizhzhia", "country": "Ukraine", "type": "headquarters + production"},
+    {"city": "Kyiv", "country": "Ukraine", "type": "office", "since": 2018},
+    {"city": "Uzhhorod", "country": "Ukraine", "type": "office", "since": 2023},
+    {"city": "Dolný Kubín", "country": "Slovakia", "type": "subsidiary (Infocom s.r.o.)", "since": 2022},
+    {"city": "Wrocław", "country": "Poland", "type": "subsidiary (Infocom sp. z o.o.)", "since": 2023}
+  ],
+  "founded": 1996,
+  "revenue": "~$14M annually",
+  "teamInfo": {
+    "coreTeam": [
+      {
+        "name": "Eduard Trotsenko",
+        "role": "Founder & CEO (General Director)",
+        "expertise": ["industrial automation", "business strategy", "unmanned technologies", "EV charging infrastructure"],
+        "experience": "30 years in industrial automation. Founded INFOCOM in 1996. Built the company from 5 employees to 90-125+ staff across 5 offices in 3 countries. Also CEO of Temerland (defense robotics).",
+        "relevantProjects": ["1,000+ automation projects in 40+ countries", "UGV Chargers brand launch", "GNOM UGV development"]
+      },
+      {
+        "name": "Vitaliy Gorbyk",
+        "role": "Chief Technical Officer (CTO)",
+        "expertise": ["industrial automation", "SCADA", "Siemens PCS7", "TIA Portal", "WinCC", "process control systems"],
+        "experience": "Technical leadership of all engineering projects. Oversees automation systems department and technology stack.",
+        "relevantProjects": ["Siemens Solution Partner certification", "Major industrial automation projects"]
+      },
+      {
+        "name": "Oksana Ignatenko",
+        "role": "Chief Commercial Officer (CCO)",
+        "expertise": ["international business development", "partner management", "commercial strategy"],
+        "experience": "Leads commercial operations across 40+ countries.",
+        "relevantProjects": ["International expansion to EU markets"]
+      },
+      {
+        "name": "Sergey Lebedenko",
+        "role": "Head of Automation Systems Department",
+        "expertise": ["PLC programming", "SCADA development", "industrial networks", "PROFIBUS", "PROFINET", "sensor integration", "actuator control"],
+        "experience": "Leads the core engineering team responsible for automation system design, PLC/SCADA programming, commissioning, and integration.",
+        "relevantProjects": ["Oil extraction plant automation", "Grain terminal SCADA", "Mining dispatch systems"]
+      },
+      {
+        "name": "Sergey Opara",
+        "role": "Head of Information Technology Department",
+        "expertise": ["MES/ERP systems", "C#", ".NET", "SQL Server", "OPC", "web/mobile development", "IT infrastructure"],
+        "experience": "Leads IT/software division. Responsible for MES, data analytics, web applications, and mobile apps.",
+        "relevantProjects": ["UGV Chargers mobile app", "MES systems", "Industrial data analytics"]
+      },
+      {
+        "name": "Alexander Ivanov",
+        "role": "Head of Design Department",
+        "expertise": ["EPLAN P8", "AutoCAD", "Revit 3D", "ETAP", "NEPLAN", "electrical design", "power distribution"],
+        "experience": "Leads engineering design and documentation for automation and electrical projects.",
+        "relevantProjects": ["Chocolate factory 3D Revit design (France)", "Power system calculations", "Switchgear design"]
+      },
+      {
+        "name": "Sergey Rumyantsev",
+        "role": "Head of Unmanned Technology Department / UGV Chargers R&D Lead",
+        "expertise": ["robotics", "autonomous navigation", "computer vision", "EV charging systems", "OCPP protocol", "energy storage"],
+        "experience": "Leads both unmanned technologies (TIMA robot, defense UGVs) and UGV Chargers R&D. Expert in autonomous systems, sensor fusion, and power electronics.",
+        "relevantProjects": ["TIMA personal assistant robot", "UGV Chargers product line (7-240 kW)", "UGV Storage energy systems"]
+      },
+      {
+        "name": "Sergey Zakharchenko",
+        "role": "Head of Production Department",
+        "expertise": ["control cabinet manufacturing", "SIVACON switchgear", "copper conductor production", "quality control"],
+        "experience": "Manages in-house production facilities for automation cabinets, switchgear, and hardware.",
+        "relevantProjects": ["SIVACON licensed manufacturing", "Control cabinet production"]
+      }
+    ],
+    "totalSize": "90-125 employees",
+    "departments": [
+      "Commercial Department",
+      "Project Design Department",
+      "Automation Systems Department",
+      "Information Technology Department",
+      "Service & Repair Department",
+      "Production Department",
+      "Finance Department",
+      "Unmanned Technology Department"
+    ],
+    "keyCompetencies": [
+      "Industrial process automation (АСУ ТП / SCADA / DCS)",
+      "Siemens PCS7, TIA Portal, WinCC, WinCC OA",
+      "PLC programming (SIMATIC S7-300/400/1200/1500, LOGO!)",
+      "Industrial sensor integration (PROFIBUS DP/PA, PROFINET, MQTT, OPC UA)",
+      "Actuator control and closed-loop automation",
+      "Building automation and BMS",
+      "Energy management and power distribution (up to 330 kV)",
+      "AI/ML and machine vision (neural networks, 99% accuracy wagon recognition)",
+      "Robotics and autonomous systems (TIMA robot, UGV platforms)",
+      "EV charging infrastructure (OCPP, 7-240 kW stations)",
+      "Energy storage systems (100-1200 kW lithium-ion clusters)",
+      "Solar/renewable energy (PV design, inverters, monitoring)",
+      "MES/ERP/LIMS software development (C#, .NET, SQL Server, OPC)",
+      "Web and mobile application development",
+      "3D engineering design (EPLAN, Revit, AutoCAD)",
+      "24/7 remote monitoring and maintenance"
+    ]
+  },
+  "resources": {
+    "technical": {
+      "infrastructure": [
+        "In-house production facility for control cabinets and switchgear",
+        "SIVACON licensed manufacturing (Siemens technology partner)",
+        "Engineering design office with EPLAN, Revit, AutoCAD, ETAP",
+        "Remote 24/7 monitoring infrastructure for deployed systems",
+        "Development workstations and testing environments"
+      ],
+      "equipment": [
+        "Control cabinet assembly and testing equipment",
+        "PROFIBUS/PROFINET diagnostic tools",
+        "Sensor and actuator testing rigs",
+        "UGV Chargers production and testing facility",
+        "In-house solar power plant (operational since 2010)"
+      ],
+      "software": [
+        "Siemens PCS7 (v6.0 - v9.1), TIA Portal (v11 - v19), WinCC, WinCC OA",
+        "Schneider Electric SCADAPack, ClearSCADA",
+        "EPLAN P8, AutoCAD, Revit, ETAP, NEPLAN, CANECO, Autodesk Inventor",
+        "C#, C++, .NET, SQL Server, OPC development stack",
+        "Custom MES/ERP/LIMS platforms"
+      ],
+      "computingResources": [
+        "On-premise servers for SCADA/MES systems",
+        "Development and testing infrastructure",
+        "Cloud resources for UGV Chargers platform"
+      ]
+    },
+    "financial": {
+      "annualRevenue": "~$14M",
+      "fundingSources": ["Commercial revenue from automation projects", "UGV Chargers sales", "EPC contractor services"],
+      "availableFunding": "Co-funding available from operational budget"
+    },
+    "facilities": [
+      "Headquarters + production facility, Zaporizhzhia",
+      "Kyiv office",
+      "Uzhhorod office",
+      "Slovakia subsidiary (EU legal entity)",
+      "Poland subsidiary (EU legal entity)",
+      "In-house solar power plant"
+    ]
+  },
+  "trackRecord": {
+    "previousProjects": [
+      {
+        "title": "Oil Extraction Plant Automation (Cargill, Siemens Oil & Gas, etc.)",
+        "description": "PCS7 and WinCC development for oil extraction and refinery plants across Netherlands, Belgium, France, Germany, UK (Liverpool), Spain, Turkey, Zambia, and other countries. Including PCS7 v9.1 migrations.",
+        "year": "2000-2024",
+        "outcome": "Successful automation of production processes across multiple international sites",
+        "relevance": "Demonstrates international project delivery, Siemens platform expertise, sensor/actuator integration at scale"
+      },
+      {
+        "title": "Central Treatment Facilities Dispatching (Ashgabat, Turkmenistan)",
+        "description": "Dispatching system for 300 water treatment plants, centralized monitoring and control.",
+        "year": "2015-2018",
+        "outcome": "Operational dispatching system managing 300 facilities",
+        "relevance": "Demonstrates large-scale SCADA/monitoring deployment — analogous to multi-building BMS"
+      },
+      {
+        "title": "Grain Terminal Automation (Ukraine)",
+        "description": "Full automation of a 300,000 ton/day capacity grain terminal including SCADA, transport identification (RFID/ATIS), and logistics control.",
+        "year": "2018-2020",
+        "outcome": "Fully automated terminal operations",
+        "relevance": "IoT sensor integration, real-time monitoring, automated control systems"
+      },
+      {
+        "title": "UGV Chargers — EV Charging Network",
+        "description": "Developed full product line of EV charging stations (7-240 kW), billing platform, mobile app, and deployed charging network across Ukraine. OCPP protocol integration.",
+        "year": "2017-present",
+        "outcome": "Commercial product line with operational charging network",
+        "relevance": "IoT platform development, cloud-connected devices, real-time monitoring, energy management, OCPP protocol expertise"
+      },
+      {
+        "title": "UGV Storage — Energy Storage Systems",
+        "description": "Distributed autonomous energy storage clusters (100-1200 kW) based on lithium-ion batteries in containerized modules with inverters, cooling, and fire suppression.",
+        "year": "2020-present",
+        "outcome": "Commercial energy storage product",
+        "relevance": "Energy management, smart grid integration, IoT monitoring of distributed systems"
+      },
+      {
+        "title": "TIMA Personal Assistant Robot",
+        "description": "Developed autonomous robot with voice recognition, gesture reading, autonomous navigation with map building, obstacle avoidance, and dynamic route recalculation. Variants for healthcare (TIMA-Medic), hospitality, logistics.",
+        "year": "2020",
+        "outcome": "Working robot prototype with multiple application variants",
+        "relevance": "AI/ML, computer vision, autonomous navigation, sensor fusion, edge computing"
+      },
+      {
+        "title": "Neural Network Wagon Number Recognition",
+        "description": "Machine vision system using neural networks for automatic identification of railway wagon numbers with 99% accuracy.",
+        "year": "2019-2020",
+        "outcome": "99% accuracy in production environment",
+        "relevance": "AI/ML deployment, computer vision, edge inference, real-time data processing"
+      },
+      {
+        "title": "Gas Well Remote Monitoring",
+        "description": "Remote monitoring systems for Yablunivske and Kotelevske gas condensate deposits and Sakhalin oil-gas wells using GSM-based telemetry.",
+        "year": "2015-2018",
+        "outcome": "Operational remote monitoring across multiple well sites",
+        "relevance": "Remote IoT monitoring, telemetry, distributed sensor networks"
+      },
+      {
+        "title": "Building Automation (Poland office)",
+        "description": "Building automation systems, parking control, autonomous boiler houses (rooftop/independent heating), RFID identification, water treatment automation, autonomous power supply (solar + conventional hybrid).",
+        "year": "2023-present",
+        "outcome": "Active service line via EU subsidiary",
+        "relevance": "Direct building automation / BMS experience, energy optimization, sensor-actuator control in buildings"
+      },
+      {
+        "title": "Metallurgical Plant Energy Balance (Kryvyi Rih)",
+        "description": "Energy resource balance calculation system for metallurgical plant, tracking and optimizing energy consumption across production processes.",
+        "year": "2018",
+        "outcome": "Operational energy monitoring and optimization system",
+        "relevance": "Energy monitoring, data analytics, optimization — transferable to building energy management"
+      }
+    ],
+    "publications": [],
+    "awards": [],
+    "patents": [],
+    "certifications": [
+      "Siemens Official Distributor (since 1996)",
+      "Siemens Technology Partner (2005)",
+      "Siemens Engineering Audit passed (2008)",
+      "Siemens Solution Partner Automation (2014 — first in Ukraine)",
+      "SIVACON Technology Partner (licensed switchgear manufacturing)",
+      "Siemens Drives and Motion Partner"
+    ],
+    "successMetrics": [
+      {
+        "metric": "Projects completed",
+        "value": "1,000+ across 40+ countries"
+      },
+      {
+        "metric": "Years in business",
+        "value": "30 years (since 1996)"
+      },
+      {
+        "metric": "Siemens partnership",
+        "value": "First Ukrainian Siemens Solution Partner"
+      },
+      {
+        "metric": "International presence",
+        "value": "5 offices in 3 countries (Ukraine, Slovakia, Poland)"
+      },
+      {
+        "metric": "Revenue",
+        "value": "~$14M annually"
+      },
+      {
+        "metric": "ML accuracy",
+        "value": "99% wagon recognition (neural network)"
+      }
+    ]
+  },
+  "partnerships": [
+    {
+      "organizationName": "Siemens AG",
+      "type": "technology",
+      "description": "Strategic technology partnership since 1996. INFOCOM is a certified Siemens Solution Partner, Technology Partner, and SIVACON licensed manufacturer. Core platform for industrial automation projects.",
+      "relevance": "Provides access to Siemens industrial IoT ecosystem, PLCs, SCADA, and building automation technologies"
+    },
+    {
+      "organizationName": "Schneider Electric",
+      "type": "technology",
+      "description": "Partner for SCADAPack and ClearSCADA solutions, complementing Siemens stack.",
+      "relevance": "Additional automation and SCADA capabilities"
+    },
+    {
+      "organizationName": "Krohne Sensors",
+      "type": "technology",
+      "description": "Industrial sensor and measurement instrumentation partner.",
+      "relevance": "Sensor integration expertise for IoT deployments"
+    },
+    {
+      "organizationName": "CODRA",
+      "type": "technology",
+      "description": "SCADA/HMI software partner.",
+      "relevance": "Additional SCADA platform capabilities"
+    }
+  ],
+  "copilotRelevance": {
+    "strengths": [
+      "25+ years of sensor-to-actuator integration experience (core of SmartLoop's closed-loop automation)",
+      "Siemens Solution Partner — deep PLC/SCADA/BMS expertise directly applicable to building automation",
+      "Production PROFIBUS/PROFINET/OPC UA experience — industrial protocol stack overlaps with IoT protocols needed for COP-PILOT",
+      "Building automation already offered via Poland subsidiary (boiler houses, parking, RFID, energy systems)",
+      "Energy management proven track record (metallurgical plant energy balance, solar, storage systems)",
+      "AI/ML deployed in production (99% accuracy wagon recognition, TIMA robot autonomous navigation)",
+      "IoT platform development experience (UGV Chargers: cloud-connected devices, OCPP, mobile app, billing)",
+      "EU legal entities in Slovakia and Poland — simplifies EU project administration",
+      "Remote monitoring of distributed systems (300 treatment plants in Turkmenistan, gas wells)",
+      "Hardware + software integration capability (not just software — can deploy physical systems)",
+      "Located in Zaporizhzhia — same city as ZNU, enables tight consortium coordination"
+    ],
+    "gaps": [
+      "No FIWARE / NGSI-LD experience (but OPC UA and REST API experience provides foundation)",
+      "No prior EU-funded grant projects (commercial-only track record)",
+      "No Valencia/Spain presence or prior Spanish projects",
+      "Technology stack is Siemens-centric — adaptation to FIWARE open-source ecosystem needed"
+    ],
+    "roleInConsortium": "Technical lead for IoT integration, sensor-actuator deployment, building automation, energy monitoring, and hardware-software integration. INFOCOM's 25+ years of industrial automation with Siemens directly addresses the key gap identified in COP-PILOT reviews: lack of production IoT/SCADA experience."
+  }
+}

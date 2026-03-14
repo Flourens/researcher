@@ -35,7 +35,18 @@
       "Bash(/Users/evgeniyareshkin/Desktop/projects/researcher/results/templates/extract_part_a_fields.py:*)",
       "WebFetch(domain:mobilunity.com)",
       "WebFetch(domain:www.erieri.com)",
-      "WebFetch(domain:ec.europa.eu)"
+      "WebFetch(domain:ec.europa.eu)",
+      "WebFetch(domain:ia.ua)",
+      "WebSearch",
+      "WebFetch(domain:ugv.ua)",
+      "WebFetch(domain:hi-tech.org.ua)",
+      "WebFetch(domain:automa.net)",
+      "WebFetch(domain:infocom-ltd.sk)",
+      "WebFetch(domain:www.automation.com)",
+      "WebFetch(domain:www.mobile-robots.com)",
+      "WebFetch(domain:asianroboticsreview.com)",
+      "WebFetch(domain:infocom-ltd.pl)",
+      "Bash(pandoc \"/Users/evgeniyareshkin/Downloads/COP-PILOT_grant/COP-PILOT_OC1_Proposal_Guidelines-2.docx\" -o /tmp/cop-pilot-guidelines.md 2>&1)"
     ],
     "additionalDirectories": [
       "/tmp"
